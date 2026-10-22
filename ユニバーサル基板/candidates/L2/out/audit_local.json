@@ -1,0 +1,302 @@
+{
+  "hard_rules": {
+    "UNCHECKED": 23,
+    "PASS": 38
+  },
+  "soft_t7_penalty_by_priority": {
+    "3": 78.375,
+    "2": 155.8038470191226
+  },
+  "soft_t7_penalty": 234.1788470191226,
+  "length_mm_by_gauge": {
+    "0.6mm": 246.38,
+    "AWG26": 2614.45,
+    "1.0mm": 838.2,
+    "AWG24": 365.76
+  },
+  "pieces": {
+    "bare": 70,
+    "jumper": 39
+  },
+  "bends": {
+    "bare": 71,
+    "jumper": 38
+  },
+  "input_lines": [
+    {
+      "net": "HDD1_IN1",
+      "length_mm": 50.8
+    },
+    {
+      "net": "HDD1_IN2",
+      "length_mm": 50.8
+    },
+    {
+      "net": "HDD2_IN1",
+      "length_mm": 93.98
+    },
+    {
+      "net": "HDD2_IN2",
+      "length_mm": 93.98
+    },
+    {
+      "net": "HDD3_IN1",
+      "length_mm": 121.92
+    },
+    {
+      "net": "HDD3_IN2",
+      "length_mm": 101.6
+    },
+    {
+      "net": "HDD4_IN1",
+      "length_mm": 129.54
+    },
+    {
+      "net": "HDD4_IN2",
+      "length_mm": 124.46
+    }
+  ],
+  "longest_IN_mm": 129.54,
+  "vref_branches_mm": {
+    "U310.VREF": 88.9,
+    "U320.VREF": 66.04,
+    "U330.VREF": 55.88,
+    "U340.VREF": 63.5
+  },
+  "wire_solder_locations": 787,
+  "pin_locations": 186,
+  "unique_solder_locations": 814,
+  "conductor_end_joints": 218,
+  "checks": {
+    "S01": {
+      "status": "PASS_IN_LOCAL_MODEL",
+      "min_surface_mm": 6.307,
+      "violations": []
+    },
+    "S02": {
+      "status": "PASS_IN_LOCAL_MODEL",
+      "min_surface_mm": 12.19755,
+      "violations": []
+    }
+  },
+  "features_physical": [
+    {
+      "ref": "J313",
+      "feature": "mating_face",
+      "physical_xy_mm": [
+        59.72,
+        101.45
+      ],
+      "nearest_edge_mm": 12.55
+    },
+    {
+      "ref": "J323",
+      "feature": "mating_face",
+      "physical_xy_mm": [
+        107.98,
+        101.45
+      ],
+      "nearest_edge_mm": 12.55
+    },
+    {
+      "ref": "J333",
+      "feature": "mating_face",
+      "physical_xy_mm": [
+        141.0,
+        58.27
+      ],
+      "nearest_edge_mm": 14.0
+    },
+    {
+      "ref": "J343",
+      "feature": "mating_face",
+      "physical_xy_mm": [
+        141.0,
+        27.79
+      ],
+      "nearest_edge_mm": 14.0
+    },
+    {
+      "ref": "U201",
+      "feature": "usb_mouth",
+      "physical_xy_mm": [
+        7.55,
+        59.54
+      ],
+      "nearest_edge_mm": 7.55
+    },
+    {
+      "ref": "J101",
+      "feature": "mating_face",
+      "physical_xy_mm": [
+        10.19,
+        39.22
+      ],
+      "nearest_edge_mm": 10.19
+    },
+    {
+      "ref": "J202",
+      "feature": "mating_face",
+      "physical_xy_mm": [
+        71.15,
+        106.53
+      ],
+      "nearest_edge_mm": 7.47
+    },
+    {
+      "ref": "J203",
+      "feature": "mating_face",
+      "physical_xy_mm": [
+        81.31,
+        106.53
+      ],
+      "nearest_edge_mm": 7.47
+    }
+  ],
+  "input_hashes": {
+    "board.json": {
+      "shared_sha256": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+      "candidate_sha256": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+      "identical": true
+    },
+    "footprints_ub.json": {
+      "shared_sha256": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+      "candidate_sha256": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+      "identical": true
+    },
+    "design_rules_v0.2.json": {
+      "shared_sha256": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8",
+      "candidate_sha256": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8",
+      "identical": true
+    },
+    "netlist_ub.csv": {
+      "shared_sha256": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+      "candidate_sha256": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+      "identical": true
+    }
+  },
+  "mounting_min_centre_edge_mm": 5.0,
+  "notes": [
+    "Local supplementary measurements do not change official ub.py status.",
+    "Surface audit uses nominal conductor radii and .453mm socket-pin circumscribed radius; pads, solder blobs and 3D wire heights remain unproved.",
+    "Solder locations count every exposed touched land, following the conservative tool contact model; actual intermediate support soldering needs a build plan."
+  ],
+  "onboard_area_checks": {
+    "W01": {
+      "status": "PASS_FOR_REPRESENTED_ONBOARD_WIRES",
+      "selected_conductors": 7,
+      "min_area_mm2": 0.785398,
+      "required_area_mm2": 0.5,
+      "excluded": "Contacts, off-board wires, voltage drop and ambient/startup behaviour are not proved by this area comparison."
+    },
+    "W02": {
+      "status": "PASS_FOR_REPRESENTED_ONBOARD_WIRES",
+      "selected_conductors": 6,
+      "min_area_mm2": 0.785398,
+      "required_area_mm2": 0.5,
+      "excluded": "Contacts, off-board wires, voltage drop and ambient/startup behaviour are not proved by this area comparison."
+    },
+    "W03": {
+      "status": "PASS_FOR_REPRESENTED_ONBOARD_WIRES",
+      "selected_conductors": 22,
+      "min_area_mm2": 0.282743,
+      "required_area_mm2": 0.28,
+      "excluded": "Contacts, off-board wires, voltage drop and ambient/startup behaviour are not proved by this area comparison."
+    },
+    "W04": {
+      "status": "PASS_FOR_REPRESENTED_ONBOARD_WIRES",
+      "selected_conductors": 5,
+      "min_area_mm2": 0.20473,
+      "required_area_mm2": 0.2,
+      "excluded": "Contacts, off-board wires, voltage drop and ambient/startup behaviour are not proved by this area comparison."
+    },
+    "W05": {
+      "status": "PASS_FOR_REPRESENTED_ONBOARD_WIRES",
+      "selected_conductors": 8,
+      "min_area_mm2": 0.20473,
+      "required_area_mm2": 0.2,
+      "excluded": "Contacts, off-board wires, voltage drop and ambient/startup behaviour are not proved by this area comparison."
+    },
+    "W06": {
+      "status": "PASS_FOR_REPRESENTED_ONBOARD_WIRES",
+      "selected_conductors": 19,
+      "min_area_mm2": 0.128756,
+      "required_area_mm2": 0.12,
+      "excluded": "Contacts, off-board wires, voltage drop and ambient/startup behaviour are not proved by this area comparison."
+    },
+    "W07": {
+      "status": "UNCHECKED_NO_OFFBOARD_HARNESS",
+      "selected_conductors": 0,
+      "min_area_mm2": null,
+      "required_area_mm2": 0.12,
+      "excluded": "Contacts, off-board wires, voltage drop and ambient/startup behaviour are not proved by this area comparison."
+    }
+  },
+  "probe_point_checks": {
+    "TP471": {
+      "nearest_other_body": "J313",
+      "centre_to_body_mm": 2.58,
+      "one_pitch_planar_clearance": true
+    },
+    "TP472": {
+      "nearest_other_body": "J323",
+      "centre_to_body_mm": 4.2217,
+      "one_pitch_planar_clearance": true
+    },
+    "TP473": {
+      "nearest_other_body": "U330",
+      "centre_to_body_mm": 3.6416,
+      "one_pitch_planar_clearance": true
+    },
+    "TP474": {
+      "nearest_other_body": "J343",
+      "centre_to_body_mm": 2.66,
+      "one_pitch_planar_clearance": true
+    },
+    "TP460": {
+      "nearest_other_body": "TP462",
+      "centre_to_body_mm": 6.37,
+      "one_pitch_planar_clearance": true
+    },
+    "TP461": {
+      "nearest_other_body": "U107",
+      "centre_to_body_mm": 3.49,
+      "one_pitch_planar_clearance": true
+    },
+    "TP462": {
+      "nearest_other_body": "TP463",
+      "centre_to_body_mm": 3.81,
+      "one_pitch_planar_clearance": true
+    },
+    "TP463": {
+      "nearest_other_body": "TP462",
+      "centre_to_body_mm": 3.81,
+      "one_pitch_planar_clearance": true
+    },
+    "TP464": {
+      "nearest_other_body": "D103",
+      "centre_to_body_mm": 5.0178,
+      "one_pitch_planar_clearance": true
+    },
+    "TP465": {
+      "nearest_other_body": "TP468",
+      "centre_to_body_mm": 6.37,
+      "one_pitch_planar_clearance": true
+    },
+    "TP466": {
+      "nearest_other_body": "R210",
+      "centre_to_body_mm": 4.03,
+      "one_pitch_planar_clearance": true
+    },
+    "TP467": {
+      "nearest_other_body": "R214",
+      "centre_to_body_mm": 7.982,
+      "one_pitch_planar_clearance": true
+    },
+    "TP468": {
+      "nearest_other_body": "TP465",
+      "centre_to_body_mm": 6.37,
+      "one_pitch_planar_clearance": true
+    }
+  }
+}

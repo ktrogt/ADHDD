@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "round": 3,
+  "comparison_tuple": [
+    true,
+    0,
+    0,
+    28,
+    219.029964,
+    105,
+    3141.246
+  ],
+  "deterministic_wiring": true,
+  "round2_archived_files_verified": 51,
+  "channel_tiles_unchanged": true,
+  "shared_input_copies_identical": true,
+  "wirelist_steps": 113,
+  "continuity_tests": 1439,
+  "visual_review": {
+    "method": "offline SVG primitive raster preview plus manual inspection",
+    "views": [
+      "top",
+      "bottom",
+      "overlay"
+    ],
+    "refdes_labels_per_view": 54,
+    "label_overlap_pairs": 0
+  }
+}

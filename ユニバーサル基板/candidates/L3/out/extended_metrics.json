@@ -1,0 +1,251 @@
+{
+  "comparison_tuple": [
+    true,
+    0,
+    2,
+    38,
+    220.862152,
+    62,
+    3385.17
+  ],
+  "hard_rule_status_counts": {
+    "UNCHECKED": 23,
+    "PASS": 36,
+    "FAIL": 2
+  },
+  "wire_counts": {
+    "bare": 77,
+    "jumper": 38
+  },
+  "wire_length_by_gauge_mm": {
+    "1.0mm": 368.3,
+    "AWG24": 600.807,
+    "AWG20": 70.101,
+    "AWG26": 2023.383,
+    "AWG22": 322.58
+  },
+  "bare_bends": 58,
+  "jumper_bends": 4,
+  "VREF_branches_CH1_to_4_mm": [
+    76.20000000000002,
+    48.25999999999999,
+    50.79999999999999,
+    55.93769748568491
+  ],
+  "power_paths": [
+    {
+      "channel": 1,
+      "VM_from_C106_mm": 134.71754821842958,
+      "GND13_from_C106_mm": 119.38000000000011
+    },
+    {
+      "channel": 2,
+      "VM_from_C106_mm": 106.77754821842956,
+      "GND13_from_C106_mm": 91.44000000000004
+    },
+    {
+      "channel": 3,
+      "VM_from_C106_mm": 78.83754821842949,
+      "GND13_from_C106_mm": 63.499999999999986
+    },
+    {
+      "channel": 4,
+      "VM_from_C106_mm": 50.897548218429456,
+      "GND13_from_C106_mm": 71.11999999999999
+    }
+  ],
+  "IN_paths": [
+    {
+      "net": "HDD1_IN1",
+      "length_mm": 76.2
+    },
+    {
+      "net": "HDD1_IN2",
+      "length_mm": 76.36914560213438
+    },
+    {
+      "net": "HDD2_IN1",
+      "length_mm": 79.5551355978984
+    },
+    {
+      "net": "HDD2_IN2",
+      "length_mm": 78.24684274780677
+    },
+    {
+      "net": "HDD3_IN1",
+      "length_mm": 87.58397341979867
+    },
+    {
+      "net": "HDD3_IN2",
+      "length_mm": 85.19418994274199
+    },
+    {
+      "net": "HDD4_IN1",
+      "length_mm": 100.83512086569837
+    },
+    {
+      "net": "HDD4_IN2",
+      "length_mm": 97.58361337847661
+    }
+  ],
+  "longest_IN": {
+    "net": "HDD4_IN1",
+    "length_mm": 100.83512086569837
+  },
+  "physical_component_pins_including_reserved": 193,
+  "conservative_solder_pad_locations": 719,
+  "approved_inputs_unchanged": true,
+  "hard_fail_list": [
+    "P08",
+    "P09"
+  ],
+  "unchecked_hard_rules": [
+    {
+      "id": "B01",
+      "reasons": [
+        "T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "B02",
+      "reasons": [
+        "T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "B07",
+      "reasons": [
+        "T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "C01",
+      "reasons": [
+        "core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence"
+      ]
+    },
+    {
+      "id": "C02",
+      "reasons": [
+        "T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "C03",
+      "reasons": [
+        "T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M02",
+      "reasons": [
+        "T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M03",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M04",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M05",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M06",
+      "reasons": [
+        "J101: approach=outward; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J104: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J202: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J203: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J213: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J313: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J323: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J333: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J343: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access"
+      ]
+    },
+    {
+      "id": "M08",
+      "reasons": [
+        "J104: footprint feature 'mating_face' has no declared point",
+        "J213: footprint feature 'mating_face' has no declared point"
+      ]
+    },
+    {
+      "id": "M10",
+      "reasons": [
+        "T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M12",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "S01",
+      "reasons": [
+        "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "S02",
+      "reasons": [
+        "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W01",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W02",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W03",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W04",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W05",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W06",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W07",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    }
+  ]
+}

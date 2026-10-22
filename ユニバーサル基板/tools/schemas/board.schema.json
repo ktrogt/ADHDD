@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Perfboard board v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "columns": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "rows": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pitch_mm": {
+      "const": 2.54
+    },
+    "type": {
+      "enum": [
+        "single_sided_independent",
+        "double_sided_plated"
+      ],
+      "default": "single_sided_independent"
+    },
+    "edge_margin_holes": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    },
+    "body_clearance_mm": {
+      "type": "number",
+      "minimum": 0,
+      "default": 0.5
+    },
+    "keepouts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "from": {
+            "type": "string",
+            "pattern": "^[A-Z]+[1-9][0-9]*$"
+          },
+          "to": {
+            "type": "string",
+            "pattern": "^[A-Z]+[1-9][0-9]*$"
+          }
+        },
+        "required": [
+          "from",
+          "to"
+        ]
+      }
+    },
+    "provisional": {
+      "type": "boolean"
+    },
+    "outline_mm": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "width",
+        "height"
+      ]
+    },
+    "grid_origin_mm": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "minimum": 0
+        },
+        "y": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ]
+    },
+    "body_edge_margin_mm": {
+      "type": "number",
+      "minimum": 0,
+      "default": 1.0
+    }
+  },
+  "required": [
+    "schema_version",
+    "columns",
+    "rows",
+    "pitch_mm"
+  ],
+  "dependentRequired": {
+    "outline_mm": [
+      "grid_origin_mm"
+    ]
+  }
+}

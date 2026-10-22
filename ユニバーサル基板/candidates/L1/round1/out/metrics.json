@@ -1,0 +1,155 @@
+{
+  "wire_length_mm": {
+    "bare": 1912.62,
+    "bridge": 0.0,
+    "jumper": 1289.142
+  },
+  "total_wire_mm": 3201.762,
+  "jumpers": 39,
+  "bridges": 0,
+  "conductors": 125,
+  "jumper_over_exposed_crossings": 116,
+  "bbox_mm": [
+    -2.76,
+    1.68,
+    137.16,
+    99.92
+  ],
+  "used_bbox_area_mm2": 13745.741,
+  "used_area_fraction": 0.96845,
+  "power_path_lengths": [
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U310.VIN",
+      "length_mm": 45.72
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U320.VIN",
+      "length_mm": 81.28
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U330.VIN",
+      "length_mm": 116.84
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U340.VIN",
+      "length_mm": 152.4
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@2",
+      "length_mm": 40.64
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@13",
+      "length_mm": 53.34
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@2",
+      "length_mm": 76.2
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@13",
+      "length_mm": 88.9
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@2",
+      "length_mm": 111.76
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@13",
+      "length_mm": 124.46
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@2",
+      "length_mm": 147.32
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@13",
+      "length_mm": 160.02
+    }
+  ],
+  "longest_signal_nets": [
+    {
+      "net": "FAULT",
+      "length_mm": 218.746
+    },
+    {
+      "net": "SLEEP",
+      "length_mm": 210.82
+    },
+    {
+      "net": "VREF",
+      "length_mm": 167.968
+    },
+    {
+      "net": "UART_RX",
+      "length_mm": 101.6
+    },
+    {
+      "net": "HDD1_IN1",
+      "length_mm": 89.803
+    },
+    {
+      "net": "HDD1_IN2",
+      "length_mm": 86.21
+    },
+    {
+      "net": "SN_BUS",
+      "length_mm": 76.2
+    },
+    {
+      "net": "HDD2_IN1",
+      "length_mm": 64.758
+    },
+    {
+      "net": "HDD4_IN1",
+      "length_mm": 62.887
+    },
+    {
+      "net": "HDD4_IN2",
+      "length_mm": 62.887
+    }
+  ],
+  "violations_by_severity": {
+    "error": 58,
+    "warning": 50
+  },
+  "rule_violations_by_severity": {
+    "error": 57,
+    "warning": 28
+  },
+  "score": 5854351.219,
+  "score_weights": {
+    "wire_mm": 1,
+    "jumpers": 20,
+    "bridges": 1,
+    "crossings": 2,
+    "area_mm2": 0.01,
+    "error": 100000,
+    "warning": 1000,
+    "info": 0
+  }
+}

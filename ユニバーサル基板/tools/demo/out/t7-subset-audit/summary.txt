@@ -1,0 +1,223 @@
+FAIL; LVS PASS; 184/184 pins, 37 nets, 27 NC; 150 errors, 72 warnings; 4765.0 mm wire, 57 jumpers; score 15078682.9
+ERROR RULE:H04: U107 / F102: 2.345 mm < 7.62 mm
+ERROR RULE:M01: C108 / C109: 0.820 mm < 1.016 mm
+ERROR RULE:M01: C108 / R204: 0.630 mm < 1.016 mm
+ERROR RULE:M01: C108 / R205: 0.630 mm < 1.016 mm
+ERROR RULE:M01: C109 / J202: 0.520 mm < 1.016 mm
+ERROR RULE:M01: C109 / R205: 0.630 mm < 1.016 mm
+ERROR RULE:M01: C109 / R209: 0.630 mm < 1.016 mm
+ERROR RULE:M01: C208 / J202: 0.780 mm < 1.016 mm
+ERROR RULE:M01: C211 / D103: 0.620 mm < 1.016 mm
+ERROR RULE:M01: C211 / J202: 0.725 mm < 1.016 mm
+ERROR RULE:M01: D105 / J203: 0.830 mm < 1.016 mm
+ERROR RULE:M01: D110 / J203: 0.832 mm < 1.016 mm
+ERROR RULE:M01: D110 / TP460: 0.540 mm < 1.016 mm
+ERROR RULE:M01: D110 / TP461: 0.540 mm < 1.016 mm
+ERROR RULE:M01: D206 / F102: 0.990 mm < 1.016 mm
+ERROR RULE:M01: D206 / TP462: 0.840 mm < 1.016 mm
+ERROR RULE:M01: D206 / TP463: 0.840 mm < 1.016 mm
+ERROR RULE:M01: J104 / TP466: 0.640 mm < 1.016 mm
+ERROR RULE:M01: J104 / TP467: 0.640 mm < 1.016 mm
+ERROR RULE:M01: R204 / TP468: 0.840 mm < 1.016 mm
+ERROR RULE:M01: R204 / TP471: 0.840 mm < 1.016 mm
+ERROR RULE:M01: R205 / TP472: 0.840 mm < 1.016 mm
+ERROR RULE:M01: R205 / TP473: 0.840 mm < 1.016 mm
+ERROR RULE:M01: R209 / TP474: 0.840 mm < 1.016 mm
+ERROR RULE:M01: R212 / TP466: 0.840 mm < 1.016 mm
+ERROR RULE:M01: R212 / TP467: 0.840 mm < 1.016 mm
+ERROR RULE:M01: R215 / U207: 0.540 mm < 1.016 mm
+ERROR RULE:M01: TP460 / U107: 0.655 mm < 1.016 mm
+ERROR RULE:M01: TP461 / U107: 0.655 mm < 1.016 mm
+ERROR RULE:M01: TP462 / U107: 0.655 mm < 1.016 mm
+ERROR RULE:M01: TP463 / U107: 0.655 mm < 1.016 mm
+ERROR RULE:M01: U107 / U207: 0.600 mm < 1.016 mm
+ERROR RULE:P02_1: VM D105.#1 -> C106.#1: 53.340 mm (max 7.62 mm)
+ERROR RULE:P02_2: GND D105.#2 -> C106.#2: 58.420 mm (max 7.62 mm)
+ERROR RULE:P03_1: VM J104.#2 -> C106.#1: 109.220 mm (max 15.24 mm)
+ERROR RULE:P03_2: GND J101.#2 -> C106.#2: 167.640 mm (max 15.24 mm)
+ERROR RULE:P06_2: GND C312.#2 -> U310.#13: 10.160 mm (max 5.08 mm)
+ERROR RULE:P06_4: GND C322.#2 -> U320.#13: 10.160 mm (max 5.08 mm)
+ERROR RULE:P06_6: GND C332.#2 -> U330.#13: 10.160 mm (max 5.08 mm)
+ERROR RULE:P06_8: GND C342.#2 -> U340.#13: 10.160 mm (max 5.08 mm)
+ERROR RULE:P09_2: GND C311.#2 -> U310.#13: 33.020 mm (max 15.24 mm)
+ERROR RULE:P09_4: GND C321.#2 -> U320.#13: 88.900 mm (max 15.24 mm)
+ERROR RULE:P09_6: GND C331.#2 -> U330.#13: 383.540 mm (max 15.24 mm)
+ERROR RULE:P09_8: GND C341.#2 -> U340.#13: 27.940 mm (max 15.24 mm)
+ERROR RULE:P12_1: HDD1_OUT1 U310.#12 -> J313.#1: 27.940 mm (max 10.16 mm)
+ERROR RULE:P12_2: HDD1_OUT2 U310.#11 -> J313.#2: 20.320 mm (max 10.16 mm)
+ERROR RULE:P12_3: HDD2_OUT1 U320.#12 -> J323.#1: 27.940 mm (max 10.16 mm)
+ERROR RULE:P12_4: HDD2_OUT2 U320.#11 -> J323.#2: 20.320 mm (max 10.16 mm)
+ERROR RULE:P12_5: HDD3_OUT1 U330.#12 -> J333.#1: 27.940 mm (max 10.16 mm)
+ERROR RULE:P12_6: HDD3_OUT2 U330.#11 -> J333.#2: 20.320 mm (max 10.16 mm)
+ERROR RULE:P12_7: HDD4_OUT1 U340.#12 -> J343.#1: 27.940 mm (max 10.16 mm)
+ERROR RULE:P12_8: HDD4_OUT2 U340.#11 -> J343.#2: 20.320 mm (max 10.16 mm)
+ERROR RULE:P14_1: VM C108.#1 -> U107.#1: 63.500 mm (max 10.16 mm)
+ERROR RULE:P14_2: GND C108.#2 -> U107.#2: 205.740 mm (max 10.16 mm)
+ERROR RULE:P14_3: +5V C109.#1 -> U107.#3: 55.880 mm (max 10.16 mm)
+ERROR RULE:P14_4: GND C109.#2 -> U107.#2: 213.360 mm (max 10.16 mm)
+ERROR RULE:P16_1: +3V3 C208.#1 -> U207.#5: 358.140 mm (max 7.62 mm)
+ERROR RULE:P16_2: GND C208.#2 -> U207.#3: 220.980 mm (max 7.62 mm)
+ERROR RULE:RESIDUAL_B01: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B02: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B03: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B04: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B05: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B06: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B07: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B08: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B09: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B10: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B11: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_B12: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_C01: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_C02: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_C03: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_G01: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_G02: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_G03: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_M02: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M03: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M04: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M05: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M06: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M07: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M08: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M09: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M10: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M11: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M12: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_M13: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P01: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P02: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_P03: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_P04: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P05: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P06: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_P07: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P08: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P09: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_P10: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_P11: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P12: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_P13: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P14: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_P15: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_P16: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_S01: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_S02: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_S03: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_S04: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_S05: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_S06: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_S07: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_S08: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_S09: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_S10: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_S11: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_S12: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_S13: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_V01: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_V02: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_V03: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_V04: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_V05: All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.
+ERROR RULE:RESIDUAL_W01: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_W02: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_W03: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_W04: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_W05: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_W06: Full T7 policy rule is outside the supplied subset
+ERROR RULE:RESIDUAL_W07: Full T7 policy rule is outside the supplied subset
+ERROR RULE:S04_7: HDD4_IN1 U201.#11 -> U340.#3: 162.560 mm (max 152.4 mm)
+ERROR RULE:S04_8: HDD4_IN2 U201.#12 -> U340.#4: 162.560 mm (max 152.4 mm)
+ERROR RULE:S06_10: FAULT R215.#2 -> U340.#9: 238.760 mm (max 203.2 mm)
+ERROR RULE:S06_6: FAULT R215.#2 -> U201.#20: 231.140 mm (max 203.2 mm)
+ERROR RULE:S06_9: FAULT R215.#2 -> U330.#9: 210.820 mm (max 203.2 mm)
+ERROR RULE:S08_1: SLEEP R214.#1 -> J213.#2: 45.720 mm (max 15.24 mm)
+ERROR RULE:S11_1: SN_BUS J202.#1 -> R204.#1: 20.320 mm (max 15.24 mm)
+ERROR RULE:S11_2: SN_RX_IN R204.#2 -> U207.#2: 60.960 mm (max 15.24 mm)
+ERROR RULE:S12_1: UART_RX U207.#4 -> U201.#2: 119.380 mm (max 101.6 mm)
+ERROR RULE:V01: U310.#7 and U320.#7 share branch beyond root C211.#1
+ERROR RULE:V01: U310.#7 and U330.#7 share branch beyond root C211.#1
+ERROR RULE:V01: U310.#7 and U340.#7 share branch beyond root C211.#1
+ERROR RULE:V01: U320.#7 and U330.#7 share branch beyond root C211.#1
+ERROR RULE:V01: U320.#7 and U340.#7 share branch beyond root C211.#1
+ERROR RULE:V01: U330.#7 and U340.#7 share branch beyond root C211.#1
+ERROR RULE:V03_1: VREF R209.#2 -> C211.#1: 12.700 mm (max 5.08 mm)
+ERROR RULE:V03_2: VREF R210.#1 -> C211.#1: 12.700 mm (max 5.08 mm)
+ERROR RULE:V03_3: GND R210.#2 -> C211.#2: 15.240 mm (max 5.08 mm)
+ERROR RULE:V04_1: VREF C211.#1 -> U310.#7: 121.920 mm (max 101.6 mm)
+ERROR RULE:V04_3: VREF C211.#1 -> U330.#7: 121.920 mm (max 101.6 mm)
+ERROR RULE:V04_4: VREF C211.#1 -> U340.#7: 149.860 mm (max 101.6 mm)
+WARNING PROVISIONAL_FOOTPRINT: C106
+WARNING PROVISIONAL_FOOTPRINT: C108
+WARNING PROVISIONAL_FOOTPRINT: C109
+WARNING PROVISIONAL_FOOTPRINT: C208
+WARNING PROVISIONAL_FOOTPRINT: C211
+WARNING PROVISIONAL_FOOTPRINT: C311
+WARNING PROVISIONAL_FOOTPRINT: C312
+WARNING PROVISIONAL_FOOTPRINT: C321
+WARNING PROVISIONAL_FOOTPRINT: C322
+WARNING PROVISIONAL_FOOTPRINT: C331
+WARNING PROVISIONAL_FOOTPRINT: C332
+WARNING PROVISIONAL_FOOTPRINT: C341
+WARNING PROVISIONAL_FOOTPRINT: C342
+WARNING PROVISIONAL_FOOTPRINT: D103
+WARNING PROVISIONAL_FOOTPRINT: D105
+WARNING PROVISIONAL_FOOTPRINT: D110
+WARNING PROVISIONAL_FOOTPRINT: D206
+WARNING PROVISIONAL_FOOTPRINT: F102
+WARNING PROVISIONAL_FOOTPRINT: J101
+WARNING PROVISIONAL_FOOTPRINT: J104
+WARNING PROVISIONAL_FOOTPRINT: J202
+WARNING PROVISIONAL_FOOTPRINT: J203
+WARNING PROVISIONAL_FOOTPRINT: J213
+WARNING PROVISIONAL_FOOTPRINT: J313
+WARNING PROVISIONAL_FOOTPRINT: J323
+WARNING PROVISIONAL_FOOTPRINT: J333
+WARNING PROVISIONAL_FOOTPRINT: J343
+WARNING PROVISIONAL_FOOTPRINT: R204
+WARNING PROVISIONAL_FOOTPRINT: R205
+WARNING PROVISIONAL_FOOTPRINT: R209
+WARNING PROVISIONAL_FOOTPRINT: R210
+WARNING PROVISIONAL_FOOTPRINT: R212
+WARNING PROVISIONAL_FOOTPRINT: R214
+WARNING PROVISIONAL_FOOTPRINT: R215
+WARNING PROVISIONAL_FOOTPRINT: TP460
+WARNING PROVISIONAL_FOOTPRINT: TP461
+WARNING PROVISIONAL_FOOTPRINT: TP462
+WARNING PROVISIONAL_FOOTPRINT: TP463
+WARNING PROVISIONAL_FOOTPRINT: TP466
+WARNING PROVISIONAL_FOOTPRINT: TP467
+WARNING PROVISIONAL_FOOTPRINT: TP468
+WARNING PROVISIONAL_FOOTPRINT: TP471
+WARNING PROVISIONAL_FOOTPRINT: TP472
+WARNING PROVISIONAL_FOOTPRINT: TP473
+WARNING PROVISIONAL_FOOTPRINT: TP474
+WARNING PROVISIONAL_FOOTPRINT: U107
+WARNING PROVISIONAL_FOOTPRINT: U201
+WARNING PROVISIONAL_FOOTPRINT: U207
+WARNING PROVISIONAL_FOOTPRINT: U310
+WARNING PROVISIONAL_FOOTPRINT: U320
+WARNING PROVISIONAL_FOOTPRINT: U330
+WARNING PROVISIONAL_FOOTPRINT: U340
+WARNING RULE:P10_1: VM C311.#1 -> U310.#14: 15.240 mm (max 7.62 mm)
+WARNING RULE:P10_2: GND C311.#2 -> U310.#13: 33.020 mm (max 7.62 mm)
+WARNING RULE:P10_3: VM C321.#1 -> U320.#14: 15.240 mm (max 7.62 mm)
+WARNING RULE:P10_4: GND C321.#2 -> U320.#13: 88.900 mm (max 7.62 mm)
+WARNING RULE:P10_5: VM C331.#1 -> U330.#14: 15.240 mm (max 7.62 mm)
+WARNING RULE:P10_6: GND C331.#2 -> U330.#13: 383.540 mm (max 7.62 mm)
+WARNING RULE:P10_7: VM C341.#1 -> U340.#14: 15.240 mm (max 7.62 mm)
+WARNING RULE:P10_8: GND C341.#2 -> U340.#13: 27.940 mm (max 7.62 mm)
+WARNING RULE:S05_1: HDD1_IN1 U201.#4 -> U310.#3: 96.520 mm (max 88.9 mm)
+WARNING RULE:S05_2: HDD1_IN2 U201.#5 -> U310.#4: 96.520 mm (max 88.9 mm)
+WARNING RULE:S05_3: HDD2_IN1 U201.#6 -> U320.#3: 119.380 mm (max 88.9 mm)
+WARNING RULE:S05_4: HDD2_IN2 U201.#7 -> U320.#4: 119.380 mm (max 88.9 mm)
+WARNING RULE:S05_5: HDD3_IN1 U201.#9 -> U330.#3: 139.700 mm (max 88.9 mm)
+WARNING RULE:S05_6: HDD3_IN2 U201.#10 -> U330.#4: 139.700 mm (max 88.9 mm)
+WARNING RULE:S05_7: HDD4_IN1 U201.#11 -> U340.#3: 162.560 mm (max 88.9 mm)
+WARNING RULE:S05_8: HDD4_IN2 U201.#12 -> U340.#4: 162.560 mm (max 88.9 mm)
+WARNING RULE:V05_1: VREF C211.#1 -> U310.#7: 121.920 mm (max 63.5 mm)
+WARNING RULE:V05_2: VREF C211.#1 -> U320.#7: 93.980 mm (max 63.5 mm)
+WARNING RULE:V05_3: VREF C211.#1 -> U330.#7: 121.920 mm (max 63.5 mm)
+WARNING RULE:V05_4: VREF C211.#1 -> U340.#7: 149.860 mm (max 63.5 mm)

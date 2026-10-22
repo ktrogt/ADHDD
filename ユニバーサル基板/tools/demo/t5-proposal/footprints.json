@@ -1,0 +1,1483 @@
+{
+  "schema_version": 1,
+  "status": "proposal; J101 and coil XH3 need Claude approval",
+  "date": "2026-10-22",
+  "grid_mm": 2.54,
+  "view": "top",
+  "origin": "logical pin1=(0,0); dx right/dy down; rotations clockwise",
+  "scope": "parts.csv populate=yes, minus BRIEF scaffold: all54 refs retained",
+  "pin_contract": "pins.number/name EXACT approved identifiers. pin_mapping describes substitute physical pads. extra_pads are occupied NC sites, not extra logical pins.",
+  "body_contract": "body_mm=x/y/width/depth in mm relative pin1. Some envelopes deliberately conservative. height_mm is proposed assembly height above host, not necessarily naked-part height.",
+  "scope_refs": [
+    "J101",
+    "F102",
+    "D103",
+    "J104",
+    "D105",
+    "C106",
+    "U107",
+    "C108",
+    "C109",
+    "D110",
+    "U201",
+    "J202",
+    "J203",
+    "R204",
+    "R205",
+    "D206",
+    "U207",
+    "C208",
+    "R209",
+    "R210",
+    "C211",
+    "R212",
+    "J213",
+    "R214",
+    "R215",
+    "U310",
+    "C311",
+    "C312",
+    "J313",
+    "U320",
+    "C321",
+    "C322",
+    "J323",
+    "U330",
+    "C331",
+    "C332",
+    "J333",
+    "U340",
+    "C341",
+    "C342",
+    "J343",
+    "TP460",
+    "TP461",
+    "TP462",
+    "TP463",
+    "TP464",
+    "TP465",
+    "TP466",
+    "TP467",
+    "TP468",
+    "TP471",
+    "TP472",
+    "TP473",
+    "TP474"
+  ],
+  "ref_to_type": {
+    "J101": "J101_PANEL_TERMINAL",
+    "F102": "F_MFR300_2H",
+    "D103": "D103_DRILL15_7H",
+    "J104": "HDR_SWITCH_J104",
+    "D105": "D_DO41_4H_D105",
+    "C106": "CP470_D10_2H",
+    "U107": "M78AR05_SIP3",
+    "C108": "CP100_D63_1H",
+    "C109": "CP100_D63_1H",
+    "D110": "D_DO41_4H_D110",
+    "U201": "PICO_SOCKET_7H",
+    "J202": "UART_XH2",
+    "J203": "UART_XH2",
+    "R204": "R_MFS25_3H",
+    "R205": "R_MFS25_3H",
+    "D206": "BAT43_DO35_3H",
+    "U207": "AHC125_WIRED_CARRIER",
+    "C208": "C100NF_1H",
+    "R209": "R_MFS25_3H",
+    "R210": "R_MFS25_3H",
+    "C211": "C220NF_2H",
+    "R212": "R_MFS25_3H",
+    "J213": "HDR_SWITCH_J213",
+    "R214": "R_MFS25_3H",
+    "R215": "R_MFS25_3H",
+    "U310": "POLOLU4035_SOCKET_5H",
+    "C311": "CP470_D10_2H",
+    "C312": "C100NF_1H",
+    "J313": "COIL_XH3_OUTER",
+    "U320": "POLOLU4035_SOCKET_5H",
+    "C321": "CP470_D10_2H",
+    "C322": "C100NF_1H",
+    "J323": "COIL_XH3_OUTER",
+    "U330": "POLOLU4035_SOCKET_5H",
+    "C331": "CP470_D10_2H",
+    "C332": "C100NF_1H",
+    "J333": "COIL_XH3_OUTER",
+    "U340": "POLOLU4035_SOCKET_5H",
+    "C341": "CP470_D10_2H",
+    "C342": "C100NF_1H",
+    "J343": "COIL_XH3_OUTER",
+    "TP460": "PROBE_PIN",
+    "TP461": "PROBE_PIN",
+    "TP462": "PROBE_PIN",
+    "TP463": "PROBE_PIN",
+    "TP464": "PROBE_PIN",
+    "TP465": "PROBE_PIN",
+    "TP466": "PROBE_PIN",
+    "TP467": "PROBE_PIN",
+    "TP468": "PROBE_PIN",
+    "TP471": "PROBE_PIN",
+    "TP472": "PROBE_PIN",
+    "TP473": "PROBE_PIN",
+    "TP474": "PROBE_PIN"
+  },
+  "footprints": {
+    "J101_PANEL_TERMINAL": {
+      "refs": [
+        "J101"
+      ],
+      "part": "4UCON22234 + WJEK254-2.54-03P-140-00A",
+      "pins": [
+        {
+          "number": "1",
+          "name": "CENTER",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "SLEEVE",
+          "dx": 1,
+          "dy": 0
+        },
+        {
+          "number": "3",
+          "name": "SWITCH",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.5,
+        "y": -6.2,
+        "width": 8.08,
+        "depth": 12.4,
+        "height": 12.4
+      },
+      "height_mm": 8.5,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: CENTER",
+      "notes": "パネル22234(24V4A)+3P端子台114218(6A)。1=CENTER/2=SLEEVEを配線、3は独立NC。元SWITCHは接続しない。音叉型プラグ適合を現物確認。Claude承認待ち。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/mj179ph_mj180ph.pdf",
+        "https://akizukidenshi.com/catalog/g/g106568/",
+        "https://www.est-marushin.co.jp/prod/mj/J179PH.html",
+        "https://www.est-marushin.co.jp/img/drw/MJ179PH.jpg",
+        "https://akizukidenshi.com/catalog/g/g117108/",
+        "https://akizukidenshi.com/catalog/g/g114218/",
+        "https://akizukidenshi.com/goodsaffix/22234.pdf"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": true,
+      "pin_mapping": {
+        "1": "terminal1 -> panel CENTER (identify by continuity)",
+        "2": "terminal2 -> panel SLEEVE (identify by continuity)",
+        "3": "independent terminal3 NC; original unused SWITCH contact not wired"
+      },
+      "body_is_conservative": true,
+      "offboard_part": {
+        "part": "22234",
+        "length_mm": 16.5,
+        "diameter_mm": 10,
+        "mounting_cutout_mm": null
+      },
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: CENTER"
+      },
+      "provisional": true
+    },
+    "F_MFR300_2H": {
+      "refs": [
+        "F102"
+      ],
+      "part": "MF-R300",
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -3.46,
+        "y": -1.5,
+        "width": 12,
+        "depth": 3,
+        "height": 3
+      },
+      "height_mm": 20.3,
+      "hot": true,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: P1",
+      "notes": "MF-R300維持。熱源から離す。23℃3A保持・40℃2.49Aのため2.6A連続は要温度実測。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/mfr.pdf",
+        "https://akizukidenshi.com/catalog/g/g112630/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: P1"
+      },
+      "provisional": true
+    },
+    "D103_DRILL15_7H": {
+      "refs": [
+        "D103"
+      ],
+      "part": "1N5822",
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 7,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 4.14,
+        "y": -2.65,
+        "width": 9.5,
+        "depth": 5.3,
+        "height": 5.3
+      },
+      "height_mm": 8.3,
+      "hot": true,
+      "hole_diameter_mm": 1.5,
+      "polarity_mark": "band at1 K",
+      "notes": "1N5822維持。片面基板の2穴を実装前に1.5mmへ拡孔。7穴スパンで体を約3mm浮かせ、裏で銅母線へ直接はんだ付け。リードを削らず、ランドだけに力を掛けない。加工/温度要実測。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/1N5822.pdf",
+        "https://akizukidenshi.com/catalog/g/g105148/",
+        "https://akizukidenshi.com/catalog/g/g102229/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "modified_board_holes": true,
+      "assembly_note": "If plated board is drilled, barrel continuity is destroyed: use explicit wires on all used faces. Solder directly to power wire; do not rely on remaining annulus for mechanical strength. 3A rating depends on lead temperature; thermal bench check required.",
+      "polarity": {
+        "pin": "1",
+        "label": "band at1 K"
+      },
+      "provisional": true
+    },
+    "HDR_SWITCH_J104": {
+      "refs": [
+        "J104"
+      ],
+      "part": "PH-1x40SG cut1x2",
+      "pins": [
+        {
+          "number": "1",
+          "name": "VIN_PROT",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "VM",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.27,
+        "y": -1.25,
+        "width": 5.08,
+        "depth": 2.5,
+        "height": 2.5
+      },
+      "height_mm": 8.6,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: VIN_PROT",
+      "notes": "2P切出しを維持。相手を3A/contactのFHU105779切片にしAWG20/22線をはんだ付け・絶縁する案。パネル側で引張を受ける。J213は信号mA。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/PH-1xXXSG-AD.pdf",
+        "https://akizukidenshi.com/catalog/g/g100167/",
+        "https://akizukidenshi.com/catalog/g/g105779/",
+        "https://akizukidenshi.com/goodsaffix/FHU-1.pdf"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: VIN_PROT"
+      },
+      "provisional": true
+    },
+    "D_DO41_4H_D105": {
+      "refs": [
+        "D105"
+      ],
+      "part": "P4KE15A",
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 4,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 2.48,
+        "y": -1.35,
+        "width": 5.2,
+        "depth": 2.7,
+        "height": 2.7
+      },
+      "height_mm": 3.7,
+      "hot": true,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "band at1 K",
+      "notes": "型番と極性維持。帯=1K。TVSは入口直近、1N5819のKはVSYSへ。 秋葉原在庫0、店頭受取等の手配が必要(未注文)。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/1n5819.pdf",
+        "https://akizukidenshi.com/goodsaffix/P4KE.pdf",
+        "https://akizukidenshi.com/catalog/g/g129633/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "band at1 K"
+      },
+      "provisional": true
+    },
+    "CP470_D10_2H": {
+      "refs": [
+        "C106",
+        "C311",
+        "C321",
+        "C331",
+        "C341"
+      ],
+      "part": "35ZLH470MEFC10X16",
+      "pins": [
+        {
+          "number": "1",
+          "name": "POS",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "NEG",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2.76,
+        "y": -5.3,
+        "width": 10.6,
+        "depth": 10.6,
+        "height": 10.6
+      },
+      "height_mm": 18.5,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "+ at1 POS; negative stripe at2",
+      "notes": "維持。負極帯=2NEG。各ドライバVIN/GNDのそば、熱源から離す。封口部でリードを曲げない。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/zlh.pdf",
+        "https://akizukidenshi.com/catalog/g/g102719/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "+ at1 POS; negative stripe at2"
+      },
+      "provisional": true
+    },
+    "M78AR05_SIP3": {
+      "refs": [
+        "U107"
+      ],
+      "part": "M78AR05-1",
+      "pins": [
+        {
+          "number": "1",
+          "name": "VIN",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "dx": 1,
+          "dy": 0
+        },
+        {
+          "number": "3",
+          "name": "VOUT",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -6.67,
+        "y": -8.05,
+        "width": 18.42,
+        "depth": 16.1,
+        "height": 16.1
+      },
+      "height_mm": 10.7,
+      "hot": true,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: VIN",
+      "notes": "維持。実物試し挿し。1VIN/2GND/3VOUT。底面図を鏡写しにしない。出力100uF維持(最大470uF)。本体位置はJSONで保守的予約。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/m78ar-1.pdf",
+        "https://akizukidenshi.com/catalog/g/g113536/"
+      ],
+      "confidence": "primary pitch/size; calculated hole fit; body offset conservative/unverified",
+      "requires_Claude_approval": false,
+      "body_is_conservative": true,
+      "actual_body_size_mm": [
+        11.5,
+        7.55
+      ],
+      "body_offset_note": "Rectangle is conservative union of possible offsets, NOT exact outline. Refine only after physical/labelled bottom-view visual check.",
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: VIN"
+      },
+      "provisional": true
+    },
+    "CP100_D63_1H": {
+      "refs": [
+        "C108",
+        "C109"
+      ],
+      "part": "35ZLH100MEFC6.3X11",
+      "pins": [
+        {
+          "number": "1",
+          "name": "POS",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "NEG",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2.18,
+        "y": -3.45,
+        "width": 6.9,
+        "depth": 6.9,
+        "height": 6.9
+      },
+      "height_mm": 13.5,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "+ at1 POS; negative stripe at2",
+      "notes": "維持。負極帯=2。1mmスタンドオフを想定。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/zlh.pdf",
+        "https://akizukidenshi.com/catalog/g/g102724/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "+ at1 POS; negative stripe at2"
+      },
+      "provisional": true
+    },
+    "D_DO41_4H_D110": {
+      "refs": [
+        "D110"
+      ],
+      "part": "1N5819",
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 4,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 2.48,
+        "y": -1.35,
+        "width": 5.2,
+        "depth": 2.7,
+        "height": 2.7
+      },
+      "height_mm": 3.7,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "band at1 K",
+      "notes": "型番と極性維持。帯=1K。TVSは入口直近、1N5819のKはVSYSへ。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/1n5819.pdf",
+        "https://akizukidenshi.com/goodsaffix/P4KE.pdf",
+        "https://akizukidenshi.com/catalog/g/g117244/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "band at1 K"
+      },
+      "provisional": true
+    },
+    "PICO_SOCKET_7H": {
+      "refs": [
+        "U201"
+      ],
+      "part": "SC0915 + FHU-1x20SG x2",
+      "pins": [
+        {
+          "number": "1",
+          "name": "GP0",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GP1",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "number": "3",
+          "name": "GND@3",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "number": "4",
+          "name": "GP2",
+          "dx": 0,
+          "dy": 3
+        },
+        {
+          "number": "5",
+          "name": "GP3",
+          "dx": 0,
+          "dy": 4
+        },
+        {
+          "number": "6",
+          "name": "GP4",
+          "dx": 0,
+          "dy": 5
+        },
+        {
+          "number": "7",
+          "name": "GP5",
+          "dx": 0,
+          "dy": 6
+        },
+        {
+          "number": "8",
+          "name": "GND@8",
+          "dx": 0,
+          "dy": 7
+        },
+        {
+          "number": "9",
+          "name": "GP6",
+          "dx": 0,
+          "dy": 8
+        },
+        {
+          "number": "10",
+          "name": "GP7",
+          "dx": 0,
+          "dy": 9
+        },
+        {
+          "number": "11",
+          "name": "GP8",
+          "dx": 0,
+          "dy": 10
+        },
+        {
+          "number": "12",
+          "name": "GP9",
+          "dx": 0,
+          "dy": 11
+        },
+        {
+          "number": "13",
+          "name": "GND@13",
+          "dx": 0,
+          "dy": 12
+        },
+        {
+          "number": "14",
+          "name": "GP10",
+          "dx": 0,
+          "dy": 13
+        },
+        {
+          "number": "15",
+          "name": "GP11",
+          "dx": 0,
+          "dy": 14
+        },
+        {
+          "number": "16",
+          "name": "GP12",
+          "dx": 0,
+          "dy": 15
+        },
+        {
+          "number": "17",
+          "name": "GP13",
+          "dx": 0,
+          "dy": 16
+        },
+        {
+          "number": "18",
+          "name": "GND@18",
+          "dx": 0,
+          "dy": 17
+        },
+        {
+          "number": "19",
+          "name": "GP14",
+          "dx": 0,
+          "dy": 18
+        },
+        {
+          "number": "20",
+          "name": "GP15",
+          "dx": 0,
+          "dy": 19
+        },
+        {
+          "number": "21",
+          "name": "GP16",
+          "dx": 7,
+          "dy": 19
+        },
+        {
+          "number": "22",
+          "name": "GP17",
+          "dx": 7,
+          "dy": 18
+        },
+        {
+          "number": "23",
+          "name": "GND@23",
+          "dx": 7,
+          "dy": 17
+        },
+        {
+          "number": "24",
+          "name": "GP18",
+          "dx": 7,
+          "dy": 16
+        },
+        {
+          "number": "25",
+          "name": "GP19",
+          "dx": 7,
+          "dy": 15
+        },
+        {
+          "number": "26",
+          "name": "GP20",
+          "dx": 7,
+          "dy": 14
+        },
+        {
+          "number": "27",
+          "name": "GP21",
+          "dx": 7,
+          "dy": 13
+        },
+        {
+          "number": "28",
+          "name": "GND@28",
+          "dx": 7,
+          "dy": 12
+        },
+        {
+          "number": "29",
+          "name": "GP22",
+          "dx": 7,
+          "dy": 11
+        },
+        {
+          "number": "30",
+          "name": "RUN",
+          "dx": 7,
+          "dy": 10
+        },
+        {
+          "number": "31",
+          "name": "GP26",
+          "dx": 7,
+          "dy": 9
+        },
+        {
+          "number": "32",
+          "name": "GP27",
+          "dx": 7,
+          "dy": 8
+        },
+        {
+          "number": "33",
+          "name": "AGND",
+          "dx": 7,
+          "dy": 7
+        },
+        {
+          "number": "34",
+          "name": "GP28",
+          "dx": 7,
+          "dy": 6
+        },
+        {
+          "number": "35",
+          "name": "ADC_VREF",
+          "dx": 7,
+          "dy": 5
+        },
+        {
+          "number": "36",
+          "name": "3V3_OUT",
+          "dx": 7,
+          "dy": 4
+        },
+        {
+          "number": "37",
+          "name": "3V3_EN",
+          "dx": 7,
+          "dy": 3
+        },
+        {
+          "number": "38",
+          "name": "GND@38",
+          "dx": 7,
+          "dy": 2
+        },
+        {
+          "number": "39",
+          "name": "VSYS",
+          "dx": 7,
+          "dy": 1
+        },
+        {
+          "number": "40",
+          "name": "VBUS",
+          "dx": 7,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.61,
+        "y": -1.37,
+        "width": 21,
+        "depth": 51,
+        "height": 51
+      },
+      "height_mm": 16,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: GP0",
+      "notes": "20Pソケット2本、列間7穴。42Pソケット3本でPico40極+Pololu56極を賄える。Pico雄ヘッダ40極は別購入。USB/BOOTSEL/指の余地を確保。",
+      "source_urls": [
+        "https://datasheets.raspberrypi.com/pico/pico-product-brief.pdf",
+        "https://akizukidenshi.com/goodsaffix/FHU-1.pdf",
+        "https://akizukidenshi.com/catalog/g/g105779/",
+        "https://akizukidenshi.com/catalog/g/g116132/",
+        "https://akizukidenshi.com/catalog/g/g100167/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "features": {
+        "usb_mouth": {
+          "x_mm": 8.89,
+          "y_mm": -1.37,
+          "direction": [
+            0,
+            -1
+          ],
+          "basis": "approved body front edge; cable clearance additional"
+        },
+        "bootsel": {
+          "region_mm": [
+            -1.61,
+            -1.37,
+            21,
+            14
+          ],
+          "approach": "top",
+          "basis": "conservative USB-end zone"
+        },
+        "grip_sides": [
+          "W",
+          "E"
+        ]
+      },
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: GP0"
+      },
+      "provisional": true
+    },
+    "UART_XH2": {
+      "refs": [
+        "J202",
+        "J203"
+      ],
+      "part": "B2B-XH-A(LF)(SN)",
+      "pins": [
+        {
+          "number": "1",
+          "name": "SIGNAL",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2.5,
+        "y": -3.4,
+        "width": 7.5,
+        "depth": 6.8,
+        "height": 6.8
+      },
+      "height_mm": 12,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: SIGNAL",
+      "notes": "XH2P維持。足を軽く整形し無理に押さない。XHP-2と圧着済み131312を使用可。コイル3Pと区別。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/xh.pdf",
+        "https://akizukidenshi.com/catalog/g/g112247/",
+        "https://akizukidenshi.com/catalog/g/g131312/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "body_is_conservative": true,
+      "features": {
+        "mating_face": {
+          "approach": "top",
+          "x_mm": 1.27,
+          "y_mm": 0
+        }
+      },
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: SIGNAL"
+      },
+      "provisional": true
+    },
+    "R_MFS25_3H": {
+      "refs": [
+        "R204",
+        "R205",
+        "R209",
+        "R210",
+        "R212",
+        "R214",
+        "R215"
+      ],
+      "part": "MFS25F1KB",
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 3,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 1.81,
+        "y": -1.05,
+        "width": 4,
+        "depth": 2.1,
+        "height": 2.1
+      },
+      "height_mm": 3.1,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: P1",
+      "notes": "MFS25の値・1%定格維持。水平3穴スパン、両端を見える配置。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/mf_FAITHFUL%20LINK.pdf",
+        "https://akizukidenshi.com/catalog/g/g108535/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: P1"
+      },
+      "provisional": true
+    },
+    "BAT43_DO35_3H": {
+      "refs": [
+        "D206"
+      ],
+      "part": "BAT43",
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 3,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 1.91,
+        "y": -1,
+        "width": 3.8,
+        "depth": 2,
+        "height": 2
+      },
+      "height_mm": 3,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "band at1 K",
+      "notes": "BAT43維持。帯=1K。現物の穴適合を確認。",
+      "source_urls": [
+        "https://akizukidenshi.com/catalog/g/g113907/",
+        "https://akizukidenshi.com/goodsaffix/bat43.pdf"
+      ],
+      "confidence": "primary store body; lead diameter assumed",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "band at1 K"
+      },
+      "provisional": true
+    },
+    "AHC125_WIRED_CARRIER": {
+      "refs": [
+        "U207"
+      ],
+      "part": "same IC + AE-SOT457-DIP6",
+      "pins": [
+        {
+          "number": "1",
+          "name": "/OE",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "number": "3",
+          "name": "GND",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "number": "4",
+          "name": "Y",
+          "dx": 3,
+          "dy": 2
+        },
+        {
+          "number": "5",
+          "name": "VCC",
+          "dx": 3,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.69,
+        "y": -1.46,
+        "width": 11,
+        "depth": 8,
+        "height": 8
+      },
+      "height_mm": 6,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: /OE",
+      "notes": "IC維持+115520。JSONは短い絶縁線5本の論理ピン別ホスト接続案。直挿しは列間/導通確認後。SOT5->SOT6の標準幾何位置は1/2/3/4/5 ->1/2/3/4/6(5空き)。HC125に代えない。",
+      "source_urls": [
+        "https://www.diodes.com/assets/Datasheets/74AHC1G125.pdf",
+        "https://akizukidenshi.com/catalog/g/g115520/",
+        "https://akizukidenshi.com/goodsaffix/AE-SOT457-DIP6.pdf",
+        "https://akizukidenshi.com/goodsaffix/74ahc1g125.pdf",
+        "https://akizukidenshi.com/catalog/g/g117605/"
+      ],
+      "confidence": "primary IC/adapter compatibility; wired host interface is design choice; direct stacking unverified",
+      "requires_Claude_approval": false,
+      "direct_stacking_verified": false,
+      "assembly_method": "Solder IC to carrier; identify trace continuity; short insulated0.5mm wires link original IC pins to listed host holes. Host positions are chosen interface, NOT claim of carrier trace order.",
+      "pin_mapping": {
+        "1": "SOT25 1 /OE ->host(0,0)",
+        "2": "SOT25 2 A ->host(0,1)",
+        "3": "SOT25 3 GND ->host(0,2)",
+        "4": "SOT25 4 Y ->host(3,2)",
+        "5": "SOT25 5 VCC ->host(3,0)"
+      },
+      "extra_pads": [
+        {
+          "physical_pin": "reserved_host",
+          "dx": 3,
+          "dy": 1,
+          "net": "NC",
+          "populate": false
+        }
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: /OE"
+      },
+      "provisional": true
+    },
+    "C100NF_1H": {
+      "refs": [
+        "C208",
+        "C312",
+        "C322",
+        "C332",
+        "C342"
+      ],
+      "part": "R15X7R104J2L705Y",
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -0.63,
+        "y": -1.4,
+        "width": 3.8,
+        "depth": 2.8,
+        "height": 2.8
+      },
+      "height_mm": 4.8,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: P1",
+      "notes": "維持。局所電源のすぐそばへ。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/Multilayer_capacitor.pdf",
+        "https://akizukidenshi.com/catalog/g/g131527/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: P1"
+      },
+      "provisional": true
+    },
+    "C220NF_2H": {
+      "refs": [
+        "C211"
+      ],
+      "part": "RDER71H224K1K1H03B",
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 0.29,
+        "y": -1.575,
+        "width": 4.5,
+        "depth": 3.15,
+        "height": 3.15
+      },
+      "height_mm": 4.5,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: P1",
+      "notes": "維持。VREF分圧のそば。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/RDER71H224K1K1H03B.pdf",
+        "https://akizukidenshi.com/catalog/g/g108146/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: P1"
+      },
+      "provisional": true
+    },
+    "HDR_SWITCH_J213": {
+      "refs": [
+        "J213"
+      ],
+      "part": "PH-1x40SG cut1x2",
+      "pins": [
+        {
+          "number": "1",
+          "name": "ARM_SW",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "SLEEP",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.27,
+        "y": -1.25,
+        "width": 5.08,
+        "depth": 2.5,
+        "height": 2.5
+      },
+      "height_mm": 8.6,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: ARM_SW",
+      "notes": "2P切出しを維持。相手を3A/contactのFHU105779切片にしAWG20/22線をはんだ付け・絶縁する案。パネル側で引張を受ける。J213は信号mA。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/PH-1xXXSG-AD.pdf",
+        "https://akizukidenshi.com/catalog/g/g100167/",
+        "https://akizukidenshi.com/catalog/g/g105779/",
+        "https://akizukidenshi.com/goodsaffix/FHU-1.pdf"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: ARM_SW"
+      },
+      "provisional": true
+    },
+    "POLOLU4035_SOCKET_5H": {
+      "refs": [
+        "U310",
+        "U320",
+        "U330",
+        "U340"
+      ],
+      "part": "Pololu4035(md41a) + FHU-1x7SG x2",
+      "pins": [
+        {
+          "number": "1",
+          "name": "VM",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GND@2",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "number": "3",
+          "name": "IN1",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "number": "4",
+          "name": "IN2",
+          "dx": 0,
+          "dy": 3
+        },
+        {
+          "number": "5",
+          "name": "PMODE",
+          "dx": 0,
+          "dy": 4
+        },
+        {
+          "number": "6",
+          "name": "SLEEP",
+          "dx": 0,
+          "dy": 5
+        },
+        {
+          "number": "7",
+          "name": "VREF",
+          "dx": 0,
+          "dy": 6
+        },
+        {
+          "number": "8",
+          "name": "CS",
+          "dx": 5,
+          "dy": 6
+        },
+        {
+          "number": "9",
+          "name": "FAULT",
+          "dx": 5,
+          "dy": 5
+        },
+        {
+          "number": "10",
+          "name": "IMODE",
+          "dx": 5,
+          "dy": 4
+        },
+        {
+          "number": "11",
+          "name": "OUT2",
+          "dx": 5,
+          "dy": 3
+        },
+        {
+          "number": "12",
+          "name": "OUT1",
+          "dx": 5,
+          "dy": 2
+        },
+        {
+          "number": "13",
+          "name": "GND@13",
+          "dx": 5,
+          "dy": 1
+        },
+        {
+          "number": "14",
+          "name": "VIN",
+          "dx": 5,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.57,
+        "y": -1.57,
+        "width": 15.84,
+        "depth": 18.38,
+        "height": 18.38
+      },
+      "height_mm": 15,
+      "hot": true,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: VM",
+      "notes": "7Pソケット2本/台。承認済みR2/R4除去・R3維持。両GNDを配線、VM/IMODEはNC。体端間3穴以上を開始目安(工学提案/温度要実測)。",
+      "source_urls": [
+        "https://www.pololu.com/file/0J1882/drv887x-single-brushed-dc-motor-driver-carrier-dimensions.pdf",
+        "https://akizukidenshi.com/goodsaffix/FHU-1.pdf",
+        "https://akizukidenshi.com/catalog/g/g105779/",
+        "https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-6U5X",
+        "https://www.pololu.com/product/4035"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "features": {
+        "grip_sides": [
+          "W",
+          "E"
+        ]
+      },
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: VM"
+      },
+      "provisional": true
+    },
+    "COIL_XH3_OUTER": {
+      "refs": [
+        "J313",
+        "J323",
+        "J333",
+        "J343"
+      ],
+      "part": "B3B-XH-A(LF)(SN)+XHP-3+precrimp131312",
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "OUT2",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2.5,
+        "y": -3.4,
+        "width": 10,
+        "depth": 6.8,
+        "height": 6.8
+      },
+      "height_mm": 12,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: OUT1",
+      "notes": "コイルはXH3Pの両端。論理1OUT1->物理1、論理2OUT2->物理3、中央NC。UARTは2P維持。圧着済み131312はUL1007 AWG26/200mm。3AはAWG22時の定格でAWG26へ適用不可。用途<=0.6Aは温度確認。Claude承認待ち。",
+      "source_urls": [
+        "https://akizukidenshi.com/goodsaffix/VH.pdf",
+        "https://akizukidenshi.com/catalog/g/g112248/",
+        "https://akizukidenshi.com/catalog/g/g112256/",
+        "https://akizukidenshi.com/catalog/g/g131312/",
+        "https://akizukidenshi.com/goodsaffix/xh.pdf",
+        "https://akizukidenshi.com/goodsaffix/DG01032-0069-01(112265_xxxx).pdf"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": true,
+      "pin_mapping": {
+        "1": "physical XH3 pin1 OUT1",
+        "2": "physical XH3 pin3 OUT2"
+      },
+      "extra_pads": [
+        {
+          "physical_pin": "2",
+          "name": "CENTRE_UNUSED",
+          "dx": 1,
+          "dy": 0,
+          "net": "NC",
+          "populate": true
+        }
+      ],
+      "body_is_conservative": true,
+      "features": {
+        "mating_face": {
+          "approach": "top",
+          "x_mm": 2.54,
+          "y_mm": 0
+        }
+      },
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: OUT1"
+      },
+      "provisional": true
+    },
+    "PROBE_PIN": {
+      "refs": [
+        "TP460",
+        "TP461",
+        "TP462",
+        "TP463",
+        "TP464",
+        "TP465",
+        "TP466",
+        "TP467",
+        "TP468",
+        "TP471",
+        "TP472",
+        "TP473",
+        "TP474"
+      ],
+      "part": "Bare plated pad",
+      "pins": [
+        {
+          "number": "1",
+          "name": "TP",
+          "dx": 0,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.27,
+        "y": -1.25,
+        "width": 2.54,
+        "depth": 2.5,
+        "height": 2.5
+      },
+      "height_mm": 8.6,
+      "hot": false,
+      "hole_diameter_mm": 1.0,
+      "polarity_mark": "pin1: TP",
+      "notes": "ヘッダ単ピンをプローブ点にする。全13参照をJSONへ保持。共用/省略はClaude/T6が明示。露出0.6mm線ループも可。",
+      "source_urls": [
+        "https://akizukidenshi.com/catalog/g/g100167/"
+      ],
+      "confidence": "primary store/maker page opened; approved dimensions; grid forming/assembly heights are engineering choices",
+      "requires_Claude_approval": false,
+      "polarity": {
+        "pin": "1",
+        "label": "pin1: TP"
+      },
+      "provisional": true
+    }
+  },
+  "unresolved_mechanical_checks": [
+    "Exact board rows/columns and mounting exclusions not visually verified; planning grid is NOT release geometry.",
+    "Dry-fit sockets/headers/M78AR05 into actual nominal1mm holes.",
+    "U207 direct trace map and column spacing not visually verified. Explicit wired interface avoids guessing.",
+    "M78AR05 body offset conservative; refine only after visual/physical check.",
+    "Panel jack contact identity/fork plug fit and BAT43 lead size need physical check."
+  ],
+  "verification": {
+    "in_scope_refs": 54,
+    "covered_refs": 54,
+    "footprint_types": 20,
+    "logical_pin_sets_match_parts_csv": true,
+    "integer_grid_offsets": true,
+    "approved_files_modified": false
+  },
+  "source_schema_version": "1.0"
+}

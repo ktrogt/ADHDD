@@ -1,0 +1,722 @@
+[
+  {
+    "seed": 200,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 201,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 202,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 203,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 204,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 205,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 206,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 207,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 208,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 209,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 210,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 211,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 212,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 213,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 214,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 215,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 216,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 217,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 218,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 219,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 220,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 221,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 222,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 223,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 224,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 225,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 226,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 227,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 228,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 229,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 230,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 231,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 232,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 233,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 234,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 235,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 236,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 237,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 238,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 239,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 240,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 241,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 242,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 243,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 244,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 245,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 246,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 247,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 248,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 249,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 250,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 251,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 252,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 253,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 254,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 255,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 256,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 257,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 258,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 259,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 260,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 261,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 262,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 263,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 264,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 265,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 266,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 267,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 268,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 269,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 270,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 271,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 272,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 273,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 274,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 275,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 276,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 277,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 278,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 279,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 280,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 281,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 282,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 283,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 284,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 285,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 286,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 287,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 288,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 289,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 290,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 291,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 292,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 293,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 294,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 295,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 296,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 297,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 298,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 299,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 300,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 301,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 302,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 303,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 304,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 305,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 306,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 307,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 308,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 309,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 310,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 311,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 312,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 313,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 314,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 315,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 316,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 317,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 318,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 319,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 320,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 321,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 322,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 323,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 324,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 325,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 326,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 327,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 328,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 329,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 330,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 331,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 332,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 333,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 334,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 335,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 336,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 337,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 338,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 339,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 340,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 341,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 342,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 343,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 344,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 345,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 346,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 347,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 348,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 349,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 350,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 351,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 352,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 353,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 354,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 355,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 356,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 357,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 358,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 359,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 360,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 361,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 362,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 363,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 364,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 365,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 366,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 367,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 368,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 369,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 370,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 371,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 372,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 373,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 374,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 375,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 376,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 377,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 378,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  },
+  {
+    "seed": 379,
+    "error": "HDD2_IN1/HDD2_IN1 collides at ['AV12'], [(35, 9), (35, 10), (47, 10), (47, 13)]"
+  }
+]

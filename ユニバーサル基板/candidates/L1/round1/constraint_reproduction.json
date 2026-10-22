@@ -1,0 +1,341 @@
+{
+  "domain": "all integer origins in [-12,+12]^2, all cardinal rotations; near constraints bound every relevant origin inside this domain",
+  "cases": [
+    {
+      "case": "P13 C108 + H07",
+      "bound_holes": 4,
+      "minimum_body_gap_holes": 1,
+      "original_feasible_placements": 0,
+      "first_feasible_bound": {
+        "max_manhattan_holes": 6,
+        "examples": [
+          [
+            12,
+            -6,
+            0,
+            0,
+            1.5157480314960627,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            -5,
+            -1,
+            90,
+            1.015748031496063,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            -5,
+            1,
+            270,
+            1.015748031496063,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            0,
+            -6,
+            0,
+            1.4724409448818891,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            0,
+            6,
+            0,
+            1.4724409448818891,
+            [
+              6,
+              6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "case": "P13 C109 + H07",
+      "bound_holes": 4,
+      "minimum_body_gap_holes": 1,
+      "original_feasible_placements": 0,
+      "first_feasible_bound": {
+        "max_manhattan_holes": 6,
+        "examples": [
+          [
+            12,
+            2,
+            -6,
+            180,
+            1.4724409448818891,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            2,
+            6,
+            180,
+            1.4724409448818891,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            7,
+            -1,
+            90,
+            1.015748031496063,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            7,
+            1,
+            270,
+            1.015748031496063,
+            [
+              6,
+              6
+            ]
+          ],
+          [
+            12,
+            8,
+            0,
+            180,
+            1.515748031496062,
+            [
+              6,
+              6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "case": "P15 C208 + M01",
+      "bound_holes": 2,
+      "minimum_body_gap_holes": 0.4,
+      "original_feasible_placements": 0,
+      "first_feasible_bound": {
+        "max_manhattan_holes": 4,
+        "examples": [
+          [
+            8,
+            1,
+            -2,
+            180,
+            0.8740157480314962,
+            [
+              4,
+              4
+            ]
+          ],
+          [
+            8,
+            3,
+            4,
+            180,
+            0.874015748031496,
+            [
+              4,
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "case": "V02 R210 + M01",
+      "bound_holes": 2,
+      "minimum_body_gap_holes": 0.4,
+      "original_feasible_placements": 0,
+      "first_feasible_bound": {
+        "max_manhattan_holes": 3,
+        "examples": [
+          [
+            5,
+            -1,
+            -2,
+            0,
+            0.9665354330708662,
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            5,
+            -1,
+            2,
+            0,
+            0.9665354330708662,
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            5,
+            0,
+            -2,
+            0,
+            0.9665354330708662,
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            5,
+            0,
+            2,
+            0,
+            0.9665354330708662,
+            [
+              2,
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "case": "P02 TVS shortest grid route + M01",
+      "bound_holes": 3,
+      "minimum_body_gap_holes": 0.4,
+      "original_feasible_placements": 0,
+      "first_feasible_bound": {
+        "max_manhattan_holes": 5,
+        "examples": [
+          [
+            8,
+            -5,
+            0,
+            0,
+            0.8897637795275589,
+            [
+              5,
+              3
+            ]
+          ],
+          [
+            8,
+            3,
+            0,
+            0,
+            0.8897637795275589,
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            10,
+            -1,
+            -4,
+            0,
+            1.3818897637795278,
+            [
+              5,
+              5
+            ]
+          ],
+          [
+            10,
+            -1,
+            4,
+            0,
+            1.3818897637795278,
+            [
+              5,
+              5
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "P02_minimum_possible_euclidean_upper_pair_holes": [
+    4.123105625617661,
+    -1,
+    -4,
+    0
+  ],
+  "driver_ceramic_P05_feasible": [
+    [
+      4,
+      0,
+      -7,
+      0,
+      0.830708661417324,
+      [
+        2,
+        2
+      ]
+    ]
+  ],
+  "driver_coil_P11_feasible": [
+    [
+      7,
+      1,
+      -8,
+      0,
+      1.043307086614174,
+      [
+        4,
+        3
+      ]
+    ],
+    [
+      7,
+      2,
+      -9,
+      90,
+      0.4291338582677165,
+      [
+        4,
+        3
+      ]
+    ],
+    [
+      7,
+      2,
+      -8,
+      0,
+      1.043307086614174,
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  "driver_ceramic_and_coil_joint_feasible_count": 0,
+  "board_M02": {
+    "actual_mount_min_edge_distance_mm": 5.0,
+    "rule_min_mm": 5.08,
+    "status": "FAIL independent of placement"
+  },
+  "no_rule_relaxation_approved_or_applied": true
+}

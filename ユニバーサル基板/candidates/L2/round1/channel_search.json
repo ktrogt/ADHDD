@@ -1,0 +1,1804 @@
+{
+  "records": [
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 35,
+      "bare_bends": 82,
+      "mm": 3677.92,
+      "score": 4955872.323
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 89,
+      "mm": 3789.68,
+      "score": 4959193.265
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mode": "inputs:6,2,5,0,4,3,7,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3837.94,
+      "score": 4958055.525
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 93,
+      "mm": 3810.0,
+      "score": 4955000.403
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 92,
+      "mm": 3949.7,
+      "score": 5058419.014
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "mode": "inputs:4,6,2,7,0,1,5,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3837.94,
+      "score": 4958051.525
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 35,
+      "bare_bends": 82,
+      "mm": 3677.92,
+      "score": 4955860.323
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 40,
+      "bare_bends": 95,
+      "mm": 3721.1,
+      "score": 4963102.685
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "mode": "inputs:2,7,0,6,5,3,1,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 95,
+      "mm": 3802.38,
+      "score": 5056138.783
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 35,
+      "bare_bends": 82,
+      "mm": 3677.92,
+      "score": 4955862.323
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 36,
+      "bare_bends": 93,
+      "mm": 3718.56,
+      "score": 4958026.145
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "mode": "inputs:2,7,1,5,3,4,0,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 40,
+      "bare_bends": 101,
+      "mm": 4025.9,
+      "score": 5057345.485
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 93,
+      "mm": 3810.0,
+      "score": 4954988.403
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 45,
+      "bare_bends": 94,
+      "mm": 3997.96,
+      "score": 5058467.274
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "mode": "inputs:2,0,1,7,3,5,4,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 36,
+      "bare_bends": 101,
+      "mm": 3815.08,
+      "score": 4957037.483
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 93,
+      "mm": 3810.0,
+      "score": 4954990.403
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 36,
+      "bare_bends": 100,
+      "mm": 3853.18,
+      "score": 4956156.765
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mode": "inputs:0,7,5,1,2,3,4,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 93,
+      "mm": 3810.0,
+      "score": 4954990.403
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 36,
+      "bare_bends": 92,
+      "mm": 3675.38,
+      "score": 4957917.783
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 85,
+      "mm": 3779.52,
+      "score": 4958183.105
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mode": "inputs:1,6,2,5,4,7,0,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 36,
+      "bare_bends": 97,
+      "mm": 3863.34,
+      "score": 4959140.925
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 35,
+      "bare_bends": 95,
+      "mm": 3769.36,
+      "score": 4955985.763
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 99,
+      "mm": 3982.72,
+      "score": 5057338.305
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "mode": "inputs:2,1,7,5,4,3,0,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 36,
+      "bare_bends": 99,
+      "mm": 3860.8,
+      "score": 4958076.385
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 37,
+      "bare_bends": 92,
+      "mm": 3685.54,
+      "score": 4956929.943
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 82,
+      "mm": 3840.48,
+      "score": 4959238.065
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mode": "inputs:4,2,5,1,7,0,3,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 38,
+      "bare_bends": 84,
+      "mm": 3688.08,
+      "score": 4957925.665
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 100,
+      "mm": 3985.26,
+      "score": 4955357.663
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 38,
+      "bare_bends": 109,
+      "mm": 3779.52,
+      "score": 4960057.105
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mode": "inputs:4,7,0,3,5,2,6,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 38,
+      "bare_bends": 90,
+      "mm": 3721.1,
+      "score": 4955981.503
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 35,
+      "bare_bends": 95,
+      "mm": 3769.36,
+      "score": 4954967.763
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 40,
+      "bare_bends": 101,
+      "mm": 4030.98,
+      "score": 5057386.565
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "mode": "inputs:7,6,5,1,4,3,2,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 100,
+      "mm": 3916.68,
+      "score": 5058294.265
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 100,
+      "mm": 3985.26,
+      "score": 4955357.663
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 38,
+      "bare_bends": 109,
+      "mm": 3779.52,
+      "score": 4960057.105
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "mode": "inputs:3,7,5,6,2,0,4,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 91,
+      "mm": 3870.96,
+      "score": 4958234.545
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5055529.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 95,
+      "mm": 3726.18,
+      "score": 4963107.765
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "mode": "inputs:6,7,5,0,1,2,3,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 37,
+      "bare_bends": 96,
+      "mm": 3822.7,
+      "score": 4959070.285
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5055533.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 40,
+      "bare_bends": 85,
+      "mm": 3680.46,
+      "score": 4957996.045
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "mode": "inputs:1,0,6,7,5,4,3,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5055535.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5054529.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 82,
+      "mm": 3840.48,
+      "score": 4959228.065
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "mode": "inputs:4,3,5,0,6,1,7,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 39,
+      "bare_bends": 82,
+      "mm": 3644.9,
+      "score": 4957910.485
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5053533.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 96,
+      "mm": 3782.06,
+      "score": 4958123.645
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mode": "inputs:6,0,1,4,5,3,2,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 44,
+      "bare_bends": 96,
+      "mm": 3949.7,
+      "score": 4957393.285
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5054521.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 86,
+      "mm": 3738.88,
+      "score": 4958076.465
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "mode": "inputs:5,4,6,2,7,3,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 103,
+      "mm": 3980.18,
+      "score": 4956396.583
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5053521.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 38,
+      "bare_bends": 107,
+      "mm": 3784.6,
+      "score": 4960086.185
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "mode": "inputs:0,3,6,5,1,2,7,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 90,
+      "mm": 4074.16,
+      "score": 5053521.474
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 91,
+      "mm": 3779.52,
+      "score": 4956971.923
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 89,
+      "mm": 3698.24,
+      "score": 5059101.825
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "inputs:7,1,2,3,6,5,4,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 95,
+      "mm": 3802.38,
+      "score": 5056138.783
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 91,
+      "mm": 3779.52,
+      "score": 4956973.923
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 36,
+      "bare_bends": 94,
+      "mm": 3644.9,
+      "score": 4957916.485
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "mode": "inputs:6,3,0,4,1,5,7,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3782.06,
+      "score": 4957993.645
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 35,
+      "bare_bends": 95,
+      "mm": 3782.06,
+      "score": 4956982.463
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 40,
+      "bare_bends": 101,
+      "mm": 4030.98,
+      "score": 5057376.565
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "mode": "inputs:7,3,4,2,1,5,0,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 92,
+      "mm": 3949.7,
+      "score": 5057419.014
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 35,
+      "bare_bends": 95,
+      "mm": 3782.06,
+      "score": 4955984.463
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 96,
+      "mm": 3782.06,
+      "score": 4958123.645
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "mode": "inputs:4,3,0,6,1,7,5,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 46,
+      "bare_bends": 92,
+      "mm": 3949.7,
+      "score": 5056421.014
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 92,
+      "mm": 4013.2,
+      "score": 4957354.514
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 86,
+      "mm": 3738.88,
+      "score": 4958076.465
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "mode": "inputs:6,2,3,4,5,0,7,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 39,
+      "bare_bends": 105,
+      "mm": 4267.2,
+      "score": 4958594.785
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "mode": "inputs:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 92,
+      "mm": 4013.2,
+      "score": 4956354.514
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 38,
+      "bare_bends": 107,
+      "mm": 3784.6,
+      "score": 4960086.185
+    },
+    {
+      "variant": "F2_horizontal_channels",
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "mode": "inputs:5,1,6,0,7,2,4,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 98,
+      "mm": 3997.96,
+      "score": 4957435.545
+    }
+  ]
+}

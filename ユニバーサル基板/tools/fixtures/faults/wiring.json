@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "conductors": [
+    {
+      "id": "A1",
+      "net": "A",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "B3",
+        "G3"
+      ],
+      "gauge": "AWG26"
+    },
+    {
+      "id": "B1",
+      "net": "B",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "D1",
+        "D7"
+      ],
+      "gauge": "AWG26"
+    }
+  ]
+}

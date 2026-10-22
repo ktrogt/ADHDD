@@ -1,0 +1,25 @@
+{
+  "required_outputs_present": true,
+  "JSON_CSV_SVG_parse": "PASS",
+  "fresh_verifier_matches_export": true,
+  "CSV_rows": {
+    "out/wirelist.csv": 125,
+    "out/continuity.csv": 1534,
+    "out/netlist_actual.csv": 186
+  },
+  "LVS": "PASS",
+  "hard_acceptance": "FAIL",
+  "files_SHA256": {
+    "placement.json": "c86d2141d188401b58ebc46497a6dc0319ff23c568e56fbffb185ff027b5c154",
+    "wiring.json": "03f2afeb492678bf5ca055ba140da3d78b3fe1e4998700384714b5b1ecea2b4d",
+    "summary.md": "9ca38075886aa72b5a8dd2d35ddcdce5e6fbb08f90c1cb86ed42f85bc316cd35",
+    "out/top.svg": "b8cce80f0223979368e8a9fdc03d390f8cfcc5d983eb776385fbb1c9220eaa01",
+    "out/bottom.svg": "03709947a1d683ac76d022bb5e8618ab538dfcac09821069fe9f934918a27e31",
+    "out/overlay.svg": "ceca7507239ef8dad9fd5f241280f8e7cc9a7579a99ba909e8515f7fd1701ec3",
+    "out/report.json": "5fc1ecf0747813d800557e795d31e6faff210a735d984619e9f1dde8da14706d",
+    "out/metrics.json": "7551a9aedbecd40a6ff179f044db76b4c5185f856c25860c017dd8ab02491c8b",
+    "out/wirelist.csv": "60d44a9c8dab5713c05b374b62f791d6f17c7521f939c5f665ad85e0037e3202",
+    "out/continuity.csv": "f300157f4e28f0933cc1be14c2cb7ae0c57f548d2a49e0c3254b8b233ebf836c",
+    "out/netlist_actual.csv": "b4af23056730465bb063b034d591f0f7845dbce15228d97a61bd3eda96c3f0fa"
+  }
+}

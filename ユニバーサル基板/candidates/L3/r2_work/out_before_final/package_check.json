@@ -1,0 +1,29 @@
+{
+  "package_consistency": "PASS",
+  "LVS": "PASS",
+  "hard_audit": "FAIL",
+  "scope": "exact final report; immutable input copies; CSV counts; SVG 1:1 scale, 20mm ruler and mirrored pin coordinates",
+  "manifest_sha256": {
+    "placement.json": "e69bed6258f64d7264940a560d6ddb4044e2db159abfaf7a9baa97b4ca145e40",
+    "wiring.json": "13f9c9e02d482829bad16077e1ab5ab8c8d94f0c6014b5e17640d3a5bf386d71",
+    "summary.md": "03b3200363db3463f8a6ec971437dee4e1c76778c012bbba95ae0487cf0f81f1",
+    "constraints.md": "25d2471c2e06adcab1c1f50ed806741f7f65db8ce532fc5a22dbf4bd249fe837",
+    "README.md": "c9c8fd4549fbec19c2c0397df303a6b733c671491e3fc813588b562f3190326d",
+    "input_hashes.json": "20285cf68b56f312180cd354c4b965266854264adf0dab81ada3ed29a1e1376d",
+    "infeasibility.json": "a346dcaffa88ac10818cbeb66f434d62814e6fa5fb2b8c921006f18bc133927a",
+    "out/top.svg": "849b0c5a485355ca45a4a8a89ce6d472a0fe4f5ee5a15f52304c506decde027a",
+    "out/bottom.svg": "beec1279e02dad3a68e78adc6cf16c06876e0bc683c43bce8189759e8eaedddb",
+    "out/overlay.svg": "aacdb045655c1af839ef573f17b5efdb79c3335c03f2f1071c9e798edc5dc999",
+    "out/report.json": "79b5d43c53c08487fceacaee7afe079488999dbc01f417d181c276c5f539f08a",
+    "out/metrics.json": "c0ff7d009de28e7b2f3dc41b01e7303efe38c440dd729e4140274a8e70b62c87",
+    "out/wirelist.csv": "9cd0f27be99e0c0384ca50da1271af1b7bd612c653e306a7096314b1d9d561e9",
+    "out/continuity.csv": "aaae29e7f7ecaacf4c4389bbea52f2e86f1ebe5913a21c42e01611cb5239f57d",
+    "out/netlist_actual.csv": "b4af23056730465bb063b034d591f0f7845dbce15228d97a61bd3eda96c3f0fa",
+    "out/extended_metrics.json": "3d0d6fd8666dfa0201dba8c8815b934208be55f116bc4541e9eae4c11caeb03d",
+    "out/assembly_pin_map.csv": "b8a6b85ddb118d527ed465a47df991af03822646af587f77dba96fd7819c1e9a",
+    "out/assembly_solder_sites.csv": "6aac2229d8aa01a4439edef0a870cec1fe96b2b663d47c7d414197ba182d188c",
+    "out/wire_supports.csv": "9ee7fc64f7c5dc54dc67be0ccc49e62aeb63514feabe2afb294385add79483f0",
+    "out/solder_plan_validation.json": "898574c09e4168db702a561f4e306e8a6faf3b122f8cf6f3648dc2d256526f13",
+    "out/verify.log": "8f97708fd8b13911cc49f5ebad8360d4d718e23690c638ac3d5b0c6fe387d140"
+  }
+}

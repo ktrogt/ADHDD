@@ -1,0 +1,153 @@
+{
+  "hard_rule_counts": {
+    "PASS": 27,
+    "FAIL": 9,
+    "UNCHECKED": 25
+  },
+  "soft_rule_counts": {
+    "PASS": 9,
+    "FAIL": 6,
+    "UNCHECKED": 3
+  },
+  "T7_soft_score_evaluated_lower_bound": 176.356546,
+  "T7_soft_by_priority": {
+    "3": 15.375,
+    "2": 160.98154615053318
+  },
+  "tool_generic_score": 5854351.219,
+  "tool_generic_score_note": "Shared T7 input has no top-level weights; raw metrics.score uses tool defaults. T7 weighted atomic penalties are reported separately, without pretending unchecked soft rules pass.",
+  "bare_pieces": 86,
+  "bare_straight_segments": 173,
+  "bare_bends": 87,
+  "jumper_bends": 0,
+  "wire_by_gauge_mm": {
+    "1.0 mm": {
+      "bare": 375.92
+    },
+    "0.6 mm": {
+      "bare": 193.04
+    },
+    "AWG22": {
+      "jumper": 102.606
+    },
+    "0.5 mm": {
+      "bare": 657.86
+    },
+    "AWG18": {
+      "jumper": 30.9
+    },
+    "0.51 mm": {
+      "bare": 685.8
+    },
+    "AWG24": {
+      "jumper": 1155.636
+    }
+  },
+  "IN_lines": [
+    {
+      "net": "HDD1_IN1",
+      "mm": 89.803
+    },
+    {
+      "net": "HDD1_IN2",
+      "mm": 86.21
+    },
+    {
+      "net": "HDD2_IN1",
+      "mm": 64.758
+    },
+    {
+      "net": "HDD2_IN2",
+      "mm": 61.382
+    },
+    {
+      "net": "HDD3_IN1",
+      "mm": 51.368
+    },
+    {
+      "net": "HDD3_IN2",
+      "mm": 49.318
+    },
+    {
+      "net": "HDD4_IN1",
+      "mm": 62.887
+    },
+    {
+      "net": "HDD4_IN2",
+      "mm": 62.887
+    }
+  ],
+  "longest_IN_line": {
+    "net": "HDD1_IN1",
+    "mm": 89.803
+  },
+  "VREF_branches": [
+    {
+      "channel": 1,
+      "mm": 45.009
+    },
+    {
+      "channel": 2,
+      "mm": 14.811
+    },
+    {
+      "channel": 3,
+      "mm": 30.691
+    },
+    {
+      "channel": 4,
+      "mm": 64.758
+    }
+  ],
+  "power_paths": [
+    {
+      "channel": 1,
+      "VM_from_J104_mm": 45.72,
+      "GND13_from_J101_mm": 53.34,
+      "GND2_from_J101_mm": 40.64
+    },
+    {
+      "channel": 2,
+      "VM_from_J104_mm": 81.28,
+      "GND13_from_J101_mm": 88.9,
+      "GND2_from_J101_mm": 76.2
+    },
+    {
+      "channel": 3,
+      "VM_from_J104_mm": 116.84,
+      "GND13_from_J101_mm": 124.46,
+      "GND2_from_J101_mm": 111.76
+    },
+    {
+      "channel": 4,
+      "VM_from_J104_mm": 152.4,
+      "GND13_from_J101_mm": 160.02,
+      "GND2_from_J101_mm": 147.32
+    }
+  ],
+  "solder_sites_conservative_all_contacted_pads": 863,
+  "component_and_adapter_tails": 193,
+  "wire_end_terminations": 250,
+  "wire_pieces": 125,
+  "body_bbox_on_nominal_actual_board_mm": [
+    6.16,
+    9.15,
+    145.11,
+    107.39
+  ],
+  "bodies_fit_nominal_155x114_board": true,
+  "physical_origin_is_derived_not_metrologically_verified": true,
+  "wire_graph_cycle_ranks_nonzero": {},
+  "input_SHA256": {
+    "board.json": "4d05df73570253574b25fd102f53109fd5be6f02c220ce3b161f55e0789f5362",
+    "footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+    "netlist_ub.csv": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+    "parts_fit.csv": "04db57744b828f6031011d5a1eced984c43a16e3cf0e7d56bb37d27a5cc95342",
+    "design_rules.json": "c2400b3408289b6391d7f44396c7d466bf0acc3d4ea208b5494f319c146228f0",
+    "design_rules.md": "144edb292b5fe8c82a5f7413f27fc433fd71fd635890339cc804a311b95d9220",
+    "BRIEF.md": "fcaf7d58e88fddb0ba04d33af2d540d7d94e0b35f210214c28e08bf6f330ed67"
+  },
+  "local_approved_copies_byte_identical": true,
+  "solder_sites_with_end_bend_8hole_support_plan": 361,
+  "supports_are_planned_not_physically_verified": true
+}

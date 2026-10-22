@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Perfboard conductors v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "conductors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "net": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "bare",
+              "bridge",
+              "jumper"
+            ]
+          },
+          "side": {
+            "enum": [
+              "top",
+              "bottom"
+            ]
+          },
+          "path": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z]+[1-9][0-9]*$"
+            },
+            "minItems": 2
+          },
+          "gauge": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "colour": {
+            "type": "string",
+            "minLength": 1
+          },
+          "area_mm2": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "locked": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "net",
+          "kind",
+          "path"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "conductors"
+  ]
+}

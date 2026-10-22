@@ -1,0 +1,35 @@
+{
+  "package_consistency": "PASS",
+  "comparison_tuple": [
+    true,
+    0,
+    2,
+    38,
+    220.862152,
+    62,
+    3385.17
+  ],
+  "ranking_pass": false,
+  "scope": "saved report matches inputs; exports and SVG scale/labels checked; infeasible hard rules not waived",
+  "sha256": {
+    "placement.json": "35b299fde7de18d0490c6f3f73828404270e16367ba4eec4304d8406eaeb3f94",
+    "wiring.json": "28753a7c7781f3d22dd80c7336af82bb69d227ed4ef5da8a3f1c950f4d093ffc",
+    "summary.md": "c236cd8f7dc49128b0acb84c465967d39c7374fe39d395cfef5ca77a5ec20b0a",
+    "constraints.md": "61665049b1a19e8bb3d9d47bee5130d5423dd400d895fbe4c5617a34f2beb2b9",
+    "README.md": "19850f7a4a5623d299754a3e7a0b00e1edac7cdd967bba90b64720b1970bfbbb",
+    "infeasibility.json": "6063ad2f4596fe39a758f9e658b7f45fcfba6146bd439d5b146531c1946a973c",
+    "out/top.svg": "ee5ed0a992b0b1be5fb08f1e6f7f615d54aa69d3445510f40f877e0844d933c1",
+    "out/bottom.svg": "3304f051e575fa0f5f8b7fb10f00ea65e2a83edd97e078a0dd48e15d469c30f5",
+    "out/overlay.svg": "34b5abb6ae0fc43d35ef7378be343bef0e0e2cb9030b5c721135f87cfef0783c",
+    "out/report.json": "844c18432ef5b08d19cd4382d899980bec00c30641049b2845d417cb8fc80647",
+    "out/metrics.json": "a2b3ee76d0aabb7d8ee5967e02b9d2a837ea069e4a340f073bcf509bf8221212",
+    "out/wirelist.csv": "27323caeaddbb0911d6edebbe6649e2c7fea63221477d0ab183727429367c3fd",
+    "out/continuity.csv": "1665ad562d04f91615ce425986b46f12de3de43de4d78e2897f427ab27a91216",
+    "out/netlist_actual.csv": "b4af23056730465bb063b034d591f0f7845dbce15228d97a61bd3eda96c3f0fa",
+    "out/r2_east_edge_certificate.json": "278f97e040c339eef7ffa20df0bcdce56cf30c26870b524168eb8b097902217d",
+    "out/r2_column_feasibility.json": "6398c2dd97a686507c43ace312a631656e6be62206113161370f049af7746d11",
+    "out/extended_metrics.json": "72a6a07df483c80197797d2c477f8aeed63e19e94a275ca0743b8e8978bf9fdb",
+    "out/grip_review.json": "6f27ea45cb94b46b51382bc4566fff569669937ed7c7328dfd6e2a84ae96c963",
+    "out/assembly_pin_map.csv": "153a5f7c09403211d5a6e451b9327838936a648e8218500096bf63562081cd8f"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "selftests": 71,
+  "selftests_pass": true,
+  "demo_pass": true,
+  "demo_lvs_pass": true,
+  "deterministic_reroute": true,
+  "svg_xml_files": 18,
+  "svg_bottom_mirrored": true,
+  "svg_1x_fits_printable_a4_landscape": true,
+  "wirelist_steps": 120,
+  "continuity_tests": 1694,
+  "deliberate_faults_detected": true,
+  "valid_synthetic_case_pass": true,
+  "metrics": {
+    "wire_length_mm": {
+      "bare": 1402.08,
+      "bridge": 2.54,
+      "jumper": 3360.42
+    },
+    "total_wire_mm": 4765.04,
+    "jumpers": 57,
+    "bridges": 1,
+    "conductors": 120,
+    "jumper_over_exposed_crossings": 316,
+    "bbox_mm": [
+      6.01,
+      2.12,
+      147.32,
+      104.6
+    ],
+    "used_bbox_area_mm2": 14481.449,
+    "used_area_fraction": 0.83134,
+    "power_path_lengths": [
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U310.VIN",
+        "length_mm": 175.26
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U320.VIN",
+        "length_mm": 142.24
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U330.VIN",
+        "length_mm": 124.46
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U340.VIN",
+        "length_mm": 157.48
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@2",
+        "length_mm": 243.84
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@13",
+        "length_mm": 256.54
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@2",
+        "length_mm": 271.78
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@13",
+        "length_mm": 284.48
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@2",
+        "length_mm": 299.72
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@13",
+        "length_mm": 312.42
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@2",
+        "length_mm": 327.66
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@13",
+        "length_mm": 340.36
+      }
+    ],
+    "longest_signal_nets": [
+      {
+        "net": "FAULT",
+        "length_mm": 314.96
+      },
+      {
+        "net": "SLEEP",
+        "length_mm": 297.18
+      },
+      {
+        "net": "VREF",
+        "length_mm": 254.0
+      },
+      {
+        "net": "ARM",
+        "length_mm": 170.18
+      },
+      {
+        "net": "HDD4_IN1",
+        "length_mm": 162.56
+      },
+      {
+        "net": "HDD4_IN2",
+        "length_mm": 162.56
+      },
+      {
+        "net": "HDD4_CS",
+        "length_mm": 152.4
+      },
+      {
+        "net": "HDD3_IN1",
+        "length_mm": 139.7
+      },
+      {
+        "net": "HDD3_IN2",
+        "length_mm": 139.7
+      },
+      {
+        "net": "HDD3_CS",
+        "length_mm": 127.0
+      }
+    ],
+    "violations_by_severity": {
+      "warning": 52
+    },
+    "rule_violations_by_severity": {},
+    "score": 58682.854,
+    "score_weights": {
+      "wire_mm": 1,
+      "jumpers": 20,
+      "bridges": 1,
+      "crossings": 2,
+      "area_mm2": 0.01,
+      "error": 100000,
+      "warning": 1000,
+      "info": 0
+    },
+    "t7_soft_penalty": 0,
+    "t7_soft_penalty_by_rule": {},
+    "unchecked_soft_rule_ids": [],
+    "soft_penalty_complete": true,
+    "hard_fail_count": 0,
+    "hard_failed_rule_ids": [],
+    "unchecked_hard_rules": [],
+    "unchecked_hard_count": 0,
+    "partially_unchecked_hard_rules": [],
+    "partially_unchecked_hard_count": 0,
+    "core_drc_errors": 0,
+    "bends": 91,
+    "comparison_tuple": [
+      true,
+      0,
+      0,
+      57,
+      0,
+      91,
+      4765.04
+    ],
+    "comparison_tuple_fields": [
+      "lvs_ok",
+      "core_drc_errors",
+      "hard_fail_count",
+      "jumpers",
+      "t7_soft_penalty",
+      "bends",
+      "total_wire_mm"
+    ],
+    "comparison_directions": [
+      "max",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min"
+    ],
+    "lexicographic_sort_key": [
+      0,
+      0,
+      0,
+      57,
+      0,
+      91,
+      4765.04
+    ],
+    "ranking_pass": true
+  },
+  "t7_audits": {
+    "design_rules.json": {
+      "lvs_pass": true,
+      "passed": false,
+      "unchecked_rules": 38,
+      "rule_statuses": {
+        "UNCHECKED": 38,
+        "FAIL": 31,
+        "PASS": 10
+      }
+    },
+    "design_rules_t6_subset.json": {
+      "lvs_pass": true,
+      "passed": false,
+      "unchecked_rules": 71,
+      "rule_statuses": {
+        "FAIL": 64,
+        "PASS": 32,
+        "UNCHECKED": 71
+      }
+    }
+  }
+}

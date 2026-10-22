@@ -1,0 +1,746 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Perfboard generic rules v1 (T7 adapter documented separately)",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "groups": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1
+      }
+    },
+    "net_classes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1
+      }
+    },
+    "router": {
+      "type": "object",
+      "properties": {
+        "power_nets": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "power_gauge": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signal_gauge": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bend_penalty": {
+          "type": "number",
+          "minimum": 0
+        },
+        "jumper_side": {
+          "enum": [
+            "top",
+            "bottom"
+          ]
+        },
+        "use_bridges": {
+          "type": "boolean"
+        },
+        "trunks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "net": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z]+[1-9][0-9]*$"
+                },
+                "minItems": 2
+              },
+              "gauge": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "net",
+              "path"
+            ]
+          }
+        },
+        "star_rule_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "stars": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "net": {
+                "type": "string",
+                "minLength": 1
+              },
+              "root": {
+                "type": "string",
+                "minLength": 1
+              },
+              "branches": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "endpoints": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "minItems": 1
+                    }
+                  },
+                  "required": [
+                    "endpoints"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "net",
+              "root",
+              "branches"
+            ]
+          }
+        }
+      },
+      "required": []
+    },
+    "power_roots": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "weights": {
+      "type": "object",
+      "properties": {
+        "wire_mm": {
+          "type": "number",
+          "minimum": 0
+        },
+        "jumpers": {
+          "type": "number",
+          "minimum": 0
+        },
+        "bridges": {
+          "type": "number",
+          "minimum": 0
+        },
+        "crossings": {
+          "type": "number",
+          "minimum": 0
+        },
+        "area_mm2": {
+          "type": "number",
+          "minimum": 0
+        },
+        "error": {
+          "type": "number",
+          "minimum": 0
+        },
+        "warning": {
+          "type": "number",
+          "minimum": 0
+        },
+        "info": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "min_part_distance"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "a": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "b": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "min_mm": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "a",
+              "b",
+              "min_mm"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "near_pin"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "parts": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "pin": {
+                "type": "string",
+                "minLength": 1
+              },
+              "max_holes": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "parts",
+              "pin",
+              "max_holes"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "max_net_length"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "net": {
+                "type": "string",
+                "minLength": 1
+              },
+              "max_mm": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "net",
+              "max_mm"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "max_branch_length"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "net": {
+                "type": "string",
+                "minLength": 1
+              },
+              "from": {
+                "type": "string",
+                "minLength": 1
+              },
+              "to": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "max_mm": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "net",
+              "from",
+              "to",
+              "max_mm"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "net_clearance"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "a": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "b": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "min_holes": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "a",
+              "b",
+              "min_holes"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "edge"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "parts": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "edge": {
+                "enum": [
+                  "top",
+                  "bottom",
+                  "left",
+                  "right",
+                  "any"
+                ]
+              },
+              "max_holes": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "parts",
+              "max_holes"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "star"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "net": {
+                "type": "string",
+                "minLength": 1
+              },
+              "root": {
+                "type": "string",
+                "minLength": 1
+              },
+              "targets": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 2
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "net",
+              "root",
+              "targets"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "wire_gauge"
+              },
+              "severity": {
+                "enum": [
+                  "error",
+                  "warning",
+                  "info"
+                ],
+                "default": "error"
+              },
+              "enabled": {
+                "type": "boolean",
+                "default": true
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "source": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "original_rule_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "notes": {
+                "type": "string"
+              },
+              "nets": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1
+              },
+              "max_awg": {
+                "type": "number",
+                "minimum": 0
+              },
+              "min_area_mm2": {
+                "type": "number",
+                "minimum": 0
+              },
+              "current_a": {
+                "type": "number",
+                "minimum": 0
+              },
+              "ampacity_a_per_mm2": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "nets"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "rules"
+  ]
+}

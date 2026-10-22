@@ -1,0 +1,322 @@
+{
+  "round": 2,
+  "rules": "v0.2",
+  "east_edge_certificate": {
+    "scope": "F3 four channels with all coil mating faces at east edge; same carrier rotation; arbitrary carrier x stagger is allowed within all enumerated feasible placements",
+    "certificate": [
+      {
+        "rotation": 0,
+        "origin_columns": [
+          43,
+          46
+        ],
+        "origin_rows": [
+          4,
+          33
+        ],
+        "origin_rows_by_column": {
+          "43": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "44": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "45": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "46": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        "feasible_origin_row_span": 29,
+        "required_four_origin_row_span": 33,
+        "all_carrier_x_envelopes_overlap_even_with_stagger": true,
+        "infeasible": true,
+        "valid_tile_count": 15840
+      },
+      {
+        "rotation": 90,
+        "valid_tile_count": 0,
+        "infeasible": true,
+        "reason": "No locally feasible four-part tile has its coil mating point within 2 holes of E."
+      },
+      {
+        "rotation": 180,
+        "valid_tile_count": 0,
+        "infeasible": true,
+        "reason": "No locally feasible four-part tile has its coil mating point within 2 holes of E."
+      },
+      {
+        "rotation": 270,
+        "origin_columns": [
+          48,
+          48
+        ],
+        "origin_rows": [
+          11,
+          36
+        ],
+        "origin_rows_by_column": {
+          "48": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ]
+        },
+        "feasible_origin_row_span": 25,
+        "required_four_origin_row_span": 30,
+        "all_carrier_x_envelopes_overlap_even_with_stagger": true,
+        "infeasible": true,
+        "valid_tile_count": 1560
+      }
+    ],
+    "infeasible": true,
+    "inputs_sha256": {
+      "board.json": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+      "footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+      "design_rules_v0.2.json": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8"
+    },
+    "relaxations_in_proof": "Pico, entry, regulator, all other control parts, probe pins, wire routing, grip and signal/output separations omitted; omitting these only makes packing easier"
+  },
+  "common_column_certificate": {
+    "scope": "exact common-x single column, all four carrier rotations; isolated 4-part channel tiles only; all other parts and routes removed",
+    "rules_used": [
+      "M01",
+      "M08",
+      "M11",
+      "H01",
+      "H06",
+      "P05",
+      "P08",
+      "P11",
+      "board outline / pin / corner keepout rules"
+    ],
+    "local_relative_patterns": 234,
+    "certificate": [
+      {
+        "rotation": 0,
+        "max_feasible_origin_row_span_any_common_column": 29,
+        "minimum_four_carrier_origin_span": 33,
+        "arithmetic_infeasible": true,
+        "columns_attaining_maximum": [
+          [
+            43,
+            29,
+            4,
+            33
+          ],
+          [
+            44,
+            29,
+            4,
+            33
+          ],
+          [
+            45,
+            29,
+            4,
+            33
+          ]
+        ]
+      },
+      {
+        "rotation": 90,
+        "max_feasible_origin_row_span_any_common_column": 27,
+        "minimum_four_carrier_origin_span": 30,
+        "arithmetic_infeasible": true,
+        "columns_attaining_maximum": [
+          [
+            6,
+            27,
+            3,
+            30
+          ]
+        ]
+      },
+      {
+        "rotation": 180,
+        "max_feasible_origin_row_span_any_common_column": 29,
+        "minimum_four_carrier_origin_span": 33,
+        "arithmetic_infeasible": true,
+        "columns_attaining_maximum": [
+          [
+            9,
+            29,
+            6,
+            35
+          ],
+          [
+            10,
+            29,
+            6,
+            35
+          ],
+          [
+            11,
+            29,
+            6,
+            35
+          ]
+        ]
+      },
+      {
+        "rotation": 270,
+        "max_feasible_origin_row_span_any_common_column": 27,
+        "minimum_four_carrier_origin_span": 30,
+        "arithmetic_infeasible": true,
+        "columns_attaining_maximum": [
+          [
+            48,
+            27,
+            9,
+            36
+          ]
+        ]
+      }
+    ],
+    "inputs_sha256": {
+      "board.json": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+      "footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+      "design_rules_v0.2.json": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8"
+    }
+  },
+  "proposal": "Same 104708 turned portrait: four-channel packing found, not a routed layout and not adopted for the strict short-edge seed."
+}

@@ -1,0 +1,9 @@
+{
+  "recommended_joint_sites": 307,
+  "max_supported_span_holes": 8,
+  "terminal_connectivity_LVS_pass": true,
+  "issues": [],
+  "comparison": [],
+  "scope": "secondary continuous-wire/solder-contact plan only; original conservative report unchanged",
+  "assembly": "minimum 10mm bottom standoff; immobilise every selected anchor; insulate full jumper lengths; unused intermediate pads still must remain free of other nets"
+}

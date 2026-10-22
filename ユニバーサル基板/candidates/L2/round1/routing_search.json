@@ -1,0 +1,971 @@
+{
+  "records": [
+    {
+      "variant": "horizontal",
+      "mode": "base:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 75,
+      "mm": 3860.8,
+      "score": 4953244.114
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 89,
+      "mm": 3789.68,
+      "score": 4959193.265
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:3,0,4,5,6,7,1,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 91,
+      "mm": 3883.66,
+      "score": 5057249.245
+    },
+    {
+      "variant": "horizontal",
+      "mode": "controls:1,6,2,4,3,5,0,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06"
+      ],
+      "jumpers": 37,
+      "bare_bends": 90,
+      "mm": 3710.94,
+      "score": 5055980.254
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:4,3,0,2,5,1,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 91,
+      "mm": 3883.66,
+      "score": 5057249.245
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:1,5,7,3,0,6,2,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 37,
+      "bare_bends": 90,
+      "mm": 3672.84,
+      "score": 4956901.243
+    },
+    {
+      "variant": "horizontal",
+      "mode": "controls:1,6,0,7,3,2,5,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06"
+      ],
+      "jumpers": 37,
+      "bare_bends": 90,
+      "mm": 3710.94,
+      "score": 5055980.254
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:1,4,6,5,2,0,7,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 37,
+      "bare_bends": 90,
+      "mm": 3672.84,
+      "score": 4956901.243
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:6,7,2,4,1,5,3,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3843.02,
+      "score": 4958060.605
+    },
+    {
+      "variant": "horizontal",
+      "mode": "controls:3,6,5,4,2,7,0,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06"
+      ],
+      "jumpers": 42,
+      "bare_bends": 94,
+      "mm": 3848.1,
+      "score": 5261259.685
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:2,7,0,1,6,5,4,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3837.94,
+      "score": 4958055.525
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:4,7,2,3,6,1,0,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 91,
+      "mm": 3888.74,
+      "score": 5057254.325
+    },
+    {
+      "variant": "horizontal",
+      "mode": "controls:4,2,5,3,1,7,6,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06"
+      ],
+      "jumpers": 39,
+      "bare_bends": 93,
+      "mm": 3878.58,
+      "score": 5260182.165
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:2,7,3,5,0,1,6,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3837.94,
+      "score": 4958055.525
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:1,6,5,4,2,7,3,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 37,
+      "bare_bends": 90,
+      "mm": 3672.84,
+      "score": 4956901.243
+    },
+    {
+      "variant": "horizontal",
+      "mode": "controls:1,7,3,6,2,4,0,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06"
+      ],
+      "jumpers": 37,
+      "bare_bends": 90,
+      "mm": 3710.94,
+      "score": 5055980.254
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:3,1,7,2,0,4,6,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3843.02,
+      "score": 4958054.605
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:1,6,0,4,2,5,3,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 37,
+      "bare_bends": 90,
+      "mm": 3672.84,
+      "score": 4956901.243
+    },
+    {
+      "variant": "horizontal",
+      "mode": "controls:3,7,0,5,2,6,1,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06"
+      ],
+      "jumpers": 38,
+      "bare_bends": 100,
+      "mm": 3934.46,
+      "score": 5360228.045
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:2,4,7,5,3,6,0,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 91,
+      "mm": 3883.66,
+      "score": 5057249.245
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:2,7,3,6,4,1,5,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 34,
+      "bare_bends": 94,
+      "mm": 3843.02,
+      "score": 4958060.605
+    },
+    {
+      "variant": "horizontal",
+      "mode": "controls:7,1,2,0,5,3,4,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06"
+      ],
+      "jumpers": 39,
+      "bare_bends": 105,
+      "mm": 3997.96,
+      "score": 5360315.545
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:5,0,2,1,7,4,6,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 95,
+      "mm": 3802.38,
+      "score": 5056156.783
+    },
+    {
+      "variant": "horizontal",
+      "mode": "inputs:2,0,5,7,6,3,4,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 91,
+      "mm": 3883.66,
+      "score": 5057249.245
+    },
+    {
+      "variant": "vertical",
+      "mode": "base:0,1,2,3,4,5,6,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:7,6,5,4,3,2,1,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:7,1,6,5,2,3,0,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "controls:5,1,3,7,4,2,0,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 43,
+      "bare_bends": 96,
+      "mm": 3901.44,
+      "score": 5256322.579
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:7,0,2,6,5,1,3,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:4,3,0,1,5,6,7,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "controls:4,3,1,7,0,6,5,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 43,
+      "bare_bends": 96,
+      "mm": 3901.44,
+      "score": 5256322.579
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:7,4,0,6,2,3,5,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:3,1,6,7,2,5,0,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "controls:5,6,4,1,3,2,0,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 43,
+      "bare_bends": 96,
+      "mm": 3901.44,
+      "score": 5256322.579
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:1,6,7,4,3,5,2,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:5,1,4,3,2,0,7,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "controls:5,6,0,7,1,3,2,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 43,
+      "bare_bends": 96,
+      "mm": 3901.44,
+      "score": 5256322.579
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:7,4,5,3,1,0,6,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:1,2,7,0,6,5,3,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "controls:6,7,5,2,3,0,1,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 43,
+      "bare_bends": 96,
+      "mm": 3901.44,
+      "score": 5256322.579
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:0,7,3,5,1,4,6,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:6,4,2,3,0,1,5,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "controls:1,5,6,7,0,3,4,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 43,
+      "bare_bends": 96,
+      "mm": 3901.44,
+      "score": 5256322.579
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:2,7,3,6,1,5,4,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:5,3,2,1,6,7,0,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "controls:6,1,3,4,7,0,5,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 43,
+      "bare_bends": 96,
+      "mm": 3901.44,
+      "score": 5256322.579
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:6,3,1,2,5,7,4,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    },
+    {
+      "variant": "vertical",
+      "mode": "inputs:4,3,7,1,6,0,5,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03",
+        "S06",
+        "S12"
+      ],
+      "jumpers": 42,
+      "bare_bends": 81,
+      "mm": 3881.12,
+      "score": 5153292.259
+    }
+  ]
+}

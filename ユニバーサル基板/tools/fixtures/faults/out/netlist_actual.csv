@@ -1,0 +1,8 @@
+net,ref,pin_number,pin_name
+NC,N1,1,P
+__ISLAND_1,P1,1,P
+__ISLAND_1,P2,1,P
+__ISLAND_1,P3,1,P
+__ISLAND_1,P4,1,P
+C,P5,1,P
+__OPEN_2,P6,1,P

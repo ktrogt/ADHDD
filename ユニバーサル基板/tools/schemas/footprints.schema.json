@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Perfboard footprint library v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "footprints": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "pins": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "dx": {
+                  "type": "integer"
+                },
+                "dy": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "number",
+                "name",
+                "dx",
+                "dy"
+              ]
+            },
+            "minItems": 1
+          },
+          "body_mm": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "width": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "height": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            },
+            "required": [
+              "x",
+              "y",
+              "width",
+              "height"
+            ]
+          },
+          "height_mm": {
+            "type": "number",
+            "minimum": 0
+          },
+          "hot": {
+            "type": "boolean"
+          },
+          "polarity": {
+            "type": "object",
+            "properties": {
+              "pin": {
+                "type": "string",
+                "minLength": 1
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "pin"
+            ]
+          },
+          "provisional": {
+            "type": "boolean"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "extra_pads": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "physical_pin": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "dx": {
+                  "type": "integer"
+                },
+                "dy": {
+                  "type": "integer"
+                },
+                "net": {
+                  "const": "NC"
+                },
+                "populate": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "dx",
+                "dy",
+                "net"
+              ]
+            }
+          },
+          "requires_Claude_approval": {
+            "type": "boolean"
+          },
+          "features": {
+            "type": "object",
+            "description": "Point features used by on_edge need x_mm/y_mm relative to pin 1; direction is optional. Other feature records remain metadata."
+          }
+        },
+        "required": [
+          "pins",
+          "body_mm",
+          "height_mm",
+          "hot"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "footprints"
+  ]
+}

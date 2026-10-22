@@ -1,0 +1,1891 @@
+[
+  {
+    "sweep": 0,
+    "converted": "L1W001",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3148.163
+    ],
+    "detours": [
+      {
+        "id": "L1W001",
+        "net": "VM",
+        "from": [
+          "C17",
+          "C8"
+        ],
+        "to": [
+          "B13",
+          "B8"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3148.163
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W004",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      79,
+      3143.083
+    ],
+    "detours": [
+      {
+        "id": "L1W004",
+        "net": "GND",
+        "from": [
+          "AQ10",
+          "AW10"
+        ],
+        "to": [
+          "AQ10",
+          "AR10",
+          "AR7"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          79,
+          3143.083
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W005",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3138.003
+    ],
+    "detours": [
+      {
+        "id": "L1W005",
+        "net": "VM",
+        "from": [
+          "A8",
+          "A4",
+          "E4"
+        ],
+        "to": [
+          "A8",
+          "A5",
+          "B5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3138.003
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W007",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3138.003
+    ],
+    "detours": [
+      {
+        "id": "L1W007",
+        "net": "VM",
+        "from": [
+          "B5",
+          "E5"
+        ],
+        "to": [
+          "B5",
+          "E5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3138.003
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W009",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3138.003
+    ],
+    "detours": [
+      {
+        "id": "L1W009",
+        "net": "GND",
+        "from": [
+          "G11",
+          "G10"
+        ],
+        "to": [
+          "G11",
+          "G10"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3138.003
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W012",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3138.003
+    ],
+    "detours": [
+      {
+        "id": "L1W012",
+        "net": "HDD4_OUT1",
+        "from": [
+          "H6",
+          "H3"
+        ],
+        "to": [
+          "H6",
+          "H3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3138.003
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W013",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3138.003
+    ],
+    "detours": [
+      {
+        "id": "L1W013",
+        "net": "HDD4_OUT2",
+        "from": [
+          "I6",
+          "I4",
+          "J4",
+          "J3"
+        ],
+        "to": [
+          "I6",
+          "I4",
+          "J4",
+          "J3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3138.003
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W014",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3138.003
+    ],
+    "detours": [
+      {
+        "id": "L1W014",
+        "net": "HDD4_CS",
+        "from": [
+          "L6",
+          "L4"
+        ],
+        "to": [
+          "L6",
+          "L4"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3138.003
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W015",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3127.843
+    ],
+    "detours": [
+      {
+        "id": "L1W015",
+        "net": "VM",
+        "from": [
+          "O8",
+          "O4",
+          "S4"
+        ],
+        "to": [
+          "O8",
+          "O5",
+          "P5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3127.843
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W017",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3127.843
+    ],
+    "detours": [
+      {
+        "id": "L1W017",
+        "net": "VM",
+        "from": [
+          "P5",
+          "S5"
+        ],
+        "to": [
+          "P5",
+          "S5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3127.843
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W019",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3127.843
+    ],
+    "detours": [
+      {
+        "id": "L1W019",
+        "net": "GND",
+        "from": [
+          "U11",
+          "U10"
+        ],
+        "to": [
+          "U11",
+          "U10"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3127.843
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W022",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3127.843
+    ],
+    "detours": [
+      {
+        "id": "L1W022",
+        "net": "HDD3_OUT1",
+        "from": [
+          "V6",
+          "V3"
+        ],
+        "to": [
+          "V6",
+          "V3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3127.843
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W023",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3127.843
+    ],
+    "detours": [
+      {
+        "id": "L1W023",
+        "net": "HDD3_OUT2",
+        "from": [
+          "W6",
+          "W4",
+          "X4",
+          "X3"
+        ],
+        "to": [
+          "W6",
+          "W4",
+          "X4",
+          "X3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3127.843
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W024",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3127.843
+    ],
+    "detours": [
+      {
+        "id": "L1W024",
+        "net": "HDD3_CS",
+        "from": [
+          "Z6",
+          "Z4"
+        ],
+        "to": [
+          "Z6",
+          "Z4"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3127.843
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W025",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3117.683
+    ],
+    "detours": [
+      {
+        "id": "L1W025",
+        "net": "VM",
+        "from": [
+          "AC8",
+          "AC4",
+          "AG4"
+        ],
+        "to": [
+          "AC8",
+          "AC5",
+          "AD5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3117.683
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W027",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3117.683
+    ],
+    "detours": [
+      {
+        "id": "L1W027",
+        "net": "VM",
+        "from": [
+          "AD5",
+          "AG5"
+        ],
+        "to": [
+          "AD5",
+          "AG5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3117.683
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W029",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3117.683
+    ],
+    "detours": [
+      {
+        "id": "L1W029",
+        "net": "GND",
+        "from": [
+          "AI11",
+          "AI10"
+        ],
+        "to": [
+          "AI11",
+          "AI10"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3117.683
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W032",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3117.683
+    ],
+    "detours": [
+      {
+        "id": "L1W032",
+        "net": "HDD2_OUT1",
+        "from": [
+          "AJ6",
+          "AJ3"
+        ],
+        "to": [
+          "AJ6",
+          "AJ3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3117.683
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W033",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3117.683
+    ],
+    "detours": [
+      {
+        "id": "L1W033",
+        "net": "HDD2_OUT2",
+        "from": [
+          "AK6",
+          "AK4",
+          "AL4",
+          "AL3"
+        ],
+        "to": [
+          "AK6",
+          "AK4",
+          "AL4",
+          "AL3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3117.683
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W034",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3117.683
+    ],
+    "detours": [
+      {
+        "id": "L1W034",
+        "net": "HDD2_CS",
+        "from": [
+          "AN6",
+          "AN4"
+        ],
+        "to": [
+          "AN6",
+          "AN4"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3117.683
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W035",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3107.523
+    ],
+    "detours": [
+      {
+        "id": "L1W035",
+        "net": "VM",
+        "from": [
+          "AQ8",
+          "AQ4",
+          "AU4"
+        ],
+        "to": [
+          "AQ8",
+          "AQ5",
+          "AR5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3107.523
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W037",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3107.523
+    ],
+    "detours": [
+      {
+        "id": "L1W037",
+        "net": "VM",
+        "from": [
+          "AR5",
+          "AU5"
+        ],
+        "to": [
+          "AR5",
+          "AU5"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3107.523
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W040",
+    "tuple": [
+      true,
+      0,
+      0,
+      32,
+      223.872619,
+      78,
+      3107.523
+    ],
+    "detours": []
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W042",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3107.523
+    ],
+    "detours": [
+      {
+        "id": "L1W042",
+        "net": "HDD1_OUT1",
+        "from": [
+          "AX6",
+          "AX3"
+        ],
+        "to": [
+          "AX6",
+          "AX3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3107.523
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W043",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3107.523
+    ],
+    "detours": [
+      {
+        "id": "L1W043",
+        "net": "HDD1_OUT2",
+        "from": [
+          "AY6",
+          "AY4",
+          "AZ4",
+          "AZ3"
+        ],
+        "to": [
+          "AY6",
+          "AY4",
+          "AZ4",
+          "AZ3"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3107.523
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W044",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3107.523
+    ],
+    "detours": [
+      {
+        "id": "L1W044",
+        "net": "HDD1_CS",
+        "from": [
+          "BB6",
+          "BB4"
+        ],
+        "to": [
+          "BB6",
+          "BB4"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3107.523
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W046",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3107.523
+    ],
+    "detours": [
+      {
+        "id": "L1W046",
+        "net": "GND",
+        "from": [
+          "F13",
+          "F17",
+          "E17"
+        ],
+        "to": [
+          "F13",
+          "F17",
+          "E17"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3107.523
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W048",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      78,
+      3104.983
+    ],
+    "detours": [
+      {
+        "id": "L1W048",
+        "net": "GND",
+        "from": [
+          "C20",
+          "I20",
+          "I21"
+        ],
+        "to": [
+          "E19",
+          "I19",
+          "I21"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          78,
+          3104.983
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W049",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      77,
+      3104.983
+    ],
+    "detours": [
+      {
+        "id": "L1W049",
+        "net": "VIN_RAW",
+        "from": [
+          "F21",
+          "F23",
+          "J23",
+          "J24"
+        ],
+        "to": [
+          "F21",
+          "F24",
+          "J24"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          77,
+          3104.983
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W050",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      77,
+      3104.983
+    ],
+    "detours": [
+      {
+        "id": "L1W050",
+        "net": "VIN_FUSED",
+        "from": [
+          "J26",
+          "K26",
+          "K16",
+          "L16"
+        ],
+        "to": [
+          "J26",
+          "K26",
+          "K16",
+          "L16"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          77,
+          3104.983
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W054",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      77,
+      3104.983
+    ],
+    "detours": [
+      {
+        "id": "L1W054",
+        "net": "+5V",
+        "from": [
+          "K32",
+          "Q32"
+        ],
+        "to": [
+          "K32",
+          "Q32"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          77,
+          3104.983
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W059",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      77,
+      3104.983
+    ],
+    "detours": [
+      {
+        "id": "L1W059",
+        "net": "SN_BUS",
+        "from": [
+          "AR38",
+          "AR40"
+        ],
+        "to": [
+          "AR38",
+          "AR40"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          77,
+          3104.983
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W063",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      77,
+      3104.983
+    ],
+    "detours": [
+      {
+        "id": "L1W063",
+        "net": "GND",
+        "from": [
+          "AE17",
+          "AG17"
+        ],
+        "to": [
+          "AE17",
+          "AG17"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          77,
+          3104.983
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W065",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      77,
+      3104.983
+    ],
+    "detours": [
+      {
+        "id": "L1W065",
+        "net": "GND",
+        "from": [
+          "E17",
+          "D17",
+          "D18",
+          "B18",
+          "B29",
+          "P29"
+        ],
+        "to": [
+          "E17",
+          "D17",
+          "D18",
+          "B18",
+          "B29",
+          "P29"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          77,
+          3104.983
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W068",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      77,
+      3102.443
+    ],
+    "detours": [
+      {
+        "id": "L1W068",
+        "net": "VM",
+        "from": [
+          "A17",
+          "B17"
+        ],
+        "to": "removed redundant edge",
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          77,
+          3102.443
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W070",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3102.443
+    ],
+    "detours": [
+      {
+        "id": "L1W070",
+        "net": "VSYS",
+        "from": [
+          "BB34",
+          "BB32",
+          "AZ32",
+          "AZ31"
+        ],
+        "to": [
+          "BB34",
+          "AZ34",
+          "AZ31"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3102.443
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W075",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W075",
+        "net": "GND",
+        "from": [
+          "AA31",
+          "AA25",
+          "AJ25"
+        ],
+        "to": [
+          "AA31",
+          "AA30",
+          "AJ30"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W077",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W077",
+        "net": "GND",
+        "from": [
+          "AJ24",
+          "AJ25"
+        ],
+        "to": [
+          "AJ24",
+          "AJ25"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W078",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W078",
+        "net": "GND",
+        "from": [
+          "AJ31",
+          "AJ30"
+        ],
+        "to": [
+          "AJ31",
+          "AJ30"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W079",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W079",
+        "net": "GND",
+        "from": [
+          "AO24",
+          "AO25"
+        ],
+        "to": [
+          "AO24",
+          "AO25"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W080",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W080",
+        "net": "GND",
+        "from": [
+          "AO31",
+          "AO30"
+        ],
+        "to": [
+          "AO31",
+          "AO30"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W081",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W081",
+        "net": "GND",
+        "from": [
+          "AT24",
+          "AT25"
+        ],
+        "to": [
+          "AT24",
+          "AT25"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W082",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W082",
+        "net": "GND",
+        "from": [
+          "AT31",
+          "AT30"
+        ],
+        "to": [
+          "AT31",
+          "AT30"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W083",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W083",
+        "net": "GND",
+        "from": [
+          "AY24",
+          "AY25"
+        ],
+        "to": [
+          "AY24",
+          "AY25"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W084",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W084",
+        "net": "GND",
+        "from": [
+          "AY31",
+          "AY30"
+        ],
+        "to": [
+          "AY31",
+          "AY30"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W088",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W088",
+        "net": "FAULT",
+        "from": [
+          "BA6",
+          "BA7",
+          "BC7",
+          "BC20"
+        ],
+        "to": [
+          "BA6",
+          "BA10",
+          "BC10",
+          "BC20"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W097",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      220.580952,
+      76,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W097",
+        "net": "ARM",
+        "from": [
+          "AI24",
+          "AI21"
+        ],
+        "to": [
+          "AI24",
+          "AI21"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          220.580952,
+          76,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W098",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      218.580952,
+      74,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W098",
+        "net": "ARM_SW",
+        "from": [
+          "AF21",
+          "AF22",
+          "Z22",
+          "Z33",
+          "AF33",
+          "AF40",
+          "AG40"
+        ],
+        "to": [
+          "AF21",
+          "AF23",
+          "Z23",
+          "Z40",
+          "AG40"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          218.580952,
+          74,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W100",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      218.580952,
+      74,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W100",
+        "net": "GND",
+        "from": [
+          "AX40",
+          "AX39",
+          "AS39"
+        ],
+        "to": [
+          "AX40",
+          "AX39",
+          "AS39"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          218.580952,
+          74,
+          3089.743
+        ]
+      }
+    ]
+  },
+  {
+    "sweep": 0,
+    "converted": "L1W101",
+    "tuple": [
+      true,
+      0,
+      0,
+      31,
+      218.580952,
+      74,
+      3089.743
+    ],
+    "detours": [
+      {
+        "id": "L1W101",
+        "net": "+5V",
+        "from": [
+          "Q32",
+          "Q34",
+          "Y34"
+        ],
+        "to": [
+          "Q32",
+          "Q34",
+          "Y34"
+        ],
+        "jumpers_before": 32,
+        "tuple_after": [
+          true,
+          0,
+          0,
+          31,
+          218.580952,
+          74,
+          3089.743
+        ]
+      }
+    ]
+  }
+]

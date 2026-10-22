@@ -1,0 +1,756 @@
+{
+  "P02 TVS to entry bulk": {
+    "fixed_part": "C106",
+    "moving_part": "D105",
+    "pairs": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "body_gap_mm": 1.016,
+    "required_max_holes": 3,
+    "minimum_max_holes": 5,
+    "best_examples": [
+      [
+        5,
+        8,
+        -5,
+        0,
+        0,
+        [
+          5,
+          3
+        ]
+      ],
+      [
+        5,
+        8,
+        3,
+        0,
+        0,
+        [
+          3,
+          5
+        ]
+      ],
+      [
+        5,
+        10,
+        -1,
+        -4,
+        0,
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        5,
+        10,
+        -1,
+        4,
+        0,
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        6,
+        10,
+        -6,
+        0,
+        0,
+        [
+          6,
+          4
+        ]
+      ],
+      [
+        6,
+        10,
+        -5,
+        -1,
+        0,
+        [
+          6,
+          4
+        ]
+      ],
+      [
+        6,
+        10,
+        -5,
+        1,
+        0,
+        [
+          6,
+          4
+        ]
+      ],
+      [
+        6,
+        10,
+        -2,
+        -4,
+        0,
+        [
+          6,
+          4
+        ]
+      ]
+    ]
+  },
+  "P13 input cap / H07": {
+    "fixed_part": "U107",
+    "moving_part": "C108",
+    "pairs": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "body_gap_mm": 2.54,
+    "required_max_holes": 4,
+    "minimum_max_holes": 6,
+    "best_examples": [
+      [
+        6,
+        12,
+        -6,
+        0,
+        0,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        -5,
+        -1,
+        90,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        -5,
+        1,
+        270,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        0,
+        -6,
+        0,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        0,
+        6,
+        0,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        7,
+        12,
+        -5,
+        0,
+        90,
+        [
+          5,
+          7
+        ]
+      ],
+      [
+        7,
+        12,
+        -5,
+        0,
+        180,
+        [
+          5,
+          7
+        ]
+      ],
+      [
+        7,
+        12,
+        -5,
+        0,
+        270,
+        [
+          5,
+          7
+        ]
+      ]
+    ]
+  },
+  "P13 output cap / H07": {
+    "fixed_part": "U107",
+    "moving_part": "C109",
+    "pairs": [
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "body_gap_mm": 2.54,
+    "required_max_holes": 4,
+    "minimum_max_holes": 6,
+    "best_examples": [
+      [
+        6,
+        12,
+        2,
+        -6,
+        180,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        2,
+        6,
+        180,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        7,
+        -1,
+        90,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        7,
+        1,
+        270,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        6,
+        12,
+        8,
+        0,
+        180,
+        [
+          6,
+          6
+        ]
+      ],
+      [
+        7,
+        12,
+        7,
+        0,
+        0,
+        [
+          5,
+          7
+        ]
+      ],
+      [
+        7,
+        12,
+        7,
+        0,
+        90,
+        [
+          5,
+          7
+        ]
+      ],
+      [
+        7,
+        12,
+        7,
+        0,
+        270,
+        [
+          5,
+          7
+        ]
+      ]
+    ]
+  },
+  "P15 buffer bypass": {
+    "fixed_part": "U207",
+    "moving_part": "C208",
+    "pairs": [
+      [
+        5,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "body_gap_mm": 1.016,
+    "required_max_holes": 2,
+    "minimum_max_holes": 4,
+    "best_examples": [
+      [
+        4,
+        8,
+        1,
+        -2,
+        180,
+        [
+          4,
+          4
+        ]
+      ],
+      [
+        4,
+        8,
+        3,
+        4,
+        180,
+        [
+          4,
+          4
+        ]
+      ],
+      [
+        5,
+        8,
+        -2,
+        0,
+        90,
+        [
+          5,
+          3
+        ]
+      ],
+      [
+        5,
+        8,
+        2,
+        -2,
+        180,
+        [
+          3,
+          5
+        ]
+      ],
+      [
+        5,
+        8,
+        2,
+        4,
+        180,
+        [
+          5,
+          3
+        ]
+      ],
+      [
+        5,
+        8,
+        5,
+        1,
+        90,
+        [
+          3,
+          5
+        ]
+      ],
+      [
+        5,
+        10,
+        -2,
+        0,
+        180,
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        5,
+        10,
+        -2,
+        0,
+        270,
+        [
+          5,
+          5
+        ]
+      ]
+    ]
+  },
+  "V02 lower divider": {
+    "fixed_part": "C211",
+    "moving_part": "R210",
+    "pairs": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "body_gap_mm": 1.016,
+    "required_max_holes": 2,
+    "minimum_max_holes": 3,
+    "best_examples": [
+      [
+        3,
+        5,
+        -1,
+        -2,
+        0,
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        3,
+        5,
+        -1,
+        2,
+        0,
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        3,
+        5,
+        0,
+        -2,
+        0,
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        3,
+        5,
+        0,
+        2,
+        0,
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        4,
+        7,
+        -4,
+        0,
+        0,
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        4,
+        7,
+        -3,
+        -1,
+        0,
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        4,
+        7,
+        -3,
+        1,
+        0,
+        [
+          4,
+          3
+        ]
+      ],
+      [
+        4,
+        7,
+        -2,
+        -2,
+        0,
+        [
+          4,
+          3
+        ]
+      ]
+    ]
+  },
+  "F3 vertical packing": {
+    "driver_body_height_mm": 18.38,
+    "required_gap_mm": 7.62,
+    "minimum_integer_origin_pitch_holes": 11,
+    "minimum_occupied_height_mm": 102.2,
+    "tool_board_height_mm": 101.6,
+    "actual_board_height_mm": 114.0
+  },
+  "P05 and P11 joint constraint": {
+    "bypass_max_holes": 2,
+    "coil_required_max_holes": 4,
+    "bypass_options": 1,
+    "compatible_coil_minimum_max_holes": 5,
+    "solutions_with_both_original_bounds": 0,
+    "best_examples": [
+      [
+        5,
+        7,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          29,
+          23,
+          180
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      [
+        5,
+        9,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          28,
+          23,
+          0
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        5,
+        9,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          28,
+          23,
+          90
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        6,
+        9,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          28,
+          25,
+          270
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      [
+        6,
+        9,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          29,
+          24,
+          180
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      [
+        6,
+        9,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          30,
+          23,
+          180
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      [
+        6,
+        11,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          25,
+          16,
+          90
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      [
+        6,
+        11,
+        [
+          27,
+          20,
+          90
+        ],
+        [
+          28,
+          24,
+          0
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  "T6 boundary reproduction": {
+    "official_findings": [
+      {
+        "code": "BODY_OFFBOARD",
+        "severity": "error",
+        "detail": "U340",
+        "part": "U340"
+      },
+      {
+        "code": "BODY_OFFBOARD",
+        "severity": "error",
+        "detail": "U310",
+        "part": "U310"
+      }
+    ],
+    "source": "tools/verify.py placement_drc computes +/-half-pitch board boundary and ignores width_mm,height_mm,grid_origin_mm",
+    "tool_height_mm": 101.6,
+    "approved_actual_height_mm": 114.0,
+    "modules": {
+      "U340": {
+        "tool_rect_mm": [
+          107.65,
+          -1.57,
+          123.49,
+          16.81
+        ],
+        "actual_board_rect_mm": [
+          116.57000000000001,
+          5.8999999999999995,
+          132.41,
+          24.279999999999998
+        ],
+        "minimum_actual_edge_margin_mm": 5.8999999999999995
+      },
+      "U310": {
+        "tool_rect_mm": [
+          107.65,
+          82.25000000000001,
+          123.49,
+          100.63000000000001
+        ],
+        "actual_board_rect_mm": [
+          116.57000000000001,
+          89.72000000000001,
+          132.41,
+          108.10000000000001
+        ],
+        "minimum_actual_edge_margin_mm": 5.8999999999999915
+      }
+    },
+    "workaround": "route_candidate.gate excludes only these two findings during routing; official verify remains unchanged and fails closed"
+  },
+  "M02 board intrinsic conflict": {
+    "required_min_mount_centre_edge_mm": 5.08,
+    "approved_board_actual_mm": 5.0,
+    "difference_mm": 0.08,
+    "status": "requires supervisor interpretation; not silently waived"
+  }
+}

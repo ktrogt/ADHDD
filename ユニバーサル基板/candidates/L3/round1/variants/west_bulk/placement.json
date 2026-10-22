@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "candidate": "L3",
+  "seed_floor_plan": "F3",
+  "parts": {
+    "J101": {
+      "footprint": "J101_DCJACK_DIP4",
+      "hole": "AD6",
+      "rotation": 180,
+      "locked": true,
+      "value": "105148 DC jack DIP kit"
+    },
+    "F102": {
+      "footprint": "F_MFR300_2H",
+      "hole": "P2",
+      "rotation": 0,
+      "locked": true,
+      "value": "MF-R300 3 A"
+    },
+    "D103": {
+      "footprint": "MBR3045FCT_ITO220_ONE_LEG",
+      "hole": "AA15",
+      "rotation": 0,
+      "locked": true,
+      "value": "MBR3045FCT, one anode only"
+    },
+    "J104": {
+      "footprint": "HDR_SWITCH_J104",
+      "hole": "AJ1",
+      "rotation": 90,
+      "locked": true,
+      "value": "POWER switch header"
+    },
+    "D105": {
+      "footprint": "D_DO41_4H_D105",
+      "hole": "AI2",
+      "rotation": 180,
+      "locked": true,
+      "value": "P4KE15A"
+    },
+    "C106": {
+      "footprint": "CP470_D10_2H",
+      "hole": "AH6",
+      "rotation": 180,
+      "locked": true,
+      "value": "470 uF / 35 V"
+    },
+    "U107": {
+      "footprint": "M78AR05_SIP3",
+      "hole": "L13",
+      "rotation": 0,
+      "locked": true,
+      "value": "M78AR05-1"
+    },
+    "C108": {
+      "footprint": "CP100_D63_1H",
+      "hole": "F13",
+      "rotation": 0,
+      "locked": true,
+      "value": "100 uF / 35 V"
+    },
+    "C109": {
+      "footprint": "CP100_D63_1H",
+      "hole": "S12",
+      "rotation": 90,
+      "locked": true,
+      "value": "100 uF / 35 V"
+    },
+    "D110": {
+      "footprint": "D_DO41_4H_D110",
+      "hole": "F38",
+      "rotation": 270,
+      "locked": true,
+      "value": "1N5819"
+    },
+    "U201": {
+      "footprint": "PICO_SOCKET_7H",
+      "hole": "O39",
+      "rotation": 180,
+      "locked": true,
+      "value": "Raspberry Pi Pico, 2 x 20 socket"
+    },
+    "J202": {
+      "footprint": "UART_XH2",
+      "hole": "T39",
+      "rotation": 0,
+      "locked": true,
+      "value": "SmartNet XH2 IN"
+    },
+    "J203": {
+      "footprint": "UART_XH2",
+      "hole": "X39",
+      "rotation": 0,
+      "locked": true,
+      "value": "SmartNet XH2 THRU"
+    },
+    "U207": {
+      "footprint": "AHC125_DIP6_DIRECT",
+      "hole": "U34",
+      "rotation": 0,
+      "locked": true,
+      "value": "74AHC1G125 on 115520 DIP6"
+    },
+    "C208": {
+      "footprint": "C100NF_1H",
+      "hole": "V32",
+      "rotation": 180,
+      "locked": true,
+      "value": "100 nF"
+    },
+    "R204": {
+      "footprint": "R_MFS25_3H",
+      "hole": "S37",
+      "rotation": 270,
+      "locked": true,
+      "value": "1 kohm"
+    },
+    "R205": {
+      "footprint": "R_MFS25_3H",
+      "hole": "Z31",
+      "rotation": 0,
+      "locked": true,
+      "value": "10 kohm"
+    },
+    "D206": {
+      "footprint": "BAT43_DO35_3H",
+      "hole": "AC33",
+      "rotation": 0,
+      "locked": true,
+      "value": "BAT43"
+    },
+    "C211": {
+      "footprint": "C220NF_2H",
+      "hole": "AE24",
+      "rotation": 0,
+      "locked": true,
+      "value": "220 nF"
+    },
+    "R209": {
+      "footprint": "R_MFS25_3H",
+      "hole": "Z24",
+      "rotation": 0,
+      "locked": true,
+      "value": "47 kohm"
+    },
+    "R210": {
+      "footprint": "R_MFS25_3H",
+      "hole": "AD22",
+      "rotation": 0,
+      "locked": true,
+      "value": "4.7 kohm initial"
+    },
+    "J213": {
+      "footprint": "HDR_SWITCH_J213",
+      "hole": "B20",
+      "rotation": 0,
+      "locked": true,
+      "value": "STOP switch header"
+    },
+    "R214": {
+      "footprint": "R_MFS25_3H",
+      "hole": "E20",
+      "rotation": 90,
+      "locked": true,
+      "value": "10 kohm"
+    },
+    "R212": {
+      "footprint": "R_MFS25_3H",
+      "hole": "F18",
+      "rotation": 180,
+      "locked": true,
+      "value": "1 kohm"
+    },
+    "R215": {
+      "footprint": "R_MFS25_3H",
+      "hole": "S21",
+      "rotation": 180,
+      "locked": true,
+      "value": "10 kohm"
+    },
+    "TP460": {
+      "footprint": "PROBE_PIN",
+      "hole": "AJ4",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: VM"
+    },
+    "TP461": {
+      "footprint": "PROBE_PIN",
+      "hole": "P8",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: +5V"
+    },
+    "TP462": {
+      "footprint": "PROBE_PIN",
+      "hole": "R24",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: +3V3"
+    },
+    "TP463": {
+      "footprint": "PROBE_PIN",
+      "hole": "M18",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: GND"
+    },
+    "TP464": {
+      "footprint": "PROBE_PIN",
+      "hole": "Q26",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: GND"
+    },
+    "TP465": {
+      "footprint": "PROBE_PIN",
+      "hole": "AI25",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: GND"
+    },
+    "TP466": {
+      "footprint": "PROBE_PIN",
+      "hole": "AB26",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: VREF"
+    },
+    "TP467": {
+      "footprint": "PROBE_PIN",
+      "hole": "D26",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: SLEEP"
+    },
+    "TP468": {
+      "footprint": "PROBE_PIN",
+      "hole": "S19",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: FAULT"
+    },
+    "U340": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "AR1",
+      "rotation": 0,
+      "locked": true,
+      "value": "HDD4 Pololu4035, 2 x 7 socket"
+    },
+    "C341": {
+      "footprint": "CP470_D10_2H",
+      "hole": "AN2",
+      "rotation": 90,
+      "locked": true,
+      "value": "470 uF / 35 V"
+    },
+    "C342": {
+      "footprint": "C100NF_1H",
+      "hole": "AY1",
+      "rotation": 90,
+      "locked": true,
+      "value": "100 nF"
+    },
+    "J343": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "BA4",
+      "rotation": 180,
+      "locked": true,
+      "value": "HDD4 XH3, centre NC"
+    },
+    "TP474": {
+      "footprint": "PROBE_PIN",
+      "hole": "AY7",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: HDD4_CS"
+    },
+    "U330": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "AR12",
+      "rotation": 0,
+      "locked": true,
+      "value": "HDD3 Pololu4035, 2 x 7 socket"
+    },
+    "C331": {
+      "footprint": "CP470_D10_2H",
+      "hole": "AN12",
+      "rotation": 90,
+      "locked": true,
+      "value": "470 uF / 35 V"
+    },
+    "C332": {
+      "footprint": "C100NF_1H",
+      "hole": "AY12",
+      "rotation": 90,
+      "locked": true,
+      "value": "100 nF"
+    },
+    "J333": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "BA15",
+      "rotation": 180,
+      "locked": true,
+      "value": "HDD3 XH3, centre NC"
+    },
+    "TP473": {
+      "footprint": "PROBE_PIN",
+      "hole": "AY18",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: HDD3_CS"
+    },
+    "U320": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "AR23",
+      "rotation": 0,
+      "locked": true,
+      "value": "HDD2 Pololu4035, 2 x 7 socket"
+    },
+    "C321": {
+      "footprint": "CP470_D10_2H",
+      "hole": "AN23",
+      "rotation": 90,
+      "locked": true,
+      "value": "470 uF / 35 V"
+    },
+    "C322": {
+      "footprint": "C100NF_1H",
+      "hole": "AY23",
+      "rotation": 90,
+      "locked": true,
+      "value": "100 nF"
+    },
+    "J323": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "BA26",
+      "rotation": 180,
+      "locked": true,
+      "value": "HDD2 XH3, centre NC"
+    },
+    "TP472": {
+      "footprint": "PROBE_PIN",
+      "hole": "AY29",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: HDD2_CS"
+    },
+    "U310": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "AR34",
+      "rotation": 0,
+      "locked": true,
+      "value": "HDD1 Pololu4035, 2 x 7 socket"
+    },
+    "C311": {
+      "footprint": "CP470_D10_2H",
+      "hole": "AN34",
+      "rotation": 90,
+      "locked": true,
+      "value": "470 uF / 35 V"
+    },
+    "C312": {
+      "footprint": "C100NF_1H",
+      "hole": "AY34",
+      "rotation": 90,
+      "locked": true,
+      "value": "100 nF"
+    },
+    "J313": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "BA37",
+      "rotation": 180,
+      "locked": true,
+      "value": "HDD1 XH3, centre NC"
+    },
+    "TP471": {
+      "footprint": "PROBE_PIN",
+      "hole": "AY40",
+      "rotation": 0,
+      "locked": true,
+      "value": "Probe pin: HDD1_CS"
+    }
+  },
+  "nodes": {
+    "GND_ENTRY": "AF6",
+    "VM_ENTRY": "AH6",
+    "GND_LOGIC": "M13",
+    "VREF_ROOT": "AE24",
+    "VREF_GND": "AG24"
+  }
+}

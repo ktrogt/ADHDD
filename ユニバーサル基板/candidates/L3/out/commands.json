@@ -1,0 +1,35 @@
+[
+  {
+    "command": "verify",
+    "exit_code": 1,
+    "first_lines": [
+      "FAIL; LVS PASS; 186/186 pins, 42 nets, 22 NC; 42 errors, 52 warnings; 3385.2 mm wire, 38 jumpers; score 4256515.8",
+      "COMPARISON (LVS ok max; remaining fields min): [true, 0, 2, 38, 220.862152, 62, 3385.17]",
+      "UNCHECKED hard rules (excluded from comparison failures): B01, B02, B07, C01, C02, C03, M02, M03, M04, M05, M06, M08, M10, M12, S01, S02, W01, W02, W03, W04, W05, W06, W07",
+      "ERROR RULE:B01: T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+    ]
+  },
+  {
+    "command": "render",
+    "exit_code": 0,
+    "first_lines": [
+      "SVG: ユニバーサル基板\\candidates\\L3\\out\\top.svg",
+      "SVG: ユニバーサル基板\\candidates\\L3\\out\\bottom.svg",
+      "SVG: ユニバーサル基板\\candidates\\L3\\out\\overlay.svg"
+    ]
+  },
+  {
+    "command": "wirelist",
+    "exit_code": 0,
+    "first_lines": [
+      "WIRE LIST: 115 steps"
+    ]
+  },
+  {
+    "command": "continuity",
+    "exit_code": 0,
+    "first_lines": [
+      "CONTINUITY: 1023 tests (bare board, power off)"
+    ]
+  }
+]

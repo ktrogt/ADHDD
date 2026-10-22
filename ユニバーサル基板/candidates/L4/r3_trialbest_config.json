@@ -1,0 +1,41 @@
+{
+  "priority_nets": [],
+  "under_bus": null,
+  "fault_mode": "star",
+  "early_nets": [
+    "SN_BUS",
+    "SN_RX_IN",
+    "SN_PU",
+    "VIN_RAW",
+    "VIN_FUSED",
+    "VIN_PROT"
+  ],
+  "force_jump_nets": [
+    "UART_RX"
+  ],
+  "direct_regulator_feed": false,
+  "order": [
+    "HDD4_IN1",
+    "HDD4_IN2",
+    "VREF",
+    "HDD3_IN1",
+    "HDD3_IN2",
+    "+3V3",
+    "HDD1_IN1",
+    "HDD1_IN2",
+    "HDD2_IN1",
+    "HDD2_IN2",
+    "SLEEP"
+  ],
+  "vref_order": [
+    2,
+    3,
+    4,
+    1
+  ],
+  "bend": 0.4,
+  "reverse_roots": [
+    "HDD2_IN1",
+    "HDD4_IN1"
+  ]
+}

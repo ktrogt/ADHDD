@@ -1,0 +1,53 @@
+{
+  "seed": 704,
+  "order": [
+    "HDD1_IN1",
+    "HDD2_IN2",
+    "VREF",
+    "HDD3_IN2",
+    "FAULT",
+    "SLEEP",
+    "+3V3",
+    "HDD1_IN2",
+    "ARM_SW",
+    "UART_RX",
+    "HDD4_IN2",
+    "HDD3_IN1",
+    "ARM",
+    "HDD2_IN1",
+    "HDD4_IN1"
+  ],
+  "ground_order": [
+    "GND:PICO_RETURN",
+    "GND:RECEIVER_RETURN",
+    "GND:CONTROL_RETURN",
+    "GND:REGULATOR_CAP_RETURN",
+    "GND:VREF_RETURN"
+  ],
+  "early_nets": [
+    "VIN_FUSED",
+    "SN_RX_IN",
+    "SN_PU",
+    "VIN_PROT",
+    "SN_BUS",
+    "VIN_RAW"
+  ],
+  "priority_nets": [
+    "+3V3",
+    "SLEEP",
+    "UART_RX",
+    "HDD1_IN2",
+    "HDD4_IN2",
+    "ARM_SW",
+    "HDD1_IN1",
+    "HDD3_IN1"
+  ],
+  "force_jump_nets": [
+    "VIN_PROT"
+  ],
+  "bus": "+3V3",
+  "fault_mode": "auto",
+  "bend": 1,
+  "islands": true,
+  "detour": 14
+}

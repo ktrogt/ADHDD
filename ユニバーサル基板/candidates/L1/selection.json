@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "round": 3,
+  "rules_version": "v0.2",
+  "placement_source": "placement.r3.json",
+  "wiring_source": "wiring.r3.json",
+  "baseline_tuple": [
+    true,
+    0,
+    0,
+    31,
+    220.580952,
+    78,
+    3158.323
+  ],
+  "selected_tuple": [
+    true,
+    0,
+    0,
+    31,
+    218.580952,
+    57,
+    3077.043
+  ],
+  "selected_input_SHA256": {
+    "placement.r3.json": "28f51554c21be63375b5f61585bee25b8631718dc1b3b3b59e1f886dfd7f5f59",
+    "wiring.r3.json": "843134e352e75c824a45926799ca2872baedf2235e26918eea849ba2faedee5d"
+  },
+  "method": "Frozen best local bare-chain rerouting; finish3 consolidates collinear pieces and removes redundant copper; native verifier after every change."
+}

@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "view": "top",
+      "refdes_count": 54,
+      "overlapping_refdes": []
+    },
+    {
+      "view": "bottom",
+      "refdes_count": 54,
+      "overlapping_refdes": []
+    },
+    {
+      "view": "overlay",
+      "refdes_count": 54,
+      "overlapping_refdes": []
+    }
+  ],
+  "method": "All three SVGs opened as XML, rendered locally with Pillow/Arial, and visually inspected. Browser file URLs were blocked in round 1; no browser workaround was used.",
+  "notes": [
+    "Tool renderer now supplies the physical board/M3 outline.",
+    "Candidate-only USB arrows added in the free margin.",
+    "BOTTOM mirrored; all hole names remain TOP identities.",
+    "Provisional body offsets, 3D access and print calibration require dry fit."
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "cases": 400,
+  "result": "PASS",
+  "scope": "Proof rectangles, pad sets, body outline, pin/mount keepout admissibility agree with shared T6; packing certificate remains separate."
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "attempt": "L1W008",
+    "lab": "G_POWER",
+    "path": [
+      "G4",
+      "G2",
+      "T2",
+      "T4"
+    ],
+    "bad": [
+      {
+        "code": "RULE:G03",
+        "severity": "error",
+        "detail": "U340.2 -> U340.13: 43.000 holes (max 7)",
+        "status": "FAIL",
+        "rule_type": "max_branch_length",
+        "priority": 2,
+        "rule_severity": "hard",
+        "t7_weight": 0,
+        "t7_penalty": 0.0
+      }
+    ]
+  },
+  {
+    "attempt": "L1W018",
+    "lab": "G_POWER",
+    "path": [
+      "U4",
+      "U2",
+      "AH2",
+      "AH4"
+    ],
+    "bad": [
+      {
+        "code": "RULE:G03",
+        "severity": "error",
+        "detail": "U330.2 -> U330.13: 43.000 holes (max 7)",
+        "status": "FAIL",
+        "rule_type": "max_branch_length",
+        "priority": 2,
+        "rule_severity": "hard",
+        "t7_weight": 0,
+        "t7_penalty": 0.0
+      }
+    ]
+  },
+  {
+    "attempt": "L1W028",
+    "lab": "G_POWER",
+    "path": [
+      "AI4",
+      "AI2",
+      "AV2",
+      "AV4"
+    ],
+    "bad": [
+      {
+        "code": "RULE:G03",
+        "severity": "error",
+        "detail": "U320.2 -> U320.13: 41.000 holes (max 7)",
+        "status": "FAIL",
+        "rule_type": "max_branch_length",
+        "priority": 2,
+        "rule_severity": "hard",
+        "t7_weight": 0,
+        "t7_penalty": 0.0
+      }
+    ]
+  },
+  {
+    "attempt": "L1W051",
+    "lab": "VIN_PROT",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W057",
+    "lab": "G_RX",
+    "path": [
+      "AU33",
+      "AU35"
+    ],
+    "bad": [
+      {
+        "code": "RULE:P16",
+        "severity": "error",
+        "detail": "C208.2 -> U207.3: 6.000 holes (max 4)",
+        "status": "FAIL",
+        "rule_type": "max_branch_length",
+        "priority": 2,
+        "rule_severity": "hard",
+        "t7_weight": 0,
+        "t7_penalty": 0.0
+      }
+    ]
+  },
+  {
+    "attempt": "L1W066",
+    "lab": "G_LINK",
+    "no_path": true,
+    "aa": 30,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W069",
+    "lab": "+5V",
+    "no_path": true,
+    "aa": 17,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W071",
+    "lab": "G_REF",
+    "no_path": true,
+    "aa": 1,
+    "bb": 5
+  },
+  {
+    "attempt": "L1W072",
+    "lab": "G_CONTROL",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W073",
+    "lab": "G_RX",
+    "no_path": true,
+    "aa": 1,
+    "bb": 17
+  },
+  {
+    "attempt": "L1W074",
+    "lab": "G_PICO",
+    "no_path": true,
+    "aa": 1,
+    "bb": 59
+  },
+  {
+    "attempt": "L1W085",
+    "lab": "FAULT",
+    "no_path": true,
+    "aa": 1,
+    "bb": 70
+  },
+  {
+    "attempt": "L1W086",
+    "lab": "FAULT",
+    "no_path": true,
+    "aa": 1,
+    "bb": 70
+  },
+  {
+    "attempt": "L1W087",
+    "lab": "FAULT",
+    "no_path": true,
+    "aa": 1,
+    "bb": 70
+  },
+  {
+    "attempt": "L1W089",
+    "lab": "HDD4_IN1",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W090",
+    "lab": "HDD4_IN2",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W091",
+    "lab": "HDD3_IN1",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W092",
+    "lab": "HDD3_IN2",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W093",
+    "lab": "HDD2_IN1",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W094",
+    "lab": "HDD2_IN2",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W095",
+    "lab": "HDD1_IN1",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W096",
+    "lab": "HDD1_IN2",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W118",
+    "lab": "+3V3",
+    "no_path": true,
+    "aa": 26,
+    "bb": 94
+  },
+  {
+    "attempt": "L1W120",
+    "lab": "V_CH4",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W121",
+    "lab": "V_CH2",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W123",
+    "lab": "V_CH1",
+    "no_path": true,
+    "aa": 1,
+    "bb": 1
+  },
+  {
+    "attempt": "L1W126",
+    "lab": "SLEEP",
+    "no_path": true,
+    "aa": 1,
+    "bb": 16
+  },
+  {
+    "attempt": "L1W127",
+    "lab": "SLEEP",
+    "no_path": true,
+    "aa": 2,
+    "bb": 15
+  },
+  {
+    "attempt": "L1W128",
+    "lab": "SLEEP",
+    "no_path": true,
+    "aa": 1,
+    "bb": 16
+  },
+  {
+    "attempt": "L1W129",
+    "lab": "SLEEP",
+    "no_path": true,
+    "aa": 4,
+    "bb": 13
+  },
+  {
+    "attempt": "L1W130",
+    "lab": "SN_BUS",
+    "no_path": true,
+    "aa": 1,
+    "bb": 3
+  }
+]

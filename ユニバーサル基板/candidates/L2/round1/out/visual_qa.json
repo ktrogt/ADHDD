@@ -1,0 +1,38 @@
+{
+  "label_checks": [
+    {
+      "view": "top",
+      "refdes_labels": 54,
+      "overlapping_refdes": [],
+      "physical_canvas_mm": [
+        231.7,
+        181.8
+      ]
+    },
+    {
+      "view": "bottom",
+      "refdes_labels": 54,
+      "overlapping_refdes": [],
+      "physical_canvas_mm": [
+        231.7,
+        181.8
+      ]
+    },
+    {
+      "view": "overlay",
+      "refdes_labels": 54,
+      "overlapping_refdes": [],
+      "physical_canvas_mm": [
+        231.7,
+        181.8
+      ]
+    }
+  ],
+  "method": "Opened and parsed all three SVGs; rendered their actual vector elements offline with Pillow for visual inspection. Browser file URL was blocked; no browser workaround was used.",
+  "notes": [
+    "TOP is uncluttered because every jumper is on the underside.",
+    "BOTTOM is mirrored, with TOP hole identities retained.",
+    "Original tool renderings are *.tool.svg; annotations add true nominal outline/M3/USB without changing placement or wiring.",
+    "Nominal origin and M3 geometry require real-board dry fit; proposed outline is not a construction release."
+  ]
+}

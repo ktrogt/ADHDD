@@ -1,0 +1,7 @@
+{
+  "before_pieces": 120,
+  "after_pieces": 115,
+  "before_length_mm": 3410.4692475006987,
+  "after_length_mm": 3405.3892475006987,
+  "scope": "same contact graph: four channel feed/bypass wire merges, sleep merge, two duplicate legs removed, collinear vertices removed"
+}

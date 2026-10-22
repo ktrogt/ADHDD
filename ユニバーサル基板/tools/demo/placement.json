@@ -1,0 +1,1209 @@
+{
+  "schema_version": 1,
+  "parts": {
+    "U201": {
+      "footprint": "RPI_PICO_SOCKET",
+      "hole": "D4",
+      "rotation": 0,
+      "locked": true,
+      "value": "Raspberry Pi Pico",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "GP0"
+        },
+        "2": {
+          "number": "2",
+          "name": "GP1"
+        },
+        "3": {
+          "number": "3",
+          "name": "GND@3"
+        },
+        "4": {
+          "number": "4",
+          "name": "GP2"
+        },
+        "5": {
+          "number": "5",
+          "name": "GP3"
+        },
+        "6": {
+          "number": "6",
+          "name": "GP4"
+        },
+        "7": {
+          "number": "7",
+          "name": "GP5"
+        },
+        "8": {
+          "number": "8",
+          "name": "GND@8"
+        },
+        "9": {
+          "number": "9",
+          "name": "GP6"
+        },
+        "10": {
+          "number": "10",
+          "name": "GP7"
+        },
+        "11": {
+          "number": "11",
+          "name": "GP8"
+        },
+        "12": {
+          "number": "12",
+          "name": "GP9"
+        },
+        "13": {
+          "number": "13",
+          "name": "GND@13"
+        },
+        "14": {
+          "number": "14",
+          "name": "GP10"
+        },
+        "15": {
+          "number": "15",
+          "name": "GP11"
+        },
+        "16": {
+          "number": "16",
+          "name": "GP12"
+        },
+        "17": {
+          "number": "17",
+          "name": "GP13"
+        },
+        "18": {
+          "number": "18",
+          "name": "GND@18"
+        },
+        "19": {
+          "number": "19",
+          "name": "GP14"
+        },
+        "20": {
+          "number": "20",
+          "name": "GP15"
+        },
+        "21": {
+          "number": "21",
+          "name": "GP16"
+        },
+        "22": {
+          "number": "22",
+          "name": "GP17"
+        },
+        "23": {
+          "number": "23",
+          "name": "GND@23"
+        },
+        "24": {
+          "number": "24",
+          "name": "GP18"
+        },
+        "25": {
+          "number": "25",
+          "name": "GP19"
+        },
+        "26": {
+          "number": "26",
+          "name": "GP20"
+        },
+        "27": {
+          "number": "27",
+          "name": "GP21"
+        },
+        "28": {
+          "number": "28",
+          "name": "GND@28"
+        },
+        "29": {
+          "number": "29",
+          "name": "GP22"
+        },
+        "30": {
+          "number": "30",
+          "name": "RUN"
+        },
+        "31": {
+          "number": "31",
+          "name": "GP26"
+        },
+        "32": {
+          "number": "32",
+          "name": "GP27"
+        },
+        "33": {
+          "number": "33",
+          "name": "AGND"
+        },
+        "34": {
+          "number": "34",
+          "name": "GP28"
+        },
+        "35": {
+          "number": "35",
+          "name": "ADC_VREF"
+        },
+        "36": {
+          "number": "36",
+          "name": "3V3_OUT"
+        },
+        "37": {
+          "number": "37",
+          "name": "3V3_EN"
+        },
+        "38": {
+          "number": "38",
+          "name": "GND@38"
+        },
+        "39": {
+          "number": "39",
+          "name": "VSYS"
+        },
+        "40": {
+          "number": "40",
+          "name": "VBUS"
+        }
+      }
+    },
+    "U310": {
+      "footprint": "POLOLU_4035_SOCKET",
+      "hole": "Q30",
+      "rotation": 0,
+      "locked": true,
+      "value": "Pololu4035 MODIFIED",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "VM"
+        },
+        "2": {
+          "number": "2",
+          "name": "GND@2"
+        },
+        "3": {
+          "number": "3",
+          "name": "IN1"
+        },
+        "4": {
+          "number": "4",
+          "name": "IN2"
+        },
+        "5": {
+          "number": "5",
+          "name": "PMODE"
+        },
+        "6": {
+          "number": "6",
+          "name": "SLEEP"
+        },
+        "7": {
+          "number": "7",
+          "name": "VREF"
+        },
+        "8": {
+          "number": "8",
+          "name": "CS"
+        },
+        "9": {
+          "number": "9",
+          "name": "FAULT"
+        },
+        "10": {
+          "number": "10",
+          "name": "IMODE"
+        },
+        "11": {
+          "number": "11",
+          "name": "OUT2"
+        },
+        "12": {
+          "number": "12",
+          "name": "OUT1"
+        },
+        "13": {
+          "number": "13",
+          "name": "GND@13"
+        },
+        "14": {
+          "number": "14",
+          "name": "VIN"
+        }
+      }
+    },
+    "C311": {
+      "footprint": "CP_RADIAL_D10_P5.0",
+      "hole": "T26",
+      "rotation": 0,
+      "locked": false,
+      "value": "470uF/35V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "POS"
+        },
+        "2": {
+          "number": "2",
+          "name": "NEG"
+        }
+      }
+    },
+    "C312": {
+      "footprint": "C_RADIAL_P2.54",
+      "hole": "X30",
+      "rotation": 0,
+      "locked": false,
+      "value": "100nF/50V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "J313": {
+      "footprint": "JST_VH_B2P_P3.96",
+      "hole": "T41",
+      "rotation": 0,
+      "locked": false,
+      "value": "VH2P",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "OUT1"
+        },
+        "2": {
+          "number": "2",
+          "name": "OUT2"
+        }
+      }
+    },
+    "U320": {
+      "footprint": "POLOLU_4035_SOCKET",
+      "hole": "AB30",
+      "rotation": 0,
+      "locked": true,
+      "value": "Pololu4035 MODIFIED",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "VM"
+        },
+        "2": {
+          "number": "2",
+          "name": "GND@2"
+        },
+        "3": {
+          "number": "3",
+          "name": "IN1"
+        },
+        "4": {
+          "number": "4",
+          "name": "IN2"
+        },
+        "5": {
+          "number": "5",
+          "name": "PMODE"
+        },
+        "6": {
+          "number": "6",
+          "name": "SLEEP"
+        },
+        "7": {
+          "number": "7",
+          "name": "VREF"
+        },
+        "8": {
+          "number": "8",
+          "name": "CS"
+        },
+        "9": {
+          "number": "9",
+          "name": "FAULT"
+        },
+        "10": {
+          "number": "10",
+          "name": "IMODE"
+        },
+        "11": {
+          "number": "11",
+          "name": "OUT2"
+        },
+        "12": {
+          "number": "12",
+          "name": "OUT1"
+        },
+        "13": {
+          "number": "13",
+          "name": "GND@13"
+        },
+        "14": {
+          "number": "14",
+          "name": "VIN"
+        }
+      }
+    },
+    "C321": {
+      "footprint": "CP_RADIAL_D10_P5.0",
+      "hole": "AE26",
+      "rotation": 0,
+      "locked": false,
+      "value": "470uF/35V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "POS"
+        },
+        "2": {
+          "number": "2",
+          "name": "NEG"
+        }
+      }
+    },
+    "C322": {
+      "footprint": "C_RADIAL_P2.54",
+      "hole": "AI30",
+      "rotation": 0,
+      "locked": false,
+      "value": "100nF/50V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "J323": {
+      "footprint": "JST_VH_B2P_P3.96",
+      "hole": "AE41",
+      "rotation": 0,
+      "locked": false,
+      "value": "VH2P",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "OUT1"
+        },
+        "2": {
+          "number": "2",
+          "name": "OUT2"
+        }
+      }
+    },
+    "U330": {
+      "footprint": "POLOLU_4035_SOCKET",
+      "hole": "AM30",
+      "rotation": 0,
+      "locked": true,
+      "value": "Pololu4035 MODIFIED",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "VM"
+        },
+        "2": {
+          "number": "2",
+          "name": "GND@2"
+        },
+        "3": {
+          "number": "3",
+          "name": "IN1"
+        },
+        "4": {
+          "number": "4",
+          "name": "IN2"
+        },
+        "5": {
+          "number": "5",
+          "name": "PMODE"
+        },
+        "6": {
+          "number": "6",
+          "name": "SLEEP"
+        },
+        "7": {
+          "number": "7",
+          "name": "VREF"
+        },
+        "8": {
+          "number": "8",
+          "name": "CS"
+        },
+        "9": {
+          "number": "9",
+          "name": "FAULT"
+        },
+        "10": {
+          "number": "10",
+          "name": "IMODE"
+        },
+        "11": {
+          "number": "11",
+          "name": "OUT2"
+        },
+        "12": {
+          "number": "12",
+          "name": "OUT1"
+        },
+        "13": {
+          "number": "13",
+          "name": "GND@13"
+        },
+        "14": {
+          "number": "14",
+          "name": "VIN"
+        }
+      }
+    },
+    "C331": {
+      "footprint": "CP_RADIAL_D10_P5.0",
+      "hole": "AP26",
+      "rotation": 0,
+      "locked": false,
+      "value": "470uF/35V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "POS"
+        },
+        "2": {
+          "number": "2",
+          "name": "NEG"
+        }
+      }
+    },
+    "C332": {
+      "footprint": "C_RADIAL_P2.54",
+      "hole": "AT30",
+      "rotation": 0,
+      "locked": false,
+      "value": "100nF/50V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "J333": {
+      "footprint": "JST_VH_B2P_P3.96",
+      "hole": "AP41",
+      "rotation": 0,
+      "locked": false,
+      "value": "VH2P",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "OUT1"
+        },
+        "2": {
+          "number": "2",
+          "name": "OUT2"
+        }
+      }
+    },
+    "U340": {
+      "footprint": "POLOLU_4035_SOCKET",
+      "hole": "AX30",
+      "rotation": 0,
+      "locked": true,
+      "value": "Pololu4035 MODIFIED",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "VM"
+        },
+        "2": {
+          "number": "2",
+          "name": "GND@2"
+        },
+        "3": {
+          "number": "3",
+          "name": "IN1"
+        },
+        "4": {
+          "number": "4",
+          "name": "IN2"
+        },
+        "5": {
+          "number": "5",
+          "name": "PMODE"
+        },
+        "6": {
+          "number": "6",
+          "name": "SLEEP"
+        },
+        "7": {
+          "number": "7",
+          "name": "VREF"
+        },
+        "8": {
+          "number": "8",
+          "name": "CS"
+        },
+        "9": {
+          "number": "9",
+          "name": "FAULT"
+        },
+        "10": {
+          "number": "10",
+          "name": "IMODE"
+        },
+        "11": {
+          "number": "11",
+          "name": "OUT2"
+        },
+        "12": {
+          "number": "12",
+          "name": "OUT1"
+        },
+        "13": {
+          "number": "13",
+          "name": "GND@13"
+        },
+        "14": {
+          "number": "14",
+          "name": "VIN"
+        }
+      }
+    },
+    "C341": {
+      "footprint": "CP_RADIAL_D10_P5.0",
+      "hole": "BA26",
+      "rotation": 0,
+      "locked": false,
+      "value": "470uF/35V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "POS"
+        },
+        "2": {
+          "number": "2",
+          "name": "NEG"
+        }
+      }
+    },
+    "C342": {
+      "footprint": "C_RADIAL_P2.54",
+      "hole": "BE30",
+      "rotation": 0,
+      "locked": false,
+      "value": "100nF/50V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "J343": {
+      "footprint": "JST_VH_B2P_P3.96",
+      "hole": "BA41",
+      "rotation": 0,
+      "locked": false,
+      "value": "VH2P",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "OUT1"
+        },
+        "2": {
+          "number": "2",
+          "name": "OUT2"
+        }
+      }
+    },
+    "C106": {
+      "footprint": "CP_RADIAL_D10_P5.0",
+      "hole": "P4",
+      "rotation": 0,
+      "locked": false,
+      "value": "470uF/35V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "POS"
+        },
+        "2": {
+          "number": "2",
+          "name": "NEG"
+        }
+      }
+    },
+    "C108": {
+      "footprint": "CP_RADIAL_D6.3_P2.5",
+      "hole": "U4",
+      "rotation": 0,
+      "locked": false,
+      "value": "100uF/35V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "POS"
+        },
+        "2": {
+          "number": "2",
+          "name": "NEG"
+        }
+      }
+    },
+    "C109": {
+      "footprint": "CP_RADIAL_D6.3_P2.5",
+      "hole": "X4",
+      "rotation": 0,
+      "locked": false,
+      "value": "100uF/35V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "POS"
+        },
+        "2": {
+          "number": "2",
+          "name": "NEG"
+        }
+      }
+    },
+    "C208": {
+      "footprint": "C_RADIAL_P2.54",
+      "hole": "AA4",
+      "rotation": 0,
+      "locked": false,
+      "value": "100nF/50V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "C211": {
+      "footprint": "C_RADIAL_P5.0",
+      "hole": "AC4",
+      "rotation": 0,
+      "locked": false,
+      "value": "220nF/50V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "D103": {
+      "footprint": "D_DO201AD_P15.24",
+      "hole": "AD4",
+      "rotation": 0,
+      "locked": false,
+      "value": "1N5822",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "K"
+        },
+        "2": {
+          "number": "2",
+          "name": "A"
+        }
+      }
+    },
+    "D105": {
+      "footprint": "D_DO41_P10.16",
+      "hole": "AI4",
+      "rotation": 0,
+      "locked": false,
+      "value": "P4KE15A",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "K"
+        },
+        "2": {
+          "number": "2",
+          "name": "A"
+        }
+      }
+    },
+    "D110": {
+      "footprint": "D_DO41_P10.16",
+      "hole": "AL4",
+      "rotation": 0,
+      "locked": false,
+      "value": "1N5819",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "K"
+        },
+        "2": {
+          "number": "2",
+          "name": "A"
+        }
+      }
+    },
+    "D206": {
+      "footprint": "D_DO35_P7.62",
+      "hole": "AO4",
+      "rotation": 0,
+      "locked": false,
+      "value": "BAT43",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "K"
+        },
+        "2": {
+          "number": "2",
+          "name": "A"
+        }
+      }
+    },
+    "F102": {
+      "footprint": "F_MFR300_P5.1",
+      "hole": "AS4",
+      "rotation": 0,
+      "locked": false,
+      "value": "3A hold/30V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "J101": {
+      "footprint": "MJ179PH_PLACEHOLDER",
+      "hole": "AX4",
+      "rotation": 0,
+      "locked": false,
+      "value": "MJ-179PH",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "CENTER"
+        },
+        "2": {
+          "number": "2",
+          "name": "SLEEVE"
+        },
+        "3": {
+          "number": "3",
+          "name": "SWITCH"
+        }
+      }
+    },
+    "J104": {
+      "footprint": "HDR_1X2_P2.54",
+      "hole": "BD4",
+      "rotation": 0,
+      "locked": false,
+      "value": "POWER SWITCH",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "VIN_PROT"
+        },
+        "2": {
+          "number": "2",
+          "name": "VM"
+        }
+      }
+    },
+    "J202": {
+      "footprint": "JST_XH_B2B_2P_P2.50",
+      "hole": "AA6",
+      "rotation": 0,
+      "locked": false,
+      "value": "XH2P",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "SIGNAL"
+        },
+        "2": {
+          "number": "2",
+          "name": "GND"
+        }
+      }
+    },
+    "J203": {
+      "footprint": "JST_XH_B2B_2P_P2.50",
+      "hole": "AK6",
+      "rotation": 0,
+      "locked": false,
+      "value": "XH2P",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "SIGNAL"
+        },
+        "2": {
+          "number": "2",
+          "name": "GND"
+        }
+      }
+    },
+    "J213": {
+      "footprint": "HDR_1X2_P2.54",
+      "hole": "AD6",
+      "rotation": 0,
+      "locked": false,
+      "value": "STOP SWITCH",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "ARM_SW"
+        },
+        "2": {
+          "number": "2",
+          "name": "SLEEP"
+        }
+      }
+    },
+    "U107": {
+      "footprint": "M78AR05_1_SIP3",
+      "hole": "AO7",
+      "rotation": 0,
+      "locked": false,
+      "value": "M78AR05-1",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "VIN"
+        },
+        "2": {
+          "number": "2",
+          "name": "GND"
+        },
+        "3": {
+          "number": "3",
+          "name": "VOUT"
+        }
+      }
+    },
+    "U207": {
+      "footprint": "SOT23_5_SOT25",
+      "hole": "AS6",
+      "rotation": 0,
+      "locked": false,
+      "value": "74AHC1G125W5",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "/OE"
+        },
+        "2": {
+          "number": "2",
+          "name": "A"
+        },
+        "3": {
+          "number": "3",
+          "name": "GND"
+        },
+        "4": {
+          "number": "4",
+          "name": "Y"
+        },
+        "5": {
+          "number": "5",
+          "name": "VCC"
+        }
+      }
+    },
+    "R204": {
+      "footprint": "R_AXIAL_P7.62",
+      "hole": "S6",
+      "rotation": 0,
+      "locked": false,
+      "value": "1k",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "R205": {
+      "footprint": "R_AXIAL_P7.62",
+      "hole": "U6",
+      "rotation": 0,
+      "locked": false,
+      "value": "10k",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "R209": {
+      "footprint": "R_AXIAL_P7.62",
+      "hole": "W6",
+      "rotation": 0,
+      "locked": false,
+      "value": "47k",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "R210": {
+      "footprint": "R_AXIAL_P7.62",
+      "hole": "AF6",
+      "rotation": 0,
+      "locked": false,
+      "value": "4.7k",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "R212": {
+      "footprint": "R_AXIAL_P7.62",
+      "hole": "BC6",
+      "rotation": 0,
+      "locked": false,
+      "value": "1k",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "R214": {
+      "footprint": "R_AXIAL_P7.62",
+      "hole": "P7",
+      "rotation": 0,
+      "locked": false,
+      "value": "10k",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "R215": {
+      "footprint": "R_AXIAL_P7.62",
+      "hole": "AV7",
+      "rotation": 0,
+      "locked": false,
+      "value": "10k",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "P1"
+        },
+        "2": {
+          "number": "2",
+          "name": "P2"
+        }
+      }
+    },
+    "TP460": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "AN5",
+      "rotation": 0,
+      "locked": false,
+      "value": "VM",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP461": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "AO5",
+      "rotation": 0,
+      "locked": false,
+      "value": "+5V",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP462": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "AP5",
+      "rotation": 0,
+      "locked": false,
+      "value": "+3V3",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP463": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "AQ5",
+      "rotation": 0,
+      "locked": false,
+      "value": "GND",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP466": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "BD5",
+      "rotation": 0,
+      "locked": false,
+      "value": "VREF",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP467": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "BE5",
+      "rotation": 0,
+      "locked": false,
+      "value": "SLEEP",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP468": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "T7",
+      "rotation": 0,
+      "locked": false,
+      "value": "FAULT",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP471": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "U7",
+      "rotation": 0,
+      "locked": false,
+      "value": "HDD1_CS",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP472": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "V7",
+      "rotation": 0,
+      "locked": false,
+      "value": "HDD2_CS",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP473": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "W7",
+      "rotation": 0,
+      "locked": false,
+      "value": "HDD3_CS",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    },
+    "TP474": {
+      "footprint": "TP_THT_D2.5",
+      "hole": "X7",
+      "rotation": 0,
+      "locked": false,
+      "value": "HDD4_CS",
+      "pin_map": {
+        "1": {
+          "number": "1",
+          "name": "TP"
+        }
+      }
+    }
+  }
+}

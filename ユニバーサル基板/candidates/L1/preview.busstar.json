@@ -1,0 +1,3952 @@
+{
+  "schema_version": 1,
+  "passed": false,
+  "lvs_pass": true,
+  "expected_pins": 186,
+  "physical_pins": 186,
+  "expected_nets": 42,
+  "nc_pins": 22,
+  "issues": [
+    {
+      "code": "RULE:B01",
+      "severity": "error",
+      "detail": "T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "routing",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:B02",
+      "severity": "error",
+      "detail": "T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "routing",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:B07",
+      "severity": "error",
+      "detail": "T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "routing",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:C01",
+      "severity": "error",
+      "detail": "core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence",
+      "status": "UNCHECKED",
+      "rule_type": "connectivity",
+      "priority": 1,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:C02",
+      "severity": "error",
+      "detail": "T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "routing",
+      "priority": 1,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:C03",
+      "severity": "error",
+      "detail": "T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "routing",
+      "priority": 1,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:M02",
+      "severity": "error",
+      "detail": "T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "mounting",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:M03",
+      "severity": "error",
+      "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:M04",
+      "severity": "error",
+      "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:M05",
+      "severity": "error",
+      "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J101: approach=outward; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J101",
+      "approach": "outward",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J104: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J104",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J202: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J202",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J203: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J203",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J213: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J213",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J313: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J313",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J323: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J323",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J333: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J333",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M06",
+      "severity": "error",
+      "detail": "J343: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J343",
+      "approach": "top",
+      "feature": "mating_and_latch"
+    },
+    {
+      "code": "RULE:M08",
+      "severity": "error",
+      "detail": "J104: footprint feature 'mating_face' has no declared point",
+      "status": "UNCHECKED",
+      "rule_type": "on_edge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J104",
+      "reference": "grid_boundary"
+    },
+    {
+      "code": "RULE:M08",
+      "severity": "error",
+      "detail": "J213: footprint feature 'mating_face' has no declared point",
+      "status": "UNCHECKED",
+      "rule_type": "on_edge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0,
+      "part": "J213",
+      "reference": "grid_boundary"
+    },
+    {
+      "code": "RULE:M10",
+      "severity": "error",
+      "detail": "T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "orientation",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:M12",
+      "severity": "error",
+      "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "accessible",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:S01",
+      "severity": "error",
+      "detail": "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "keep_apart",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:S02",
+      "severity": "error",
+      "detail": "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "keep_apart",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:W01",
+      "severity": "error",
+      "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "trunk_gauge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:W02",
+      "severity": "error",
+      "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "trunk_gauge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:W03",
+      "severity": "error",
+      "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "trunk_gauge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:W04",
+      "severity": "error",
+      "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "trunk_gauge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:W05",
+      "severity": "error",
+      "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "trunk_gauge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:W06",
+      "severity": "error",
+      "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "trunk_gauge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:W07",
+      "severity": "error",
+      "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "trunk_gauge",
+      "priority": 2,
+      "rule_severity": "hard",
+      "t7_weight": 0,
+      "t7_penalty": 0
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D103",
+      "part": "D103"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D206",
+      "part": "D206"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J104",
+      "part": "J104"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J213",
+      "part": "J213"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP460",
+      "part": "TP460"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP461",
+      "part": "TP461"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP462",
+      "part": "TP462"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP463",
+      "part": "TP463"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP464",
+      "part": "TP464"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP465",
+      "part": "TP465"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP466",
+      "part": "TP466"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP467",
+      "part": "TP467"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP468",
+      "part": "TP468"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP471",
+      "part": "TP471"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP472",
+      "part": "TP472"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP473",
+      "part": "TP473"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP474",
+      "part": "TP474"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U201",
+      "part": "U201"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U310",
+      "part": "U310"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U320",
+      "part": "U320"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U330",
+      "part": "U330"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U340",
+      "part": "U340"
+    },
+    {
+      "code": "RULE:B03",
+      "severity": "warning",
+      "detail": "T7 routing/straight_power_trunks: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "routing",
+      "priority": 3,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:B04",
+      "severity": "warning",
+      "detail": "L1W100: 5 bends > 2",
+      "status": "FAIL",
+      "rule_type": "routing",
+      "priority": 3,
+      "rule_severity": "soft",
+      "t7_weight": 2,
+      "t7_penalty": 3.0
+    },
+    {
+      "code": "RULE:B04",
+      "severity": "warning",
+      "detail": "per-conductor bends checked; complete branch IDs and preferred-material policy are not represented",
+      "status": "UNCHECKED",
+      "rule_type": "routing",
+      "priority": 3,
+      "rule_severity": "soft",
+      "t7_weight": 2,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:B05",
+      "severity": "warning",
+      "detail": "31 jumpers > 24",
+      "status": "FAIL",
+      "rule_type": "max_jumpers",
+      "priority": 3,
+      "rule_severity": "soft",
+      "t7_weight": 4,
+      "t7_penalty": 1.1666666666666667
+    },
+    {
+      "code": "RULE:B06",
+      "severity": "warning",
+      "detail": "31 jumpers > 16",
+      "status": "FAIL",
+      "rule_type": "max_jumpers",
+      "priority": 3,
+      "rule_severity": "soft",
+      "t7_weight": 50,
+      "t7_penalty": 46.875
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C312.1 / U310.14: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C312.2 / U310.13: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C322.1 / U320.14: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C322.2 / U320.13: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C332.1 / U330.14: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C332.2 / U330.13: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C342.1 / U340.14: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P07",
+      "severity": "warning",
+      "detail": "C342.2 / U340.13: 3 holes > 1",
+      "status": "FAIL",
+      "rule_type": "near",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 8,
+      "t7_penalty": 16.0
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C311.1 -> U310.14: 5.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 4.0
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C311.2 -> U310.13: 6.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 5.999999999999998
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C321.1 -> U320.14: 5.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 4.0
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C321.2 -> U320.13: 6.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 5.999999999999998
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C331.1 -> U330.14: 5.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 4.0
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C331.2 -> U330.13: 6.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 5.999999999999998
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C341.1 -> U340.14: 5.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 4.0
+    },
+    {
+      "code": "RULE:P10",
+      "severity": "warning",
+      "detail": "C341.2 -> U340.13: 6.000 holes (max 3)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 6,
+      "t7_penalty": 5.999999999999998
+    },
+    {
+      "code": "RULE:S03",
+      "severity": "warning",
+      "detail": "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+      "status": "UNCHECKED",
+      "rule_type": "keep_apart",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 5,
+      "t7_penalty": 0
+    },
+    {
+      "code": "RULE:S05",
+      "severity": "warning",
+      "detail": "U201.11 -> U340.3: 37.336 holes (max 35)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 5,
+      "t7_penalty": 0.33375848645556316
+    },
+    {
+      "code": "RULE:S05",
+      "severity": "warning",
+      "detail": "U201.12 -> U340.4: 35.468 holes (max 35)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 5,
+      "t7_penalty": 0.06689938599091404
+    },
+    {
+      "code": "RULE:S05",
+      "severity": "warning",
+      "detail": "U201.9 -> U330.3: 36.000 holes (max 35)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 5,
+      "t7_penalty": 0.1428571428571459
+    },
+    {
+      "code": "RULE:V05",
+      "severity": "warning",
+      "detail": "$VREF_ROOT -> U310.7: 25.495 holes (max 25)",
+      "status": "FAIL",
+      "rule_type": "max_branch_length",
+      "priority": 2,
+      "rule_severity": "soft",
+      "t7_weight": 7,
+      "t7_penalty": 0.13862731902989878
+    }
+  ],
+  "rule_checks": [
+    {
+      "id": "C01",
+      "type": "connectivity",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "C02",
+      "type": "routing",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "C03",
+      "type": "routing",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "M01",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "M02",
+      "type": "mounting",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "M03",
+      "type": "accessible",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "M04",
+      "type": "accessible",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "M05",
+      "type": "accessible",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "M06",
+      "type": "accessible",
+      "status": "UNCHECKED",
+      "findings": 9,
+      "fail_findings": 0,
+      "unchecked_findings": 9
+    },
+    {
+      "id": "M07",
+      "type": "on_edge",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "M08",
+      "type": "on_edge",
+      "status": "UNCHECKED",
+      "findings": 2,
+      "fail_findings": 0,
+      "unchecked_findings": 2
+    },
+    {
+      "id": "M09",
+      "type": "on_edge",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "M10",
+      "type": "orientation",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "M11",
+      "type": "orientation",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "M12",
+      "type": "accessible",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "M13",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H01",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H02",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H03",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H04",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H05",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H06",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H07",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P01",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P02",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P03",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P04",
+      "type": "group",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P05",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P07",
+      "type": "near",
+      "status": "FAIL",
+      "findings": 8,
+      "fail_findings": 8,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P08",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 8,
+      "fail_findings": 8,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P11",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P13",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P14",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P15",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P16",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "G01",
+      "type": "star",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "G02",
+      "type": "star",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "G03",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V01",
+      "type": "star",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V02",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V03",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V04",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V05",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S01",
+      "type": "keep_apart",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "S02",
+      "type": "keep_apart",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "S03",
+      "type": "keep_apart",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "S04",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 3,
+      "fail_findings": 3,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S07",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S08",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S09",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S10",
+      "type": "near",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S11",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S12",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S13",
+      "type": "group",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "W01",
+      "type": "trunk_gauge",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "W02",
+      "type": "trunk_gauge",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "W03",
+      "type": "trunk_gauge",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "W04",
+      "type": "trunk_gauge",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "W05",
+      "type": "trunk_gauge",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "W06",
+      "type": "trunk_gauge",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "W07",
+      "type": "trunk_gauge",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "B01",
+      "type": "routing",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "B02",
+      "type": "routing",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "B03",
+      "type": "routing",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "B04",
+      "type": "routing",
+      "status": "UNCHECKED",
+      "findings": 2,
+      "fail_findings": 1,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "B05",
+      "type": "max_jumpers",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "B06",
+      "type": "max_jumpers",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "B07",
+      "type": "routing",
+      "status": "UNCHECKED",
+      "findings": 1,
+      "fail_findings": 0,
+      "unchecked_findings": 1
+    },
+    {
+      "id": "B08",
+      "type": "order",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "B09",
+      "type": "group",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "B10",
+      "type": "group",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "B11",
+      "type": "group",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "B12",
+      "type": "group",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    }
+  ],
+  "unchecked_rules": 26,
+  "actual_netlist": [
+    {
+      "net": "GND",
+      "ref": "C106",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C106",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "GND",
+      "ref": "C108",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C108",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "GND",
+      "ref": "C109",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "+5V",
+      "ref": "C109",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "+3V3",
+      "ref": "C208",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C208",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VREF",
+      "ref": "C211",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C211",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C311",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C311",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C312",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C312",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C321",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C321",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C322",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C322",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C331",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C331",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C332",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C332",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C341",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C341",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C342",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C342",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VIN_FUSED",
+      "ref": "D103",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "VIN_PROT",
+      "ref": "D103",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "GND",
+      "ref": "D105",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "VM",
+      "ref": "D105",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "+5V",
+      "ref": "D110",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "VSYS",
+      "ref": "D110",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "+3V3",
+      "ref": "D206",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "SN_PU",
+      "ref": "D206",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "VIN_RAW",
+      "ref": "F102",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "VIN_FUSED",
+      "ref": "F102",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VIN_RAW",
+      "ref": "J101",
+      "pin_number": "1",
+      "pin_name": "CENTER"
+    },
+    {
+      "net": "GND",
+      "ref": "J101",
+      "pin_number": "2",
+      "pin_name": "SLEEVE"
+    },
+    {
+      "net": "NC",
+      "ref": "J101",
+      "pin_number": "3",
+      "pin_name": "SWITCH"
+    },
+    {
+      "net": "VIN_PROT",
+      "ref": "J104",
+      "pin_number": "1",
+      "pin_name": "VIN_PROT"
+    },
+    {
+      "net": "VM",
+      "ref": "J104",
+      "pin_number": "2",
+      "pin_name": "VM"
+    },
+    {
+      "net": "GND",
+      "ref": "J202",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "SN_BUS",
+      "ref": "J202",
+      "pin_number": "1",
+      "pin_name": "SIGNAL"
+    },
+    {
+      "net": "GND",
+      "ref": "J203",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "SN_BUS",
+      "ref": "J203",
+      "pin_number": "1",
+      "pin_name": "SIGNAL"
+    },
+    {
+      "net": "ARM_SW",
+      "ref": "J213",
+      "pin_number": "1",
+      "pin_name": "ARM_SW"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "J213",
+      "pin_number": "2",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "HDD1_OUT1",
+      "ref": "J313",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD1_OUT2",
+      "ref": "J313",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD2_OUT1",
+      "ref": "J323",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD2_OUT2",
+      "ref": "J323",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD3_OUT1",
+      "ref": "J333",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD3_OUT2",
+      "ref": "J333",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD4_OUT1",
+      "ref": "J343",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD4_OUT2",
+      "ref": "J343",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "SN_BUS",
+      "ref": "R204",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "SN_RX_IN",
+      "ref": "R204",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "SN_RX_IN",
+      "ref": "R205",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "SN_PU",
+      "ref": "R205",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "R209",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "VREF",
+      "ref": "R209",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VREF",
+      "ref": "R210",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "R210",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "ARM",
+      "ref": "R212",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "ARM_SW",
+      "ref": "R212",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "R214",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "R214",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "R215",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "FAULT",
+      "ref": "R215",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VM",
+      "ref": "TP460",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "+5V",
+      "ref": "TP461",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "+3V3",
+      "ref": "TP462",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "GND",
+      "ref": "TP463",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "GND",
+      "ref": "TP464",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "GND",
+      "ref": "TP465",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "VREF",
+      "ref": "TP466",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "TP467",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "FAULT",
+      "ref": "TP468",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD1_CS",
+      "ref": "TP471",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD2_CS",
+      "ref": "TP472",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD3_CS",
+      "ref": "TP473",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD4_CS",
+      "ref": "TP474",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "GND",
+      "ref": "U107",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "VM",
+      "ref": "U107",
+      "pin_number": "1",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "+5V",
+      "ref": "U107",
+      "pin_number": "3",
+      "pin_name": "VOUT"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "37",
+      "pin_name": "3V3_EN"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U201",
+      "pin_number": "36",
+      "pin_name": "3V3_OUT"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "35",
+      "pin_name": "ADC_VREF"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "33",
+      "pin_name": "AGND"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "18",
+      "pin_name": "GND@18"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "23",
+      "pin_name": "GND@23"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "28",
+      "pin_name": "GND@28"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "3",
+      "pin_name": "GND@3"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "38",
+      "pin_name": "GND@38"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "8",
+      "pin_name": "GND@8"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "1",
+      "pin_name": "GP0"
+    },
+    {
+      "net": "UART_RX",
+      "ref": "U201",
+      "pin_number": "2",
+      "pin_name": "GP1"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "14",
+      "pin_name": "GP10"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "15",
+      "pin_name": "GP11"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "16",
+      "pin_name": "GP12"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "17",
+      "pin_name": "GP13"
+    },
+    {
+      "net": "ARM",
+      "ref": "U201",
+      "pin_number": "19",
+      "pin_name": "GP14"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U201",
+      "pin_number": "20",
+      "pin_name": "GP15"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U201",
+      "pin_number": "21",
+      "pin_name": "GP16"
+    },
+    {
+      "net": "MUX_S0",
+      "ref": "U201",
+      "pin_number": "22",
+      "pin_name": "GP17"
+    },
+    {
+      "net": "MUX_S1",
+      "ref": "U201",
+      "pin_number": "24",
+      "pin_name": "GP18"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "25",
+      "pin_name": "GP19"
+    },
+    {
+      "net": "HDD1_IN1",
+      "ref": "U201",
+      "pin_number": "4",
+      "pin_name": "GP2"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "26",
+      "pin_name": "GP20"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "27",
+      "pin_name": "GP21"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "29",
+      "pin_name": "GP22"
+    },
+    {
+      "net": "VM_SENSE",
+      "ref": "U201",
+      "pin_number": "31",
+      "pin_name": "GP26"
+    },
+    {
+      "net": "I_SENSE",
+      "ref": "U201",
+      "pin_number": "32",
+      "pin_name": "GP27"
+    },
+    {
+      "net": "T_SENSE",
+      "ref": "U201",
+      "pin_number": "34",
+      "pin_name": "GP28"
+    },
+    {
+      "net": "HDD1_IN2",
+      "ref": "U201",
+      "pin_number": "5",
+      "pin_name": "GP3"
+    },
+    {
+      "net": "HDD2_IN1",
+      "ref": "U201",
+      "pin_number": "6",
+      "pin_name": "GP4"
+    },
+    {
+      "net": "HDD2_IN2",
+      "ref": "U201",
+      "pin_number": "7",
+      "pin_name": "GP5"
+    },
+    {
+      "net": "HDD3_IN1",
+      "ref": "U201",
+      "pin_number": "9",
+      "pin_name": "GP6"
+    },
+    {
+      "net": "HDD3_IN2",
+      "ref": "U201",
+      "pin_number": "10",
+      "pin_name": "GP7"
+    },
+    {
+      "net": "HDD4_IN1",
+      "ref": "U201",
+      "pin_number": "11",
+      "pin_name": "GP8"
+    },
+    {
+      "net": "HDD4_IN2",
+      "ref": "U201",
+      "pin_number": "12",
+      "pin_name": "GP9"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "30",
+      "pin_name": "RUN"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "40",
+      "pin_name": "VBUS"
+    },
+    {
+      "net": "VSYS",
+      "ref": "U201",
+      "pin_number": "39",
+      "pin_name": "VSYS"
+    },
+    {
+      "net": "GND",
+      "ref": "U207",
+      "pin_number": "1",
+      "pin_name": "/OE"
+    },
+    {
+      "net": "SN_RX_IN",
+      "ref": "U207",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "GND",
+      "ref": "U207",
+      "pin_number": "3",
+      "pin_name": "GND"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U207",
+      "pin_number": "5",
+      "pin_name": "VCC"
+    },
+    {
+      "net": "UART_RX",
+      "ref": "U207",
+      "pin_number": "4",
+      "pin_name": "Y"
+    },
+    {
+      "net": "HDD1_CS",
+      "ref": "U310",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U310",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U310",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U310",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U310",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD1_IN1",
+      "ref": "U310",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD1_IN2",
+      "ref": "U310",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD1_OUT1",
+      "ref": "U310",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD1_OUT2",
+      "ref": "U310",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U310",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U310",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U310",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U310",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U310",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "HDD2_CS",
+      "ref": "U320",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U320",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U320",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U320",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U320",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD2_IN1",
+      "ref": "U320",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD2_IN2",
+      "ref": "U320",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD2_OUT1",
+      "ref": "U320",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD2_OUT2",
+      "ref": "U320",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U320",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U320",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U320",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U320",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U320",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "HDD3_CS",
+      "ref": "U330",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U330",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U330",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U330",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U330",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD3_IN1",
+      "ref": "U330",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD3_IN2",
+      "ref": "U330",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD3_OUT1",
+      "ref": "U330",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD3_OUT2",
+      "ref": "U330",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U330",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U330",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U330",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U330",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U330",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "HDD4_CS",
+      "ref": "U340",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U340",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U340",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U340",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U340",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD4_IN1",
+      "ref": "U340",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD4_IN2",
+      "ref": "U340",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD4_OUT1",
+      "ref": "U340",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD4_OUT2",
+      "ref": "U340",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U340",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U340",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U340",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U340",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U340",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    }
+  ],
+  "components": [
+    {
+      "actual_net": "VM",
+      "pins": [
+        "C106.POS",
+        "C108.POS",
+        "C311.POS",
+        "C312.P1",
+        "C321.POS",
+        "C322.P1",
+        "C331.POS",
+        "C332.P1",
+        "C341.POS",
+        "C342.P1",
+        "D105.K",
+        "J104.VM",
+        "TP460.TP",
+        "U107.VIN",
+        "U310.VIN",
+        "U320.VIN",
+        "U330.VIN",
+        "U340.VIN"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [
+        "VM"
+      ],
+      "conductors": [
+        "L1W001",
+        "L1W002",
+        "L1W007",
+        "L1W008",
+        "L1W009",
+        "L1W016",
+        "L1W017",
+        "L1W018",
+        "L1W025",
+        "L1W026",
+        "L1W027",
+        "L1W034",
+        "L1W035",
+        "L1W036",
+        "L1W052",
+        "L1W059",
+        "L1W071",
+        "L1W075"
+      ]
+    },
+    {
+      "actual_net": "VIN_PROT",
+      "pins": [
+        "D103.K",
+        "J104.VIN_PROT"
+      ],
+      "expected_nets": [
+        "VIN_PROT"
+      ],
+      "conductor_nets": [
+        "VIN_PROT"
+      ],
+      "conductors": [
+        "L1W058"
+      ]
+    },
+    {
+      "actual_net": "GND",
+      "pins": [
+        "C106.NEG",
+        "C108.NEG",
+        "C109.NEG",
+        "C208.P2",
+        "C211.P2",
+        "C311.NEG",
+        "C312.P2",
+        "C321.NEG",
+        "C322.P2",
+        "C331.NEG",
+        "C332.P2",
+        "C341.NEG",
+        "C342.P2",
+        "D105.A",
+        "J101.SLEEVE",
+        "J202.GND",
+        "J203.GND",
+        "R210.P2",
+        "R214.P2",
+        "TP463.TP",
+        "TP464.TP",
+        "TP465.TP",
+        "U107.GND",
+        "U201.AGND",
+        "U201.GND@13",
+        "U201.GND@18",
+        "U201.GND@23",
+        "U201.GND@28",
+        "U201.GND@3",
+        "U201.GND@38",
+        "U201.GND@8",
+        "U207./OE",
+        "U207.GND",
+        "U310.GND@13",
+        "U310.GND@2",
+        "U320.GND@13",
+        "U320.GND@2",
+        "U330.GND@13",
+        "U330.GND@2",
+        "U340.GND@13",
+        "U340.GND@2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [
+        "GND"
+      ],
+      "conductors": [
+        "L1W003",
+        "L1W004",
+        "L1W005",
+        "L1W006",
+        "L1W010",
+        "L1W011",
+        "L1W012",
+        "L1W019",
+        "L1W020",
+        "L1W021",
+        "L1W028",
+        "L1W029",
+        "L1W030",
+        "L1W037",
+        "L1W038",
+        "L1W039",
+        "L1W053",
+        "L1W054",
+        "L1W055",
+        "L1W060",
+        "L1W062",
+        "L1W064",
+        "L1W065",
+        "L1W069",
+        "L1W070",
+        "L1W072",
+        "L1W073",
+        "L1W078",
+        "L1W079",
+        "L1W080",
+        "L1W081",
+        "L1W082",
+        "L1W083",
+        "L1W084",
+        "L1W085",
+        "L1W086",
+        "L1W087",
+        "L1W088",
+        "L1W089",
+        "L1W090",
+        "L1W091",
+        "L1W101",
+        "L1W102"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "J101.SWITCH"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U340.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VIN_RAW",
+      "pins": [
+        "F102.P1",
+        "J101.CENTER"
+      ],
+      "expected_nets": [
+        "VIN_RAW"
+      ],
+      "conductor_nets": [
+        "VIN_RAW"
+      ],
+      "conductors": [
+        "L1W056"
+      ]
+    },
+    {
+      "actual_net": "HDD4_OUT1",
+      "pins": [
+        "J343.OUT1",
+        "U340.OUT1"
+      ],
+      "expected_nets": [
+        "HDD4_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD4_OUT1"
+      ],
+      "conductors": [
+        "L1W013"
+      ]
+    },
+    {
+      "actual_net": "HDD4_IN1",
+      "pins": [
+        "U201.GP8",
+        "U340.IN1"
+      ],
+      "expected_nets": [
+        "HDD4_IN1"
+      ],
+      "conductor_nets": [
+        "HDD4_IN1"
+      ],
+      "conductors": [
+        "L1W113"
+      ]
+    },
+    {
+      "actual_net": "HDD4_OUT2",
+      "pins": [
+        "J343.OUT2",
+        "U340.OUT2"
+      ],
+      "expected_nets": [
+        "HDD4_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD4_OUT2"
+      ],
+      "conductors": [
+        "L1W014"
+      ]
+    },
+    {
+      "actual_net": "HDD4_IN2",
+      "pins": [
+        "U201.GP9",
+        "U340.IN2"
+      ],
+      "expected_nets": [
+        "HDD4_IN2"
+      ],
+      "conductor_nets": [
+        "HDD4_IN2"
+      ],
+      "conductors": [
+        "L1W116"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U340.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "+3V3",
+      "pins": [
+        "C208.P1",
+        "D206.A",
+        "R209.P1",
+        "R215.P1",
+        "TP462.TP",
+        "U201.3V3_OUT",
+        "U207.VCC",
+        "U310.PMODE",
+        "U320.PMODE",
+        "U330.PMODE",
+        "U340.PMODE"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [
+        "+3V3"
+      ],
+      "conductors": [
+        "L1W049",
+        "L1W050",
+        "L1W051",
+        "L1W063",
+        "L1W104",
+        "L1W105",
+        "L1W106",
+        "L1W107",
+        "L1W108",
+        "L1W109"
+      ]
+    },
+    {
+      "actual_net": "VIN_FUSED",
+      "pins": [
+        "D103.A",
+        "F102.P2"
+      ],
+      "expected_nets": [
+        "VIN_FUSED"
+      ],
+      "conductor_nets": [
+        "VIN_FUSED"
+      ],
+      "conductors": [
+        "L1W057"
+      ]
+    },
+    {
+      "actual_net": "FAULT",
+      "pins": [
+        "R215.P2",
+        "TP468.TP",
+        "U201.GP15",
+        "U310.FAULT",
+        "U320.FAULT",
+        "U330.FAULT",
+        "U340.FAULT"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [
+        "FAULT"
+      ],
+      "conductors": [
+        "L1W092",
+        "L1W093",
+        "L1W094",
+        "L1W095",
+        "L1W111",
+        "L1W112"
+      ]
+    },
+    {
+      "actual_net": "SLEEP",
+      "pins": [
+        "J213.SLEEP",
+        "R214.P1",
+        "TP467.TP",
+        "U201.GP16",
+        "U310.SLEEP",
+        "U320.SLEEP",
+        "U330.SLEEP",
+        "U340.SLEEP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [
+        "SLEEP"
+      ],
+      "conductors": [
+        "L1W043",
+        "L1W044",
+        "L1W045",
+        "L1W046",
+        "L1W047",
+        "L1W048",
+        "L1W074",
+        "L1W122",
+        "L1W123",
+        "L1W124"
+      ]
+    },
+    {
+      "actual_net": "+5V",
+      "pins": [
+        "C109.POS",
+        "D110.A",
+        "TP461.TP",
+        "U107.VOUT"
+      ],
+      "expected_nets": [
+        "+5V"
+      ],
+      "conductor_nets": [
+        "+5V"
+      ],
+      "conductors": [
+        "L1W061",
+        "L1W076",
+        "L1W103"
+      ]
+    },
+    {
+      "actual_net": "HDD4_CS",
+      "pins": [
+        "TP474.TP",
+        "U340.CS"
+      ],
+      "expected_nets": [
+        "HDD4_CS"
+      ],
+      "conductor_nets": [
+        "HDD4_CS"
+      ],
+      "conductors": [
+        "L1W015"
+      ]
+    },
+    {
+      "actual_net": "VREF",
+      "pins": [
+        "C211.P1",
+        "R209.P2",
+        "R210.P1",
+        "TP466.TP",
+        "U310.VREF",
+        "U320.VREF",
+        "U330.VREF",
+        "U340.VREF"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [
+        "VREF"
+      ],
+      "conductors": [
+        "L1W068",
+        "L1W110",
+        "L1W114",
+        "L1W118",
+        "L1W121"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U330.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_OUT1",
+      "pins": [
+        "J333.OUT1",
+        "U330.OUT1"
+      ],
+      "expected_nets": [
+        "HDD3_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD3_OUT1"
+      ],
+      "conductors": [
+        "L1W022"
+      ]
+    },
+    {
+      "actual_net": "HDD3_IN1",
+      "pins": [
+        "U201.GP6",
+        "U330.IN1"
+      ],
+      "expected_nets": [
+        "HDD3_IN1"
+      ],
+      "conductor_nets": [
+        "HDD3_IN1"
+      ],
+      "conductors": [
+        "L1W096"
+      ]
+    },
+    {
+      "actual_net": "HDD3_OUT2",
+      "pins": [
+        "J333.OUT2",
+        "U330.OUT2"
+      ],
+      "expected_nets": [
+        "HDD3_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD3_OUT2"
+      ],
+      "conductors": [
+        "L1W023"
+      ]
+    },
+    {
+      "actual_net": "HDD3_IN2",
+      "pins": [
+        "U201.GP7",
+        "U330.IN2"
+      ],
+      "expected_nets": [
+        "HDD3_IN2"
+      ],
+      "conductor_nets": [
+        "HDD3_IN2"
+      ],
+      "conductors": [
+        "L1W126"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U330.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_CS",
+      "pins": [
+        "TP473.TP",
+        "U330.CS"
+      ],
+      "expected_nets": [
+        "HDD3_CS"
+      ],
+      "conductor_nets": [
+        "HDD3_CS"
+      ],
+      "conductors": [
+        "L1W024"
+      ]
+    },
+    {
+      "actual_net": "ARM_SW",
+      "pins": [
+        "J213.ARM_SW",
+        "R212.P2"
+      ],
+      "expected_nets": [
+        "ARM_SW"
+      ],
+      "conductor_nets": [
+        "ARM_SW"
+      ],
+      "conductors": [
+        "L1W100"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U320.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "ARM",
+      "pins": [
+        "R212.P1",
+        "U201.GP14"
+      ],
+      "expected_nets": [
+        "ARM"
+      ],
+      "conductor_nets": [
+        "ARM"
+      ],
+      "conductors": [
+        "L1W099"
+      ]
+    },
+    {
+      "actual_net": "MUX_S0",
+      "pins": [
+        "U201.GP17"
+      ],
+      "expected_nets": [
+        "MUX_S0"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD2_OUT1",
+      "pins": [
+        "J323.OUT1",
+        "U320.OUT1"
+      ],
+      "expected_nets": [
+        "HDD2_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD2_OUT1"
+      ],
+      "conductors": [
+        "L1W031"
+      ]
+    },
+    {
+      "actual_net": "HDD2_IN1",
+      "pins": [
+        "U201.GP4",
+        "U320.IN1"
+      ],
+      "expected_nets": [
+        "HDD2_IN1"
+      ],
+      "conductor_nets": [
+        "HDD2_IN1"
+      ],
+      "conductors": [
+        "L1W097"
+      ]
+    },
+    {
+      "actual_net": "HDD2_OUT2",
+      "pins": [
+        "J323.OUT2",
+        "U320.OUT2"
+      ],
+      "expected_nets": [
+        "HDD2_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD2_OUT2"
+      ],
+      "conductors": [
+        "L1W032"
+      ]
+    },
+    {
+      "actual_net": "HDD2_IN2",
+      "pins": [
+        "U201.GP5",
+        "U320.IN2"
+      ],
+      "expected_nets": [
+        "HDD2_IN2"
+      ],
+      "conductor_nets": [
+        "HDD2_IN2"
+      ],
+      "conductors": [
+        "L1W127"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP13"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "MUX_S1",
+      "pins": [
+        "U201.GP18"
+      ],
+      "expected_nets": [
+        "MUX_S1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U320.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP12"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP19"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP11"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP20"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD2_CS",
+      "pins": [
+        "TP472.TP",
+        "U320.CS"
+      ],
+      "expected_nets": [
+        "HDD2_CS"
+      ],
+      "conductor_nets": [
+        "HDD2_CS"
+      ],
+      "conductors": [
+        "L1W033"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP10"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP21"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "SN_RX_IN",
+      "pins": [
+        "R204.P2",
+        "R205.P1",
+        "U207.A"
+      ],
+      "expected_nets": [
+        "SN_RX_IN"
+      ],
+      "conductor_nets": [
+        "SN_RX_IN"
+      ],
+      "conductors": [
+        "L1W067",
+        "L1W115"
+      ]
+    },
+    {
+      "actual_net": "SN_PU",
+      "pins": [
+        "D206.K",
+        "R205.P2"
+      ],
+      "expected_nets": [
+        "SN_PU"
+      ],
+      "conductor_nets": [
+        "SN_PU"
+      ],
+      "conductors": [
+        "L1W117"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP22"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.RUN"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VM_SENSE",
+      "pins": [
+        "U201.GP26"
+      ],
+      "expected_nets": [
+        "VM_SENSE"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "SN_BUS",
+      "pins": [
+        "J202.SIGNAL",
+        "J203.SIGNAL",
+        "R204.P1"
+      ],
+      "expected_nets": [
+        "SN_BUS"
+      ],
+      "conductor_nets": [
+        "SN_BUS"
+      ],
+      "conductors": [
+        "L1W066",
+        "L1W119"
+      ]
+    },
+    {
+      "actual_net": "I_SENSE",
+      "pins": [
+        "U201.GP27"
+      ],
+      "expected_nets": [
+        "I_SENSE"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "T_SENSE",
+      "pins": [
+        "U201.GP28"
+      ],
+      "expected_nets": [
+        "T_SENSE"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U310.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.ADC_VREF"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD1_IN2",
+      "pins": [
+        "U201.GP3",
+        "U310.IN2"
+      ],
+      "expected_nets": [
+        "HDD1_IN2"
+      ],
+      "conductor_nets": [
+        "HDD1_IN2"
+      ],
+      "conductors": [
+        "L1W125"
+      ]
+    },
+    {
+      "actual_net": "HDD1_OUT1",
+      "pins": [
+        "J313.OUT1",
+        "U310.OUT1"
+      ],
+      "expected_nets": [
+        "HDD1_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD1_OUT1"
+      ],
+      "conductors": [
+        "L1W040"
+      ]
+    },
+    {
+      "actual_net": "HDD1_IN1",
+      "pins": [
+        "U201.GP2",
+        "U310.IN1"
+      ],
+      "expected_nets": [
+        "HDD1_IN1"
+      ],
+      "conductor_nets": [
+        "HDD1_IN1"
+      ],
+      "conductors": [
+        "L1W098"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.3V3_EN"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "UART_RX",
+      "pins": [
+        "U201.GP1",
+        "U207.Y"
+      ],
+      "expected_nets": [
+        "UART_RX"
+      ],
+      "conductor_nets": [
+        "UART_RX"
+      ],
+      "conductors": [
+        "L1W120"
+      ]
+    },
+    {
+      "actual_net": "HDD1_OUT2",
+      "pins": [
+        "J313.OUT2",
+        "U310.OUT2"
+      ],
+      "expected_nets": [
+        "HDD1_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD1_OUT2"
+      ],
+      "conductors": [
+        "L1W041"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U310.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VSYS",
+      "pins": [
+        "D110.K",
+        "U201.VSYS"
+      ],
+      "expected_nets": [
+        "VSYS"
+      ],
+      "conductor_nets": [
+        "VSYS"
+      ],
+      "conductors": [
+        "L1W077"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP0"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.VBUS"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD1_CS",
+      "pins": [
+        "TP471.TP",
+        "U310.CS"
+      ],
+      "expected_nets": [
+        "HDD1_CS"
+      ],
+      "conductor_nets": [
+        "HDD1_CS"
+      ],
+      "conductors": [
+        "L1W042"
+      ]
+    }
+  ],
+  "metrics": {
+    "wire_length_mm": {
+      "bare": 2100.58,
+      "bridge": 0.0,
+      "jumper": 1331.558
+    },
+    "total_wire_mm": 3432.138,
+    "jumpers": 31,
+    "bridges": 0,
+    "conductors": 127,
+    "jumper_over_exposed_crossings": 172,
+    "bbox_mm": [
+      -2.76,
+      1.68,
+      137.16,
+      102.46
+    ],
+    "used_bbox_area_mm2": 14101.138,
+    "used_area_fraction": 0.99349,
+    "power_path_lengths": [
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U310.VIN",
+        "length_mm": 162.56
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U320.VIN",
+        "length_mm": 127.0
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U330.VIN",
+        "length_mm": 91.44
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U340.VIN",
+        "length_mm": 66.04
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@2",
+        "length_mm": 162.56
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@13",
+        "length_mm": 175.26
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@2",
+        "length_mm": 121.92
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@13",
+        "length_mm": 134.62
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@2",
+        "length_mm": 81.28
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@13",
+        "length_mm": 93.98
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@2",
+        "length_mm": 40.64
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@13",
+        "length_mm": 53.34
+      }
+    ],
+    "longest_signal_nets": [
+      {
+        "net": "FAULT",
+        "length_mm": 259.006
+      },
+      {
+        "net": "SLEEP",
+        "length_mm": 218.44
+      },
+      {
+        "net": "VREF",
+        "length_mm": 167.968
+      },
+      {
+        "net": "HDD4_IN1",
+        "length_mm": 94.834
+      },
+      {
+        "net": "HDD3_IN1",
+        "length_mm": 91.44
+      },
+      {
+        "net": "HDD4_IN2",
+        "length_mm": 90.089
+      },
+      {
+        "net": "ARM_SW",
+        "length_mm": 81.28
+      },
+      {
+        "net": "HDD2_IN1",
+        "length_mm": 63.5
+      },
+      {
+        "net": "HDD3_IN2",
+        "length_mm": 62.733
+      },
+      {
+        "net": "HDD2_IN2",
+        "length_mm": 41.659
+      }
+    ],
+    "violations_by_severity": {
+      "error": 32,
+      "warning": 48
+    },
+    "rule_violations_by_severity": {
+      "error": 32,
+      "warning": 26
+    },
+    "score": 3252537.15,
+    "score_weights": {
+      "wire_mm": 1,
+      "jumpers": 20,
+      "bridges": 1,
+      "crossings": 2,
+      "area_mm2": 0.01,
+      "error": 100000,
+      "warning": 1000,
+      "info": 0
+    },
+    "t7_soft_penalty": 219.723809,
+    "t7_soft_penalty_by_rule": {
+      "B04": 3.0,
+      "B05": 1.166667,
+      "B06": 46.875,
+      "P07": 128.0,
+      "P10": 40.0,
+      "S05": 0.543515,
+      "V05": 0.138627
+    },
+    "unchecked_soft_rule_ids": [
+      "B03",
+      "B04",
+      "S03"
+    ],
+    "soft_penalty_complete": false,
+    "hard_fail_count": 0,
+    "hard_failed_rule_ids": [],
+    "unchecked_hard_rules": [
+      {
+        "id": "B01",
+        "reasons": [
+          "T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "B02",
+        "reasons": [
+          "T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "B07",
+        "reasons": [
+          "T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "C01",
+        "reasons": [
+          "core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence"
+        ]
+      },
+      {
+        "id": "C02",
+        "reasons": [
+          "T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "C03",
+        "reasons": [
+          "T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "M02",
+        "reasons": [
+          "T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "M03",
+        "reasons": [
+          "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "M04",
+        "reasons": [
+          "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "M05",
+        "reasons": [
+          "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "M06",
+        "reasons": [
+          "J101: approach=outward; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J104: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J202: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J203: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J213: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J313: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J323: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J333: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+          "J343: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access"
+        ]
+      },
+      {
+        "id": "M08",
+        "reasons": [
+          "J104: footprint feature 'mating_face' has no declared point",
+          "J213: footprint feature 'mating_face' has no declared point"
+        ]
+      },
+      {
+        "id": "M10",
+        "reasons": [
+          "T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "M12",
+        "reasons": [
+          "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "S01",
+        "reasons": [
+          "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "S02",
+        "reasons": [
+          "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "W01",
+        "reasons": [
+          "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "W02",
+        "reasons": [
+          "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "W03",
+        "reasons": [
+          "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "W04",
+        "reasons": [
+          "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "W05",
+        "reasons": [
+          "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "W06",
+        "reasons": [
+          "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      },
+      {
+        "id": "W07",
+        "reasons": [
+          "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+        ]
+      }
+    ],
+    "unchecked_hard_count": 23,
+    "partially_unchecked_hard_rules": [],
+    "partially_unchecked_hard_count": 0,
+    "core_drc_errors": 0,
+    "bends": 115,
+    "comparison_tuple": [
+      true,
+      0,
+      0,
+      31,
+      219.723809,
+      115,
+      3432.138
+    ],
+    "comparison_tuple_fields": [
+      "lvs_ok",
+      "core_drc_errors",
+      "hard_fail_count",
+      "jumpers",
+      "t7_soft_penalty",
+      "bends",
+      "total_wire_mm"
+    ],
+    "comparison_directions": [
+      "max",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min"
+    ],
+    "lexicographic_sort_key": [
+      0,
+      0,
+      0,
+      31,
+      219.723809,
+      115,
+      3432.138
+    ],
+    "ranking_pass": true
+  },
+  "proof_scope": "Independent lands; every exposed path hole is solder-contacted; insulated jumper interiors never connect; component internal circuitry excluded. Provisional dimensions require physical validation."
+}

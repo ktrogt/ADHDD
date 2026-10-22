@@ -1,0 +1,5689 @@
+{
+  "schema_version": 1,
+  "passed": false,
+  "lvs_pass": true,
+  "expected_pins": 184,
+  "physical_pins": 184,
+  "expected_nets": 37,
+  "nc_pins": 27,
+  "issues": [
+    {
+      "code": "RULE:H04",
+      "severity": "error",
+      "detail": "U107 / F102: 2.345 mm < 7.62 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "U107",
+        "F102"
+      ],
+      "measured_mm": 2.344999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C108 / C109: 0.820 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C108",
+        "C109"
+      ],
+      "measured_mm": 0.8200000000000003
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C108 / R204: 0.630 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C108",
+        "R204"
+      ],
+      "measured_mm": 0.629999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C108 / R205: 0.630 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C108",
+        "R205"
+      ],
+      "measured_mm": 0.629999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C109 / J202: 0.520 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C109",
+        "J202"
+      ],
+      "measured_mm": 0.5200000000000031
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C109 / R205: 0.630 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C109",
+        "R205"
+      ],
+      "measured_mm": 0.629999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C109 / R209: 0.630 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C109",
+        "R209"
+      ],
+      "measured_mm": 0.629999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C208 / J202: 0.780 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C208",
+        "J202"
+      ],
+      "measured_mm": 0.7799999999999994
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C211 / D103: 0.620 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C211",
+        "D103"
+      ],
+      "measured_mm": 0.6199999999999903
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "C211 / J202: 0.725 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "C211",
+        "J202"
+      ],
+      "measured_mm": 0.725275809606251
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "D105 / J203: 0.830 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "D105",
+        "J203"
+      ],
+      "measured_mm": 0.8299999999999983
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "D110 / J203: 0.832 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "D110",
+        "J203"
+      ],
+      "measured_mm": 0.8315046602394952
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "D110 / TP460: 0.540 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "D110",
+        "TP460"
+      ],
+      "measured_mm": 0.5399999999999991
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "D110 / TP461: 0.540 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "D110",
+        "TP461"
+      ],
+      "measured_mm": 0.5399999999999991
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "D206 / F102: 0.990 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "D206",
+        "F102"
+      ],
+      "measured_mm": 0.9900000000000233
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "D206 / TP462: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "D206",
+        "TP462"
+      ],
+      "measured_mm": 0.8399999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "D206 / TP463: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "D206",
+        "TP463"
+      ],
+      "measured_mm": 0.8399999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "J104 / TP466: 0.640 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "J104",
+        "TP466"
+      ],
+      "measured_mm": 0.6399999999999988
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "J104 / TP467: 0.640 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "J104",
+        "TP467"
+      ],
+      "measured_mm": 0.6399999999999988
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R204 / TP468: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R204",
+        "TP468"
+      ],
+      "measured_mm": 0.8399999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R204 / TP471: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R204",
+        "TP471"
+      ],
+      "measured_mm": 0.8399999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R205 / TP472: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R205",
+        "TP472"
+      ],
+      "measured_mm": 0.8399999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R205 / TP473: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R205",
+        "TP473"
+      ],
+      "measured_mm": 0.8399999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R209 / TP474: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R209",
+        "TP474"
+      ],
+      "measured_mm": 0.8399999999999999
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R212 / TP466: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R212",
+        "TP466"
+      ],
+      "measured_mm": 0.8399999999999981
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R212 / TP467: 0.840 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R212",
+        "TP467"
+      ],
+      "measured_mm": 0.8399999999999981
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "R215 / U207: 0.540 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "R215",
+        "U207"
+      ],
+      "measured_mm": 0.539999999999992
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "TP460 / U107: 0.655 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "TP460",
+        "U107"
+      ],
+      "measured_mm": 0.6549999999999994
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "TP461 / U107: 0.655 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "TP461",
+        "U107"
+      ],
+      "measured_mm": 0.6549999999999994
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "TP462 / U107: 0.655 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "TP462",
+        "U107"
+      ],
+      "measured_mm": 0.6549999999999994
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "TP463 / U107: 0.655 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "TP463",
+        "U107"
+      ],
+      "measured_mm": 0.6549999999999994
+    },
+    {
+      "code": "RULE:M01",
+      "severity": "error",
+      "detail": "U107 / U207: 0.600 mm < 1.016 mm",
+      "rule_type": "min_part_distance",
+      "parts": [
+        "U107",
+        "U207"
+      ],
+      "measured_mm": 0.6000000000000227
+    },
+    {
+      "code": "RULE:P02_1",
+      "severity": "error",
+      "detail": "VM D105.#1 -> C106.#1: 53.340 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 53.33999999999999
+    },
+    {
+      "code": "RULE:P02_2",
+      "severity": "error",
+      "detail": "GND D105.#2 -> C106.#2: 58.420 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 58.41999999999999
+    },
+    {
+      "code": "RULE:P03_1",
+      "severity": "error",
+      "detail": "VM J104.#2 -> C106.#1: 109.220 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 109.2200000000001
+    },
+    {
+      "code": "RULE:P03_2",
+      "severity": "error",
+      "detail": "GND J101.#2 -> C106.#2: 167.640 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 167.64000000000001
+    },
+    {
+      "code": "RULE:P06_2",
+      "severity": "error",
+      "detail": "GND C312.#2 -> U310.#13: 10.160 mm (max 5.08 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 10.16
+    },
+    {
+      "code": "RULE:P06_4",
+      "severity": "error",
+      "detail": "GND C322.#2 -> U320.#13: 10.160 mm (max 5.08 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 10.16
+    },
+    {
+      "code": "RULE:P06_6",
+      "severity": "error",
+      "detail": "GND C332.#2 -> U330.#13: 10.160 mm (max 5.08 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 10.16
+    },
+    {
+      "code": "RULE:P06_8",
+      "severity": "error",
+      "detail": "GND C342.#2 -> U340.#13: 10.160 mm (max 5.08 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 10.16
+    },
+    {
+      "code": "RULE:P09_2",
+      "severity": "error",
+      "detail": "GND C311.#2 -> U310.#13: 33.020 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 33.019999999999996
+    },
+    {
+      "code": "RULE:P09_4",
+      "severity": "error",
+      "detail": "GND C321.#2 -> U320.#13: 88.900 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 88.90000000000005
+    },
+    {
+      "code": "RULE:P09_6",
+      "severity": "error",
+      "detail": "GND C331.#2 -> U330.#13: 383.540 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 383.54000000000076
+    },
+    {
+      "code": "RULE:P09_8",
+      "severity": "error",
+      "detail": "GND C341.#2 -> U340.#13: 27.940 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 27.939999999999994
+    },
+    {
+      "code": "RULE:P12_1",
+      "severity": "error",
+      "detail": "HDD1_OUT1 U310.#12 -> J313.#1: 27.940 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 27.94
+    },
+    {
+      "code": "RULE:P12_2",
+      "severity": "error",
+      "detail": "HDD1_OUT2 U310.#11 -> J313.#2: 20.320 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 20.32
+    },
+    {
+      "code": "RULE:P12_3",
+      "severity": "error",
+      "detail": "HDD2_OUT1 U320.#12 -> J323.#1: 27.940 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 27.94
+    },
+    {
+      "code": "RULE:P12_4",
+      "severity": "error",
+      "detail": "HDD2_OUT2 U320.#11 -> J323.#2: 20.320 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 20.32
+    },
+    {
+      "code": "RULE:P12_5",
+      "severity": "error",
+      "detail": "HDD3_OUT1 U330.#12 -> J333.#1: 27.940 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 27.94
+    },
+    {
+      "code": "RULE:P12_6",
+      "severity": "error",
+      "detail": "HDD3_OUT2 U330.#11 -> J333.#2: 20.320 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 20.32
+    },
+    {
+      "code": "RULE:P12_7",
+      "severity": "error",
+      "detail": "HDD4_OUT1 U340.#12 -> J343.#1: 27.940 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 27.94
+    },
+    {
+      "code": "RULE:P12_8",
+      "severity": "error",
+      "detail": "HDD4_OUT2 U340.#11 -> J343.#2: 20.320 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 20.32
+    },
+    {
+      "code": "RULE:P14_1",
+      "severity": "error",
+      "detail": "VM C108.#1 -> U107.#1: 63.500 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 63.499999999999986
+    },
+    {
+      "code": "RULE:P14_2",
+      "severity": "error",
+      "detail": "GND C108.#2 -> U107.#2: 205.740 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 205.7399999999999
+    },
+    {
+      "code": "RULE:P14_3",
+      "severity": "error",
+      "detail": "+5V C109.#1 -> U107.#3: 55.880 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 55.879999999999995
+    },
+    {
+      "code": "RULE:P14_4",
+      "severity": "error",
+      "detail": "GND C109.#2 -> U107.#2: 213.360 mm (max 10.16 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 213.35999999999987
+    },
+    {
+      "code": "RULE:P16_1",
+      "severity": "error",
+      "detail": "+3V3 C208.#1 -> U207.#5: 358.140 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 358.1400000000006
+    },
+    {
+      "code": "RULE:P16_2",
+      "severity": "error",
+      "detail": "GND C208.#2 -> U207.#3: 220.980 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 220.97999999999985
+    },
+    {
+      "code": "RULE:RESIDUAL_B01",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B01"
+    },
+    {
+      "code": "RULE:RESIDUAL_B02",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B02"
+    },
+    {
+      "code": "RULE:RESIDUAL_B03",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B03"
+    },
+    {
+      "code": "RULE:RESIDUAL_B04",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B04"
+    },
+    {
+      "code": "RULE:RESIDUAL_B05",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B05"
+    },
+    {
+      "code": "RULE:RESIDUAL_B06",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B06"
+    },
+    {
+      "code": "RULE:RESIDUAL_B07",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B07"
+    },
+    {
+      "code": "RULE:RESIDUAL_B08",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B08"
+    },
+    {
+      "code": "RULE:RESIDUAL_B09",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B09"
+    },
+    {
+      "code": "RULE:RESIDUAL_B10",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B10"
+    },
+    {
+      "code": "RULE:RESIDUAL_B11",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B11"
+    },
+    {
+      "code": "RULE:RESIDUAL_B12",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "B12"
+    },
+    {
+      "code": "RULE:RESIDUAL_C01",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "C01"
+    },
+    {
+      "code": "RULE:RESIDUAL_C02",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "C02"
+    },
+    {
+      "code": "RULE:RESIDUAL_C03",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "C03"
+    },
+    {
+      "code": "RULE:RESIDUAL_G01",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "G01"
+    },
+    {
+      "code": "RULE:RESIDUAL_G02",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "G02"
+    },
+    {
+      "code": "RULE:RESIDUAL_G03",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "G03"
+    },
+    {
+      "code": "RULE:RESIDUAL_M02",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M02"
+    },
+    {
+      "code": "RULE:RESIDUAL_M03",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M03"
+    },
+    {
+      "code": "RULE:RESIDUAL_M04",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M04"
+    },
+    {
+      "code": "RULE:RESIDUAL_M05",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M05"
+    },
+    {
+      "code": "RULE:RESIDUAL_M06",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M06"
+    },
+    {
+      "code": "RULE:RESIDUAL_M07",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M07"
+    },
+    {
+      "code": "RULE:RESIDUAL_M08",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M08"
+    },
+    {
+      "code": "RULE:RESIDUAL_M09",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M09"
+    },
+    {
+      "code": "RULE:RESIDUAL_M10",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M10"
+    },
+    {
+      "code": "RULE:RESIDUAL_M11",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M11"
+    },
+    {
+      "code": "RULE:RESIDUAL_M12",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M12"
+    },
+    {
+      "code": "RULE:RESIDUAL_M13",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "M13"
+    },
+    {
+      "code": "RULE:RESIDUAL_P01",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P01"
+    },
+    {
+      "code": "RULE:RESIDUAL_P02",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P02"
+    },
+    {
+      "code": "RULE:RESIDUAL_P03",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P03"
+    },
+    {
+      "code": "RULE:RESIDUAL_P04",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P04"
+    },
+    {
+      "code": "RULE:RESIDUAL_P05",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P05"
+    },
+    {
+      "code": "RULE:RESIDUAL_P06",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P06"
+    },
+    {
+      "code": "RULE:RESIDUAL_P07",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P07"
+    },
+    {
+      "code": "RULE:RESIDUAL_P08",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P08"
+    },
+    {
+      "code": "RULE:RESIDUAL_P09",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P09"
+    },
+    {
+      "code": "RULE:RESIDUAL_P10",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P10"
+    },
+    {
+      "code": "RULE:RESIDUAL_P11",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P11"
+    },
+    {
+      "code": "RULE:RESIDUAL_P12",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P12"
+    },
+    {
+      "code": "RULE:RESIDUAL_P13",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P13"
+    },
+    {
+      "code": "RULE:RESIDUAL_P14",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P14"
+    },
+    {
+      "code": "RULE:RESIDUAL_P15",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P15"
+    },
+    {
+      "code": "RULE:RESIDUAL_P16",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "P16"
+    },
+    {
+      "code": "RULE:RESIDUAL_S01",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S01"
+    },
+    {
+      "code": "RULE:RESIDUAL_S02",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S02"
+    },
+    {
+      "code": "RULE:RESIDUAL_S03",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S03"
+    },
+    {
+      "code": "RULE:RESIDUAL_S04",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S04"
+    },
+    {
+      "code": "RULE:RESIDUAL_S05",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S05"
+    },
+    {
+      "code": "RULE:RESIDUAL_S06",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S06"
+    },
+    {
+      "code": "RULE:RESIDUAL_S07",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S07"
+    },
+    {
+      "code": "RULE:RESIDUAL_S08",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S08"
+    },
+    {
+      "code": "RULE:RESIDUAL_S09",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S09"
+    },
+    {
+      "code": "RULE:RESIDUAL_S10",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S10"
+    },
+    {
+      "code": "RULE:RESIDUAL_S11",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S11"
+    },
+    {
+      "code": "RULE:RESIDUAL_S12",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S12"
+    },
+    {
+      "code": "RULE:RESIDUAL_S13",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "S13"
+    },
+    {
+      "code": "RULE:RESIDUAL_V01",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "V01"
+    },
+    {
+      "code": "RULE:RESIDUAL_V02",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "V02"
+    },
+    {
+      "code": "RULE:RESIDUAL_V03",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "V03"
+    },
+    {
+      "code": "RULE:RESIDUAL_V04",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "V04"
+    },
+    {
+      "code": "RULE:RESIDUAL_V05",
+      "severity": "error",
+      "detail": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "V05"
+    },
+    {
+      "code": "RULE:RESIDUAL_W01",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "W01"
+    },
+    {
+      "code": "RULE:RESIDUAL_W02",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "W02"
+    },
+    {
+      "code": "RULE:RESIDUAL_W03",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "W03"
+    },
+    {
+      "code": "RULE:RESIDUAL_W04",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "W04"
+    },
+    {
+      "code": "RULE:RESIDUAL_W05",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "W05"
+    },
+    {
+      "code": "RULE:RESIDUAL_W06",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "W06"
+    },
+    {
+      "code": "RULE:RESIDUAL_W07",
+      "severity": "error",
+      "detail": "Full T7 policy rule is outside the supplied subset",
+      "rule_type": "policy_coverage",
+      "status": "UNCHECKED",
+      "original_rule_id": "W07"
+    },
+    {
+      "code": "RULE:S04_7",
+      "severity": "error",
+      "detail": "HDD4_IN1 U201.#11 -> U340.#3: 162.560 mm (max 152.4 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 162.56
+    },
+    {
+      "code": "RULE:S04_8",
+      "severity": "error",
+      "detail": "HDD4_IN2 U201.#12 -> U340.#4: 162.560 mm (max 152.4 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 162.56
+    },
+    {
+      "code": "RULE:S06_10",
+      "severity": "error",
+      "detail": "FAULT R215.#2 -> U340.#9: 238.760 mm (max 203.2 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 238.76
+    },
+    {
+      "code": "RULE:S06_6",
+      "severity": "error",
+      "detail": "FAULT R215.#2 -> U201.#20: 231.140 mm (max 203.2 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 231.14
+    },
+    {
+      "code": "RULE:S06_9",
+      "severity": "error",
+      "detail": "FAULT R215.#2 -> U330.#9: 210.820 mm (max 203.2 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 210.82
+    },
+    {
+      "code": "RULE:S08_1",
+      "severity": "error",
+      "detail": "SLEEP R214.#1 -> J213.#2: 45.720 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 45.71999999999999
+    },
+    {
+      "code": "RULE:S11_1",
+      "severity": "error",
+      "detail": "SN_BUS J202.#1 -> R204.#1: 20.320 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 20.32
+    },
+    {
+      "code": "RULE:S11_2",
+      "severity": "error",
+      "detail": "SN_RX_IN R204.#2 -> U207.#2: 60.960 mm (max 15.24 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 60.96
+    },
+    {
+      "code": "RULE:S12_1",
+      "severity": "error",
+      "detail": "UART_RX U207.#4 -> U201.#2: 119.380 mm (max 101.6 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 119.38
+    },
+    {
+      "code": "RULE:V01",
+      "severity": "error",
+      "detail": "U310.#7 and U320.#7 share branch beyond root C211.#1",
+      "rule_type": "star"
+    },
+    {
+      "code": "RULE:V01",
+      "severity": "error",
+      "detail": "U310.#7 and U330.#7 share branch beyond root C211.#1",
+      "rule_type": "star"
+    },
+    {
+      "code": "RULE:V01",
+      "severity": "error",
+      "detail": "U310.#7 and U340.#7 share branch beyond root C211.#1",
+      "rule_type": "star"
+    },
+    {
+      "code": "RULE:V01",
+      "severity": "error",
+      "detail": "U320.#7 and U330.#7 share branch beyond root C211.#1",
+      "rule_type": "star"
+    },
+    {
+      "code": "RULE:V01",
+      "severity": "error",
+      "detail": "U320.#7 and U340.#7 share branch beyond root C211.#1",
+      "rule_type": "star"
+    },
+    {
+      "code": "RULE:V01",
+      "severity": "error",
+      "detail": "U330.#7 and U340.#7 share branch beyond root C211.#1",
+      "rule_type": "star"
+    },
+    {
+      "code": "RULE:V03_1",
+      "severity": "error",
+      "detail": "VREF R209.#2 -> C211.#1: 12.700 mm (max 5.08 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 12.7
+    },
+    {
+      "code": "RULE:V03_2",
+      "severity": "error",
+      "detail": "VREF R210.#1 -> C211.#1: 12.700 mm (max 5.08 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 12.7
+    },
+    {
+      "code": "RULE:V03_3",
+      "severity": "error",
+      "detail": "GND R210.#2 -> C211.#2: 15.240 mm (max 5.08 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 15.239999999999998
+    },
+    {
+      "code": "RULE:V04_1",
+      "severity": "error",
+      "detail": "VREF C211.#1 -> U310.#7: 121.920 mm (max 101.6 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 121.92
+    },
+    {
+      "code": "RULE:V04_3",
+      "severity": "error",
+      "detail": "VREF C211.#1 -> U330.#7: 121.920 mm (max 101.6 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 121.92
+    },
+    {
+      "code": "RULE:V04_4",
+      "severity": "error",
+      "detail": "VREF C211.#1 -> U340.#7: 149.860 mm (max 101.6 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 149.86
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C106",
+      "part": "C106"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C108",
+      "part": "C108"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C109",
+      "part": "C109"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C208",
+      "part": "C208"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C211",
+      "part": "C211"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C311",
+      "part": "C311"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C312",
+      "part": "C312"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C321",
+      "part": "C321"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C322",
+      "part": "C322"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C331",
+      "part": "C331"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C332",
+      "part": "C332"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C341",
+      "part": "C341"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C342",
+      "part": "C342"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D103",
+      "part": "D103"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D105",
+      "part": "D105"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D110",
+      "part": "D110"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D206",
+      "part": "D206"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "F102",
+      "part": "F102"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J101",
+      "part": "J101"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J104",
+      "part": "J104"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J202",
+      "part": "J202"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J203",
+      "part": "J203"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J213",
+      "part": "J213"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J313",
+      "part": "J313"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J323",
+      "part": "J323"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J333",
+      "part": "J333"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J343",
+      "part": "J343"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R204",
+      "part": "R204"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R205",
+      "part": "R205"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R209",
+      "part": "R209"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R210",
+      "part": "R210"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R212",
+      "part": "R212"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R214",
+      "part": "R214"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R215",
+      "part": "R215"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP460",
+      "part": "TP460"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP461",
+      "part": "TP461"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP462",
+      "part": "TP462"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP463",
+      "part": "TP463"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP466",
+      "part": "TP466"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP467",
+      "part": "TP467"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP468",
+      "part": "TP468"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP471",
+      "part": "TP471"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP472",
+      "part": "TP472"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP473",
+      "part": "TP473"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP474",
+      "part": "TP474"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U107",
+      "part": "U107"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U201",
+      "part": "U201"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U207",
+      "part": "U207"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U310",
+      "part": "U310"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U320",
+      "part": "U320"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U330",
+      "part": "U330"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U340",
+      "part": "U340"
+    },
+    {
+      "code": "RULE:P10_1",
+      "severity": "warning",
+      "detail": "VM C311.#1 -> U310.#14: 15.240 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 15.239999999999998
+    },
+    {
+      "code": "RULE:P10_2",
+      "severity": "warning",
+      "detail": "GND C311.#2 -> U310.#13: 33.020 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 33.019999999999996
+    },
+    {
+      "code": "RULE:P10_3",
+      "severity": "warning",
+      "detail": "VM C321.#1 -> U320.#14: 15.240 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 15.239999999999998
+    },
+    {
+      "code": "RULE:P10_4",
+      "severity": "warning",
+      "detail": "GND C321.#2 -> U320.#13: 88.900 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 88.90000000000005
+    },
+    {
+      "code": "RULE:P10_5",
+      "severity": "warning",
+      "detail": "VM C331.#1 -> U330.#14: 15.240 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 15.239999999999998
+    },
+    {
+      "code": "RULE:P10_6",
+      "severity": "warning",
+      "detail": "GND C331.#2 -> U330.#13: 383.540 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 383.54000000000076
+    },
+    {
+      "code": "RULE:P10_7",
+      "severity": "warning",
+      "detail": "VM C341.#1 -> U340.#14: 15.240 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 15.239999999999998
+    },
+    {
+      "code": "RULE:P10_8",
+      "severity": "warning",
+      "detail": "GND C341.#2 -> U340.#13: 27.940 mm (max 7.62 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 27.939999999999994
+    },
+    {
+      "code": "RULE:S05_1",
+      "severity": "warning",
+      "detail": "HDD1_IN1 U201.#4 -> U310.#3: 96.520 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 96.52
+    },
+    {
+      "code": "RULE:S05_2",
+      "severity": "warning",
+      "detail": "HDD1_IN2 U201.#5 -> U310.#4: 96.520 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 96.52
+    },
+    {
+      "code": "RULE:S05_3",
+      "severity": "warning",
+      "detail": "HDD2_IN1 U201.#6 -> U320.#3: 119.380 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 119.38
+    },
+    {
+      "code": "RULE:S05_4",
+      "severity": "warning",
+      "detail": "HDD2_IN2 U201.#7 -> U320.#4: 119.380 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 119.38
+    },
+    {
+      "code": "RULE:S05_5",
+      "severity": "warning",
+      "detail": "HDD3_IN1 U201.#9 -> U330.#3: 139.700 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 139.7
+    },
+    {
+      "code": "RULE:S05_6",
+      "severity": "warning",
+      "detail": "HDD3_IN2 U201.#10 -> U330.#4: 139.700 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 139.7
+    },
+    {
+      "code": "RULE:S05_7",
+      "severity": "warning",
+      "detail": "HDD4_IN1 U201.#11 -> U340.#3: 162.560 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 162.56
+    },
+    {
+      "code": "RULE:S05_8",
+      "severity": "warning",
+      "detail": "HDD4_IN2 U201.#12 -> U340.#4: 162.560 mm (max 88.9 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 162.56
+    },
+    {
+      "code": "RULE:V05_1",
+      "severity": "warning",
+      "detail": "VREF C211.#1 -> U310.#7: 121.920 mm (max 63.5 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 121.92
+    },
+    {
+      "code": "RULE:V05_2",
+      "severity": "warning",
+      "detail": "VREF C211.#1 -> U320.#7: 93.980 mm (max 63.5 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 93.98
+    },
+    {
+      "code": "RULE:V05_3",
+      "severity": "warning",
+      "detail": "VREF C211.#1 -> U330.#7: 121.920 mm (max 63.5 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 121.92
+    },
+    {
+      "code": "RULE:V05_4",
+      "severity": "warning",
+      "detail": "VREF C211.#1 -> U340.#7: 149.860 mm (max 63.5 mm)",
+      "rule_type": "max_branch_length",
+      "measured_mm": 149.86
+    }
+  ],
+  "rule_checks": [
+    {
+      "id": "M01",
+      "type": "min_part_distance",
+      "status": "FAIL",
+      "findings": 31,
+      "fail_findings": 31,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H01",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H02",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H03",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H04",
+      "type": "min_part_distance",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H05",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H06",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "H07",
+      "type": "min_part_distance",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P02_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P02_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P03_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P03_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_1",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_3",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_5",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_6",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_7",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P06_8",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_1",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_3",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_5",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_6",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_7",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P09_8",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_3",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_5",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_6",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_7",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P10_8",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_3",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_5",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_6",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_7",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P12_8",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P14_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P14_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P14_3",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P14_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P16_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "P16_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "G03_1",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "G03_2",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "G03_3",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "G03_4",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V01",
+      "type": "star",
+      "status": "FAIL",
+      "findings": 6,
+      "fail_findings": 6,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V03_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V03_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V03_3",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V04_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V04_2",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V04_3",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V04_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V05_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V05_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V05_3",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "V05_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_1",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_2",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_3",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_4",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_5",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_6",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_7",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S04_8",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_3",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_4",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_5",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_6",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_7",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S05_8",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_1",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_2",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_3",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_4",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_5",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_6",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_7",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_8",
+      "type": "max_branch_length",
+      "status": "PASS",
+      "findings": 0,
+      "fail_findings": 0,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_9",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S06_10",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S08_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S11_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S11_2",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "S12_1",
+      "type": "max_branch_length",
+      "status": "FAIL",
+      "findings": 1,
+      "fail_findings": 1,
+      "unchecked_findings": 0
+    },
+    {
+      "id": "RESIDUAL_B01",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B04",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B05",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B06",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B07",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B08",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B09",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B10",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B11",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_B12",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_C01",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_C02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_C03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_G01",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_G02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_G03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M04",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M05",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M06",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M07",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M08",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M09",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M10",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M11",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M12",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_M13",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P01",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P04",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P05",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P06",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P07",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P08",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P09",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P10",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P11",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P12",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P13",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P14",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P15",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_P16",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S01",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S04",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S05",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S06",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S07",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S08",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S09",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S10",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S11",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S12",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_S13",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_V01",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_V02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_V03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_V04",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_V05",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_W01",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_W02",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_W03",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_W04",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_W05",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_W06",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    },
+    {
+      "id": "RESIDUAL_W07",
+      "type": "policy_coverage",
+      "status": "UNCHECKED",
+      "findings": 1
+    }
+  ],
+  "unchecked_rules": 71,
+  "actual_netlist": [
+    {
+      "net": "GND",
+      "ref": "C106",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C106",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "GND",
+      "ref": "C108",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C108",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "GND",
+      "ref": "C109",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "+5V",
+      "ref": "C109",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "+3V3",
+      "ref": "C208",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C208",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VREF",
+      "ref": "C211",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C211",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C311",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C311",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C312",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C312",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C321",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C321",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C322",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C322",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C331",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C331",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C332",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C332",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "GND",
+      "ref": "C341",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C341",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "VM",
+      "ref": "C342",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "C342",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VIN_FUSED",
+      "ref": "D103",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "VIN_PROT",
+      "ref": "D103",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "GND",
+      "ref": "D105",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "VM",
+      "ref": "D105",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "+5V",
+      "ref": "D110",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "VSYS",
+      "ref": "D110",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "+3V3",
+      "ref": "D206",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "SN_PU",
+      "ref": "D206",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "VIN_RAW",
+      "ref": "F102",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "VIN_FUSED",
+      "ref": "F102",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VIN_RAW",
+      "ref": "J101",
+      "pin_number": "1",
+      "pin_name": "CENTER"
+    },
+    {
+      "net": "GND",
+      "ref": "J101",
+      "pin_number": "2",
+      "pin_name": "SLEEVE"
+    },
+    {
+      "net": "NC",
+      "ref": "J101",
+      "pin_number": "3",
+      "pin_name": "SWITCH"
+    },
+    {
+      "net": "VIN_PROT",
+      "ref": "J104",
+      "pin_number": "1",
+      "pin_name": "VIN_PROT"
+    },
+    {
+      "net": "VM",
+      "ref": "J104",
+      "pin_number": "2",
+      "pin_name": "VM"
+    },
+    {
+      "net": "GND",
+      "ref": "J202",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "SN_BUS",
+      "ref": "J202",
+      "pin_number": "1",
+      "pin_name": "SIGNAL"
+    },
+    {
+      "net": "GND",
+      "ref": "J203",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "SN_BUS",
+      "ref": "J203",
+      "pin_number": "1",
+      "pin_name": "SIGNAL"
+    },
+    {
+      "net": "ARM_SW",
+      "ref": "J213",
+      "pin_number": "1",
+      "pin_name": "ARM_SW"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "J213",
+      "pin_number": "2",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "HDD1_OUT1",
+      "ref": "J313",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD1_OUT2",
+      "ref": "J313",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD2_OUT1",
+      "ref": "J323",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD2_OUT2",
+      "ref": "J323",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD3_OUT1",
+      "ref": "J333",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD3_OUT2",
+      "ref": "J333",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD4_OUT1",
+      "ref": "J343",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD4_OUT2",
+      "ref": "J343",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "SN_BUS",
+      "ref": "R204",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "SN_RX_IN",
+      "ref": "R204",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "SN_RX_IN",
+      "ref": "R205",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "SN_PU",
+      "ref": "R205",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "R209",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "VREF",
+      "ref": "R209",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VREF",
+      "ref": "R210",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "R210",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "ARM",
+      "ref": "R212",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "ARM_SW",
+      "ref": "R212",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "R214",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "GND",
+      "ref": "R214",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "R215",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "FAULT",
+      "ref": "R215",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VM",
+      "ref": "TP460",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "+5V",
+      "ref": "TP461",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "+3V3",
+      "ref": "TP462",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "GND",
+      "ref": "TP463",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "VREF",
+      "ref": "TP466",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "TP467",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "FAULT",
+      "ref": "TP468",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD1_CS",
+      "ref": "TP471",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD2_CS",
+      "ref": "TP472",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD3_CS",
+      "ref": "TP473",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD4_CS",
+      "ref": "TP474",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "GND",
+      "ref": "U107",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "VM",
+      "ref": "U107",
+      "pin_number": "1",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "+5V",
+      "ref": "U107",
+      "pin_number": "3",
+      "pin_name": "VOUT"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "37",
+      "pin_name": "3V3_EN"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U201",
+      "pin_number": "36",
+      "pin_name": "3V3_OUT"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "35",
+      "pin_name": "ADC_VREF"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "33",
+      "pin_name": "AGND"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "18",
+      "pin_name": "GND@18"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "23",
+      "pin_name": "GND@23"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "28",
+      "pin_name": "GND@28"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "3",
+      "pin_name": "GND@3"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "38",
+      "pin_name": "GND@38"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "8",
+      "pin_name": "GND@8"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "1",
+      "pin_name": "GP0"
+    },
+    {
+      "net": "UART_RX",
+      "ref": "U201",
+      "pin_number": "2",
+      "pin_name": "GP1"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "14",
+      "pin_name": "GP10"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "15",
+      "pin_name": "GP11"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "16",
+      "pin_name": "GP12"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "17",
+      "pin_name": "GP13"
+    },
+    {
+      "net": "ARM",
+      "ref": "U201",
+      "pin_number": "19",
+      "pin_name": "GP14"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U201",
+      "pin_number": "20",
+      "pin_name": "GP15"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U201",
+      "pin_number": "21",
+      "pin_name": "GP16"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "22",
+      "pin_name": "GP17"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "24",
+      "pin_name": "GP18"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "25",
+      "pin_name": "GP19"
+    },
+    {
+      "net": "HDD1_IN1",
+      "ref": "U201",
+      "pin_number": "4",
+      "pin_name": "GP2"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "26",
+      "pin_name": "GP20"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "27",
+      "pin_name": "GP21"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "29",
+      "pin_name": "GP22"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "31",
+      "pin_name": "GP26"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "32",
+      "pin_name": "GP27"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "34",
+      "pin_name": "GP28"
+    },
+    {
+      "net": "HDD1_IN2",
+      "ref": "U201",
+      "pin_number": "5",
+      "pin_name": "GP3"
+    },
+    {
+      "net": "HDD2_IN1",
+      "ref": "U201",
+      "pin_number": "6",
+      "pin_name": "GP4"
+    },
+    {
+      "net": "HDD2_IN2",
+      "ref": "U201",
+      "pin_number": "7",
+      "pin_name": "GP5"
+    },
+    {
+      "net": "HDD3_IN1",
+      "ref": "U201",
+      "pin_number": "9",
+      "pin_name": "GP6"
+    },
+    {
+      "net": "HDD3_IN2",
+      "ref": "U201",
+      "pin_number": "10",
+      "pin_name": "GP7"
+    },
+    {
+      "net": "HDD4_IN1",
+      "ref": "U201",
+      "pin_number": "11",
+      "pin_name": "GP8"
+    },
+    {
+      "net": "HDD4_IN2",
+      "ref": "U201",
+      "pin_number": "12",
+      "pin_name": "GP9"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "30",
+      "pin_name": "RUN"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "40",
+      "pin_name": "VBUS"
+    },
+    {
+      "net": "VSYS",
+      "ref": "U201",
+      "pin_number": "39",
+      "pin_name": "VSYS"
+    },
+    {
+      "net": "GND",
+      "ref": "U207",
+      "pin_number": "1",
+      "pin_name": "/OE"
+    },
+    {
+      "net": "SN_RX_IN",
+      "ref": "U207",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "GND",
+      "ref": "U207",
+      "pin_number": "3",
+      "pin_name": "GND"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U207",
+      "pin_number": "5",
+      "pin_name": "VCC"
+    },
+    {
+      "net": "UART_RX",
+      "ref": "U207",
+      "pin_number": "4",
+      "pin_name": "Y"
+    },
+    {
+      "net": "HDD1_CS",
+      "ref": "U310",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U310",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U310",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U310",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U310",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD1_IN1",
+      "ref": "U310",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD1_IN2",
+      "ref": "U310",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD1_OUT1",
+      "ref": "U310",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD1_OUT2",
+      "ref": "U310",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U310",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U310",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U310",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U310",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U310",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "HDD2_CS",
+      "ref": "U320",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U320",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U320",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U320",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U320",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD2_IN1",
+      "ref": "U320",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD2_IN2",
+      "ref": "U320",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD2_OUT1",
+      "ref": "U320",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD2_OUT2",
+      "ref": "U320",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U320",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U320",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U320",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U320",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U320",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "HDD3_CS",
+      "ref": "U330",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U330",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U330",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U330",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U330",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD3_IN1",
+      "ref": "U330",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD3_IN2",
+      "ref": "U330",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD3_OUT1",
+      "ref": "U330",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD3_OUT2",
+      "ref": "U330",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U330",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U330",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U330",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U330",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U330",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "HDD4_CS",
+      "ref": "U340",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U340",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "GND",
+      "ref": "U340",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "GND",
+      "ref": "U340",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U340",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "HDD4_IN1",
+      "ref": "U340",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "HDD4_IN2",
+      "ref": "U340",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "HDD4_OUT1",
+      "ref": "U340",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD4_OUT2",
+      "ref": "U340",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U340",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U340",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "VM",
+      "ref": "U340",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U340",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U340",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    }
+  ],
+  "components": [
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP0"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "UART_RX",
+      "pins": [
+        "U201.GP1",
+        "U207.Y"
+      ],
+      "expected_nets": [
+        "UART_RX"
+      ],
+      "conductor_nets": [
+        "UART_RX"
+      ],
+      "conductors": [
+        "W0120"
+      ]
+    },
+    {
+      "actual_net": "GND",
+      "pins": [
+        "C106.NEG",
+        "C108.NEG",
+        "C109.NEG",
+        "C208.P2",
+        "C211.P2",
+        "C311.NEG",
+        "C312.P2",
+        "C321.NEG",
+        "C322.P2",
+        "C331.NEG",
+        "C332.P2",
+        "C341.NEG",
+        "C342.P2",
+        "D105.A",
+        "J101.SLEEVE",
+        "J202.GND",
+        "J203.GND",
+        "R210.P2",
+        "R214.P2",
+        "TP463.TP",
+        "U107.GND",
+        "U201.AGND",
+        "U201.GND@13",
+        "U201.GND@18",
+        "U201.GND@23",
+        "U201.GND@28",
+        "U201.GND@3",
+        "U201.GND@38",
+        "U201.GND@8",
+        "U207./OE",
+        "U207.GND",
+        "U310.GND@13",
+        "U310.GND@2",
+        "U320.GND@13",
+        "U320.GND@2",
+        "U330.GND@13",
+        "U330.GND@2",
+        "U340.GND@13",
+        "U340.GND@2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [
+        "GND"
+      ],
+      "conductors": [
+        "W0018",
+        "W0019",
+        "W0020",
+        "W0021",
+        "W0022",
+        "W0023",
+        "W0024",
+        "W0025",
+        "W0026",
+        "W0027",
+        "W0028",
+        "W0029",
+        "W0030",
+        "W0031",
+        "W0032",
+        "W0033",
+        "W0034",
+        "W0035",
+        "W0036",
+        "W0037",
+        "W0038",
+        "W0039",
+        "W0040",
+        "W0041",
+        "W0042",
+        "W0043",
+        "W0044",
+        "W0045",
+        "W0046",
+        "W0047",
+        "W0048",
+        "W0049",
+        "W0050",
+        "W0051",
+        "W0052",
+        "W0053",
+        "W0054",
+        "W0055"
+      ]
+    },
+    {
+      "actual_net": "HDD1_IN1",
+      "pins": [
+        "U201.GP2",
+        "U310.IN1"
+      ],
+      "expected_nets": [
+        "HDD1_IN1"
+      ],
+      "conductor_nets": [
+        "HDD1_IN1"
+      ],
+      "conductors": [
+        "W0100"
+      ]
+    },
+    {
+      "actual_net": "HDD1_IN2",
+      "pins": [
+        "U201.GP3",
+        "U310.IN2"
+      ],
+      "expected_nets": [
+        "HDD1_IN2"
+      ],
+      "conductor_nets": [
+        "HDD1_IN2"
+      ],
+      "conductors": [
+        "W0101"
+      ]
+    },
+    {
+      "actual_net": "HDD2_IN1",
+      "pins": [
+        "U201.GP4",
+        "U320.IN1"
+      ],
+      "expected_nets": [
+        "HDD2_IN1"
+      ],
+      "conductor_nets": [
+        "HDD2_IN1"
+      ],
+      "conductors": [
+        "W0105"
+      ]
+    },
+    {
+      "actual_net": "HDD2_IN2",
+      "pins": [
+        "U201.GP5",
+        "U320.IN2"
+      ],
+      "expected_nets": [
+        "HDD2_IN2"
+      ],
+      "conductor_nets": [
+        "HDD2_IN2"
+      ],
+      "conductors": [
+        "W0106"
+      ]
+    },
+    {
+      "actual_net": "HDD3_IN1",
+      "pins": [
+        "U201.GP6",
+        "U330.IN1"
+      ],
+      "expected_nets": [
+        "HDD3_IN1"
+      ],
+      "conductor_nets": [
+        "HDD3_IN1"
+      ],
+      "conductors": [
+        "W0110"
+      ]
+    },
+    {
+      "actual_net": "HDD3_IN2",
+      "pins": [
+        "U201.GP7",
+        "U330.IN2"
+      ],
+      "expected_nets": [
+        "HDD3_IN2"
+      ],
+      "conductor_nets": [
+        "HDD3_IN2"
+      ],
+      "conductors": [
+        "W0111"
+      ]
+    },
+    {
+      "actual_net": "HDD4_IN1",
+      "pins": [
+        "U201.GP8",
+        "U340.IN1"
+      ],
+      "expected_nets": [
+        "HDD4_IN1"
+      ],
+      "conductor_nets": [
+        "HDD4_IN1"
+      ],
+      "conductors": [
+        "W0115"
+      ]
+    },
+    {
+      "actual_net": "HDD4_IN2",
+      "pins": [
+        "U201.GP9",
+        "U340.IN2"
+      ],
+      "expected_nets": [
+        "HDD4_IN2"
+      ],
+      "conductor_nets": [
+        "HDD4_IN2"
+      ],
+      "conductors": [
+        "W0116"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP10"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP11"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP12"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP13"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "ARM",
+      "pins": [
+        "R212.P1",
+        "U201.GP14"
+      ],
+      "expected_nets": [
+        "ARM"
+      ],
+      "conductor_nets": [
+        "ARM"
+      ],
+      "conductors": [
+        "W0097"
+      ]
+    },
+    {
+      "actual_net": "FAULT",
+      "pins": [
+        "R215.P2",
+        "TP468.TP",
+        "U201.GP15",
+        "U310.FAULT",
+        "U320.FAULT",
+        "U330.FAULT",
+        "U340.FAULT"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [
+        "FAULT"
+      ],
+      "conductors": [
+        "W0087",
+        "W0088",
+        "W0089",
+        "W0090",
+        "W0091",
+        "W0092"
+      ]
+    },
+    {
+      "actual_net": "+3V3",
+      "pins": [
+        "C208.P1",
+        "D206.A",
+        "R209.P1",
+        "R215.P1",
+        "TP462.TP",
+        "U201.3V3_OUT",
+        "U207.VCC",
+        "U310.PMODE",
+        "U320.PMODE",
+        "U330.PMODE",
+        "U340.PMODE"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [
+        "+3V3"
+      ],
+      "conductors": [
+        "W0056",
+        "W0057",
+        "W0058",
+        "W0059",
+        "W0060",
+        "W0061",
+        "W0062",
+        "W0063",
+        "W0064",
+        "W0065"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.VBUS"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VSYS",
+      "pins": [
+        "D110.K",
+        "U201.VSYS"
+      ],
+      "expected_nets": [
+        "VSYS"
+      ],
+      "conductor_nets": [
+        "VSYS"
+      ],
+      "conductors": [
+        "W0072"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.3V3_EN"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.ADC_VREF"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP28"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP27"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP26"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.RUN"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP22"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP21"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP20"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP19"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP18"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP17"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "SLEEP",
+      "pins": [
+        "J213.SLEEP",
+        "R214.P1",
+        "TP467.TP",
+        "U201.GP16",
+        "U310.SLEEP",
+        "U320.SLEEP",
+        "U330.SLEEP",
+        "U340.SLEEP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [
+        "SLEEP"
+      ],
+      "conductors": [
+        "W0073",
+        "W0074",
+        "W0075",
+        "W0076",
+        "W0077",
+        "W0078",
+        "W0079"
+      ]
+    },
+    {
+      "actual_net": "VM",
+      "pins": [
+        "C106.POS",
+        "C108.POS",
+        "C311.POS",
+        "C312.P1",
+        "C321.POS",
+        "C322.P1",
+        "C331.POS",
+        "C332.P1",
+        "C341.POS",
+        "C342.P1",
+        "D105.K",
+        "J104.VM",
+        "TP460.TP",
+        "U107.VIN",
+        "U310.VIN",
+        "U320.VIN",
+        "U330.VIN",
+        "U340.VIN"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [
+        "VM"
+      ],
+      "conductors": [
+        "W0001",
+        "W0002",
+        "W0003",
+        "W0004",
+        "W0005",
+        "W0006",
+        "W0007",
+        "W0008",
+        "W0009",
+        "W0010",
+        "W0011",
+        "W0012",
+        "W0013",
+        "W0014",
+        "W0015",
+        "W0016",
+        "W0017"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U310.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VREF",
+      "pins": [
+        "C211.P1",
+        "R209.P2",
+        "R210.P1",
+        "TP466.TP",
+        "U310.VREF",
+        "U320.VREF",
+        "U330.VREF",
+        "U340.VREF"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [
+        "VREF"
+      ],
+      "conductors": [
+        "W0080",
+        "W0081",
+        "W0082",
+        "W0083",
+        "W0084",
+        "W0085",
+        "W0086"
+      ]
+    },
+    {
+      "actual_net": "SN_BUS",
+      "pins": [
+        "J202.SIGNAL",
+        "J203.SIGNAL",
+        "R204.P1"
+      ],
+      "expected_nets": [
+        "SN_BUS"
+      ],
+      "conductor_nets": [
+        "SN_BUS"
+      ],
+      "conductors": [
+        "W0093",
+        "W0094"
+      ]
+    },
+    {
+      "actual_net": "HDD1_OUT1",
+      "pins": [
+        "J313.OUT1",
+        "U310.OUT1"
+      ],
+      "expected_nets": [
+        "HDD1_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD1_OUT1"
+      ],
+      "conductors": [
+        "W0102"
+      ]
+    },
+    {
+      "actual_net": "SN_RX_IN",
+      "pins": [
+        "R204.P2",
+        "R205.P1",
+        "U207.A"
+      ],
+      "expected_nets": [
+        "SN_RX_IN"
+      ],
+      "conductor_nets": [
+        "SN_RX_IN"
+      ],
+      "conductors": [
+        "W0095",
+        "W0096"
+      ]
+    },
+    {
+      "actual_net": "HDD1_CS",
+      "pins": [
+        "TP471.TP",
+        "U310.CS"
+      ],
+      "expected_nets": [
+        "HDD1_CS"
+      ],
+      "conductor_nets": [
+        "HDD1_CS"
+      ],
+      "conductors": [
+        "W0099"
+      ]
+    },
+    {
+      "actual_net": "HDD2_CS",
+      "pins": [
+        "TP472.TP",
+        "U320.CS"
+      ],
+      "expected_nets": [
+        "HDD2_CS"
+      ],
+      "conductor_nets": [
+        "HDD2_CS"
+      ],
+      "conductors": [
+        "W0104"
+      ]
+    },
+    {
+      "actual_net": "HDD1_OUT2",
+      "pins": [
+        "J313.OUT2",
+        "U310.OUT2"
+      ],
+      "expected_nets": [
+        "HDD1_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD1_OUT2"
+      ],
+      "conductors": [
+        "W0103"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U310.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_CS",
+      "pins": [
+        "TP473.TP",
+        "U330.CS"
+      ],
+      "expected_nets": [
+        "HDD3_CS"
+      ],
+      "conductor_nets": [
+        "HDD3_CS"
+      ],
+      "conductors": [
+        "W0109"
+      ]
+    },
+    {
+      "actual_net": "+5V",
+      "pins": [
+        "C109.POS",
+        "D110.A",
+        "TP461.TP",
+        "U107.VOUT"
+      ],
+      "expected_nets": [
+        "+5V"
+      ],
+      "conductor_nets": [
+        "+5V"
+      ],
+      "conductors": [
+        "W0066",
+        "W0067",
+        "W0068"
+      ]
+    },
+    {
+      "actual_net": "SN_PU",
+      "pins": [
+        "D206.K",
+        "R205.P2"
+      ],
+      "expected_nets": [
+        "SN_PU"
+      ],
+      "conductor_nets": [
+        "SN_PU"
+      ],
+      "conductors": [
+        "W0119"
+      ]
+    },
+    {
+      "actual_net": "HDD4_CS",
+      "pins": [
+        "TP474.TP",
+        "U340.CS"
+      ],
+      "expected_nets": [
+        "HDD4_CS"
+      ],
+      "conductor_nets": [
+        "HDD4_CS"
+      ],
+      "conductors": [
+        "W0114"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U320.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VIN_PROT",
+      "pins": [
+        "D103.K",
+        "J104.VIN_PROT"
+      ],
+      "expected_nets": [
+        "VIN_PROT"
+      ],
+      "conductor_nets": [
+        "VIN_PROT"
+      ],
+      "conductors": [
+        "W0070"
+      ]
+    },
+    {
+      "actual_net": "ARM_SW",
+      "pins": [
+        "J213.ARM_SW",
+        "R212.P2"
+      ],
+      "expected_nets": [
+        "ARM_SW"
+      ],
+      "conductor_nets": [
+        "ARM_SW"
+      ],
+      "conductors": [
+        "W0098"
+      ]
+    },
+    {
+      "actual_net": "HDD2_OUT1",
+      "pins": [
+        "J323.OUT1",
+        "U320.OUT1"
+      ],
+      "expected_nets": [
+        "HDD2_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD2_OUT1"
+      ],
+      "conductors": [
+        "W0107"
+      ]
+    },
+    {
+      "actual_net": "HDD2_OUT2",
+      "pins": [
+        "J323.OUT2",
+        "U320.OUT2"
+      ],
+      "expected_nets": [
+        "HDD2_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD2_OUT2"
+      ],
+      "conductors": [
+        "W0108"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U320.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VIN_FUSED",
+      "pins": [
+        "D103.A",
+        "F102.P2"
+      ],
+      "expected_nets": [
+        "VIN_FUSED"
+      ],
+      "conductor_nets": [
+        "VIN_FUSED"
+      ],
+      "conductors": [
+        "W0069"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U330.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_OUT1",
+      "pins": [
+        "J333.OUT1",
+        "U330.OUT1"
+      ],
+      "expected_nets": [
+        "HDD3_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD3_OUT1"
+      ],
+      "conductors": [
+        "W0112"
+      ]
+    },
+    {
+      "actual_net": "HDD3_OUT2",
+      "pins": [
+        "J333.OUT2",
+        "U330.OUT2"
+      ],
+      "expected_nets": [
+        "HDD3_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD3_OUT2"
+      ],
+      "conductors": [
+        "W0113"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U330.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VIN_RAW",
+      "pins": [
+        "F102.P1",
+        "J101.CENTER"
+      ],
+      "expected_nets": [
+        "VIN_RAW"
+      ],
+      "conductor_nets": [
+        "VIN_RAW"
+      ],
+      "conductors": [
+        "W0071"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U340.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD4_OUT1",
+      "pins": [
+        "J343.OUT1",
+        "U340.OUT1"
+      ],
+      "expected_nets": [
+        "HDD4_OUT1"
+      ],
+      "conductor_nets": [
+        "HDD4_OUT1"
+      ],
+      "conductors": [
+        "W0117"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "J101.SWITCH"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD4_OUT2",
+      "pins": [
+        "J343.OUT2",
+        "U340.OUT2"
+      ],
+      "expected_nets": [
+        "HDD4_OUT2"
+      ],
+      "conductor_nets": [
+        "HDD4_OUT2"
+      ],
+      "conductors": [
+        "W0118"
+      ]
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U340.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    }
+  ],
+  "metrics": {
+    "wire_length_mm": {
+      "bare": 1402.08,
+      "bridge": 2.54,
+      "jumper": 3360.42
+    },
+    "total_wire_mm": 4765.04,
+    "jumpers": 57,
+    "bridges": 1,
+    "conductors": 120,
+    "jumper_over_exposed_crossings": 316,
+    "bbox_mm": [
+      6.01,
+      2.12,
+      147.32,
+      104.6
+    ],
+    "used_bbox_area_mm2": 14481.449,
+    "used_area_fraction": 0.83134,
+    "power_path_lengths": [
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U310.VIN",
+        "length_mm": 175.26
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U320.VIN",
+        "length_mm": 142.24
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U330.VIN",
+        "length_mm": 124.46
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U340.VIN",
+        "length_mm": 157.48
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@2",
+        "length_mm": 243.84
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@13",
+        "length_mm": 256.54
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@2",
+        "length_mm": 271.78
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@13",
+        "length_mm": 284.48
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@2",
+        "length_mm": 299.72
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@13",
+        "length_mm": 312.42
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@2",
+        "length_mm": 327.66
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@13",
+        "length_mm": 340.36
+      }
+    ],
+    "longest_signal_nets": [
+      {
+        "net": "FAULT",
+        "length_mm": 314.96
+      },
+      {
+        "net": "SLEEP",
+        "length_mm": 297.18
+      },
+      {
+        "net": "VREF",
+        "length_mm": 254.0
+      },
+      {
+        "net": "ARM",
+        "length_mm": 170.18
+      },
+      {
+        "net": "HDD4_IN1",
+        "length_mm": 162.56
+      },
+      {
+        "net": "HDD4_IN2",
+        "length_mm": 162.56
+      },
+      {
+        "net": "HDD4_CS",
+        "length_mm": 152.4
+      },
+      {
+        "net": "HDD3_IN1",
+        "length_mm": 139.7
+      },
+      {
+        "net": "HDD3_IN2",
+        "length_mm": 139.7
+      },
+      {
+        "net": "HDD3_CS",
+        "length_mm": 127.0
+      }
+    ],
+    "violations_by_severity": {
+      "error": 150,
+      "warning": 72
+    },
+    "rule_violations_by_severity": {
+      "error": 150,
+      "warning": 20
+    },
+    "score": 15078682.854,
+    "score_weights": {
+      "wire_mm": 1,
+      "jumpers": 20,
+      "bridges": 1,
+      "crossings": 2,
+      "area_mm2": 0.01,
+      "error": 100000,
+      "warning": 1000,
+      "info": 0
+    },
+    "t7_soft_penalty": 0,
+    "t7_soft_penalty_by_rule": {},
+    "unchecked_soft_rule_ids": [],
+    "soft_penalty_complete": true,
+    "hard_fail_count": 44,
+    "hard_failed_rule_ids": [
+      "H04",
+      "M01",
+      "P02_1",
+      "P02_2",
+      "P03_1",
+      "P03_2",
+      "P06_2",
+      "P06_4",
+      "P06_6",
+      "P06_8",
+      "P09_2",
+      "P09_4",
+      "P09_6",
+      "P09_8",
+      "P12_1",
+      "P12_2",
+      "P12_3",
+      "P12_4",
+      "P12_5",
+      "P12_6",
+      "P12_7",
+      "P12_8",
+      "P14_1",
+      "P14_2",
+      "P14_3",
+      "P14_4",
+      "P16_1",
+      "P16_2",
+      "S04_7",
+      "S04_8",
+      "S06_10",
+      "S06_6",
+      "S06_9",
+      "S08_1",
+      "S11_1",
+      "S11_2",
+      "S12_1",
+      "V01",
+      "V03_1",
+      "V03_2",
+      "V03_3",
+      "V04_1",
+      "V04_3",
+      "V04_4"
+    ],
+    "unchecked_hard_rules": [
+      {
+        "id": "RESIDUAL_B01",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B02",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B03",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B04",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B05",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B06",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B07",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B08",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B09",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B10",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B11",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_B12",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_C01",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_C02",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_C03",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_G01",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_G02",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_G03",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_M02",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M03",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M04",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M05",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M06",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M07",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M08",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M09",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M10",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M11",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M12",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_M13",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P01",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P02",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_P03",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_P04",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P05",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P06",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_P07",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P08",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P09",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_P10",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_P11",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P12",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_P13",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P14",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_P15",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_P16",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_S01",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_S02",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_S03",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_S04",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_S05",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_S06",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_S07",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_S08",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_S09",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_S10",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_S11",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_S12",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_S13",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_V01",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_V02",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_V03",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_V04",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_V05",
+        "reasons": [
+          "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+        ]
+      },
+      {
+        "id": "RESIDUAL_W01",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_W02",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_W03",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_W04",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_W05",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_W06",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      },
+      {
+        "id": "RESIDUAL_W07",
+        "reasons": [
+          "Full T7 policy rule is outside the supplied subset"
+        ]
+      }
+    ],
+    "unchecked_hard_count": 71,
+    "partially_unchecked_hard_rules": [],
+    "partially_unchecked_hard_count": 0,
+    "core_drc_errors": 0,
+    "bends": 91,
+    "comparison_tuple": [
+      true,
+      0,
+      44,
+      57,
+      0,
+      91,
+      4765.04
+    ],
+    "comparison_tuple_fields": [
+      "lvs_ok",
+      "core_drc_errors",
+      "hard_fail_count",
+      "jumpers",
+      "t7_soft_penalty",
+      "bends",
+      "total_wire_mm"
+    ],
+    "comparison_directions": [
+      "max",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min"
+    ],
+    "lexicographic_sort_key": [
+      0,
+      0,
+      44,
+      57,
+      0,
+      91,
+      4765.04
+    ],
+    "ranking_pass": false
+  },
+  "proof_scope": "Independent lands; every exposed path hole is solder-contacted; insulated jumper interiors never connect; component internal circuitry excluded. Provisional dimensions require physical validation."
+}

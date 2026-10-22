@@ -1,0 +1,25 @@
+{
+  "variant": "F2_horizontal_channels",
+  "permutation": [
+    3,
+    0,
+    1,
+    2
+  ],
+  "mode": "inputs:0,1,2,3,4,5,6,7",
+  "hardfail": [
+    "P02",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "V02",
+    "V03"
+  ],
+  "jumpers": 34,
+  "bare_bends": 91,
+  "mm": 3779.52,
+  "score": 4956971.923
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "board": "ユニバーサル基板/board.json",
+  "rules": "ユニバーサル基板/design_rules_v0.2.json",
+  "inputs_unchanged_during_check": true,
+  "input_sha256": {
+    "board.json": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+    "design_rules_v0.2.json": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8",
+    "footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+    "netlist_ub.csv": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+    "candidates\\L1\\board.json": "4d05df73570253574b25fd102f53109fd5be6f02c220ce3b161f55e0789f5362",
+    "candidates\\L1\\footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+    "candidates\\L1\\netlist.csv": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+    "candidates\\L1\\placement.json": "c86d2141d188401b58ebc46497a6dc0319ff23c568e56fbffb185ff027b5c154",
+    "candidates\\L1\\wiring.json": "03f2afeb492678bf5ca055ba140da3d78b3fe1e4998700384714b5b1ecea2b4d",
+    "candidates\\L1\\design_rules.json": "c2400b3408289b6391d7f44396c7d466bf0acc3d4ea208b5494f319c146228f0",
+    "candidates\\L2\\board.json": "4d05df73570253574b25fd102f53109fd5be6f02c220ce3b161f55e0789f5362",
+    "candidates\\L2\\footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+    "candidates\\L2\\netlist.csv": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+    "candidates\\L2\\placement.json": "1ddbfca87137c58abeac395ecc3e802366de090659196cf048f70f768b8a57b6",
+    "candidates\\L2\\wiring.json": "d40564ff68328d2f9b6ecc18ca909e616c14f3c85b432ce1367b8e6cd8234167",
+    "candidates\\L2\\design_rules.json": "c2400b3408289b6391d7f44396c7d466bf0acc3d4ea208b5494f319c146228f0"
+  },
+  "candidates": {
+    "L1": {
+      "lvs_pass": true,
+      "legacy_passed": false,
+      "comparison_tuple": [
+        true,
+        0,
+        0,
+        39,
+        243.356546,
+        84,
+        3201.762
+      ],
+      "hard_failed_rule_ids": [],
+      "unchecked_hard_count": 23,
+      "unchecked_hard_rule_ids": [
+        "B01",
+        "B02",
+        "B07",
+        "C01",
+        "C02",
+        "C03",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M08",
+        "M10",
+        "M12",
+        "S01",
+        "S02",
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "partially_unchecked_hard_rules": [],
+      "body_offboard_before": 1,
+      "body_offboard_after": 0,
+      "core_errors_by_code": {},
+      "hard_fail_findings": 0,
+      "edge_and_access": [
+        {
+          "id": "M06",
+          "type": "accessible",
+          "status": "UNCHECKED",
+          "findings": 9,
+          "fail_findings": 0,
+          "unchecked_findings": 9
+        },
+        {
+          "id": "M07",
+          "type": "on_edge",
+          "status": "PASS",
+          "findings": 0,
+          "fail_findings": 0,
+          "unchecked_findings": 0
+        },
+        {
+          "id": "M08",
+          "type": "on_edge",
+          "status": "UNCHECKED",
+          "findings": 2,
+          "fail_findings": 0,
+          "unchecked_findings": 2
+        },
+        {
+          "id": "M09",
+          "type": "on_edge",
+          "status": "PASS",
+          "findings": 0,
+          "fail_findings": 0,
+          "unchecked_findings": 0
+        }
+      ]
+    },
+    "L2": {
+      "lvs_pass": true,
+      "legacy_passed": false,
+      "comparison_tuple": [
+        true,
+        0,
+        1,
+        41,
+        193.66119,
+        106,
+        3591.56
+      ],
+      "hard_failed_rule_ids": [
+        "M08"
+      ],
+      "unchecked_hard_count": 22,
+      "unchecked_hard_rule_ids": [
+        "B01",
+        "B02",
+        "B07",
+        "C01",
+        "C02",
+        "C03",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M10",
+        "M12",
+        "S01",
+        "S02",
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "partially_unchecked_hard_rules": [
+        {
+          "id": "M08",
+          "reasons": [
+            "J104: footprint feature 'mating_face' has no declared point",
+            "J213: footprint feature 'mating_face' has no declared point"
+          ]
+        }
+      ],
+      "body_offboard_before": 0,
+      "body_offboard_after": 0,
+      "core_errors_by_code": {},
+      "hard_fail_findings": 4,
+      "edge_and_access": [
+        {
+          "id": "M06",
+          "type": "accessible",
+          "status": "UNCHECKED",
+          "findings": 9,
+          "fail_findings": 0,
+          "unchecked_findings": 9
+        },
+        {
+          "id": "M07",
+          "type": "on_edge",
+          "status": "PASS",
+          "findings": 0,
+          "fail_findings": 0,
+          "unchecked_findings": 0
+        },
+        {
+          "id": "M08",
+          "type": "on_edge",
+          "status": "FAIL",
+          "findings": 6,
+          "fail_findings": 4,
+          "unchecked_findings": 2
+        },
+        {
+          "id": "M09",
+          "type": "on_edge",
+          "status": "PASS",
+          "findings": 0,
+          "fail_findings": 0,
+          "unchecked_findings": 0
+        }
+      ]
+    }
+  }
+}

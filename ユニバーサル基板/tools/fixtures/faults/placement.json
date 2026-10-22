@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "parts": {
+    "P1": {
+      "footprint": "PIN",
+      "hole": "B3",
+      "rotation": 0,
+      "locked": false,
+      "value": "test pad"
+    },
+    "P2": {
+      "footprint": "PIN",
+      "hole": "G3",
+      "rotation": 0,
+      "locked": false,
+      "value": "test pad"
+    },
+    "P3": {
+      "footprint": "PIN",
+      "hole": "D1",
+      "rotation": 0,
+      "locked": false,
+      "value": "test pad"
+    },
+    "P4": {
+      "footprint": "PIN",
+      "hole": "D7",
+      "rotation": 0,
+      "locked": false,
+      "value": "test pad"
+    },
+    "P5": {
+      "footprint": "PIN",
+      "hole": "B6",
+      "rotation": 0,
+      "locked": false,
+      "value": "test pad"
+    },
+    "P6": {
+      "footprint": "PIN",
+      "hole": "G6",
+      "rotation": 0,
+      "locked": false,
+      "value": "test pad"
+    },
+    "N1": {
+      "footprint": "PIN",
+      "hole": "H8",
+      "rotation": 0,
+      "locked": false,
+      "value": "test pad"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "candidate": "L4",
+  "shared_sha256": {
+    "BRIEF.md": "fcaf7d58e88fddb0ba04d33af2d540d7d94e0b35f210214c28e08bf6f330ed67",
+    "board.json": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+    "footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+    "netlist_ub.csv": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+    "parts_fit.csv": "04db57744b828f6031011d5a1eced984c43a16e3cf0e7d56bb37d27a5cc95342",
+    "design_rules_v0.2.json": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8",
+    "tools/ub.py": "531cdc70e27f5455db2c8f08d4427a4e1fdd1ea8368a3dbee46209efe9d1eefc",
+    "tools/model.py": "a06b993feb693be4f7f9e57c323f44430f058b821610b2941aec21eb7788aaad",
+    "tools/router.py": "680d4f6c0c9681c713e399563144b04b704f1d77b22923463cf80fd5640e71a8",
+    "tools/t7_rules.py": "bdd8aa1490b705fc0ea388977d5f1c181c101122985ede9cfae85d5d28945072",
+    "tools/scoring.py": "e674c6738251845ac9e1032cdcbf8193f2df0356cfc259b3e7a581f7bfa695b5",
+    "tools/verify.py": "827950d3b9637315b41a1d289f409275bd69aa6b5751566cd8601b4e78bd32b5"
+  },
+  "local_sha256": {
+    "placement.json": "6e8d89468f6fbd1f47b5f52c1e0048e6c1019ce90a922ddca218d2e2a148a417",
+    "wiring.json": "5002e62ac463aa8c78b58f7b6935b5f8665a1cbac5c271662a404af2bc250f15",
+    "routing_config.json": "3ed17924f72a758a9bca7a90f4de9c1e77a7a7233c02a7a77b49c770d29f81be",
+    "board.json": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+    "footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+    "netlist.csv": "9f5e938bfa8e4701da54b9153921902ec75806ea8e9dc09fa4034868930f71ec",
+    "design_rules.json": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8"
+  },
+  "commands": [
+    {
+      "command": "verify",
+      "argv": [
+        "ユニバーサル基板\\tools\\ub.py",
+        "verify",
+        "--project",
+        "ユニバーサル基板\\candidates\\L4",
+        "--board",
+        "ユニバーサル基板\\board.json",
+        "--rules",
+        "ユニバーサル基板\\design_rules_v0.2.json",
+        "--out",
+        "ユニバーサル基板\\candidates\\L4\\out"
+      ],
+      "returncode": 1
+    },
+    {
+      "command": "render",
+      "argv": [
+        "ユニバーサル基板\\tools\\ub.py",
+        "render",
+        "--project",
+        "ユニバーサル基板\\candidates\\L4",
+        "--board",
+        "ユニバーサル基板\\board.json",
+        "--rules",
+        "ユニバーサル基板\\design_rules_v0.2.json",
+        "--out",
+        "ユニバーサル基板\\candidates\\L4\\out"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": "wirelist",
+      "argv": [
+        "ユニバーサル基板\\tools\\ub.py",
+        "wirelist",
+        "--project",
+        "ユニバーサル基板\\candidates\\L4",
+        "--board",
+        "ユニバーサル基板\\board.json",
+        "--rules",
+        "ユニバーサル基板\\design_rules_v0.2.json",
+        "--out",
+        "ユニバーサル基板\\candidates\\L4\\out"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": "continuity",
+      "argv": [
+        "ユニバーサル基板\\tools\\ub.py",
+        "continuity",
+        "--project",
+        "ユニバーサル基板\\candidates\\L4",
+        "--board",
+        "ユニバーサル基板\\board.json",
+        "--rules",
+        "ユニバーサル基板\\design_rules_v0.2.json",
+        "--out",
+        "ユニバーサル基板\\candidates\\L4\\out"
+      ],
+      "returncode": 0
+    }
+  ],
+  "shared_files_modified_by_this_task": false
+}

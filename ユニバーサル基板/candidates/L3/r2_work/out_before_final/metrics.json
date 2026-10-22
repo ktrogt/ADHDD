@@ -1,0 +1,369 @@
+{
+  "wire_length_mm": {
+    "bare": 1564.64,
+    "bridge": 0.0,
+    "jumper": 1820.53
+  },
+  "total_wire_mm": 3385.17,
+  "jumpers": 38,
+  "bridges": 0,
+  "conductors": 115,
+  "jumper_over_exposed_crossings": 113,
+  "bbox_mm": [
+    0.0,
+    -2.76,
+    139.92,
+    100.63
+  ],
+  "used_bbox_area_mm2": 14466.329,
+  "used_area_fraction": 1.01922,
+  "power_path_lengths": [
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U340.VIN",
+      "length_mm": 35.658
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U330.VIN",
+      "length_mm": 63.598
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U320.VIN",
+      "length_mm": 91.538
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U310.VIN",
+      "length_mm": 119.478
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@2",
+      "length_mm": 86.36
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@13",
+      "length_mm": 83.82
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@2",
+      "length_mm": 78.74
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@13",
+      "length_mm": 76.2
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@2",
+      "length_mm": 106.68
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@13",
+      "length_mm": 104.14
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@2",
+      "length_mm": 134.62
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@13",
+      "length_mm": 132.08
+    }
+  ],
+  "longest_signal_nets": [
+    {
+      "net": "FAULT",
+      "length_mm": 385.059
+    },
+    {
+      "net": "VREF",
+      "length_mm": 248.978
+    },
+    {
+      "net": "SLEEP",
+      "length_mm": 206.048
+    },
+    {
+      "net": "HDD4_IN1",
+      "length_mm": 100.835
+    },
+    {
+      "net": "HDD4_IN2",
+      "length_mm": 97.584
+    },
+    {
+      "net": "HDD3_IN1",
+      "length_mm": 87.584
+    },
+    {
+      "net": "HDD3_IN2",
+      "length_mm": 85.194
+    },
+    {
+      "net": "HDD2_IN1",
+      "length_mm": 79.555
+    },
+    {
+      "net": "HDD2_IN2",
+      "length_mm": 78.247
+    },
+    {
+      "net": "HDD1_IN2",
+      "length_mm": 76.369
+    }
+  ],
+  "violations_by_severity": {
+    "error": 42,
+    "warning": 52
+  },
+  "rule_violations_by_severity": {
+    "error": 42,
+    "warning": 30
+  },
+  "score": 4256515.833,
+  "score_weights": {
+    "wire_mm": 1,
+    "jumpers": 20,
+    "bridges": 1,
+    "crossings": 2,
+    "area_mm2": 0.01,
+    "error": 100000,
+    "warning": 1000,
+    "info": 0
+  },
+  "t7_soft_penalty": 220.862152,
+  "t7_soft_penalty_by_rule": {
+    "B04": 2.0,
+    "B05": 2.333333,
+    "B06": 68.75,
+    "H02": 0.885827,
+    "P07": 64.0,
+    "P10": 80.0,
+    "S05": 1.159659,
+    "S13": 0.333333,
+    "V05": 1.4
+  },
+  "unchecked_soft_rule_ids": [
+    "B03",
+    "B04",
+    "S03"
+  ],
+  "soft_penalty_complete": false,
+  "hard_fail_count": 2,
+  "hard_failed_rule_ids": [
+    "P08",
+    "P09"
+  ],
+  "unchecked_hard_rules": [
+    {
+      "id": "B01",
+      "reasons": [
+        "T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "B02",
+      "reasons": [
+        "T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "B07",
+      "reasons": [
+        "T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "C01",
+      "reasons": [
+        "core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence"
+      ]
+    },
+    {
+      "id": "C02",
+      "reasons": [
+        "T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "C03",
+      "reasons": [
+        "T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M02",
+      "reasons": [
+        "T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M03",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M04",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M05",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M06",
+      "reasons": [
+        "J101: approach=outward; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J104: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J202: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J203: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J213: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J313: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J323: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J333: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access",
+        "J343: approach=top; mating_and_latch needs a declared 3D mating/access envelope and wire heights; planar body bounds cannot prove access"
+      ]
+    },
+    {
+      "id": "M08",
+      "reasons": [
+        "J104: footprint feature 'mating_face' has no declared point",
+        "J213: footprint feature 'mating_face' has no declared point"
+      ]
+    },
+    {
+      "id": "M10",
+      "reasons": [
+        "T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M12",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "S01",
+      "reasons": [
+        "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "S02",
+      "reasons": [
+        "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W01",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W02",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W03",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W04",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W05",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W06",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W07",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    }
+  ],
+  "unchecked_hard_count": 23,
+  "partially_unchecked_hard_rules": [],
+  "partially_unchecked_hard_count": 0,
+  "core_drc_errors": 0,
+  "bends": 62,
+  "comparison_tuple": [
+    true,
+    0,
+    2,
+    38,
+    220.862152,
+    62,
+    3385.17
+  ],
+  "comparison_tuple_fields": [
+    "lvs_ok",
+    "core_drc_errors",
+    "hard_fail_count",
+    "jumpers",
+    "t7_soft_penalty",
+    "bends",
+    "total_wire_mm"
+  ],
+  "comparison_directions": [
+    "max",
+    "min",
+    "min",
+    "min",
+    "min",
+    "min",
+    "min"
+  ],
+  "lexicographic_sort_key": [
+    0,
+    0,
+    2,
+    38,
+    220.862152,
+    62,
+    3385.17
+  ],
+  "ranking_pass": false
+}

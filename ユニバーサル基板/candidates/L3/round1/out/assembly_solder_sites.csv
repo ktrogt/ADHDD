@@ -1,0 +1,308 @@
+hole_TOP,net,reason
+AA1,VIN_PROT,bare bend
+AB1,VIN_PROT,support <=8 holes
+AJ1,VIN_PROT,component J104.VIN_PROT; wire end
+AR1,NC,component U340.VM
+AV1,VM,wire end; wire junction
+AW1,VM,component U340.VIN; wire end; wire junction
+AY1,VM,component C342.P1; wire end
+P2,VIN_RAW,component F102.P1; wire end
+R2,VIN_FUSED,component F102.P2; wire end
+Z2,VIN_FUSED,bare bend
+AE2,GND,component D105.A; wire end
+AF2,GND,bare bend
+AH2,VM,bare bend
+AI2,VM,component D105.K
+AJ2,VM,component J104.VM; wire end; wire junction
+AN2,VM,component C341.POS; wire end
+AO2,GND,bare bend
+AR2,GND,component U340.GND@2
+AU2,GND,wire end; wire junction
+AW2,GND,component U340.GND@13; wire end; wire junction
+AY2,GND,component C342.P2; wire end
+P3,VIN_RAW,bare bend
+T3,VIN_RAW,bare bend
+AD3,GND,component J101.SLEEVE; wire end
+AE3,GND,bare bend
+AR3,HDD4_IN1,component U340.IN1; wire end
+AW3,HDD4_OUT1,component U340.OUT1; wire end
+BA3,HDD4_OUT1,bare bend
+AD4,RESERVED,reserved physical lead: NO HOST WIRE
+AN4,GND,component C341.NEG; wire end
+AO4,GND,bare bend
+AR4,HDD4_IN2,component U340.IN2; wire end
+AW4,HDD4_OUT2,component U340.OUT2; wire end
+AY4,HDD4_OUT2,component J343.OUT2; wire end
+AZ4,RESERVED,reserved physical lead: NO HOST WIRE
+BA4,HDD4_OUT1,component J343.OUT1; wire end
+AD5,NC,component J101.SWITCH
+AR5,+3V3,component U340.PMODE; wire end
+AW5,NC,component U340.IMODE
+AD6,VIN_RAW,component J101.CENTER; wire end
+AE6,GND,bare bend
+AF6,GND,component C106.NEG; wire end; wire junction
+AH6,VM,component C106.POS; wire end; wire junction
+AK6,VM,bare bend
+AR6,SLEEP,component U340.SLEEP; wire end
+AW6,FAULT,component U340.FAULT; wire end
+Z7,VIN_FUSED,support <=8 holes
+AF7,GND,bare bend
+AG7,GND,bare bend
+AK7,VM,component TP460.TP; wire end
+AR7,VREF,component U340.VREF; wire end
+AW7,HDD4_CS,component U340.CS; wire end
+P8,+5V,component TP461.TP; wire end
+T8,VIN_RAW,support <=8 holes
+AA9,VIN_PROT,support <=8 holes
+AG9,GND,bare bend
+AO9,GND,support <=8 holes
+AU9,GND,wire end; wire junction
+AV9,VM,support <=8 holes
+AW9,HDD4_CS,component TP474.TP; wire end
+AZ9,VM,component C331.POS; wire end
+BB9,GND,component C331.NEG; wire end
+AW10,VM,bare bend
+AZ10,VM,bare bend
+A11,+5V,bare bend
+F11,+5V,support <=8 holes
+N11,+5V,bare bend; wire end; wire junction
+P11,+5V,bare bend
+G12,GND,bare bend
+M12,GND,bare bend
+N12,+5V,wire end; wire junction
+S12,+5V,component C109.POS; wire end
+AR12,NC,component U330.VM
+AV12,VM,wire end; wire junction
+AW12,VM,component U330.VIN; wire end; wire junction
+AY12,VM,component C332.P1; wire end
+F13,VM,component C108.POS; wire end
+G13,GND,component C108.NEG; wire end
+L13,VM,component U107.VIN; wire end; wire junction
+M13,GND,component U107.GND; wire end; wire junction
+N13,+5V,component U107.VOUT; wire end
+S13,GND,component C109.NEG; wire end
+AR13,GND,component U330.GND@2; wire end
+AU13,GND,wire end; wire junction
+AW13,GND,component U330.GND@13; wire end; wire junction
+AX13,GND,wire junction
+AY13,GND,component C332.P2; wire end; wire junction
+BB13,GND,bare bend
+M14,GND,wire end; wire junction
+S14,GND,bare bend
+AD14,VIN_RAW,support <=8 holes
+AR14,HDD3_IN1,component U330.IN1; wire end
+AW14,HDD3_OUT1,component U330.OUT1; wire end
+BA14,HDD3_OUT1,bare bend
+Z15,VIN_FUSED,component D103.A; wire end
+AA15,VIN_PROT,component D103.K; wire end
+AB15,RESERVED,reserved physical lead: NO HOST WIRE
+AR15,HDD3_IN2,component U330.IN2; wire end
+AW15,HDD3_OUT2,component U330.OUT2; wire end
+AY15,HDD3_OUT2,component J333.OUT2; wire end
+AZ15,RESERVED,reserved physical lead: NO HOST WIRE
+BA15,HDD3_OUT1,component J333.OUT1; wire end
+T16,VIN_RAW,bare bend
+V16,VIN_RAW,support <=8 holes
+AD16,VIN_RAW,bare bend
+AE16,+3V3,bare bend
+AJ16,+3V3,support <=8 holes
+AR16,+3V3,component U330.PMODE; wire end; wire junction
+AS16,+3V3,bare bend
+AW16,NC,component U330.IMODE
+V17,+3V3,bare bend
+W17,+3V3,support <=8 holes
+AE17,+3V3,bare bend
+AR17,SLEEP,component U330.SLEEP; wire end; wire junction
+AW17,FAULT,component U330.FAULT; wire end
+B18,ARM_SW,bare bend
+C18,ARM_SW,component R212.P2; wire end
+F18,ARM,component R212.P1; wire end
+M18,GND,component TP463.TP; wire end
+AE18,VREF,bare bend
+AJ18,VREF,support <=8 holes
+AR18,VREF,component U330.VREF; wire end
+AW18,HDD3_CS,component U330.CS; wire end
+A19,+5V,support <=8 holes
+F19,ARM,bare bend
+N19,ARM,bare bend
+P19,FAULT,bare bend
+S19,FAULT,component TP468.TP; wire end
+AQ19,+3V3,bare bend
+AS19,+3V3,bare bend
+B20,ARM_SW,component J213.ARM_SW; wire end
+C20,SLEEP,component J213.SLEEP; wire end
+D20,SLEEP,wire end; wire junction
+E20,SLEEP,component R214.P1
+H20,SLEEP,component U201.GP16; wire end; wire junction
+O20,FAULT,component U201.GP15; wire end
+P20,FAULT,bare bend; wire end; wire junction
+AV20,VM,support <=8 holes
+AW20,HDD3_CS,component TP473.TP; wire end
+AZ20,VM,component C321.POS; wire end
+BB20,GND,component C321.NEG; wire end
+H21,MUX_S0,component U201.GP17
+N21,ARM,bare bend
+O21,ARM,component U201.GP14; wire end
+P21,FAULT,component R215.P2; wire end; wire junction
+S21,+3V3,component R215.P1; wire end
+V21,+3V3,wire end; wire junction
+AU21,GND,support <=8 holes
+AW21,VM,bare bend
+AZ21,VM,bare bend
+H22,GND,component U201.GND@23; wire end
+K22,GND,wire end; wire junction
+O22,GND,component U201.GND@18; wire end
+AD22,VREF,component R210.P1; wire end
+AG22,GND,component R210.P2; wire end
+E23,GND,component R214.P2; wire end
+H23,MUX_S1,component U201.GP18
+O23,NC,component U201.GP13
+AR23,NC,component U320.VM
+AV23,VM,wire end; wire junction
+AW23,VM,component U320.VIN; wire end; wire junction
+AY23,VM,component C322.P1; wire end
+H24,NC,component U201.GP19
+O24,NC,component U201.GP12
+R24,+3V3,component TP462.TP; wire end
+V24,+3V3,wire end; wire junction
+Z24,+3V3,component R209.P1; wire end
+AC24,VREF,bare bend; component R209.P2
+AD24,VREF,wire end; wire junction
+AE24,VREF,component C211.P1; wire end; wire junction
+AF24,VREF,bare bend
+AG24,GND,component C211.P2; wire end; wire junction
+AR24,GND,component U320.GND@2; wire end
+AU24,GND,wire end; wire junction
+AW24,GND,component U320.GND@13; wire end; wire junction
+AX24,GND,wire junction
+AY24,GND,component C322.P2; wire end; wire junction
+BB24,GND,bare bend
+H25,NC,component U201.GP20
+O25,NC,component U201.GP11
+AG25,GND,bare bend
+AI25,GND,component TP465.TP; wire end
+AR25,HDD2_IN1,component U320.IN1; wire end
+AW25,HDD2_OUT1,component U320.OUT1; wire end
+BA25,HDD2_OUT1,bare bend
+D26,SLEEP,component TP467.TP; wire end
+H26,NC,component U201.GP21
+O26,NC,component U201.GP10
+Q26,GND,component TP464.TP; wire end
+AB26,VREF,component TP466.TP; wire end
+AC26,VREF,bare bend
+AR26,HDD2_IN2,component U320.IN2; wire end
+AW26,HDD2_OUT2,component U320.OUT2; wire end
+AY26,HDD2_OUT2,component J323.OUT2; wire end
+AZ26,RESERVED,reserved physical lead: NO HOST WIRE
+BA26,HDD2_OUT1,component J323.OUT1; wire end
+A27,+5V,support <=8 holes
+H27,GND,component U201.GND@28; wire end
+K27,GND,wire junction
+O27,GND,component U201.GND@13; wire end; wire junction
+Q27,GND,bare bend
+AQ27,+3V3,bare bend
+AR27,+3V3,component U320.PMODE
+AS27,+3V3,bare bend
+AW27,NC,component U320.IMODE
+H28,NC,component U201.GP22
+O28,HDD4_IN2,component U201.GP9; wire end
+AR28,SLEEP,component U320.SLEEP; wire end; wire junction
+AW28,FAULT,component U320.FAULT; wire end
+H29,NC,component U201.RUN
+O29,HDD4_IN1,component U201.GP8; wire end
+AF29,VREF,bare bend
+AJ29,VREF,support <=8 holes
+AR29,VREF,component U320.VREF; wire end
+AW29,HDD2_CS,component U320.CS; wire end
+H30,VM_SENSE,component U201.GP26
+O30,HDD3_IN2,component U201.GP7; wire end
+H31,I_SENSE,component U201.GP27
+O31,HDD3_IN1,component U201.GP6; wire end
+Z31,SN_RX_IN,component R205.P1; wire end
+AC31,SN_PU,component R205.P2; wire end
+AV31,VM,support <=8 holes
+AW31,HDD2_CS,component TP472.TP; wire end
+AZ31,VM,component C311.POS; wire end
+BB31,GND,component C311.NEG; wire end
+H32,GND,component U201.AGND; wire end
+K32,GND,wire junction
+O32,GND,component U201.GND@8; wire end
+U32,GND,component C208.P2; wire end
+V32,+3V3,component C208.P1; wire end; wire junction
+AE32,VREF,support <=8 holes
+AU32,GND,support <=8 holes
+AW32,VM,bare bend
+AZ32,VM,bare bend
+H33,T_SENSE,component U201.GP28
+O33,HDD2_IN2,component U201.GP5; wire end
+V33,SN_RX_IN,bare bend
+Z33,SN_RX_IN,bare bend
+AC33,SN_PU,component D206.K; wire end
+AF33,+3V3,component D206.A; wire end
+AN33,+3V3,support <=8 holes
+AQ33,+3V3,wire end; wire junction
+AS33,+3V3,bare bend
+A34,+5V,bare bend
+F34,+5V,component D110.A; wire end
+H34,NC,component U201.ADC_VREF
+O34,HDD2_IN1,component U201.GP4; wire end
+S34,SN_RX_IN,component R204.P2; wire end
+U34,GND,component U207./OE; wire end; wire junction
+X34,+3V3,component U207.VCC; wire end
+AR34,NC,component U310.VM
+AV34,VM,wire end; wire junction
+AW34,VM,component U310.VIN; wire end; wire junction
+AY34,VM,component C312.P1; wire end
+H35,+3V3,component U201.3V3_OUT; wire end
+O35,HDD1_IN2,component U201.GP3; wire end
+S35,SN_RX_IN,bare bend
+U35,SN_RX_IN,component U207.A; wire end; wire junction
+V35,SN_RX_IN,bare bend
+X35,RESERVED,reserved physical lead: NO HOST WIRE
+AR35,GND,component U310.GND@2; wire end
+AU35,GND,wire end; wire junction
+AW35,GND,component U310.GND@13; wire end; wire junction
+AX35,GND,wire junction
+AY35,GND,component C312.P2; wire end; wire junction
+BB35,GND,bare bend
+H36,NC,component U201.3V3_EN
+O36,HDD1_IN1,component U201.GP2; wire end
+U36,GND,component U207.GND; wire end; wire junction
+X36,UART_RX,component U207.Y; wire end
+AR36,HDD1_IN1,component U310.IN1; wire end
+AW36,HDD1_OUT1,component U310.OUT1; wire end
+BA36,HDD1_OUT1,bare bend
+H37,GND,component U201.GND@38; wire end
+K37,GND,wire end; wire junction
+O37,GND,component U201.GND@3; wire end
+S37,SN_BUS,component R204.P1; wire end
+T37,SN_BUS,bare bend
+U37,GND,wire end; wire junction
+Y37,GND,bare bend
+AR37,HDD1_IN2,component U310.IN2; wire end
+AW37,HDD1_OUT2,component U310.OUT2; wire end
+AY37,HDD1_OUT2,component J313.OUT2; wire end
+AZ37,RESERVED,reserved physical lead: NO HOST WIRE
+BA37,HDD1_OUT1,component J313.OUT1; wire end
+F38,VSYS,component D110.K; wire end
+H38,VSYS,component U201.VSYS; wire end
+O38,UART_RX,component U201.GP1; wire end
+S38,UART_RX,wire end; wire junction
+AQ38,+3V3,bare bend
+AR38,+3V3,component U310.PMODE; wire end
+AW38,NC,component U310.IMODE
+H39,NC,component U201.VBUS
+O39,NC,component U201.GP0
+T39,SN_BUS,component J202.SIGNAL; wire end; wire junction
+U39,GND,component J202.GND; wire end
+X39,SN_BUS,component J203.SIGNAL; wire end
+Y39,GND,component J203.GND; wire end
+AR39,SLEEP,component U310.SLEEP; wire end
+AW39,FAULT,component U310.FAULT; wire end
+T40,SN_BUS,bare bend
+X40,SN_BUS,wire end; wire junction
+AE40,VREF,bare bend
+AJ40,VREF,support <=8 holes
+AR40,VREF,component U310.VREF; wire end
+AW40,HDD1_CS,component U310.CS; wire end
+AY40,HDD1_CS,component TP471.TP; wire end

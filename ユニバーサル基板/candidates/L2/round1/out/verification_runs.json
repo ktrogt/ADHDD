@@ -1,0 +1,18 @@
+[
+  {
+    "command": "verify",
+    "exit": 1
+  },
+  {
+    "command": "render",
+    "exit": 0
+  },
+  {
+    "command": "wirelist",
+    "exit": 0
+  },
+  {
+    "command": "continuity",
+    "exit": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "status": "PASS: modeled tree-path conductor sizes only",
+  "does_not_clear_unchecked_W_rules": true,
+  "scope": "Entry root to each carrier VIN14 / both GND pins; a channel counts once on shared edges. Contacts, actual voltage drop, temperature and off-board harness remain build checks.",
+  "paths": [
+    {
+      "net": "VM",
+      "root": "C17",
+      "multi_channel_edges": 37,
+      "multi_channel_gauges": [
+        "1.0 mm"
+      ],
+      "minimum_multi_channel_area_mm2": 0.785398,
+      "minimum_motor_path_area_mm2": 0.282743,
+      "undersized_edges": []
+    },
+    {
+      "net": "GND",
+      "root": "E17",
+      "multi_channel_edges": 37,
+      "multi_channel_gauges": [
+        "1.0 mm"
+      ],
+      "minimum_multi_channel_area_mm2": 0.785398,
+      "minimum_motor_path_area_mm2": 0.282743,
+      "undersized_edges": []
+    }
+  ]
+}

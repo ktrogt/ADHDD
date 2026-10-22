@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "groups": {
+    "drivers": [
+      "U310",
+      "U320",
+      "U330",
+      "U340"
+    ]
+  },
+  "router": {
+    "power_nets": [
+      "VM",
+      "GND"
+    ],
+    "power_gauge": "AWG20",
+    "signal_gauge": "AWG26",
+    "bend_penalty": 0.4,
+    "use_bridges": true,
+    "jumper_side": "bottom"
+  },
+  "power_roots": {
+    "VM": "J104.VM",
+    "GND": "J101.SLEEVE"
+  },
+  "weights": {
+    "wire_mm": 1,
+    "jumpers": 20,
+    "bridges": 1,
+    "crossings": 2,
+    "area_mm2": 0.01,
+    "error": 100000,
+    "warning": 1000
+  },
+  "rules": [
+    {
+      "id": "power-wire",
+      "type": "wire_gauge",
+      "nets": [
+        "VM",
+        "GND"
+      ],
+      "max_awg": 20,
+      "current_a": 2.6,
+      "min_area_mm2": 0.5,
+      "severity": "error"
+    },
+    {
+      "id": "demo-cap-proximity",
+      "type": "near_pin",
+      "parts": [
+        "C312"
+      ],
+      "pin": "U310.VIN",
+      "max_holes": 5,
+      "severity": "warning"
+    }
+  ]
+}

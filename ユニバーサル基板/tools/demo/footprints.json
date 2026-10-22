@@ -1,0 +1,915 @@
+{
+  "schema_version": 1,
+  "footprints": {
+    "MJ179PH_PLACEHOLDER": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "CENTER",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "SLEEVE",
+          "dx": 2,
+          "dy": 0
+        },
+        {
+          "number": "3",
+          "name": "SWITCH",
+          "dx": 4,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2,
+        "y": -5.5,
+        "width": 14.5,
+        "height": 11
+      },
+      "height_mm": 9,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. SCHEMATIC PLACEHOLDER: 3 pads named1/2/3 for CENTER/SLEEVE/SWITCH; no claimed physical pad positions,drills or slot sizes. Outline verified visually by Claude: body W9 xH11 xD14.5; jack axis6.5 above board; terminals protrude3.5 below board. Manufacturer outline does not specify PCB hole/slot pattern. PCB-stage HOLD: replace pad/slot geometry before layout; measure real part or obtain detailed drawing.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/mj179ph_mj180ph.pdf",
+        "https://akizukidenshi.com/catalog/g/g106568/",
+        "https://www.est-marushin.co.jp/prod/mj/J179PH.html",
+        "https://www.est-marushin.co.jp/img/drw/MJ179PH.jpg"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "CENTER"
+      }
+    },
+    "F_MFR300_P5.1": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -3.46,
+        "y": -1.5,
+        "width": 12,
+        "height": 3
+      },
+      "height_mm": 18.3,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Radial Style2; pitch5.1+/-0.7; W<=12.0,H<=18.3,T<=3.0; lead d0.81. RECOMMENDED drill1.10,padD2.40; pin1=(0,0),pin2=(5.1,0); nonpolar; avoid diode heat.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/mfr.pdf"
+      ]
+    },
+    "D_DO201AD_P15.24": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 6,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 2.87,
+        "y": -2.65,
+        "width": 9.5,
+        "height": 5.3
+      },
+      "height_mm": 5.3,
+      "hot": true,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Axial horizontal DO201AD; body L7.2..9.5,D4.8..5.3; lead d1.2..1.3. RECOMMENDED pitch15.24,drill1.60,padD3.0; pin1=K(0,0),pin2=A(15.24,0); band/Ksilk at pin1; heat clearance.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/1N5822.pdf"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "K"
+      }
+    },
+    "HDR_1X2_P2.54": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "VIN_PROT",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "VM",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.27,
+        "y": -1.25,
+        "width": 5.08,
+        "height": 2.5
+      },
+      "height_mm": 2.5,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Cut 1x2 from PH-1x40SG; pitch2.54; store recommended finished hole1.02; body thickness2.5,height2.5,tail3.0,contact6.1; cut length5.08 is calculated. RECOMMENDED main-board drill1.10,padD2.10; square pin1=(0,0),pin2=(2.54,0); silk both net names.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/PH-1xXXSG-AD.pdf",
+        "https://akizukidenshi.com/catalog/g/g100167/"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "VIN_PROT"
+      }
+    },
+    "D_DO41_P10.16": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 4,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 2.48,
+        "y": -1.35,
+        "width": 5.2,
+        "height": 2.7
+      },
+      "height_mm": 2.7,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Axial horizontal DO41; body L<=5.2,D<=2.7; lead d<=0.90 (1N5819),<=0.86(P4KE). RECOMMENDED pitch10.16,drill1.20,padD2.40; pin1=K(0,0),pin2=A(10.16,0); band/Ksilk at pin1.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/1n5819.pdf",
+        "https://akizukidenshi.com/goodsaffix/P4KE.pdf"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "K"
+      }
+    },
+    "CP_RADIAL_D10_P5.0": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "POS",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "NEG",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2.71,
+        "y": -5.25,
+        "width": 10.5,
+        "height": 10.5
+      },
+      "height_mm": 17.5,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Pitch5.0+/-0.5; can D10,L16 nominal; sleeve envelope D<=10.5,H<=17.5; lead d0.60. RECOMMENDED drill0.90,padD2.0; pin1=POS(0,0),pin2=NEG(5,0); square pin1,+silk; sleeve stripe=NEG.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/zlh.pdf",
+        "https://akizukidenshi.com/catalog/g/g102719/"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "POS"
+      }
+    },
+    "M78AR05_1_SIP3": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "VIN",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "dx": 1,
+          "dy": 0
+        },
+        {
+          "number": "3",
+          "name": "VOUT",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -3.21,
+        "y": -3.775,
+        "width": 11.5,
+        "height": 7.55
+      },
+      "height_mm": 10.2,
+      "hot": true,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. SIP3 pitch2.54; body11.5 x7.55 x10.2; rectangular leads0.70 x0.50(+/-0.05). RECOMMENDED drill1.20,padD2.10. Pins1VIN,2GND,3VOUT per maker p3 BOTTOM VIEW. Exact body offset and top-view orientation must be copied from that drawing; not visually transcribed here.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/m78ar-1.pdf"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "VIN"
+      }
+    },
+    "CP_RADIAL_D6.3_P2.5": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "POS",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "NEG",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2.13,
+        "y": -3.4,
+        "width": 6.8,
+        "height": 6.8
+      },
+      "height_mm": 12.5,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Pitch2.5+/-0.5; can D6.3,L11 nominal; envelope D<=6.8,H<=12.5; lead d0.50. RECOMMENDED drill0.80,padD1.70; pin1=POS(0,0),pin2=NEG(2.5,0); square pin1,+silk; sleeve stripe=NEG.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/zlh.pdf",
+        "https://akizukidenshi.com/catalog/g/g102724/"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "POS"
+      }
+    },
+    "RPI_PICO_SOCKET": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "GP0",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GP1",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "number": "3",
+          "name": "GND@3",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "number": "4",
+          "name": "GP2",
+          "dx": 0,
+          "dy": 3
+        },
+        {
+          "number": "5",
+          "name": "GP3",
+          "dx": 0,
+          "dy": 4
+        },
+        {
+          "number": "6",
+          "name": "GP4",
+          "dx": 0,
+          "dy": 5
+        },
+        {
+          "number": "7",
+          "name": "GP5",
+          "dx": 0,
+          "dy": 6
+        },
+        {
+          "number": "8",
+          "name": "GND@8",
+          "dx": 0,
+          "dy": 7
+        },
+        {
+          "number": "9",
+          "name": "GP6",
+          "dx": 0,
+          "dy": 8
+        },
+        {
+          "number": "10",
+          "name": "GP7",
+          "dx": 0,
+          "dy": 9
+        },
+        {
+          "number": "11",
+          "name": "GP8",
+          "dx": 0,
+          "dy": 10
+        },
+        {
+          "number": "12",
+          "name": "GP9",
+          "dx": 0,
+          "dy": 11
+        },
+        {
+          "number": "13",
+          "name": "GND@13",
+          "dx": 0,
+          "dy": 12
+        },
+        {
+          "number": "14",
+          "name": "GP10",
+          "dx": 0,
+          "dy": 13
+        },
+        {
+          "number": "15",
+          "name": "GP11",
+          "dx": 0,
+          "dy": 14
+        },
+        {
+          "number": "16",
+          "name": "GP12",
+          "dx": 0,
+          "dy": 15
+        },
+        {
+          "number": "17",
+          "name": "GP13",
+          "dx": 0,
+          "dy": 16
+        },
+        {
+          "number": "18",
+          "name": "GND@18",
+          "dx": 0,
+          "dy": 17
+        },
+        {
+          "number": "19",
+          "name": "GP14",
+          "dx": 0,
+          "dy": 18
+        },
+        {
+          "number": "20",
+          "name": "GP15",
+          "dx": 0,
+          "dy": 19
+        },
+        {
+          "number": "21",
+          "name": "GP16",
+          "dx": 7,
+          "dy": 19
+        },
+        {
+          "number": "22",
+          "name": "GP17",
+          "dx": 7,
+          "dy": 18
+        },
+        {
+          "number": "23",
+          "name": "GND@23",
+          "dx": 7,
+          "dy": 17
+        },
+        {
+          "number": "24",
+          "name": "GP18",
+          "dx": 7,
+          "dy": 16
+        },
+        {
+          "number": "25",
+          "name": "GP19",
+          "dx": 7,
+          "dy": 15
+        },
+        {
+          "number": "26",
+          "name": "GP20",
+          "dx": 7,
+          "dy": 14
+        },
+        {
+          "number": "27",
+          "name": "GP21",
+          "dx": 7,
+          "dy": 13
+        },
+        {
+          "number": "28",
+          "name": "GND@28",
+          "dx": 7,
+          "dy": 12
+        },
+        {
+          "number": "29",
+          "name": "GP22",
+          "dx": 7,
+          "dy": 11
+        },
+        {
+          "number": "30",
+          "name": "RUN",
+          "dx": 7,
+          "dy": 10
+        },
+        {
+          "number": "31",
+          "name": "GP26",
+          "dx": 7,
+          "dy": 9
+        },
+        {
+          "number": "32",
+          "name": "GP27",
+          "dx": 7,
+          "dy": 8
+        },
+        {
+          "number": "33",
+          "name": "AGND",
+          "dx": 7,
+          "dy": 7
+        },
+        {
+          "number": "34",
+          "name": "GP28",
+          "dx": 7,
+          "dy": 6
+        },
+        {
+          "number": "35",
+          "name": "ADC_VREF",
+          "dx": 7,
+          "dy": 5
+        },
+        {
+          "number": "36",
+          "name": "3V3_OUT",
+          "dx": 7,
+          "dy": 4
+        },
+        {
+          "number": "37",
+          "name": "3V3_EN",
+          "dx": 7,
+          "dy": 3
+        },
+        {
+          "number": "38",
+          "name": "GND@38",
+          "dx": 7,
+          "dy": 2
+        },
+        {
+          "number": "39",
+          "name": "VSYS",
+          "dx": 7,
+          "dy": 1
+        },
+        {
+          "number": "40",
+          "name": "VBUS",
+          "dx": 7,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.61,
+        "y": -1.37,
+        "width": 21,
+        "height": 51
+      },
+      "height_mm": 10.5,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. TOP USB at top: pin1 upper left=(0,0); pins1..20 down left at pitch2.54; pins40..21 down right x17.78,y0..48.26. Body21 x51; calculated centered bounds x=-1.61..19.39,y=-1.37..49.63. Two FHU-1x20SG sockets H8.5,thickness2.5,tail3.0; store recommended finished socket hole1.02. RECOMMENDED main-board drill1.10,padD2.0. Square pin1; no SWD pads; USB/BOOTSEL clearance.",
+      "sources": [
+        "https://datasheets.raspberrypi.com/pico/pico-product-brief.pdf",
+        "https://akizukidenshi.com/goodsaffix/FHU-1.pdf",
+        "https://akizukidenshi.com/catalog/g/g105779/"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "GP0"
+      }
+    },
+    "JST_XH_B2B_2P_P2.50": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "SIGNAL",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -2.43,
+        "y": -2.9,
+        "width": 7.4,
+        "height": 5.8
+      },
+      "height_mm": 7,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. B2B-XH-A vertical2P; pitch2.50,not2.54; maker finished hole0.90(+0.1/-0); body width7.4. RECOMMENDED padD1.90; square1(0,0),2(2.5,0). Copy keyed outline/circuit1 orientation from xh.pdf TOP type; observe solder-side/top-view distinction.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/xh.pdf"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "SIGNAL"
+      }
+    },
+    "R_AXIAL_P7.62": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 3,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 1.81,
+        "y": -1.05,
+        "width": 4,
+        "height": 2.1
+      },
+      "height_mm": 3,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Horizontal axial; MFS25 body L=3.3 nominal (max4.0), D=1.8+/-0.3; lead d=0.45+/-0.05. RECOMMENDED pitch7.62, drill0.80, padD1.80; pin1=(0,0),pin2=(7.62,0); nonpolar.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/mf_FAITHFUL%20LINK.pdf"
+      ]
+    },
+    "D_DO35_P7.62": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 3,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 1.9100000000000001,
+        "y": -1.05,
+        "width": 3.8,
+        "height": 2.1
+      },
+      "height_mm": 3,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Axial horizontal DO35; store body3.8 x2.0. RECOMMENDED pitch7.62,drill0.80,padD1.80; pin1=K(0,0),pin2=A(7.62,0); band/Ksilk at pin1. Lead d<=0.55 is ASSUMED for sizing; verify actual lead fit.",
+      "sources": [
+        "https://akizukidenshi.com/catalog/g/g113907/",
+        "https://akizukidenshi.com/goodsaffix/bat43.pdf"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "K"
+      }
+    },
+    "SOT23_5_SOT25": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "/OE",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "number": "3",
+          "name": "GND",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "number": "4",
+          "name": "Y",
+          "dx": 3,
+          "dy": 2
+        },
+        {
+          "number": "5",
+          "name": "VCC",
+          "dx": 3,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.27,
+        "y": -1.27,
+        "width": 10.16,
+        "height": 7.62
+      },
+      "height_mm": 4,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. W5=SOT25,not SOT353; lead pitch0.95; body nominal3.0 x1.6,max3.1 x1.7; lead span2.7..3.0,H<=1.30. TOP pin1 lower-left,2 lower-middle,3 lower-right,4 upper-right,5 upper-left. RECOMMENDED pad centers1(-0.95,-1.10),2(0,-1.10),3(0.95,-1.10),4(0.95,1.10),5(-0.95,1.10); pad0.60 x1.20; no drill; pin1dot.",
+      "sources": [
+        "https://www.diodes.com/assets/Datasheets/74AHC1G125.pdf"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "/OE"
+      }
+    },
+    "C_RADIAL_P2.54": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 1,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -0.6299999999999999,
+        "y": -1.4,
+        "width": 3.8,
+        "height": 2.8
+      },
+      "height_mm": 3.8,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Radial straight; pitch2.54; R15 body W<=3.8,T<=2.8,H<=3.8; lead d=0.50+/-0.05. RECOMMENDED drill0.80,padD1.70; pin1=(0,0),pin2=(2.54,0); nonpolar.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/Multilayer_capacitor.pdf"
+      ]
+    },
+    "C_RADIAL_P5.0": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "P1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": 0.29000000000000004,
+        "y": -1.575,
+        "width": 4.5,
+        "height": 3.15
+      },
+      "height_mm": 3.5,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Radial; pitch5.0+/-0.8; body L<=4.5,T<=3.15,H<=3.5; lead d=0.50+/-0.05. RECOMMENDED drill0.80,padD1.80; pin1=(0,0),pin2=(5,0); nonpolar.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/RDER71H224K1K1H03B.pdf"
+      ]
+    },
+    "POLOLU_4035_SOCKET": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "VM",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "GND@2",
+          "dx": 0,
+          "dy": 1
+        },
+        {
+          "number": "3",
+          "name": "IN1",
+          "dx": 0,
+          "dy": 2
+        },
+        {
+          "number": "4",
+          "name": "IN2",
+          "dx": 0,
+          "dy": 3
+        },
+        {
+          "number": "5",
+          "name": "PMODE",
+          "dx": 0,
+          "dy": 4
+        },
+        {
+          "number": "6",
+          "name": "SLEEP",
+          "dx": 0,
+          "dy": 5
+        },
+        {
+          "number": "7",
+          "name": "VREF",
+          "dx": 0,
+          "dy": 6
+        },
+        {
+          "number": "8",
+          "name": "CS",
+          "dx": 5,
+          "dy": 6
+        },
+        {
+          "number": "9",
+          "name": "FAULT",
+          "dx": 5,
+          "dy": 5
+        },
+        {
+          "number": "10",
+          "name": "IMODE",
+          "dx": 5,
+          "dy": 4
+        },
+        {
+          "number": "11",
+          "name": "OUT2",
+          "dx": 5,
+          "dy": 3
+        },
+        {
+          "number": "12",
+          "name": "OUT1",
+          "dx": 5,
+          "dy": 2
+        },
+        {
+          "number": "13",
+          "name": "GND@13",
+          "dx": 5,
+          "dy": 1
+        },
+        {
+          "number": "14",
+          "name": "VIN",
+          "dx": 5,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.27,
+        "y": -1.27,
+        "width": 15.2,
+        "height": 17.8
+      },
+      "height_mm": 12,
+      "hot": true,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. TOP components visible,VIN upper right: left pins1..7=(VM,GND,IN1,IN2,PMODE,SLEEP,VREF),x0,y0..15.24,pitch2.54; right pins14..8 top-to-bottom=(VIN,GND,OUT1,OUT2,IMODE,FAULT,CS),x12.70. Body15.2 x17.8; edge offset1.27 nominal; edge tolerance+/-0.3,hole location+/-0.1. Carrier holesD1.02 are distinct from socket-tail holes. Two FHU-1x7SG H8.5,thickness2.5,tail3.0; store recommended socket hole1.02. RECOMMENDED main-board drill1.10,padD2.0. Local counterclockwise numbering,not DRV8874 IC numbers; square pin1VM.",
+      "sources": [
+        "https://www.pololu.com/file/0J1882/drv887x-single-brushed-dc-motor-driver-carrier-dimensions.pdf",
+        "https://akizukidenshi.com/goodsaffix/FHU-1.pdf",
+        "https://akizukidenshi.com/catalog/g/g105779/"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "VM"
+      }
+    },
+    "JST_VH_B2P_P3.96": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT1",
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "number": "2",
+          "name": "OUT2",
+          "dx": 2,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -1.3900000000000001,
+        "y": -3.0,
+        "width": 7.86,
+        "height": 6
+      },
+      "height_mm": 9,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. B2P-VH vertical2P; pitch3.96; maker finished hole1.65(+0.1/-0); body width7.86. RECOMMENDED padD3.20; square1(0,0),2(3.96,0). Copy keyed body outline/circuit1 orientation from VH.pdf p3 TOP type; p1 PCB layout is SOLDER SIDE,not top view.",
+      "sources": [
+        "https://akizukidenshi.com/goodsaffix/VH.pdf"
+      ],
+      "polarity": {
+        "pin": "1",
+        "label": "OUT1"
+      }
+    },
+    "TP_THT_D2.5": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "TP",
+          "dx": 0,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -0.65,
+        "y": -0.65,
+        "width": 1.3,
+        "height": 1.3
+      },
+      "height_mm": 2,
+      "hot": false,
+      "provisional": true,
+      "notes": "DEVELOPMENT ONLY: grid approximation from parts.csv footprint_details; mechanical fit unverified. Bare plated test pad,no bought component. DESIGN CHOICE finished drill1.0,padD2.5; pin1TP=(0,0); silk net name; no polarity.",
+      "sources": [
+        "Task T1 test-point requirement; design choice"
+      ]
+    }
+  }
+}

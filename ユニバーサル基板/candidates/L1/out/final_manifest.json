@@ -1,0 +1,33 @@
+{
+  "required_files_present": true,
+  "fresh_verifier_matches_report": true,
+  "comparison_tuple": [
+    true,
+    0,
+    0,
+    31,
+    218.580952,
+    57,
+    3077.043
+  ],
+  "ranking_pass": true,
+  "hard_failed_rule_ids": [],
+  "CSV_rows": {
+    "wirelist.csv": 126,
+    "continuity.csv": 1219,
+    "netlist_actual.csv": 186
+  },
+  "files_SHA256": {
+    "placement.json": "37f09e7b61e1ca27582e84ed706056681f622054851c9d96ea40aa8b20d4049c",
+    "wiring.json": "95c97d44df8f8b14549a423fbae54ef9b21d476a797c3ec9cdb94a73336d618d",
+    "summary.md": "2b1191116bda8af1db7616f25377b36e57ee9182dadd1bef254067903273eee1",
+    "out/top.svg": "812ab4249b9c5f69a7ab2d13fd06f16dad90185e32261dcd15e3c552b9e8b068",
+    "out/bottom.svg": "c756a03dc937a7c410a17a220d9ccf87b612350c0239103e16fb4a4ae38c831a",
+    "out/overlay.svg": "5f16d046e270fda77d7bdd543eb2565501b896e4fe383554065960d3af0d5252",
+    "out/report.json": "c2448a0f305e64aa8d43408819ddf3b060fedfb988042df08512776cf60a1bb7",
+    "out/metrics.json": "d97d6a0066d687432b8a22ecf0bc0c4370f4f0ece21465433ca46d3ff2e1b167",
+    "out/wirelist.csv": "9ca1131fdaba086e96bd8f5ecee8b58ead8f31e9d671973ddb72a1fee3275e36",
+    "out/continuity.csv": "8404fd344f51849a15cb36d6f932d66f547224d3d26ad39b8cc850bdc1c96c04",
+    "out/netlist_actual.csv": "b4af23056730465bb063b034d591f0f7845dbce15228d97a61bd3eda96c3f0fa"
+  }
+}

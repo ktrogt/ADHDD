@@ -1,0 +1,676 @@
+{
+  "wire_length_mm": {
+    "bare": 1402.08,
+    "bridge": 2.54,
+    "jumper": 3360.42
+  },
+  "total_wire_mm": 4765.04,
+  "jumpers": 57,
+  "bridges": 1,
+  "conductors": 120,
+  "jumper_over_exposed_crossings": 316,
+  "bbox_mm": [
+    6.01,
+    2.12,
+    147.32,
+    104.6
+  ],
+  "used_bbox_area_mm2": 14481.449,
+  "used_area_fraction": 0.83134,
+  "power_path_lengths": [
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U310.VIN",
+      "length_mm": 175.26
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U320.VIN",
+      "length_mm": 142.24
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U330.VIN",
+      "length_mm": 124.46
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U340.VIN",
+      "length_mm": 157.48
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@2",
+      "length_mm": 243.84
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@13",
+      "length_mm": 256.54
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@2",
+      "length_mm": 271.78
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@13",
+      "length_mm": 284.48
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@2",
+      "length_mm": 299.72
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@13",
+      "length_mm": 312.42
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@2",
+      "length_mm": 327.66
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@13",
+      "length_mm": 340.36
+    }
+  ],
+  "longest_signal_nets": [
+    {
+      "net": "FAULT",
+      "length_mm": 314.96
+    },
+    {
+      "net": "SLEEP",
+      "length_mm": 297.18
+    },
+    {
+      "net": "VREF",
+      "length_mm": 254.0
+    },
+    {
+      "net": "ARM",
+      "length_mm": 170.18
+    },
+    {
+      "net": "HDD4_IN1",
+      "length_mm": 162.56
+    },
+    {
+      "net": "HDD4_IN2",
+      "length_mm": 162.56
+    },
+    {
+      "net": "HDD4_CS",
+      "length_mm": 152.4
+    },
+    {
+      "net": "HDD3_IN1",
+      "length_mm": 139.7
+    },
+    {
+      "net": "HDD3_IN2",
+      "length_mm": 139.7
+    },
+    {
+      "net": "HDD3_CS",
+      "length_mm": 127.0
+    }
+  ],
+  "violations_by_severity": {
+    "error": 150,
+    "warning": 72
+  },
+  "rule_violations_by_severity": {
+    "error": 150,
+    "warning": 20
+  },
+  "score": 15078682.854,
+  "score_weights": {
+    "wire_mm": 1,
+    "jumpers": 20,
+    "bridges": 1,
+    "crossings": 2,
+    "area_mm2": 0.01,
+    "error": 100000,
+    "warning": 1000,
+    "info": 0
+  },
+  "t7_soft_penalty": 0,
+  "t7_soft_penalty_by_rule": {},
+  "unchecked_soft_rule_ids": [],
+  "soft_penalty_complete": true,
+  "hard_fail_count": 44,
+  "hard_failed_rule_ids": [
+    "H04",
+    "M01",
+    "P02_1",
+    "P02_2",
+    "P03_1",
+    "P03_2",
+    "P06_2",
+    "P06_4",
+    "P06_6",
+    "P06_8",
+    "P09_2",
+    "P09_4",
+    "P09_6",
+    "P09_8",
+    "P12_1",
+    "P12_2",
+    "P12_3",
+    "P12_4",
+    "P12_5",
+    "P12_6",
+    "P12_7",
+    "P12_8",
+    "P14_1",
+    "P14_2",
+    "P14_3",
+    "P14_4",
+    "P16_1",
+    "P16_2",
+    "S04_7",
+    "S04_8",
+    "S06_10",
+    "S06_6",
+    "S06_9",
+    "S08_1",
+    "S11_1",
+    "S11_2",
+    "S12_1",
+    "V01",
+    "V03_1",
+    "V03_2",
+    "V03_3",
+    "V04_1",
+    "V04_3",
+    "V04_4"
+  ],
+  "unchecked_hard_rules": [
+    {
+      "id": "RESIDUAL_B01",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B02",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B03",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B04",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B05",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B06",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B07",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B08",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B09",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B10",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B11",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_B12",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_C01",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_C02",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_C03",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_G01",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_G02",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_G03",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_M02",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M03",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M04",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M05",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M06",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M07",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M08",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M09",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M10",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M11",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M12",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_M13",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P01",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P02",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_P03",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_P04",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P05",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P06",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_P07",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P08",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P09",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_P10",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_P11",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P12",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_P13",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P14",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_P15",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_P16",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_S01",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_S02",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_S03",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_S04",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_S05",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_S06",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_S07",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_S08",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_S09",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_S10",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_S11",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_S12",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_S13",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_V01",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_V02",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_V03",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_V04",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_V05",
+      "reasons": [
+        "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring."
+      ]
+    },
+    {
+      "id": "RESIDUAL_W01",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_W02",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_W03",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_W04",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_W05",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_W06",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    },
+    {
+      "id": "RESIDUAL_W07",
+      "reasons": [
+        "Full T7 policy rule is outside the supplied subset"
+      ]
+    }
+  ],
+  "unchecked_hard_count": 71,
+  "partially_unchecked_hard_rules": [],
+  "partially_unchecked_hard_count": 0,
+  "core_drc_errors": 0,
+  "bends": 91,
+  "comparison_tuple": [
+    true,
+    0,
+    44,
+    57,
+    0,
+    91,
+    4765.04
+  ],
+  "comparison_tuple_fields": [
+    "lvs_ok",
+    "core_drc_errors",
+    "hard_fail_count",
+    "jumpers",
+    "t7_soft_penalty",
+    "bends",
+    "total_wire_mm"
+  ],
+  "comparison_directions": [
+    "max",
+    "min",
+    "min",
+    "min",
+    "min",
+    "min",
+    "min"
+  ],
+  "lexicographic_sort_key": [
+    0,
+    0,
+    44,
+    57,
+    0,
+    91,
+    4765.04
+  ],
+  "ranking_pass": false
+}

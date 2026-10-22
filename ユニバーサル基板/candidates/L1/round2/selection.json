@@ -1,0 +1,8 @@
+{
+  "seed": 39,
+  "bare_in1_mask": 0,
+  "edge_mode": 3,
+  "schema_version": 1,
+  "rules": "design_rules_v0.2.json",
+  "board": "shared real-outline board.json"
+}

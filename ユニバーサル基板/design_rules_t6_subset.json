@@ -1,0 +1,2021 @@
+{
+  "schema_version": 1,
+  "status": "INCOMPLETE_SUBSET_NOT_ACCEPTANCE",
+  "source_policy": "design_rules.json",
+  "groups": {
+    "drivers": [
+      "U310",
+      "U320",
+      "U330",
+      "U340"
+    ],
+    "driver_bulk": [
+      "C311",
+      "C321",
+      "C331",
+      "C341"
+    ],
+    "driver_bypass": [
+      "C312",
+      "C322",
+      "C332",
+      "C342"
+    ],
+    "coil_connectors": [
+      "J313",
+      "J323",
+      "J333",
+      "J343"
+    ],
+    "electrolytics": [
+      "C106",
+      "C108",
+      "C109",
+      "C311",
+      "C321",
+      "C331",
+      "C341"
+    ],
+    "hot_sources": [
+      "U310",
+      "U320",
+      "U330",
+      "U340",
+      "D103",
+      "U107"
+    ],
+    "vref_parts": [
+      "R209",
+      "R210",
+      "C211"
+    ],
+    "smartnet": [
+      "J202",
+      "J203",
+      "R204",
+      "R205",
+      "D206",
+      "U207",
+      "C208"
+    ],
+    "stop_fault": [
+      "R212",
+      "J213",
+      "R214",
+      "R215"
+    ],
+    "entry": [
+      "J101",
+      "F102",
+      "D103",
+      "J104",
+      "D105",
+      "C106"
+    ],
+    "regulator": [
+      "U107",
+      "C108",
+      "C109",
+      "D110"
+    ],
+    "probe_required": [
+      "TP460",
+      "TP461",
+      "TP462",
+      "TP463",
+      "TP466",
+      "TP467",
+      "TP468",
+      "TP471",
+      "TP472",
+      "TP473",
+      "TP474"
+    ],
+    "socketed": [
+      "U201",
+      "U310",
+      "U320",
+      "U330",
+      "U340"
+    ],
+    "channel1": [
+      "U310",
+      "C311",
+      "C312",
+      "J313",
+      "TP471"
+    ],
+    "channel2": [
+      "U320",
+      "C321",
+      "C322",
+      "J323",
+      "TP472"
+    ],
+    "channel3": [
+      "U330",
+      "C331",
+      "C332",
+      "J333",
+      "TP473"
+    ],
+    "channel4": [
+      "U340",
+      "C341",
+      "C342",
+      "J343",
+      "TP474"
+    ],
+    "all_populated": [
+      "J101",
+      "F102",
+      "D103",
+      "J104",
+      "D105",
+      "C106",
+      "U107",
+      "C108",
+      "C109",
+      "D110",
+      "U201",
+      "J202",
+      "J203",
+      "R204",
+      "R205",
+      "D206",
+      "U207",
+      "C208",
+      "R209",
+      "R210",
+      "C211",
+      "R212",
+      "J213",
+      "R214",
+      "R215",
+      "U310",
+      "C311",
+      "C312",
+      "J313",
+      "U320",
+      "C321",
+      "C322",
+      "J323",
+      "U330",
+      "C331",
+      "C332",
+      "J333",
+      "U340",
+      "C341",
+      "C342",
+      "J343",
+      "TP460",
+      "TP461",
+      "TP462",
+      "TP463",
+      "TP466",
+      "TP467",
+      "TP468",
+      "TP471",
+      "TP472",
+      "TP473",
+      "TP474"
+    ]
+  },
+  "net_classes": {
+    "outputs": [
+      "HDD1_OUT1",
+      "HDD1_OUT2",
+      "HDD2_OUT1",
+      "HDD2_OUT2",
+      "HDD3_OUT1",
+      "HDD3_OUT2",
+      "HDD4_OUT1",
+      "HDD4_OUT2"
+    ]
+  },
+  "rules": [
+    {
+      "id": "M01",
+      "type": "min_part_distance",
+      "a": [
+        "@all_populated"
+      ],
+      "b": [
+        "@all_populated"
+      ],
+      "min_mm": 1.016,
+      "severity": "error",
+      "rationale": "Allow at least 1.016 mm between unrelated bodies/sockets; no stacking or hidden fouling.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "original_rule_id": "M01"
+    },
+    {
+      "id": "H01",
+      "type": "min_part_distance",
+      "a": [
+        "@drivers"
+      ],
+      "b": [
+        "@drivers"
+      ],
+      "min_mm": 7.62,
+      "severity": "error",
+      "rationale": "At least 7.62 mm body-edge gap supports convection and module handling; verify temperature in the enclosure.",
+      "source": [
+        "SPEC",
+        "POLOLU",
+        "ENG"
+      ],
+      "original_rule_id": "H01"
+    },
+    {
+      "id": "H02",
+      "type": "min_part_distance",
+      "a": [
+        "@drivers"
+      ],
+      "b": [
+        "@drivers"
+      ],
+      "min_mm": 10.16,
+      "severity": "warning",
+      "rationale": "Prefer 10.16 mm gaps where board area permits.",
+      "source": [
+        "POLOLU",
+        "ENG"
+      ],
+      "original_rule_id": "H02"
+    },
+    {
+      "id": "H03",
+      "type": "min_part_distance",
+      "a": [
+        "D103"
+      ],
+      "b": [
+        "F102",
+        "C106",
+        "C108",
+        "C109",
+        "C311",
+        "C321",
+        "C331",
+        "C341"
+      ],
+      "min_mm": 10.16,
+      "severity": "error",
+      "rationale": "Separate the roughly 1–1.4 W series diode from PPTC and electrolytic bodies by at least 10.16 mm.",
+      "source": [
+        "SPEC",
+        "DIODE",
+        "BOURNS",
+        "ENG"
+      ],
+      "original_rule_id": "H03"
+    },
+    {
+      "id": "H04",
+      "type": "min_part_distance",
+      "a": [
+        "U107"
+      ],
+      "b": [
+        "F102"
+      ],
+      "min_mm": 7.62,
+      "severity": "error",
+      "rationale": "Do not warm the temperature-sensitive PPTC with the switching regulator.",
+      "source": [
+        "BOURNS",
+        "MINMAX",
+        "ENG"
+      ],
+      "original_rule_id": "H04"
+    },
+    {
+      "id": "H05",
+      "type": "min_part_distance",
+      "a": [
+        "@drivers"
+      ],
+      "b": [
+        "F102"
+      ],
+      "min_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep the PPTC outside the motor-driver heat zone.",
+      "source": [
+        "BOURNS",
+        "POLOLU",
+        "ENG"
+      ],
+      "original_rule_id": "H05"
+    },
+    {
+      "id": "H06",
+      "type": "min_part_distance",
+      "a": [
+        "@drivers"
+      ],
+      "b": [
+        "@electrolytics"
+      ],
+      "min_mm": 2.54,
+      "severity": "error",
+      "rationale": "Leave at least 2.54 mm air gap; put local capacitors beside the VIN corner, not above a hot carrier.",
+      "source": [
+        "SPEC",
+        "POLOLU",
+        "ENG"
+      ],
+      "original_rule_id": "H06"
+    },
+    {
+      "id": "H07",
+      "type": "min_part_distance",
+      "a": [
+        "U107"
+      ],
+      "b": [
+        "C106",
+        "C108",
+        "C109"
+      ],
+      "min_mm": 2.54,
+      "severity": "error",
+      "rationale": "Maintain a 2.54 mm body gap while keeping regulator capacitor leads short.",
+      "source": [
+        "MINMAX",
+        "ENG"
+      ],
+      "original_rule_id": "H07"
+    },
+    {
+      "id": "P02_1",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "D105.#1",
+      "to": [
+        "C106.#1"
+      ],
+      "max_mm": 7.62,
+      "severity": "error",
+      "rationale": "Each TVS attachment is at most 7.62 mm of external conductor; long leads weaken the clamp through inductance.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "TVS",
+        "ENG"
+      ],
+      "original_rule_id": "P02"
+    },
+    {
+      "id": "P02_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "D105.#2",
+      "to": [
+        "C106.#2"
+      ],
+      "max_mm": 7.62,
+      "severity": "error",
+      "rationale": "Each TVS attachment is at most 7.62 mm of external conductor; long leads weaken the clamp through inductance.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "TVS",
+        "ENG"
+      ],
+      "original_rule_id": "P02"
+    },
+    {
+      "id": "P03_1",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "J104.#2",
+      "to": [
+        "C106.#1"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Limit entry positive/return attachment to 15.24 mm each; no long spur from a distant trunk to the entry capacitor.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "P03"
+    },
+    {
+      "id": "P03_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "J101.#2",
+      "to": [
+        "C106.#2"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Limit entry positive/return attachment to 15.24 mm each; no long spur from a distant trunk to the entry capacitor.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "P03"
+    },
+    {
+      "id": "P06_1",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C312.#1",
+      "to": [
+        "U310.#14"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P06_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C312.#2",
+      "to": [
+        "U310.#13"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P06_3",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C322.#1",
+      "to": [
+        "U320.#14"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P06_4",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C322.#2",
+      "to": [
+        "U320.#13"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P06_5",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C332.#1",
+      "to": [
+        "U330.#14"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P06_6",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C332.#2",
+      "to": [
+        "U330.#13"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P06_7",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C342.#1",
+      "to": [
+        "U340.#14"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P06_8",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C342.#2",
+      "to": [
+        "U340.#13"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P06"
+    },
+    {
+      "id": "P09_1",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C311.#1",
+      "to": [
+        "U310.#14"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P09_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C311.#2",
+      "to": [
+        "U310.#13"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P09_3",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C321.#1",
+      "to": [
+        "U320.#14"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P09_4",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C321.#2",
+      "to": [
+        "U320.#13"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P09_5",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C331.#1",
+      "to": [
+        "U330.#14"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P09_6",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C331.#2",
+      "to": [
+        "U330.#13"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P09_7",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C341.#1",
+      "to": [
+        "U340.#14"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P09_8",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C341.#2",
+      "to": [
+        "U340.#13"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P09"
+    },
+    {
+      "id": "P10_1",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C311.#1",
+      "to": [
+        "U310.#14"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P10_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C311.#2",
+      "to": [
+        "U310.#13"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P10_3",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C321.#1",
+      "to": [
+        "U320.#14"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P10_4",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C321.#2",
+      "to": [
+        "U320.#13"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P10_5",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C331.#1",
+      "to": [
+        "U330.#14"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P10_6",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C331.#2",
+      "to": [
+        "U330.#13"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P10_7",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C341.#1",
+      "to": [
+        "U340.#14"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P10_8",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C341.#2",
+      "to": [
+        "U340.#13"
+      ],
+      "max_mm": 7.62,
+      "severity": "warning",
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "P10"
+    },
+    {
+      "id": "P12_1",
+      "type": "max_branch_length",
+      "net": "HDD1_OUT1",
+      "from": "U310.#12",
+      "to": [
+        "J313.#1"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P12_2",
+      "type": "max_branch_length",
+      "net": "HDD1_OUT2",
+      "from": "U310.#11",
+      "to": [
+        "J313.#2"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P12_3",
+      "type": "max_branch_length",
+      "net": "HDD2_OUT1",
+      "from": "U320.#12",
+      "to": [
+        "J323.#1"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P12_4",
+      "type": "max_branch_length",
+      "net": "HDD2_OUT2",
+      "from": "U320.#11",
+      "to": [
+        "J323.#2"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P12_5",
+      "type": "max_branch_length",
+      "net": "HDD3_OUT1",
+      "from": "U330.#12",
+      "to": [
+        "J333.#1"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P12_6",
+      "type": "max_branch_length",
+      "net": "HDD3_OUT2",
+      "from": "U330.#11",
+      "to": [
+        "J333.#2"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P12_7",
+      "type": "max_branch_length",
+      "net": "HDD4_OUT1",
+      "from": "U340.#12",
+      "to": [
+        "J343.#1"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P12_8",
+      "type": "max_branch_length",
+      "net": "HDD4_OUT2",
+      "from": "U340.#11",
+      "to": [
+        "J343.#2"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "original_rule_id": "P12"
+    },
+    {
+      "id": "P14_1",
+      "type": "max_branch_length",
+      "net": "VM",
+      "from": "C108.#1",
+      "to": [
+        "U107.#1"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Each converter capacitor attachment is at most 10.16 mm; this numeric limit is a perfboard proposal.",
+      "source": [
+        "SPEC",
+        "MINMAX",
+        "ENG"
+      ],
+      "original_rule_id": "P14"
+    },
+    {
+      "id": "P14_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C108.#2",
+      "to": [
+        "U107.#2"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Each converter capacitor attachment is at most 10.16 mm; this numeric limit is a perfboard proposal.",
+      "source": [
+        "SPEC",
+        "MINMAX",
+        "ENG"
+      ],
+      "original_rule_id": "P14"
+    },
+    {
+      "id": "P14_3",
+      "type": "max_branch_length",
+      "net": "+5V",
+      "from": "C109.#1",
+      "to": [
+        "U107.#3"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Each converter capacitor attachment is at most 10.16 mm; this numeric limit is a perfboard proposal.",
+      "source": [
+        "SPEC",
+        "MINMAX",
+        "ENG"
+      ],
+      "original_rule_id": "P14"
+    },
+    {
+      "id": "P14_4",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C109.#2",
+      "to": [
+        "U107.#2"
+      ],
+      "max_mm": 10.16,
+      "severity": "error",
+      "rationale": "Each converter capacitor attachment is at most 10.16 mm; this numeric limit is a perfboard proposal.",
+      "source": [
+        "SPEC",
+        "MINMAX",
+        "ENG"
+      ],
+      "original_rule_id": "P14"
+    },
+    {
+      "id": "P16_1",
+      "type": "max_branch_length",
+      "net": "+3V3",
+      "from": "C208.#1",
+      "to": [
+        "U207.#5"
+      ],
+      "max_mm": 7.62,
+      "severity": "error",
+      "rationale": "Allow at most 7.62 mm including the SMD conversion board; use an adapter-local capacitor if necessary.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "P16"
+    },
+    {
+      "id": "P16_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "C208.#2",
+      "to": [
+        "U207.#3"
+      ],
+      "max_mm": 7.62,
+      "severity": "error",
+      "rationale": "Allow at most 7.62 mm including the SMD conversion board; use an adapter-local capacitor if necessary.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "P16"
+    },
+    {
+      "id": "G03_1",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "U310.#2",
+      "to": [
+        "U310.#13"
+      ],
+      "max_mm": 17.78,
+      "severity": "error",
+      "rationale": "Both carrier GND socket pins join locally in <=17.78 mm; never isolate the carrier signal GND from its power GND.",
+      "source": [
+        "NET",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "G03"
+    },
+    {
+      "id": "G03_2",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "U320.#2",
+      "to": [
+        "U320.#13"
+      ],
+      "max_mm": 17.78,
+      "severity": "error",
+      "rationale": "Both carrier GND socket pins join locally in <=17.78 mm; never isolate the carrier signal GND from its power GND.",
+      "source": [
+        "NET",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "G03"
+    },
+    {
+      "id": "G03_3",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "U330.#2",
+      "to": [
+        "U330.#13"
+      ],
+      "max_mm": 17.78,
+      "severity": "error",
+      "rationale": "Both carrier GND socket pins join locally in <=17.78 mm; never isolate the carrier signal GND from its power GND.",
+      "source": [
+        "NET",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "G03"
+    },
+    {
+      "id": "G03_4",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "U340.#2",
+      "to": [
+        "U340.#13"
+      ],
+      "max_mm": 17.78,
+      "severity": "error",
+      "rationale": "Both carrier GND socket pins join locally in <=17.78 mm; never isolate the carrier signal GND from its power GND.",
+      "source": [
+        "NET",
+        "TI_DRV",
+        "ENG"
+      ],
+      "original_rule_id": "G03"
+    },
+    {
+      "id": "V01",
+      "type": "star",
+      "net": "VREF",
+      "root": "C211.#1",
+      "targets": [
+        "U310.#7",
+        "U320.#7",
+        "U330.#7",
+        "U340.#7"
+      ],
+      "severity": "error",
+      "rationale": "Four individual branches start at the divider/filter junction; a daisy chain makes later channels depend on earlier wiring joints.",
+      "source": [
+        "SPEC",
+        "BRIEF",
+        "ENG"
+      ],
+      "original_rule_id": "V01"
+    },
+    {
+      "id": "V03_1",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "R209.#2",
+      "to": [
+        "C211.#1"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each divider/filter junction attachment to 5.08 mm.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "V03"
+    },
+    {
+      "id": "V03_2",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "R210.#1",
+      "to": [
+        "C211.#1"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each divider/filter junction attachment to 5.08 mm.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "V03"
+    },
+    {
+      "id": "V03_3",
+      "type": "max_branch_length",
+      "net": "GND",
+      "from": "R210.#2",
+      "to": [
+        "C211.#2"
+      ],
+      "max_mm": 5.08,
+      "severity": "error",
+      "rationale": "Limit each divider/filter junction attachment to 5.08 mm.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "V03"
+    },
+    {
+      "id": "V04_1",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U310.#7"
+      ],
+      "max_mm": 101.6,
+      "severity": "error",
+      "rationale": "A 101.6 mm absolute branch ceiling fits a central divider and avoids long high-impedance loops; it is not an EMI guarantee.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "V04"
+    },
+    {
+      "id": "V04_2",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U320.#7"
+      ],
+      "max_mm": 101.6,
+      "severity": "error",
+      "rationale": "A 101.6 mm absolute branch ceiling fits a central divider and avoids long high-impedance loops; it is not an EMI guarantee.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "V04"
+    },
+    {
+      "id": "V04_3",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U330.#7"
+      ],
+      "max_mm": 101.6,
+      "severity": "error",
+      "rationale": "A 101.6 mm absolute branch ceiling fits a central divider and avoids long high-impedance loops; it is not an EMI guarantee.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "V04"
+    },
+    {
+      "id": "V04_4",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U340.#7"
+      ],
+      "max_mm": 101.6,
+      "severity": "error",
+      "rationale": "A 101.6 mm absolute branch ceiling fits a central divider and avoids long high-impedance loops; it is not an EMI guarantee.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "V04"
+    },
+    {
+      "id": "V05_1",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U310.#7"
+      ],
+      "max_mm": 63.5,
+      "severity": "warning",
+      "rationale": "Prefer branches <=63.5 mm; put the divider centrally behind the driver row.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "V05"
+    },
+    {
+      "id": "V05_2",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U320.#7"
+      ],
+      "max_mm": 63.5,
+      "severity": "warning",
+      "rationale": "Prefer branches <=63.5 mm; put the divider centrally behind the driver row.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "V05"
+    },
+    {
+      "id": "V05_3",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U330.#7"
+      ],
+      "max_mm": 63.5,
+      "severity": "warning",
+      "rationale": "Prefer branches <=63.5 mm; put the divider centrally behind the driver row.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "V05"
+    },
+    {
+      "id": "V05_4",
+      "type": "max_branch_length",
+      "net": "VREF",
+      "from": "C211.#1",
+      "to": [
+        "U340.#7"
+      ],
+      "max_mm": 63.5,
+      "severity": "warning",
+      "rationale": "Prefer branches <=63.5 mm; put the divider centrally behind the driver row.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "V05"
+    },
+    {
+      "id": "S04_1",
+      "type": "max_branch_length",
+      "net": "HDD1_IN1",
+      "from": "U201.#4",
+      "to": [
+        "U310.#3"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S04_2",
+      "type": "max_branch_length",
+      "net": "HDD1_IN2",
+      "from": "U201.#5",
+      "to": [
+        "U310.#4"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S04_3",
+      "type": "max_branch_length",
+      "net": "HDD2_IN1",
+      "from": "U201.#6",
+      "to": [
+        "U320.#3"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S04_4",
+      "type": "max_branch_length",
+      "net": "HDD2_IN2",
+      "from": "U201.#7",
+      "to": [
+        "U320.#4"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S04_5",
+      "type": "max_branch_length",
+      "net": "HDD3_IN1",
+      "from": "U201.#9",
+      "to": [
+        "U330.#3"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S04_6",
+      "type": "max_branch_length",
+      "net": "HDD3_IN2",
+      "from": "U201.#10",
+      "to": [
+        "U330.#4"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S04_7",
+      "type": "max_branch_length",
+      "net": "HDD4_IN1",
+      "from": "U201.#11",
+      "to": [
+        "U340.#3"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S04_8",
+      "type": "max_branch_length",
+      "net": "HDD4_IN2",
+      "from": "U201.#12",
+      "to": [
+        "U340.#4"
+      ],
+      "max_mm": 152.4,
+      "severity": "error",
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "original_rule_id": "S04"
+    },
+    {
+      "id": "S05_1",
+      "type": "max_branch_length",
+      "net": "HDD1_IN1",
+      "from": "U201.#4",
+      "to": [
+        "U310.#3"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S05_2",
+      "type": "max_branch_length",
+      "net": "HDD1_IN2",
+      "from": "U201.#5",
+      "to": [
+        "U310.#4"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S05_3",
+      "type": "max_branch_length",
+      "net": "HDD2_IN1",
+      "from": "U201.#6",
+      "to": [
+        "U320.#3"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S05_4",
+      "type": "max_branch_length",
+      "net": "HDD2_IN2",
+      "from": "U201.#7",
+      "to": [
+        "U320.#4"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S05_5",
+      "type": "max_branch_length",
+      "net": "HDD3_IN1",
+      "from": "U201.#9",
+      "to": [
+        "U330.#3"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S05_6",
+      "type": "max_branch_length",
+      "net": "HDD3_IN2",
+      "from": "U201.#10",
+      "to": [
+        "U330.#4"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S05_7",
+      "type": "max_branch_length",
+      "net": "HDD4_IN1",
+      "from": "U201.#11",
+      "to": [
+        "U340.#3"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S05_8",
+      "type": "max_branch_length",
+      "net": "HDD4_IN2",
+      "from": "U201.#12",
+      "to": [
+        "U340.#4"
+      ],
+      "max_mm": 88.9,
+      "severity": "warning",
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S05"
+    },
+    {
+      "id": "S06_1",
+      "type": "max_branch_length",
+      "net": "SLEEP",
+      "from": "R214.#1",
+      "to": [
+        "U201.#21"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_2",
+      "type": "max_branch_length",
+      "net": "SLEEP",
+      "from": "R214.#1",
+      "to": [
+        "U310.#6"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_3",
+      "type": "max_branch_length",
+      "net": "SLEEP",
+      "from": "R214.#1",
+      "to": [
+        "U320.#6"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_4",
+      "type": "max_branch_length",
+      "net": "SLEEP",
+      "from": "R214.#1",
+      "to": [
+        "U330.#6"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_5",
+      "type": "max_branch_length",
+      "net": "SLEEP",
+      "from": "R214.#1",
+      "to": [
+        "U340.#6"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_6",
+      "type": "max_branch_length",
+      "net": "FAULT",
+      "from": "R215.#2",
+      "to": [
+        "U201.#20"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_7",
+      "type": "max_branch_length",
+      "net": "FAULT",
+      "from": "R215.#2",
+      "to": [
+        "U310.#9"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_8",
+      "type": "max_branch_length",
+      "net": "FAULT",
+      "from": "R215.#2",
+      "to": [
+        "U320.#9"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_9",
+      "type": "max_branch_length",
+      "net": "FAULT",
+      "from": "R215.#2",
+      "to": [
+        "U330.#9"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S06_10",
+      "type": "max_branch_length",
+      "net": "FAULT",
+      "from": "R215.#2",
+      "to": [
+        "U340.#9"
+      ],
+      "max_mm": 203.2,
+      "severity": "error",
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S06"
+    },
+    {
+      "id": "S08_1",
+      "type": "max_branch_length",
+      "net": "SLEEP",
+      "from": "R214.#1",
+      "to": [
+        "J213.#2"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "The stop pull-down must remain on the driver side of an unplugged panel harness.",
+      "source": [
+        "SPEC",
+        "NET",
+        "ENG"
+      ],
+      "original_rule_id": "S08"
+    },
+    {
+      "id": "S11_1",
+      "type": "max_branch_length",
+      "net": "SN_BUS",
+      "from": "J202.#1",
+      "to": [
+        "R204.#1"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each UART receiver input attachment <=15.24 mm, including conversion-board conductors.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S11"
+    },
+    {
+      "id": "S11_2",
+      "type": "max_branch_length",
+      "net": "SN_RX_IN",
+      "from": "R204.#2",
+      "to": [
+        "U207.#2"
+      ],
+      "max_mm": 15.24,
+      "severity": "error",
+      "rationale": "Each UART receiver input attachment <=15.24 mm, including conversion-board conductors.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S11"
+    },
+    {
+      "id": "S12_1",
+      "type": "max_branch_length",
+      "net": "UART_RX",
+      "from": "U207.#4",
+      "to": [
+        "U201.#2"
+      ],
+      "max_mm": 101.6,
+      "severity": "error",
+      "rationale": "Keep buffered UART RX on-board and <=101.6 mm; route through the quiet corridor.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "original_rule_id": "S12"
+    }
+  ],
+  "covered_rule_ids": [
+    "G03",
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05",
+    "H06",
+    "H07",
+    "M01",
+    "P02",
+    "P03",
+    "P06",
+    "P09",
+    "P10",
+    "P12",
+    "P14",
+    "P16",
+    "S04",
+    "S05",
+    "S06",
+    "S08",
+    "S11",
+    "S12",
+    "V01",
+    "V03",
+    "V04",
+    "V05"
+  ],
+  "partially_covered_rule_ids": [
+    "G03",
+    "P02",
+    "P03",
+    "P06",
+    "P09",
+    "P10",
+    "P12",
+    "P14",
+    "P16",
+    "S04",
+    "S05",
+    "S06",
+    "S08",
+    "S11",
+    "S12",
+    "V01",
+    "V03",
+    "V04",
+    "V05"
+  ],
+  "uncovered_rule_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13",
+    "P01",
+    "P04",
+    "P05",
+    "P07",
+    "P08",
+    "P11",
+    "P13",
+    "P15",
+    "G01",
+    "G02",
+    "V02",
+    "S01",
+    "S02",
+    "S03",
+    "S07",
+    "S09",
+    "S10",
+    "S13",
+    "W01",
+    "W02",
+    "W03",
+    "W04",
+    "W05",
+    "W06",
+    "W07",
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12"
+  ],
+  "residual_requirements": "All full rules, branch annotations, physical feature clearances, scope fidelity and manual/bench checks remain mandatory. T6 shortest-path branch length does not reject an unnecessary long parallel detour; V01 projection only checks the four driver branches, not source/probe branch annotation. Soft warning scores do not reproduce full weighted lexicographic scoring.",
+  "coordinate_notes": "T6 pins use ref.#number. Body-distance mm mapping exact for axis-aligned rectangular body envelopes. Full policy uses real envelopes/feature positions where available."
+}

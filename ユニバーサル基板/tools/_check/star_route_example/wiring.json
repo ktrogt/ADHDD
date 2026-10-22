@@ -1,0 +1,1926 @@
+{
+  "schema_version": 1,
+  "conductors": [
+    {
+      "id": "STAR_0001",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "G6",
+        "G10",
+        "E10",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0002",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "U6",
+        "U10",
+        "O10",
+        "O17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0003",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AI6",
+        "AI10",
+        "AA10",
+        "AA17",
+        "P17",
+        "P18",
+        "E18",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0004",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AW6",
+        "AW10",
+        "AO10",
+        "AO15",
+        "AD15",
+        "AD19",
+        "D19",
+        "D17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0005",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "G11",
+        "E11",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0006",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "U11",
+        "E11",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0007",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AI11",
+        "E11",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0008",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AW11",
+        "E11",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0009",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "B7",
+        "B17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0010",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "P7",
+        "E7",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0011",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AD7",
+        "E7",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0012",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AR7",
+        "E7",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0013",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "F4",
+        "E4",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0014",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "T4",
+        "E4",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0015",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AH4",
+        "E4",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0016",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AV4",
+        "E4",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "POWER_RETURN"
+    },
+    {
+      "id": "STAR_0017",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Q31",
+        "Q17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "LOGIC_RETURN"
+    },
+    {
+      "id": "STAR_0018",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "F13",
+        "E13",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "TVS_RETURN"
+    },
+    {
+      "id": "STAR_0019",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "C21",
+        "C17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G01",
+      "branch": "INPUT_RETURN"
+    },
+    {
+      "id": "STAR_0020",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG37",
+        "AA37",
+        "AA40",
+        "R40",
+        "R31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0021",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG32",
+        "AS32",
+        "AS12",
+        "BC12",
+        "BC5",
+        "AS5",
+        "AS2",
+        "C2",
+        "C16",
+        "B16",
+        "B31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0022",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AG27",
+        "Q27",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0023",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AG22",
+        "Q22",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0024",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z22",
+        "Q22",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0025",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z27",
+        "Q27",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0026",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z32",
+        "Z31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0027",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z37",
+        "Z31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "PICO_RETURN"
+    },
+    {
+      "id": "STAR_0028",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AE16",
+        "Q16",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "VREF_RETURN"
+    },
+    {
+      "id": "STAR_0029",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AE18",
+        "Q18",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "VREF_RETURN"
+    },
+    {
+      "id": "STAR_0030",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AU31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "RECEIVER_RETURN"
+    },
+    {
+      "id": "STAR_0031",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AU33",
+        "AU31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "RECEIVER_RETURN"
+    },
+    {
+      "id": "STAR_0032",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AU29",
+        "Q29",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "RECEIVER_RETURN"
+    },
+    {
+      "id": "STAR_0033",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AS39",
+        "AS31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "RECEIVER_RETURN"
+    },
+    {
+      "id": "STAR_0034",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AX39",
+        "AX31",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "RECEIVER_RETURN"
+    },
+    {
+      "id": "STAR_0035",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AW23",
+        "Q23",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "CONTROL_RETURN"
+    },
+    {
+      "id": "STAR_0036",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Q25",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "REGULATOR_CAP_RETURN"
+    },
+    {
+      "id": "STAR_0037",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Q37",
+        "Q31"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "G02",
+      "branch": "REGULATOR_CAP_RETURN"
+    },
+    {
+      "id": "STAR_0038",
+      "net": "VREF",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "L11",
+        "L16",
+        "AC16"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#008577",
+      "locked": false,
+      "star_rule": "V01",
+      "branch": "VREF_CH1"
+    },
+    {
+      "id": "STAR_0039",
+      "net": "VREF",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z11",
+        "Z16",
+        "AC16"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#008577",
+      "locked": false,
+      "star_rule": "V01",
+      "branch": "VREF_CH2"
+    },
+    {
+      "id": "STAR_0040",
+      "net": "VREF",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AN11",
+        "AN14",
+        "AC14",
+        "AC16"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#008577",
+      "locked": false,
+      "star_rule": "V01",
+      "branch": "VREF_CH3"
+    },
+    {
+      "id": "STAR_0041",
+      "net": "VREF",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "BB11",
+        "AC11",
+        "AC16"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#008577",
+      "locked": false,
+      "star_rule": "V01",
+      "branch": "VREF_CH4"
+    },
+    {
+      "id": "STAR_0042",
+      "net": "VREF",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AB16",
+        "AC16"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#008577",
+      "locked": false,
+      "star_rule": "V01",
+      "branch": "VREF_SOURCE"
+    },
+    {
+      "id": "STAR_0043",
+      "net": "VREF",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AB18",
+        "AC18",
+        "AC16"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#008577",
+      "locked": false,
+      "star_rule": "V01",
+      "branch": "VREF_SOURCE"
+    },
+    {
+      "id": "STAR_0044",
+      "net": "VREF",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z18",
+        "Z16",
+        "AC16"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#008577",
+      "locked": false,
+      "star_rule": "V01",
+      "branch": "VREF_SOURCE"
+    },
+    {
+      "id": "STAR_0045",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "I21",
+        "I17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "UNLISTED_TERMINALS",
+      "branch": "TP463.TP"
+    },
+    {
+      "id": "STAR_0046",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "W32",
+        "W17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "UNLISTED_TERMINALS",
+      "branch": "TP464.TP"
+    },
+    {
+      "id": "STAR_0047",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AG17",
+        "E17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": false,
+      "star_rule": "UNLISTED_TERMINALS",
+      "branch": "TP465.TP"
+    },
+    {
+      "id": "W0001",
+      "net": "VM",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "C17",
+        "A17"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0002",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "B14",
+        "B15",
+        "A15",
+        "A17"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0003",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "B13",
+        "B14"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0004",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "B5",
+        "A5",
+        "A13",
+        "B13"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0005",
+      "net": "VM",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "E4",
+        "B4",
+        "B5"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0006",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "F6",
+        "E6",
+        "E4"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0007",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "P5",
+        "E5"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0008",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "S4",
+        "P4",
+        "P5"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0009",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "T6",
+        "S6",
+        "S4"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0010",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AD5",
+        "S5"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0011",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG4",
+        "AD4",
+        "AD5"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0012",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AH6",
+        "AG6",
+        "AG4"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0013",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AR5",
+        "AG5"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0014",
+      "net": "VM",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AU4",
+        "AR4",
+        "AR5"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0015",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AV6",
+        "AR6",
+        "AR5"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0016",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "P25",
+        "P20",
+        "C20",
+        "C17"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0017",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "Q30",
+        "P30",
+        "P25"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": false
+    },
+    {
+      "id": "W0018",
+      "net": "+3V3",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "X11",
+        "J11"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0019",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "Y16",
+        "X16",
+        "X11"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0020",
+      "net": "+3V3",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AL11",
+        "X11"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0021",
+      "net": "+3V3",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AK19",
+        "AK11",
+        "AL11"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0022",
+      "net": "+3V3",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AZ11",
+        "AL11"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0023",
+      "net": "+3V3",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AT26",
+        "AT19",
+        "AK19"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0024",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AV29",
+        "AV26",
+        "AT26"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0025",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AX31",
+        "AX29",
+        "AV29"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0026",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "X34",
+        "X35",
+        "AF35",
+        "AF18",
+        "AK18",
+        "AK19"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": false
+    },
+    {
+      "id": "W0027",
+      "net": "+5V",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "S38",
+        "S37",
+        "P37"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#ef7900",
+      "locked": false
+    },
+    {
+      "id": "W0028",
+      "net": "+5V",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "Q32",
+        "P32",
+        "P37"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#ef7900",
+      "locked": false
+    },
+    {
+      "id": "W0029",
+      "net": "+5V",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "V35",
+        "S35",
+        "S38"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#ef7900",
+      "locked": false
+    },
+    {
+      "id": "W0030",
+      "net": "VIN_FUSED",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "L16",
+        "J16",
+        "J26"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#cc4444",
+      "locked": false
+    },
+    {
+      "id": "W0031",
+      "net": "VIN_PROT",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "M16",
+        "M14",
+        "A14"
+      ],
+      "gauge": "AWG20",
+      "type": "insulated copper",
+      "colour": "#b82920",
+      "locked": false
+    },
+    {
+      "id": "W0032",
+      "net": "VIN_RAW",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "J24",
+        "F24",
+        "F21"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#a71313",
+      "locked": false
+    },
+    {
+      "id": "W0033",
+      "net": "VSYS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "Z38",
+        "W38"
+      ],
+      "gauge": "AWG20",
+      "type": "tinned copper",
+      "colour": "#c95e00",
+      "locked": false
+    },
+    {
+      "id": "W0034",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Y11",
+        "K11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": false
+    },
+    {
+      "id": "W0035",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z20",
+        "Z11",
+        "Y11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": false
+    },
+    {
+      "id": "W0036",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AM11",
+        "Y11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": false
+    },
+    {
+      "id": "W0037",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "BA11",
+        "AM11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": false
+    },
+    {
+      "id": "W0038",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "BB20",
+        "BB11",
+        "BA11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": false
+    },
+    {
+      "id": "W0039",
+      "net": "SLEEP",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AW20",
+        "BB20"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#2432a6",
+      "locked": false
+    },
+    {
+      "id": "W0040",
+      "net": "SLEEP",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AU18",
+        "AU20",
+        "AW20"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#2432a6",
+      "locked": false
+    },
+    {
+      "id": "W0041",
+      "net": "FAULT",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Y6",
+        "K6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#93a624",
+      "locked": false
+    },
+    {
+      "id": "W0042",
+      "net": "FAULT",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AM6",
+        "Y6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#93a624",
+      "locked": false
+    },
+    {
+      "id": "W0043",
+      "net": "FAULT",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "BA6",
+        "AM6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#93a624",
+      "locked": false
+    },
+    {
+      "id": "W0044",
+      "net": "FAULT",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AK21",
+        "AK6",
+        "AM6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#93a624",
+      "locked": false
+    },
+    {
+      "id": "W0045",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG20",
+        "AK20",
+        "AK21"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": false
+    },
+    {
+      "id": "W0046",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AH19",
+        "AH20"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": false
+    },
+    {
+      "id": "W0047",
+      "net": "SN_BUS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AR39",
+        "AR36"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#3224a6",
+      "locked": false
+    },
+    {
+      "id": "W0048",
+      "net": "SN_BUS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AW39",
+        "AW38",
+        "AR38"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#3224a6",
+      "locked": false
+    },
+    {
+      "id": "W0049",
+      "net": "SN_RX_IN",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AR33",
+        "AR31",
+        "AQ31"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#6924a6",
+      "locked": false
+    },
+    {
+      "id": "W0050",
+      "net": "SN_RX_IN",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AU32",
+        "AT32",
+        "AT33",
+        "AR33"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#6924a6",
+      "locked": false
+    },
+    {
+      "id": "W0051",
+      "net": "ARM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AN20",
+        "AN22",
+        "AH22",
+        "AH21",
+        "AG21"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#a68224",
+      "locked": false
+    },
+    {
+      "id": "W0052",
+      "net": "ARM_SW",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "BB19",
+        "AQ19",
+        "AQ20"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#a69d24",
+      "locked": false
+    },
+    {
+      "id": "W0053",
+      "net": "HDD1_CS",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "L6",
+        "L4"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#78a624",
+      "locked": false
+    },
+    {
+      "id": "W0054",
+      "net": "HDD1_IN1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AG36",
+        "AG11",
+        "H11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#5da624",
+      "locked": false
+    },
+    {
+      "id": "W0055",
+      "net": "HDD1_IN2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AG35",
+        "AG11",
+        "I11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#41a624",
+      "locked": false
+    },
+    {
+      "id": "W0056",
+      "net": "HDD1_OUT1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "H6",
+        "H3"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0057",
+      "net": "HDD1_OUT2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "J3",
+        "I3",
+        "I6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0058",
+      "net": "HDD2_CS",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "Z6",
+        "Z4"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#26a624",
+      "locked": false
+    },
+    {
+      "id": "W0059",
+      "net": "HDD2_IN1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AG34",
+        "AG11",
+        "V11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#24a63e",
+      "locked": false
+    },
+    {
+      "id": "W0060",
+      "net": "HDD2_IN2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AG33",
+        "AG11",
+        "W11"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#24a65a",
+      "locked": false
+    },
+    {
+      "id": "W0061",
+      "net": "HDD2_OUT1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "V6",
+        "V3"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0062",
+      "net": "HDD2_OUT2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "X3",
+        "W3",
+        "W6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0063",
+      "net": "HDD3_CS",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AN6",
+        "AN4"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#24a675",
+      "locked": false
+    },
+    {
+      "id": "W0064",
+      "net": "HDD3_IN1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AJ11",
+        "AG11",
+        "AG31"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#24a691",
+      "locked": false
+    },
+    {
+      "id": "W0065",
+      "net": "HDD3_IN2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AK11",
+        "AG11",
+        "AG30"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#24a0a6",
+      "locked": false
+    },
+    {
+      "id": "W0066",
+      "net": "HDD3_OUT1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AJ6",
+        "AJ3"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0067",
+      "net": "HDD3_OUT2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AL3",
+        "AK3",
+        "AK6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0068",
+      "net": "HDD4_CS",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "BB6",
+        "BB4"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#2484a6",
+      "locked": false
+    },
+    {
+      "id": "W0069",
+      "net": "HDD4_IN1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AX11",
+        "AG11",
+        "AG29"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#2469a6",
+      "locked": false
+    },
+    {
+      "id": "W0070",
+      "net": "HDD4_IN2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AY11",
+        "AG11",
+        "AG28"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#244ea6",
+      "locked": false
+    },
+    {
+      "id": "W0071",
+      "net": "HDD4_OUT1",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AX6",
+        "AX3"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0072",
+      "net": "HDD4_OUT2",
+      "kind": "jumper",
+      "side": "top",
+      "path": [
+        "AZ3",
+        "AY3",
+        "AY6"
+      ],
+      "gauge": "AWG26",
+      "type": "insulated copper",
+      "colour": "#88532e",
+      "locked": false
+    },
+    {
+      "id": "W0073",
+      "net": "SN_PU",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AQ28",
+        "AQ26"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#4d24a6",
+      "locked": false
+    },
+    {
+      "id": "W0074",
+      "net": "UART_RX",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AX33",
+        "AX35",
+        "AH35",
+        "AH38",
+        "AG38"
+      ],
+      "gauge": "AWG26",
+      "type": "tinned copper",
+      "colour": "#8424a6",
+      "locked": false
+    }
+  ],
+  "router_stats": {
+    "bare_routes": 41,
+    "jumper_fallbacks": 80,
+    "preserved": 0,
+    "star_conductors": 47
+  }
+}

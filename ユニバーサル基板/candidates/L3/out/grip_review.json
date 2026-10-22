@@ -1,0 +1,118 @@
+{
+  "status": "nominal planar patches clear; real finger/extraction test still UNCHECKED",
+  "patch_width_and_depth_mm": 5.08,
+  "vertical_clearance_required_mm": 25,
+  "all_wires_bottom": true,
+  "patches": [
+    {
+      "ref": "U310",
+      "side": "N",
+      "rect_A1_mm": [
+        115.57000000000001,
+        77.17000000000002,
+        120.65000000000002,
+        82.25000000000001
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U310",
+      "side": "S",
+      "rect_A1_mm": [
+        115.57000000000001,
+        100.63000000000001,
+        120.65000000000002,
+        105.71000000000001
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U320",
+      "side": "N",
+      "rect_A1_mm": [
+        115.57000000000001,
+        49.230000000000004,
+        120.65000000000002,
+        54.31
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U320",
+      "side": "S",
+      "rect_A1_mm": [
+        115.57000000000001,
+        72.69,
+        120.65000000000002,
+        77.77
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U330",
+      "side": "N",
+      "rect_A1_mm": [
+        115.57000000000001,
+        21.29,
+        120.65000000000002,
+        26.37
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U330",
+      "side": "S",
+      "rect_A1_mm": [
+        115.57000000000001,
+        44.75,
+        120.65000000000002,
+        49.83
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U340",
+      "side": "N",
+      "rect_A1_mm": [
+        115.57000000000001,
+        -6.65,
+        120.65000000000002,
+        -1.57
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U340",
+      "side": "S",
+      "rect_A1_mm": [
+        115.57000000000001,
+        16.81,
+        120.65000000000002,
+        21.89
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U201",
+      "side": "W",
+      "rect_A1_mm": [
+        11.090000000000002,
+        69.85,
+        16.17,
+        74.93
+      ],
+      "other_body_overlaps": []
+    },
+    {
+      "ref": "U201",
+      "side": "E",
+      "rect_A1_mm": [
+        37.17,
+        69.85,
+        42.25,
+        74.93
+      ],
+      "other_body_overlaps": []
+    }
+  ]
+}

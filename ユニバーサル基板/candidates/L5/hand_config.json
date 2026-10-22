@@ -1,0 +1,34 @@
+{
+  "manual_in": true,
+  "order": [
+    "ARM",
+    "SLEEP",
+    "ARM_SW",
+    "VREF",
+    "+3V3",
+    "FAULT",
+    "UART_RX"
+  ],
+  "ground_order": [
+    "GND:RECEIVER_RETURN",
+    "GND:PICO_RETURN",
+    "GND:REGULATOR_CAP_RETURN",
+    "GND:VREF_RETURN",
+    "GND:CONTROL_RETURN"
+  ],
+  "early_nets": [
+    "VIN_RAW",
+    "SN_PU",
+    "VIN_FUSED",
+    "SN_RX_IN",
+    "VIN_PROT",
+    "SN_BUS"
+  ],
+  "priority_nets": [],
+  "bus": "SLEEP",
+  "fault_mode": "auto",
+  "bend": 1,
+  "force_jump_nets": [
+    "VIN_PROT"
+  ]
+}

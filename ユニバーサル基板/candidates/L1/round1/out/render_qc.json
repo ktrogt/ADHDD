@@ -1,0 +1,335 @@
+{
+  "method": "shared CLI SVGs opened through offline XML/Pillow raster preview; browser file URL was denied; no browser policy workaround used",
+  "label_adjustments": [
+    {
+      "view": "top",
+      "ref": "U107",
+      "old_y_mm": 93.47,
+      "new_y_mm": 87.12,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "C106",
+      "old_y_mm": 57.91,
+      "new_y_mm": 61.72,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "C108",
+      "old_y_mm": 78.23,
+      "new_y_mm": 81.151,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "C109",
+      "old_y_mm": 108.71,
+      "new_y_mm": 111.631,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "C311",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "C321",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "C331",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "C341",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "D103",
+      "old_y_mm": 55.37,
+      "new_y_mm": 53.338,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "J202",
+      "old_y_mm": 113.79,
+      "new_y_mm": 116.584,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "J203",
+      "old_y_mm": 113.79,
+      "new_y_mm": 116.584,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "J313",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "J323",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "J333",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "top",
+      "ref": "J343",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "U107",
+      "old_y_mm": 93.47,
+      "new_y_mm": 87.12,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "C106",
+      "old_y_mm": 57.91,
+      "new_y_mm": 61.72,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "C108",
+      "old_y_mm": 78.23,
+      "new_y_mm": 81.151,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "C109",
+      "old_y_mm": 108.71,
+      "new_y_mm": 111.631,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "C311",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "C321",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "C331",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "C341",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "D103",
+      "old_y_mm": 55.37,
+      "new_y_mm": 53.338,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "J202",
+      "old_y_mm": 113.79,
+      "new_y_mm": 116.584,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "J203",
+      "old_y_mm": 113.79,
+      "new_y_mm": 116.584,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "J313",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "J323",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "J333",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "bottom",
+      "ref": "J343",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "U107",
+      "old_y_mm": 93.47,
+      "new_y_mm": 87.12,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "C106",
+      "old_y_mm": 57.91,
+      "new_y_mm": 61.72,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "C108",
+      "old_y_mm": 78.23,
+      "new_y_mm": 81.151,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "C109",
+      "old_y_mm": 108.71,
+      "new_y_mm": 111.631,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "C311",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "C321",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "C331",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "C341",
+      "old_y_mm": 29.97,
+      "new_y_mm": 31.24,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "D103",
+      "old_y_mm": 55.37,
+      "new_y_mm": 53.338,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "J202",
+      "old_y_mm": 113.79,
+      "new_y_mm": 116.584,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "J203",
+      "old_y_mm": 113.79,
+      "new_y_mm": 116.584,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "J313",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "J323",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "J333",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    },
+    {
+      "view": "overlay",
+      "ref": "J343",
+      "old_y_mm": 22.35,
+      "new_y_mm": 25.144,
+      "reason": "keep own pads / polarity / centre NC visible"
+    }
+  ],
+  "all_three_SVGs_parsed": true,
+  "bottom_view": "mirrored left/right; column order BC..A",
+  "status": "VISUALLY INSPECTED: top, bottom, overlay",
+  "notes": [
+    "Opened actual SVG XML and rasterized it locally without network access; inspected all three resulting PNGs.",
+    "Shifted bulk/input/output capacitor, diode, converter and XH labels off their own pins; centre NC crosses remain visible.",
+    "Bottom is mirrored BC..A; IDs stay readable and coordinates in CSVs remain TOP.",
+    "Dense insulated routes in the central band remain a 3D assembly risk; SVG is a projection, not a stack-height proof.",
+    "The conservative-grid C311 spill is deliberately visible, not clipped or hidden."
+  ],
+  "svg_SHA256": {
+    "top": "b8cce80f0223979368e8a9fdc03d390f8cfcc5d983eb776385fbb1c9220eaa01",
+    "bottom": "03709947a1d683ac76d022bb5e8618ab538dfcac09821069fe9f934918a27e31",
+    "overlay": "ceca7507239ef8dad9fd5f241280f8e7cc9a7579a99ba909e8515f7fd1701ec3"
+  }
+}

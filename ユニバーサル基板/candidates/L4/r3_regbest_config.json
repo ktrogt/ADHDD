@@ -1,0 +1,22 @@
+{
+  "force_jump_nets": [
+    "UART_RX",
+    "HDD4_IN1"
+  ],
+  "early_nets": [
+    "SN_BUS",
+    "SN_RX_IN",
+    "SN_PU",
+    "VIN_RAW",
+    "VIN_FUSED",
+    "VIN_PROT"
+  ],
+  "quiet_fault": true,
+  "reverse_roots": [
+    "+3V3"
+  ],
+  "schema_version": 1,
+  "fault_mode": "round2",
+  "west_reg": true,
+  "direct_regulator_feed": false
+}

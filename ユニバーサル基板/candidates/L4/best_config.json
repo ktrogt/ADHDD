@@ -1,0 +1,23 @@
+{
+  "order": [
+    "FAULT",
+    "VREF",
+    "HDD4_IN2",
+    "HDD4_IN1",
+    "HDD1_IN1",
+    "HDD1_IN2",
+    "+3V3",
+    "HDD2_IN1",
+    "HDD2_IN2",
+    "SLEEP",
+    "HDD3_IN1",
+    "HDD3_IN2"
+  ],
+  "vref_order": [
+    1,
+    3,
+    2,
+    4
+  ],
+  "bend": 0.4
+}

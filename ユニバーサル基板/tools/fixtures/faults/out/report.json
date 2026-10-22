@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "passed": false,
+  "lvs_pass": false,
+  "expected_pins": 7,
+  "physical_pins": 7,
+  "expected_nets": 3,
+  "nc_pins": 1,
+  "issues": [
+    {
+      "code": "BARE_CROSSING",
+      "severity": "error",
+      "detail": "A1 / B1 touch at D3",
+      "conductors": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "code": "HOLE_NET_CONFLICT",
+      "severity": "error",
+      "detail": "D3: A, B",
+      "hole": "D3",
+      "nets": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "code": "LVS:MERGED",
+      "severity": "error",
+      "detail": "actual __ISLAND_1 combines expected groups A, B: P1.P, P2.P, P3.P, P4.P"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected C (2 pins) split into P5.P; P6.P"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "P1.P expected A, actual __ISLAND_1"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "P2.P expected A, actual __ISLAND_1"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "P3.P expected B, actual __ISLAND_1"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "P4.P expected B, actual __ISLAND_1"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "P6.P expected C, actual __OPEN_2"
+    },
+    {
+      "code": "SHORT",
+      "severity": "error",
+      "detail": "physical island joins A, B",
+      "pins": [
+        "P1.P",
+        "P2.P",
+        "P3.P",
+        "P4.P"
+      ],
+      "conductors": [
+        "A1",
+        "B1"
+      ]
+    }
+  ],
+  "rule_checks": [],
+  "unchecked_rules": 0,
+  "actual_netlist": [
+    {
+      "net": "NC",
+      "ref": "N1",
+      "pin_number": "1",
+      "pin_name": "P"
+    },
+    {
+      "net": "__ISLAND_1",
+      "ref": "P1",
+      "pin_number": "1",
+      "pin_name": "P"
+    },
+    {
+      "net": "__ISLAND_1",
+      "ref": "P2",
+      "pin_number": "1",
+      "pin_name": "P"
+    },
+    {
+      "net": "__ISLAND_1",
+      "ref": "P3",
+      "pin_number": "1",
+      "pin_name": "P"
+    },
+    {
+      "net": "__ISLAND_1",
+      "ref": "P4",
+      "pin_number": "1",
+      "pin_name": "P"
+    },
+    {
+      "net": "C",
+      "ref": "P5",
+      "pin_number": "1",
+      "pin_name": "P"
+    },
+    {
+      "net": "__OPEN_2",
+      "ref": "P6",
+      "pin_number": "1",
+      "pin_name": "P"
+    }
+  ],
+  "components": [
+    {
+      "actual_net": "__ISLAND_1",
+      "pins": [
+        "P1.P",
+        "P2.P",
+        "P3.P",
+        "P4.P"
+      ],
+      "expected_nets": [
+        "A",
+        "B"
+      ],
+      "conductor_nets": [
+        "A",
+        "B"
+      ],
+      "conductors": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "actual_net": "C",
+      "pins": [
+        "P5.P"
+      ],
+      "expected_nets": [
+        "C"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_2",
+      "pins": [
+        "P6.P"
+      ],
+      "expected_nets": [
+        "C"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "N1.P"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    }
+  ],
+  "metrics": {
+    "wire_length_mm": {
+      "bare": 27.94,
+      "bridge": 0.0,
+      "jumper": 0.0
+    },
+    "total_wire_mm": 27.94,
+    "jumpers": 0,
+    "bridges": 0,
+    "conductors": 2,
+    "jumper_over_exposed_crossings": 0,
+    "bbox_mm": [
+      2.04,
+      -0.5,
+      18.28,
+      18.28
+    ],
+    "used_bbox_area_mm2": 304.987,
+    "used_area_fraction": 0.73864,
+    "power_path_lengths": [],
+    "longest_signal_nets": [
+      {
+        "net": "B",
+        "length_mm": 15.24
+      },
+      {
+        "net": "A",
+        "length_mm": 12.7
+      }
+    ],
+    "violations_by_severity": {
+      "error": 10
+    },
+    "rule_violations_by_severity": {},
+    "score": 1000030.99,
+    "score_weights": {
+      "wire_mm": 1,
+      "jumpers": 20,
+      "bridges": 1,
+      "crossings": 2,
+      "area_mm2": 0.01,
+      "error": 100000,
+      "warning": 1000,
+      "info": 0
+    },
+    "t7_soft_penalty": 0,
+    "t7_soft_penalty_by_rule": {},
+    "unchecked_soft_rule_ids": [],
+    "soft_penalty_complete": true,
+    "hard_fail_count": 0,
+    "hard_failed_rule_ids": [],
+    "unchecked_hard_rules": [],
+    "unchecked_hard_count": 0,
+    "partially_unchecked_hard_rules": [],
+    "partially_unchecked_hard_count": 0,
+    "core_drc_errors": 3,
+    "bends": 0,
+    "comparison_tuple": [
+      false,
+      3,
+      0,
+      0,
+      0,
+      0,
+      27.94
+    ],
+    "comparison_tuple_fields": [
+      "lvs_ok",
+      "core_drc_errors",
+      "hard_fail_count",
+      "jumpers",
+      "t7_soft_penalty",
+      "bends",
+      "total_wire_mm"
+    ],
+    "comparison_directions": [
+      "max",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min",
+      "min"
+    ],
+    "lexicographic_sort_key": [
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      27.94
+    ],
+    "ranking_pass": false
+  },
+  "proof_scope": "Independent lands; every exposed path hole is solder-contacted; insulated jumper interiors never connect; component internal circuitry excluded. Provisional dimensions require physical validation."
+}

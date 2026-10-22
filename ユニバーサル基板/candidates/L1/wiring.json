@@ -1,0 +1,2679 @@
+{
+  "schema_version": 1,
+  "candidate": "L1 round3",
+  "router": "round-2 branch-aware seed; locally rerouted bare chains; canonical verification after each change",
+  "seed": 39,
+  "bare_in1_mask": 0,
+  "edge_mode": 3,
+  "detour_order_seed": 0,
+  "round3_baseline_tuple": [
+    true,
+    0,
+    0,
+    31,
+    220.580952,
+    78,
+    3158.323
+  ],
+  "conductors": [
+    {
+      "id": "L1W001",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "B8",
+        "B13",
+        "B14",
+        "B17"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "VM_TRUNK"
+      ],
+      "diameter_mm": 1.0,
+      "area_mm2": 0.7853981633974483,
+      "experiment_wire_id": "L1W001"
+    },
+    {
+      "id": "L1W002",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "A8",
+        "AQ8"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "VM_TRUNK"
+      ],
+      "area_mm2": 0.7853981633974483,
+      "diameter_mm": 1.0,
+      "experiment_wire_id": "L1W002"
+    },
+    {
+      "id": "L1W003",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "E17",
+        "E10",
+        "AQ10"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "POWER_RETURN_TRUNK"
+      ],
+      "area_mm2": 0.7853981633974483,
+      "diameter_mm": 1.0,
+      "experiment_wire_id": "L1W003"
+    },
+    {
+      "id": "L1W004",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AQ10",
+        "AW10"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH1"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W004"
+    },
+    {
+      "id": "L1W005",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "A8",
+        "A5",
+        "B5",
+        "E5"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH4"
+      ],
+      "diameter_mm": 0.6,
+      "area_mm2": 0.2827433388230814,
+      "experiment_wire_id": "L1W005"
+    },
+    {
+      "id": "L1W006",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "E4",
+        "E6",
+        "F6"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH4"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W006"
+    },
+    {
+      "id": "L1W007",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "G6",
+        "G11"
+      ],
+      "gauge": "AWG22",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH4"
+      ],
+      "experiment_wire_id": "L1W008"
+    },
+    {
+      "id": "L1W008",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "G11",
+        "G10"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH4"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W009"
+    },
+    {
+      "id": "L1W009",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "B7",
+        "G7",
+        "G4",
+        "F4"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH4"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W010"
+    },
+    {
+      "id": "L1W010",
+      "net": "HDD4_OUT1",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "H6",
+        "H3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD4_OUT1",
+      "branch_ids": [
+        "DRIVER_CH4"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W012"
+    },
+    {
+      "id": "L1W011",
+      "net": "HDD4_OUT2",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "I6",
+        "I4",
+        "J4",
+        "J3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD4_OUT2",
+      "branch_ids": [
+        "DRIVER_CH4"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W013"
+    },
+    {
+      "id": "L1W012",
+      "net": "HDD4_CS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "L6",
+        "L4"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#2484a6",
+      "locked": true,
+      "routing_group": "HDD4_CS",
+      "branch_ids": [
+        "CS_CH4"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W014"
+    },
+    {
+      "id": "L1W013",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "O8",
+        "O5",
+        "P5",
+        "S5"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH3"
+      ],
+      "diameter_mm": 0.6,
+      "area_mm2": 0.2827433388230814,
+      "experiment_wire_id": "L1W015"
+    },
+    {
+      "id": "L1W014",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "S4",
+        "S6",
+        "T6"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH3"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W016"
+    },
+    {
+      "id": "L1W015",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "U6",
+        "U11"
+      ],
+      "gauge": "AWG22",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH3"
+      ],
+      "experiment_wire_id": "L1W018"
+    },
+    {
+      "id": "L1W016",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "U11",
+        "U10"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH3"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W019"
+    },
+    {
+      "id": "L1W017",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "P7",
+        "U7",
+        "U4",
+        "T4"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH3"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W020"
+    },
+    {
+      "id": "L1W018",
+      "net": "HDD3_OUT1",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "V6",
+        "V3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD3_OUT1",
+      "branch_ids": [
+        "DRIVER_CH3"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W022"
+    },
+    {
+      "id": "L1W019",
+      "net": "HDD3_OUT2",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "W6",
+        "W4",
+        "X4",
+        "X3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD3_OUT2",
+      "branch_ids": [
+        "DRIVER_CH3"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W023"
+    },
+    {
+      "id": "L1W020",
+      "net": "HDD3_CS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "Z6",
+        "Z4"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#24a675",
+      "locked": true,
+      "routing_group": "HDD3_CS",
+      "branch_ids": [
+        "CS_CH3"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W024"
+    },
+    {
+      "id": "L1W021",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AC8",
+        "AC5",
+        "AD5",
+        "AG5"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH2"
+      ],
+      "diameter_mm": 0.6,
+      "area_mm2": 0.2827433388230814,
+      "experiment_wire_id": "L1W025"
+    },
+    {
+      "id": "L1W022",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG4",
+        "AG6",
+        "AH6"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH2"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W026"
+    },
+    {
+      "id": "L1W023",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AI6",
+        "AI11"
+      ],
+      "gauge": "AWG22",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH2"
+      ],
+      "experiment_wire_id": "L1W028"
+    },
+    {
+      "id": "L1W024",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AI11",
+        "AI10"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH2"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W029"
+    },
+    {
+      "id": "L1W025",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AD7",
+        "AI7",
+        "AI4",
+        "AH4"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH2"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W030"
+    },
+    {
+      "id": "L1W026",
+      "net": "HDD2_OUT1",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AJ6",
+        "AJ3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD2_OUT1",
+      "branch_ids": [
+        "DRIVER_CH2"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W032"
+    },
+    {
+      "id": "L1W027",
+      "net": "HDD2_OUT2",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AK6",
+        "AK4",
+        "AL4",
+        "AL3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD2_OUT2",
+      "branch_ids": [
+        "DRIVER_CH2"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W033"
+    },
+    {
+      "id": "L1W028",
+      "net": "HDD2_CS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AN6",
+        "AN4"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#26a624",
+      "locked": true,
+      "routing_group": "HDD2_CS",
+      "branch_ids": [
+        "CS_CH2"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W034"
+    },
+    {
+      "id": "L1W029",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AQ8",
+        "AQ5",
+        "AR5",
+        "AU5"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH1"
+      ],
+      "diameter_mm": 0.6,
+      "area_mm2": 0.2827433388230814,
+      "experiment_wire_id": "L1W035"
+    },
+    {
+      "id": "L1W030",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AU4",
+        "AU6",
+        "AV6"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "DRIVER_CH1"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W036"
+    },
+    {
+      "id": "L1W031",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AW11",
+        "AW4",
+        "AV4"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH1"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W038"
+    },
+    {
+      "id": "L1W032",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AR7",
+        "AW7"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_POWER",
+      "branch_ids": [
+        "DRIVER_CH1"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W040"
+    },
+    {
+      "id": "L1W033",
+      "net": "HDD1_OUT1",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AX6",
+        "AX3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD1_OUT1",
+      "branch_ids": [
+        "DRIVER_CH1"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W042"
+    },
+    {
+      "id": "L1W034",
+      "net": "HDD1_OUT2",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AY6",
+        "AY4",
+        "AZ4",
+        "AZ3"
+      ],
+      "gauge": "0.6 mm",
+      "type": "tinned copper",
+      "colour": "#88532e",
+      "locked": true,
+      "routing_group": "HDD1_OUT2",
+      "branch_ids": [
+        "DRIVER_CH1"
+      ],
+      "area_mm2": 0.2827433388230814,
+      "diameter_mm": 0.6,
+      "experiment_wire_id": "L1W043"
+    },
+    {
+      "id": "L1W035",
+      "net": "HDD1_CS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "BB6",
+        "BB4"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#78a624",
+      "locked": true,
+      "routing_group": "HDD1_CS",
+      "branch_ids": [
+        "CS_CH1"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W044"
+    },
+    {
+      "id": "L1W036",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "F13",
+        "F17",
+        "E17"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_TVS",
+      "branch_ids": [
+        "TVS_RETURN"
+      ],
+      "area_mm2": 0.7853981633974483,
+      "diameter_mm": 1.0,
+      "experiment_wire_id": "L1W046"
+    },
+    {
+      "id": "L1W037",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "I21",
+        "I19",
+        "E19",
+        "C19",
+        "C21"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_INPUT",
+      "branch_ids": [
+        "INPUT_RETURN"
+      ],
+      "diameter_mm": 1.0,
+      "area_mm2": 0.7853981633974483,
+      "experiment_wire_id": "L1W048"
+    },
+    {
+      "id": "L1W038",
+      "net": "VIN_RAW",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "F21",
+        "F24",
+        "J24"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#a71313",
+      "locked": true,
+      "routing_group": "VIN_RAW",
+      "branch_ids": [
+        "ENTRY_SERIES"
+      ],
+      "diameter_mm": 1.0,
+      "area_mm2": 0.7853981633974483,
+      "experiment_wire_id": "L1W049"
+    },
+    {
+      "id": "L1W039",
+      "net": "VIN_FUSED",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "J26",
+        "K26",
+        "K16",
+        "L16"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#cc4444",
+      "locked": true,
+      "routing_group": "VIN_FUSED",
+      "branch_ids": [
+        "ENTRY_SERIES"
+      ],
+      "area_mm2": 0.7853981633974483,
+      "diameter_mm": 1.0,
+      "experiment_wire_id": "L1W050"
+    },
+    {
+      "id": "L1W040",
+      "net": "VIN_PROT",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "M16",
+        "A14"
+      ],
+      "gauge": "AWG18",
+      "type": "insulated copper",
+      "colour": "#b82920",
+      "locked": true,
+      "routing_group": "VIN_PROT",
+      "branch_ids": [
+        "ENTRY_SERIES"
+      ],
+      "experiment_wire_id": "L1W051"
+    },
+    {
+      "id": "L1W041",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "W31",
+        "K31"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_CAPS",
+      "branch_ids": [
+        "REGULATOR_CAP_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W053"
+    },
+    {
+      "id": "L1W042",
+      "net": "+5V",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "K32",
+        "Q32"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#ef7900",
+      "locked": true,
+      "routing_group": "+5V",
+      "branch_ids": [
+        "PICO_5V"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W054"
+    },
+    {
+      "id": "L1W043",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AV33",
+        "AX33",
+        "AX35"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "LOGIC_3V3"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W056"
+    },
+    {
+      "id": "L1W044",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AU33",
+        "AU37"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_RX",
+      "branch_ids": [
+        "RECEIVER_RETURN"
+      ],
+      "experiment_wire_id": "L1W057"
+    },
+    {
+      "id": "L1W045",
+      "net": "SN_BUS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AR38",
+        "AR40"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#3224a6",
+      "locked": true,
+      "routing_group": "SN_BUS",
+      "branch_ids": [
+        "SN_BUS"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W059"
+    },
+    {
+      "id": "L1W046",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AE16",
+        "AE18"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_REF",
+      "branch_ids": [
+        "VREF_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W062"
+    },
+    {
+      "id": "L1W047",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AE17",
+        "AG17"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_REF",
+      "branch_ids": [
+        "VREF_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W063"
+    },
+    {
+      "id": "L1W048",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "E17",
+        "D17",
+        "D18",
+        "B18",
+        "B29",
+        "P29"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_LINK",
+      "branch_ids": [
+        "LOGIC_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W065"
+    },
+    {
+      "id": "L1W049",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "P29",
+        "Q31"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_LINK",
+      "branch_ids": [
+        "LOGIC_RETURN"
+      ],
+      "experiment_wire_id": "L1W066"
+    },
+    {
+      "id": "L1W050",
+      "net": "+5V",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "Q32",
+        "BB38"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#ef7900",
+      "locked": true,
+      "routing_group": "+5V",
+      "branch_ids": [
+        "PICO_5V"
+      ],
+      "experiment_wire_id": "L1W069"
+    },
+    {
+      "id": "L1W051",
+      "net": "VSYS",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "BB34",
+        "AZ34",
+        "AZ31"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#c95e00",
+      "locked": true,
+      "routing_group": "VSYS",
+      "branch_ids": [
+        "PICO_5V"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W070"
+    },
+    {
+      "id": "L1W052",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "Q31",
+        "AE16"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_REF",
+      "branch_ids": [
+        "VREF_RETURN"
+      ],
+      "experiment_wire_id": "L1W071"
+    },
+    {
+      "id": "L1W053",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "Q31",
+        "AD36"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_CONTROL",
+      "branch_ids": [
+        "CONTROL_RETURN"
+      ],
+      "experiment_wire_id": "L1W072"
+    },
+    {
+      "id": "L1W054",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "Q31",
+        "AU37"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_RX",
+      "branch_ids": [
+        "RECEIVER_RETURN"
+      ],
+      "experiment_wire_id": "L1W073"
+    },
+    {
+      "id": "L1W055",
+      "net": "GND",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "Q31",
+        "AA31"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "experiment_wire_id": "L1W074"
+    },
+    {
+      "id": "L1W056",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AA31",
+        "AA30",
+        "AJ30",
+        "AY30"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W075"
+    },
+    {
+      "id": "L1W057",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AJ24",
+        "AJ25",
+        "AJ30",
+        "AJ31"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W077"
+    },
+    {
+      "id": "L1W058",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AO24",
+        "AO25"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W079"
+    },
+    {
+      "id": "L1W059",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AO31",
+        "AO30"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W080"
+    },
+    {
+      "id": "L1W060",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AT24",
+        "AT25"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W081"
+    },
+    {
+      "id": "L1W061",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AT31",
+        "AT30"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W082"
+    },
+    {
+      "id": "L1W062",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AY24",
+        "AY25"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W083"
+    },
+    {
+      "id": "L1W063",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AY31",
+        "AY30"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W084"
+    },
+    {
+      "id": "L1W064",
+      "net": "FAULT",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "K6",
+        "M20"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT_CH4"
+      ],
+      "experiment_wire_id": "L1W085"
+    },
+    {
+      "id": "L1W065",
+      "net": "FAULT",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "Y6",
+        "AA20"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT_CH3"
+      ],
+      "experiment_wire_id": "L1W086"
+    },
+    {
+      "id": "L1W066",
+      "net": "FAULT",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AM6",
+        "AO20"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT_CH2"
+      ],
+      "experiment_wire_id": "L1W087"
+    },
+    {
+      "id": "L1W067",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "BA6",
+        "BA7",
+        "BC7",
+        "BC20"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT_CH1"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W088"
+    },
+    {
+      "id": "L1W068",
+      "net": "HDD4_IN1",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AQ24",
+        "H11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#2469a6",
+      "locked": true,
+      "routing_group": "HDD4_IN1",
+      "branch_ids": [
+        "HDD4_IN1"
+      ],
+      "experiment_wire_id": "L1W089"
+    },
+    {
+      "id": "L1W069",
+      "net": "HDD4_IN2",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AP24",
+        "I11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#244ea6",
+      "locked": true,
+      "routing_group": "HDD4_IN2",
+      "branch_ids": [
+        "HDD4_IN2"
+      ],
+      "experiment_wire_id": "L1W090"
+    },
+    {
+      "id": "L1W070",
+      "net": "HDD3_IN1",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AS24",
+        "V11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#24a691",
+      "locked": true,
+      "routing_group": "HDD3_IN1",
+      "branch_ids": [
+        "HDD3_IN1"
+      ],
+      "experiment_wire_id": "L1W091"
+    },
+    {
+      "id": "L1W071",
+      "net": "HDD3_IN2",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AR24",
+        "W11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#24a0a6",
+      "locked": true,
+      "routing_group": "HDD3_IN2",
+      "branch_ids": [
+        "HDD3_IN2"
+      ],
+      "experiment_wire_id": "L1W092"
+    },
+    {
+      "id": "L1W072",
+      "net": "HDD2_IN1",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AV24",
+        "AJ11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#24a63e",
+      "locked": true,
+      "routing_group": "HDD2_IN1",
+      "branch_ids": [
+        "HDD2_IN1"
+      ],
+      "experiment_wire_id": "L1W093"
+    },
+    {
+      "id": "L1W073",
+      "net": "HDD2_IN2",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AU24",
+        "AK11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#24a65a",
+      "locked": true,
+      "routing_group": "HDD2_IN2",
+      "branch_ids": [
+        "HDD2_IN2"
+      ],
+      "experiment_wire_id": "L1W094"
+    },
+    {
+      "id": "L1W074",
+      "net": "HDD1_IN1",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AX24",
+        "AX11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#5da624",
+      "locked": true,
+      "routing_group": "HDD1_IN1",
+      "branch_ids": [
+        "HDD1_IN1"
+      ],
+      "experiment_wire_id": "L1W095"
+    },
+    {
+      "id": "L1W075",
+      "net": "HDD1_IN2",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AW24",
+        "AY11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#41a624",
+      "locked": true,
+      "routing_group": "HDD1_IN2",
+      "branch_ids": [
+        "HDD1_IN2"
+      ],
+      "experiment_wire_id": "L1W096"
+    },
+    {
+      "id": "L1W076",
+      "net": "ARM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AI24",
+        "AI21"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#a68224",
+      "locked": true,
+      "routing_group": "ARM",
+      "branch_ids": [
+        "ARM"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W097"
+    },
+    {
+      "id": "L1W077",
+      "net": "ARM_SW",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AF21",
+        "AF23",
+        "Z23",
+        "Z40",
+        "AG40"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#a69d24",
+      "locked": true,
+      "routing_group": "ARM_SW",
+      "branch_ids": [
+        "ARM_SW"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W098"
+    },
+    {
+      "id": "L1W078",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AX40",
+        "AX39",
+        "AS39"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_RX",
+      "branch_ids": [
+        "G_RX"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W100"
+    },
+    {
+      "id": "L1W079",
+      "net": "+5V",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "Q32",
+        "Q34",
+        "Y34"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#ef7900",
+      "locked": true,
+      "routing_group": "+5V",
+      "branch_ids": [
+        "+5V"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W101"
+    },
+    {
+      "id": "L1W080",
+      "net": "SN_RX_IN",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AN36",
+        "AR36"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#6924a6",
+      "locked": true,
+      "routing_group": "SN_RX_IN",
+      "branch_ids": [
+        "SN_RX_IN"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W102"
+    },
+    {
+      "id": "L1W081",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AC24",
+        "AE24",
+        "AH24"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W103"
+    },
+    {
+      "id": "L1W082",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG20",
+        "AO20",
+        "BC20"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W106"
+    },
+    {
+      "id": "L1W083",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "M20",
+        "AA20"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W107"
+    },
+    {
+      "id": "L1W084",
+      "net": "VREF",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "Z11",
+        "AC11",
+        "AC16"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#008577",
+      "locked": true,
+      "routing_group": "V_CH3",
+      "branch_ids": [
+        "V_CH3"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W109"
+    },
+    {
+      "id": "L1W085",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AW33",
+        "AW31"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W110"
+    },
+    {
+      "id": "L1W086",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "X11",
+        "X16",
+        "X17",
+        "X19",
+        "AL19"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W111"
+    },
+    {
+      "id": "L1W087",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "J11",
+        "J15",
+        "O15",
+        "O17"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W114"
+    },
+    {
+      "id": "L1W088",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AZ11",
+        "AZ12",
+        "AL12"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W117"
+    },
+    {
+      "id": "L1W089",
+      "net": "+3V3",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AL33",
+        "AL19"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "experiment_wire_id": "L1W118"
+    },
+    {
+      "id": "L1W090",
+      "net": "SN_PU",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AN39",
+        "AN40",
+        "AO40"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#4d24a6",
+      "locked": true,
+      "routing_group": "SN_PU",
+      "branch_ids": [
+        "SN_PU"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W119"
+    },
+    {
+      "id": "L1W091",
+      "net": "VREF",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AC16",
+        "L11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#008577",
+      "locked": true,
+      "routing_group": "V_CH4",
+      "branch_ids": [
+        "V_CH4"
+      ],
+      "experiment_wire_id": "L1W120"
+    },
+    {
+      "id": "L1W092",
+      "net": "VREF",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AN11",
+        "AC16"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#008577",
+      "locked": true,
+      "routing_group": "V_CH2",
+      "branch_ids": [
+        "V_CH2"
+      ],
+      "experiment_wire_id": "L1W121"
+    },
+    {
+      "id": "L1W093",
+      "net": "UART_RX",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AZ24",
+        "AZ30",
+        "BC30",
+        "BC37",
+        "AX37"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#8424a6",
+      "locked": true,
+      "routing_group": "UART_RX",
+      "branch_ids": [
+        "UART_RX"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W122"
+    },
+    {
+      "id": "L1W094",
+      "net": "VREF",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AC16",
+        "BB11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#008577",
+      "locked": true,
+      "routing_group": "V_CH1",
+      "branch_ids": [
+        "V_CH1"
+      ],
+      "experiment_wire_id": "L1W123"
+    },
+    {
+      "id": "L1W095",
+      "net": "SLEEP",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AJ38",
+        "AH38"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W124"
+    },
+    {
+      "id": "L1W096",
+      "net": "SLEEP",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AH31",
+        "AH36"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W125"
+    },
+    {
+      "id": "L1W097",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "K11",
+        "Y11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "experiment_wire_id": "L1W126"
+    },
+    {
+      "id": "L1W098",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "Y11",
+        "AM11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "experiment_wire_id": "L1W127"
+    },
+    {
+      "id": "L1W099",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "BA11",
+        "AM11"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "experiment_wire_id": "L1W128"
+    },
+    {
+      "id": "L1W100",
+      "net": "SLEEP",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AM11",
+        "AH31"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "experiment_wire_id": "L1W129"
+    },
+    {
+      "id": "L1W101",
+      "net": "SN_BUS",
+      "kind": "jumper",
+      "side": "bottom",
+      "path": [
+        "AW40",
+        "AR40"
+      ],
+      "gauge": "AWG24",
+      "type": "insulated copper",
+      "colour": "#3224a6",
+      "locked": true,
+      "routing_group": "SN_BUS",
+      "branch_ids": [
+        "SN_BUS"
+      ],
+      "experiment_wire_id": "L1W130"
+    },
+    {
+      "id": "L1W102",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "B17",
+        "C17"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "VM_TRUNK"
+      ],
+      "area_mm2": 0.7853981633974483,
+      "diameter_mm": 1.0,
+      "experiment_wire_id": "L1W045B0_42"
+    },
+    {
+      "id": "L1W103",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "E19",
+        "E17"
+      ],
+      "gauge": "1.0 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_INPUT",
+      "branch_ids": [
+        "INPUT_RETURN"
+      ],
+      "area_mm2": 0.7853981633974483,
+      "diameter_mm": 1.0,
+      "experiment_wire_id": "L1W047B0_44"
+    },
+    {
+      "id": "L1W104",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "W30",
+        "Q30",
+        "A30",
+        "A17"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "REGULATOR_VM"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W052A0_50"
+    },
+    {
+      "id": "L1W105",
+      "net": "VM",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "A17",
+        "C17"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#d32f2f",
+      "locked": true,
+      "routing_group": "VM",
+      "branch_ids": [
+        "REGULATOR_VM"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W052B0_50"
+    },
+    {
+      "id": "L1W106",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AU35",
+        "AU33"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_RX",
+      "branch_ids": [
+        "G_RX",
+        "RECEIVER_RETURN"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W058J0_55"
+    },
+    {
+      "id": "L1W107",
+      "net": "SN_RX_IN",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AR35",
+        "AR36"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#6924a6",
+      "locked": true,
+      "routing_group": "SN_RX_IN",
+      "branch_ids": [
+        "SN_RX_IN"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W060A0_58"
+    },
+    {
+      "id": "L1W108",
+      "net": "SN_RX_IN",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AR36",
+        "AU36"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#6924a6",
+      "locked": true,
+      "routing_group": "SN_RX_IN",
+      "branch_ids": [
+        "SN_RX_IN"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W060J0_58"
+    },
+    {
+      "id": "L1W109",
+      "net": "VREF",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AC16",
+        "AB16"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#008577",
+      "locked": true,
+      "routing_group": "V_SOURCE",
+      "branch_ids": [
+        "VREF_SOURCE"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W061A0_59"
+    },
+    {
+      "id": "L1W110",
+      "net": "VREF",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AB18",
+        "Z18"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#008577",
+      "locked": true,
+      "routing_group": "V_SOURCE",
+      "branch_ids": [
+        "VREF_SOURCE"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W061B0_59"
+    },
+    {
+      "id": "L1W111",
+      "net": "VREF",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AB16",
+        "AB18"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#008577",
+      "locked": true,
+      "routing_group": "V_SOURCE",
+      "branch_ids": [
+        "VREF_SOURCE"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W061J0_59"
+    },
+    {
+      "id": "L1W112",
+      "net": "SLEEP",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG36",
+        "AH36"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W067A0_63"
+    },
+    {
+      "id": "L1W113",
+      "net": "SLEEP",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AH38",
+        "AH40"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W067B0_63"
+    },
+    {
+      "id": "L1W114",
+      "net": "SLEEP",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AH36",
+        "AH38"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#2432a6",
+      "locked": true,
+      "routing_group": "SLEEP",
+      "branch_ids": [
+        "SLEEP"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W067J0_63"
+    },
+    {
+      "id": "L1W115",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AY25",
+        "AO25"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W076A0_69"
+    },
+    {
+      "id": "L1W116",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AU25",
+        "AU30"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_PICO",
+      "branch_ids": [
+        "PICO_RETURN"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W076J0_69"
+    },
+    {
+      "id": "L1W117",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AG20",
+        "AG24"
+      ],
+      "gauge": "0.5 mm",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT"
+      ],
+      "area_mm2": 0.19634954084936207,
+      "diameter_mm": 0.5,
+      "experiment_wire_id": "L1W105B0_82"
+    },
+    {
+      "id": "L1W118",
+      "net": "FAULT",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AA20",
+        "AG20"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#93a624",
+      "locked": true,
+      "routing_group": "FAULT",
+      "branch_ids": [
+        "FAULT"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W105J0_82"
+    },
+    {
+      "id": "L1W119",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AP33",
+        "AP32",
+        "AW32"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W112J0_90"
+    },
+    {
+      "id": "L1W120",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AE21",
+        "L21",
+        "L17",
+        "X17"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W113A0_93"
+    },
+    {
+      "id": "L1W121",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "X16",
+        "Y16"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W113J0_93"
+    },
+    {
+      "id": "L1W122",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AL33",
+        "AP33"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W115B0_95"
+    },
+    {
+      "id": "L1W123",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AL40",
+        "AL33"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W115J0_95"
+    },
+    {
+      "id": "L1W124",
+      "net": "+3V3",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AL11",
+        "AL19"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#be168a",
+      "locked": true,
+      "routing_group": "+3V3",
+      "branch_ids": [
+        "+3V3"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W116A0_98"
+    },
+    {
+      "id": "L1W125",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AS39",
+        "AS40"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_RX",
+      "branch_ids": [
+        "G_RX",
+        "RECEIVER_RETURN"
+      ],
+      "area_mm2": 0.2042820622996763,
+      "diameter_mm": 0.51,
+      "experiment_wire_id": "L1W058B0_55B1_79"
+    },
+    {
+      "id": "L1W126",
+      "net": "GND",
+      "kind": "bare",
+      "side": "bottom",
+      "path": [
+        "AU37",
+        "AU39"
+      ],
+      "gauge": "0.51 mm",
+      "type": "tinned copper",
+      "colour": "#202020",
+      "locked": true,
+      "routing_group": "G_RX",
+      "branch_ids": [
+        "G_RX",
+        "RECEIVER_RETURN"
+      ],
+      "diameter_mm": 0.51,
+      "area_mm2": 0.2042820622996763,
+      "experiment_wire_id": "L1W058B0_55J1_79"
+    }
+  ]
+}

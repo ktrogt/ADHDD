@@ -1,0 +1,102 @@
+FAIL; LVS PASS; 186/186 pins, 42 nets, 22 NC; 49 errors, 52 warnings; 3591.6 mm wire, 41 jumpers; score 4956893.1
+ERROR RULE:B01: T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:B02: T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:B07: T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:C01: core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence
+ERROR RULE:C02: T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:C03: T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M02: T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M03: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M04: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M05: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M06: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M07: T7 on_edge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M08: T7 on_edge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M09: T7 on_edge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M10: T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M12: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:P02: D105.1 -> $VM_ENTRY: 5.000 holes (max 3)
+ERROR RULE:P02: D105.2 -> $GND_ENTRY: 5.000 holes (max 3)
+ERROR RULE:P11: U310.11 / J313.2: 5 holes > 4
+ERROR RULE:P11: U320.11 / J323.2: 5 holes > 4
+ERROR RULE:P11: U330.11 / J333.2: 5 holes > 4
+ERROR RULE:P11: U340.11 / J343.2: 5 holes > 4
+ERROR RULE:P12: U310.11 -> J313.2: 5.000 holes (max 4)
+ERROR RULE:P12: U320.11 -> J323.2: 5.000 holes (max 4)
+ERROR RULE:P12: U330.11 -> J333.2: 5.000 holes (max 4)
+ERROR RULE:P12: U340.11 -> J343.2: 5.000 holes (max 4)
+ERROR RULE:P13: C108.1 / U107.1: 6 holes > 4
+ERROR RULE:P13: C108.2 / U107.2: 6 holes > 4
+ERROR RULE:P13: C109.1 / U107.3: 6 holes > 4
+ERROR RULE:P13: C109.2 / U107.2: 6 holes > 4
+ERROR RULE:P14: C108.1 -> U107.1: 6.000 holes (max 4)
+ERROR RULE:P14: C108.2 -> U107.2: 6.000 holes (max 4)
+ERROR RULE:P14: C109.1 -> U107.3: 6.000 holes (max 4)
+ERROR RULE:P14: C109.2 -> U107.2: 6.000 holes (max 4)
+ERROR RULE:P15: C208.1 / U207.5: 4 holes > 2
+ERROR RULE:P15: C208.2 / U207.3: 4 holes > 2
+ERROR RULE:P16: C208.1 -> U207.5: 4.000 holes (max 3)
+ERROR RULE:P16: C208.2 -> U207.3: 4.000 holes (max 3)
+ERROR RULE:S01: T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:S02: T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:V02: R210.1 / $VREF_ROOT: 3 holes > 2
+ERROR RULE:V03: R210.1 -> $VREF_ROOT: 3.000 holes (max 2)
+ERROR RULE:W01: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W02: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W03: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W04: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W05: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W06: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W07: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+WARNING PROVISIONAL_FOOTPRINT: D103
+WARNING PROVISIONAL_FOOTPRINT: D206
+WARNING PROVISIONAL_FOOTPRINT: J104
+WARNING PROVISIONAL_FOOTPRINT: J213
+WARNING PROVISIONAL_FOOTPRINT: TP460
+WARNING PROVISIONAL_FOOTPRINT: TP461
+WARNING PROVISIONAL_FOOTPRINT: TP462
+WARNING PROVISIONAL_FOOTPRINT: TP463
+WARNING PROVISIONAL_FOOTPRINT: TP464
+WARNING PROVISIONAL_FOOTPRINT: TP465
+WARNING PROVISIONAL_FOOTPRINT: TP466
+WARNING PROVISIONAL_FOOTPRINT: TP467
+WARNING PROVISIONAL_FOOTPRINT: TP468
+WARNING PROVISIONAL_FOOTPRINT: TP471
+WARNING PROVISIONAL_FOOTPRINT: TP472
+WARNING PROVISIONAL_FOOTPRINT: TP473
+WARNING PROVISIONAL_FOOTPRINT: TP474
+WARNING PROVISIONAL_FOOTPRINT: U201
+WARNING PROVISIONAL_FOOTPRINT: U310
+WARNING PROVISIONAL_FOOTPRINT: U320
+WARNING PROVISIONAL_FOOTPRINT: U330
+WARNING PROVISIONAL_FOOTPRINT: U340
+WARNING RULE:B03: T7 routing/straight_power_trunks: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+WARNING RULE:B04: L2W077: 3 bends > 2
+WARNING RULE:B04: L2W086: 3 bends > 2
+WARNING RULE:B04: L2W093: 3 bends > 2
+WARNING RULE:B04: L2W100: 4 bends > 2
+WARNING RULE:B04: per-conductor bends checked; complete branch IDs and preferred-material policy are not represented
+WARNING RULE:B05: 41 jumpers > 24
+WARNING RULE:B06: 41 jumpers > 16
+WARNING RULE:P07: C312.1 / U310.14: 2 holes > 1
+WARNING RULE:P07: C312.2 / U310.13: 2 holes > 1
+WARNING RULE:P07: C322.1 / U320.14: 2 holes > 1
+WARNING RULE:P07: C322.2 / U320.13: 2 holes > 1
+WARNING RULE:P07: C332.1 / U330.14: 2 holes > 1
+WARNING RULE:P07: C332.2 / U330.13: 2 holes > 1
+WARNING RULE:P07: C342.1 / U340.14: 2 holes > 1
+WARNING RULE:P07: C342.2 / U340.13: 2 holes > 1
+WARNING RULE:P10: C311.1 -> U310.14: 6.000 holes (max 3)
+WARNING RULE:P10: C311.2 -> U310.13: 5.000 holes (max 3)
+WARNING RULE:P10: C321.1 -> U320.14: 6.000 holes (max 3)
+WARNING RULE:P10: C321.2 -> U320.13: 5.000 holes (max 3)
+WARNING RULE:P10: C331.1 -> U330.14: 6.000 holes (max 3)
+WARNING RULE:P10: C331.2 -> U330.13: 5.000 holes (max 3)
+WARNING RULE:P10: C341.1 -> U340.14: 6.000 holes (max 3)
+WARNING RULE:P10: C341.2 -> U340.13: 5.000 holes (max 3)
+WARNING RULE:S03: T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+WARNING RULE:S05: U201.11 -> U340.3: 43.000 holes (max 35)
+WARNING RULE:S05: U201.12 -> U340.4: 43.000 holes (max 35)
+WARNING RULE:S05: U201.6 -> U320.3: 39.000 holes (max 35)
+WARNING RULE:S05: U201.7 -> U320.4: 37.000 holes (max 35)
+WARNING RULE:V05: $VREF_ROOT -> U310.7: 27.000 holes (max 25)

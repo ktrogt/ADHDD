@@ -1,0 +1,8 @@
+{
+  "source": "https://www.pololu.com/file/0J1862/drv887x-single-brushed-dc-motor-driver-carrier-schematic.pdf",
+  "evidence": "2026-10-22: primary one-page schematic visually inspected using web PDF screenshot. Pin 2 on each 1x7 connector terminates on the identical ground symbol. These map to host U3x0.2 and U3x0.13.",
+  "authority": "Task L5 conditional supervisor permission; not a circuit/part substitution",
+  "host_netlist": "Only U310/320/330/340 pin 2 changed GND -> NC. All socket contacts remain present and reserved; GND2 is internally connected after carrier insertion.",
+  "rules": "G01 POWER_RETURN removes four pin-2 endpoints. G03 host-board GND2-to-GND13 length requirement is discharged by the verified carrier copper; retained as a build-time carrier continuity test.",
+  "limits": "PDF direct file download failed due network restriction; official PDF read and visually inspected through web tool. No unverified internal tie inferred for other parts."
+}

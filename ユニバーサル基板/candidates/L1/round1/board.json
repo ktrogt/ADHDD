@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "name": "Akizuki104708 AE-6(1L),55x40 independent NTH grid",
+  "columns": 55,
+  "rows": 40,
+  "pitch_mm": 2.54,
+  "type": "single_sided_independent",
+  "edge_margin_holes": 0,
+  "body_clearance_mm": 0.5,
+  "width_mm": 155.0,
+  "height_mm": 114.0,
+  "hole_diameter_mm": 1.0,
+  "thickness_mm": 1.6,
+  "material": "FR-4",
+  "grid_origin_mm": {
+    "x": 8.92,
+    "y": 7.47,
+    "basis": "DERIVED nominal: centred55x40 array in155x114 drawing. Not separately dimensioned; manufacturing datum/tolerance unspecified."
+  },
+  "edge_offsets_mm": {
+    "left": 8.92,
+    "right": 8.92,
+    "top": 7.47,
+    "bottom": 7.47
+  },
+  "component_hole_count": 2200,
+  "mounting_hole_count": 4,
+  "physically_missing_grid_holes": [],
+  "mounting_holes_mm": [
+    {
+      "id": "M_NW",
+      "x": 5.0,
+      "y": 5.0,
+      "diameter": 3.2
+    },
+    {
+      "id": "M_NE",
+      "x": 150.0,
+      "y": 5.0,
+      "diameter": 3.2
+    },
+    {
+      "id": "M_SW",
+      "x": 5.0,
+      "y": 109.0,
+      "diameter": 3.2
+    },
+    {
+      "id": "M_SE",
+      "x": 150.0,
+      "y": 109.0,
+      "diameter": 3.2
+    }
+  ],
+  "keepouts": [
+    {
+      "id": "M3_NW_hardware",
+      "from": "A1",
+      "to": "B2"
+    },
+    {
+      "id": "M3_NE_hardware",
+      "from": "BB1",
+      "to": "BC2"
+    },
+    {
+      "id": "M3_SW_hardware",
+      "from": "A39",
+      "to": "B40"
+    },
+    {
+      "id": "M3_SE_hardware",
+      "from": "BB39",
+      "to": "BC40"
+    }
+  ],
+  "keepouts_basis": "Engineering conservative M3 washer/body/wire reservations. These16 holes physically exist; all2200 component holes form a full rectangle.",
+  "provisional": true,
+  "hole_map_verified": true,
+  "date": "2026-10-22",
+  "sources": [
+    "https://akizukidenshi.com/catalog/g/g104708/",
+    "https://akizukidenshi.com/goodsaffix/p4708.pdf",
+    "https://akizukidenshi.com/img/goods/1/104708.jpg"
+  ],
+  "notes": "T6 v1 accepts this schema. It models the outside boundary as half-pitch beyond last hole (139.7x101.6), NOT actual155x114; width/height/grid_origin/mounting geometry are metadata. Its within-board check is conservative, but physical edge access and hardware need manual checks. Hole count/missing-hole mask verified; origin is nominal symmetry calculation. No source PDF archived because download gate declined; view-only inspection used."
+}

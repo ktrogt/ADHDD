@@ -1,0 +1,4585 @@
+{
+  "schema_version": "adhdd-perfboard-rules/1.0",
+  "status": "proposed_requires_Claude_approval",
+  "date": "2026-10-22",
+  "units": {
+    "grid_pitch_mm": 2.54,
+    "distances": "holes unless suffix _mm",
+    "length": "actual conductor path for max_branch_length; Manhattan pin distance for near",
+    "current": "A unless unit states A_RMS",
+    "voltage_drop": "V"
+  },
+  "inputs": {
+    "基板/parts.csv": "fae4b318a92d053631b493cf7823b51e84d5b1d3cc22d94dac20e28f3ad375a5",
+    "基板/netlist_expected.csv": "1296648ffc0aad997c3bb86e27edfac6cec5153da8a2d53282195f420cb9440d",
+    "ユニバーサル基板/BRIEF.md": "fcaf7d58e88fddb0ba04d33af2d540d7d94e0b35f210214c28e08bf6f330ed67"
+  },
+  "scope": {
+    "id": "main_minus_scaffold",
+    "include_refs": [
+      "J101",
+      "F102",
+      "D103",
+      "J104",
+      "D105",
+      "C106",
+      "U107",
+      "C108",
+      "C109",
+      "D110",
+      "U201",
+      "J202",
+      "J203",
+      "R204",
+      "R205",
+      "D206",
+      "U207",
+      "C208",
+      "R209",
+      "R210",
+      "C211",
+      "R212",
+      "J213",
+      "R214",
+      "R215",
+      "U310",
+      "C311",
+      "C312",
+      "J313",
+      "U320",
+      "C321",
+      "C322",
+      "J323",
+      "U330",
+      "C331",
+      "C332",
+      "J333",
+      "U340",
+      "C341",
+      "C342",
+      "J343",
+      "TP460",
+      "TP461",
+      "TP462",
+      "TP463",
+      "TP466",
+      "TP467",
+      "TP468",
+      "TP471",
+      "TP472",
+      "TP473",
+      "TP474"
+    ],
+    "exclude_refs": [
+      "U401",
+      "C402",
+      "R403",
+      "R451",
+      "R452",
+      "C451",
+      "R411",
+      "R412",
+      "C411",
+      "C412",
+      "J413",
+      "R421",
+      "R422",
+      "C421",
+      "C422",
+      "J423",
+      "R431",
+      "R432",
+      "C431",
+      "C432",
+      "J433",
+      "R441",
+      "R442",
+      "C441",
+      "C442",
+      "J443"
+    ],
+    "optional_probe_refs": [
+      "TP464",
+      "TP465"
+    ],
+    "free_pico_pins": [
+      "22",
+      "24",
+      "31",
+      "32",
+      "34"
+    ],
+    "nc_semantics": "NC = no host-board connection. Does not erase internal Pico/carrier connections.",
+    "singleton_nets_after_scope": [
+      "MUX_S0",
+      "MUX_S1",
+      "VM_SENSE",
+      "I_SENSE",
+      "T_SENSE"
+    ],
+    "comparison": "Filter expected by ref. Singleton expansion-net pins remain physically unwired; preserve their approved logical names. Optional TP464/465 included iff declared in candidate."
+  },
+  "groups": {
+    "drivers": [
+      "U310",
+      "U320",
+      "U330",
+      "U340"
+    ],
+    "driver_bulk": [
+      "C311",
+      "C321",
+      "C331",
+      "C341"
+    ],
+    "driver_bypass": [
+      "C312",
+      "C322",
+      "C332",
+      "C342"
+    ],
+    "coil_connectors": [
+      "J313",
+      "J323",
+      "J333",
+      "J343"
+    ],
+    "electrolytics": [
+      "C106",
+      "C108",
+      "C109",
+      "C311",
+      "C321",
+      "C331",
+      "C341"
+    ],
+    "hot_sources": [
+      "U310",
+      "U320",
+      "U330",
+      "U340",
+      "D103",
+      "U107"
+    ],
+    "vref_parts": [
+      "R209",
+      "R210",
+      "C211"
+    ],
+    "smartnet": [
+      "J202",
+      "J203",
+      "R204",
+      "R205",
+      "D206",
+      "U207",
+      "C208"
+    ],
+    "stop_fault": [
+      "R212",
+      "J213",
+      "R214",
+      "R215"
+    ],
+    "entry": [
+      "J101",
+      "F102",
+      "D103",
+      "J104",
+      "D105",
+      "C106"
+    ],
+    "regulator": [
+      "U107",
+      "C108",
+      "C109",
+      "D110"
+    ],
+    "probe_required": [
+      "TP460",
+      "TP461",
+      "TP462",
+      "TP463",
+      "TP466",
+      "TP467",
+      "TP468",
+      "TP471",
+      "TP472",
+      "TP473",
+      "TP474"
+    ],
+    "socketed": [
+      "U201",
+      "U310",
+      "U320",
+      "U330",
+      "U340"
+    ],
+    "channel1": [
+      "U310",
+      "C311",
+      "C312",
+      "J313",
+      "TP471"
+    ],
+    "channel2": [
+      "U320",
+      "C321",
+      "C322",
+      "J323",
+      "TP472"
+    ],
+    "channel3": [
+      "U330",
+      "C331",
+      "C332",
+      "J333",
+      "TP473"
+    ],
+    "channel4": [
+      "U340",
+      "C341",
+      "C342",
+      "J343",
+      "TP474"
+    ],
+    "all_populated": [
+      "J101",
+      "F102",
+      "D103",
+      "J104",
+      "D105",
+      "C106",
+      "U107",
+      "C108",
+      "C109",
+      "D110",
+      "U201",
+      "J202",
+      "J203",
+      "R204",
+      "R205",
+      "D206",
+      "U207",
+      "C208",
+      "R209",
+      "R210",
+      "C211",
+      "R212",
+      "J213",
+      "R214",
+      "R215",
+      "U310",
+      "C311",
+      "C312",
+      "J313",
+      "U320",
+      "C321",
+      "C322",
+      "J323",
+      "U330",
+      "C331",
+      "C332",
+      "J333",
+      "U340",
+      "C341",
+      "C342",
+      "J343",
+      "TP460",
+      "TP461",
+      "TP462",
+      "TP463",
+      "TP466",
+      "TP467",
+      "TP468",
+      "TP471",
+      "TP472",
+      "TP473",
+      "TP474"
+    ]
+  },
+  "nodes": {
+    "GND_ENTRY": {
+      "net": "GND",
+      "anchor": "C106.2",
+      "meaning": "physical return junction at input bulk negative, with short heavy link to J101.2"
+    },
+    "VM_ENTRY": {
+      "net": "VM",
+      "anchor": "C106.1",
+      "meaning": "switched VM distribution junction; D105 K and J104.2 attach locally"
+    },
+    "GND_LOGIC": {
+      "net": "GND",
+      "anchor": "U107.2",
+      "meaning": "quiet local hub feeding Pico, receiver, divider and control resistors; dedicated return to GND_ENTRY"
+    },
+    "VREF_ROOT": {
+      "net": "VREF",
+      "anchor": "C211.1",
+      "meaning": "single divider/filter junction R209.2/R210.1/C211.1"
+    },
+    "VREF_GND": {
+      "net": "GND",
+      "anchor": "C211.2",
+      "meaning": "divider return R210.2/C211.2, separate branch to GND_LOGIC"
+    }
+  },
+  "sources": {
+    "BRIEF": {
+      "title": "ADHDD perfboard BRIEF",
+      "path": "ユニバーサル基板/BRIEF.md",
+      "location": "Scope, priorities, shared conventions",
+      "access": "opened_local",
+      "confidence": "approved_task_input"
+    },
+    "SPEC": {
+      "title": "HDD instrument specification v0.7",
+      "path": "HDD楽器_仕様書.md",
+      "location": "5.7; 6.1–6.9; 8.1–8.4",
+      "access": "opened_local",
+      "confidence": "approved_circuit_requirements; older PCB process superseded by BRIEF"
+    },
+    "NET": {
+      "title": "Approved logical parts and netlist",
+      "path": "基板/netlist_expected.csv",
+      "related_path": "基板/parts.csv",
+      "location": "original ref/pin_number columns",
+      "access": "opened_local",
+      "confidence": "approved_logical_connectivity; physical fit remains T5 scope"
+    },
+    "TI_DRV": {
+      "title": "TI DRV8874 datasheet, SLVSF66A, Rev. A",
+      "url": "https://www.ti.com/lit/ds/symlink/drv8874.pdf",
+      "location": "6.5 pp.5–7; 9.1 p.30; 10.1 p.31",
+      "access": "opened_primary",
+      "confidence": "verified_primary",
+      "fact": "Local bypass and bulk capacitors should be close; power conductors wide; IC grounds joined on the carrier. Bulk sizing needs system testing."
+    },
+    "TI_LAYOUT": {
+      "title": "TI Best Practices for Board Layout of Motor Drivers, SLVA959B",
+      "url": "https://www.ti.com/lit/an/slva959b/slva959b.pdf",
+      "location": "1.1 pp.3–4; 1.2.1–1.3 pp.5–7; 5 p.19; 6.3.2 pp.27–28",
+      "access": "opened_primary",
+      "confidence": "verified_primary",
+      "fact": "Shared impedance and nearby switching wires can disturb signals. Separate current paths and small high-current loops are useful."
+    },
+    "POLOLU": {
+      "title": "Pololu #4035 DRV8874 carrier",
+      "url": "https://www.pololu.com/product/4035",
+      "location": "Using the motor driver; Pinout; Current limiting; Real-world power dissipation considerations",
+      "access": "opened_primary",
+      "confidence": "verified_primary",
+      "fact": "VIN is the recommended protected input; VM is downstream access. PWM adds heat; handling can burn. Carrier already contains the IC support components."
+    },
+    "POLOLU_WIRE": {
+      "title": "Pololu application note: Dealing with Motor Noise",
+      "url": "https://www.pololu.com/docs/0J15/9",
+      "location": "recommendations 2–4",
+      "access": "opened_primary",
+      "confidence": "verified_primary; wiring principle transferred from brushed motors to switched VCM wiring",
+      "fact": "Short paired/twisted motor leads, separation from signal wires, and local supply capacitance reduce interference. No capacitor across the VCM is proposed here."
+    },
+    "MINMAX": {
+      "title": "MINMAX M78AR-1 datasheet, 2016-11-22 Rev.0",
+      "url": "https://akizukidenshi.com/goodsaffix/m78ar-1.pdf",
+      "location": "model table p.1; input notes and pin connections p.3; Technical Notes p.4",
+      "access": "opened_primary_manufacturer_pdf_on_store",
+      "confidence": "verified_primary",
+      "fact": "M78AR05-1: input 6.5–32 V, output 5 V/1 A, maximum output capacitance 470 uF. Input capacitor goes across input pins; ripple note places a low-ESR capacitor near the load. No numeric lead-distance limit is given."
+    },
+    "PICO_PIN": {
+      "title": "Raspberry Pi Pico 1/Pico 2 official pinout",
+      "url": "https://datasheets.raspberrypi.com/pico/Pico-2-Pinout.pdf",
+      "location": "single-page pin drawing",
+      "access": "opened_primary; diagram cross-checked with indexed rendering and approved NET",
+      "confidence": "verified_primary_pin_labels"
+    },
+    "PICO_DS": {
+      "title": "Raspberry Pi Pico datasheet",
+      "url": "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf",
+      "location": "2.1/2.2 pin descriptions pp.7–8; 4.5 Powering Pico p.20",
+      "access": "primary_search_excerpts_read; full PDF open failed (>10 MiB); direct download unavailable",
+      "confidence": "partial_primary_read_not_full_pdf",
+      "fact": "VSYS 1.8–5.5 V; external power via Schottky to VSYS allows USB power ORing. AGND is ADC reference ground; digital-ground connection is allowed when ADC performance is not critical. Recommended external 3V3 load below 300 mA."
+    },
+    "BOURNS": {
+      "title": "Bourns MF-R PPTC datasheet, Rev.AG",
+      "url": "https://akizukidenshi.com/goodsaffix/mfr.pdf",
+      "location": "electrical table p.1; thermal derating p.3; trip curves p.4",
+      "access": "opened_primary_manufacturer_pdf_on_store",
+      "confidence": "verified_primary",
+      "fact": "MF-R300: 3 A hold at 23 C, 2.49 A at 40 C; initial resistance 0.020–0.050 ohm, post-trip R1 maximum 0.080 ohm. Trip is not instantaneous."
+    },
+    "DIODE": {
+      "title": "Panjit 1N5820–1N5822 datasheet, 2009-03-25",
+      "url": "https://akizukidenshi.com/goodsaffix/1N5822.pdf",
+      "location": "ratings/electrical characteristics p.1; derating and forward curves p.2",
+      "access": "opened_primary_manufacturer_pdf_on_store",
+      "confidence": "verified_primary",
+      "fact": "1N5822: 3 A average under specified lead-temperature conditions; VF maximum 0.525 V at 3 A. Small perfboard solder pads do not reproduce the rating test conditions."
+    },
+    "TVS": {
+      "title": "Panjit P4KE series datasheet, 2022-08-25 Rev.06",
+      "url": "https://akizukidenshi.com/goodsaffix/P4KE.pdf",
+      "location": "p.1 selection note; P4KE15A row p.2",
+      "access": "opened_primary_manufacturer_pdf_on_store",
+      "confidence": "verified_primary",
+      "fact": "P4KE15A: stand-off 12.8 V; breakdown 14.3–15.8 V; clamp 21.2 V at specified 20 A pulse. Wiring inductance can add overshoot."
+    },
+    "ALPHA": {
+      "title": "Alpha Wire Premium 3051",
+      "url": "https://www.alphawire.com/products/wire/hook-up-wire/premium/3051",
+      "location": "Construction and Electrical Properties",
+      "access": "opened_primary",
+      "confidence": "verified_primary",
+      "fact": "22 AWG tinned copper; nominal DCR 16.2 ohm/1000 ft at 20 C, equivalent to 0.05315 ohm/m. This is not an ampacity claim."
+    },
+    "ALPHA_SIZE": {
+      "title": "Alpha Wire Hook-Up Wire Brochure, 2023",
+      "url": "https://www.alphawire.com/-/media/Project/AlphaWire/AlphaWire/Files/Brochures/AL_1998_HUWbro_web-12-2023.pdf?rev=79d6cabfc6834683a0ba2b57af729242",
+      "location": "300 V PVC wire table p.5",
+      "access": "opened_primary",
+      "confidence": "verified_primary",
+      "fact": "Examples: 20 AWG about 0.51 mm2; solid 22 AWG 0.64 mm diameter / 0.32 mm2; solid 24 AWG 0.51 mm / 0.20 mm2. Stranded constructions differ."
+    },
+    "ADAFRUIT": {
+      "title": "Adafruit Pocket PiGRRL — Perma-Proto",
+      "url": "https://learn.adafruit.com/pocket-pigrrl/perma-proto",
+      "location": "Using Half-size Perma-Proto; planning and marking",
+      "access": "opened_primary",
+      "confidence": "verified_primary_example_not_ampacity_standard",
+      "fact": "Plan and mark a prototype board and its power rails. Perma-Proto has internally connected pads; the actual T5 board must have its own pad connectivity model."
+    },
+    "ENG": {
+      "title": "T7 engineering proposals and calculations, 2026-10-22",
+      "path": "ユニバーサル基板/design_rules.md",
+      "location": "Numeric-target policy, current budget, floor plans, and rule catalogue",
+      "access": "authored_analysis",
+      "confidence": "inferred_not_tested",
+      "fact": "All new clearances, wire areas, length limits, voltage-drop budgets, jumper counts, and floor-plan positions are proposed design targets requiring Claude review and physical verification."
+    }
+  },
+  "rule_types": {
+    "connectivity": {
+      "required": [
+        "netlist",
+        "parts",
+        "scope_id",
+        "require_exact",
+        "nc_policy"
+      ]
+    },
+    "near": {
+      "required": [
+        "pairs",
+        "max_holes",
+        "metric"
+      ]
+    },
+    "max_branch_length": {
+      "required": [
+        "pairs",
+        "max_holes",
+        "include_offboard"
+      ]
+    },
+    "min_part_distance": {
+      "required": [
+        "a",
+        "b",
+        "min_holes",
+        "metric",
+        "exclude_same"
+      ]
+    },
+    "keep_apart": {
+      "required": [
+        "a_nets",
+        "b_nets",
+        "b_parts",
+        "min_holes",
+        "metric",
+        "terminal_exceptions"
+      ]
+    },
+    "on_edge": {
+      "required": [
+        "parts",
+        "edges",
+        "max_holes",
+        "feature"
+      ]
+    },
+    "star": {
+      "required": [
+        "net",
+        "root",
+        "branches",
+        "shared_segment_policy",
+        "max_shared_holes"
+      ]
+    },
+    "trunk_gauge": {
+      "required": [
+        "nets",
+        "branch_ids",
+        "design_current_A",
+        "min_copper_mm2",
+        "recommended",
+        "max_drop_V",
+        "drop_scope"
+      ]
+    },
+    "orientation": {
+      "required": [
+        "parts",
+        "mode",
+        "feature",
+        "allowed_degrees",
+        "allowed_edges"
+      ]
+    },
+    "accessible": {
+      "required": [
+        "targets",
+        "feature",
+        "clearance_holes",
+        "approach",
+        "include_wires"
+      ]
+    },
+    "group": {
+      "required": [
+        "parts",
+        "max_span_holes",
+        "metric"
+      ]
+    },
+    "order": {
+      "required": [
+        "sequence",
+        "axis",
+        "allow_reverse"
+      ]
+    },
+    "max_jumpers": {
+      "required": [
+        "max_count",
+        "count_policy",
+        "exclude_offboard"
+      ]
+    },
+    "routing": {
+      "required": [
+        "check"
+      ],
+      "checks": {
+        "no_bare_crossings": [
+          "nets",
+          "same_net_junctions_must_be_declared",
+          "through_hole_pad_connects_both_sides",
+          "include_component_leads"
+        ],
+        "bare_clearance": [
+          "nets",
+          "min_surface_clearance_mm",
+          "include_pads_leads_solder",
+          "exclude_same_net"
+        ],
+        "paired_power_paths": [
+          "pairs",
+          "max_centre_separation_holes",
+          "preferred_surface",
+          "terminal_escape_holes"
+        ],
+        "paired_outputs": [
+          "channel_pairs",
+          "max_centre_separation_holes",
+          "terminal_escape_holes",
+          "include_offboard"
+        ],
+        "straight_power_trunks": [
+          "nets",
+          "branch_ids",
+          "max_bends_per_trunk",
+          "preferred_surface",
+          "material"
+        ],
+        "signal_bends": [
+          "nets",
+          "max_bends_per_branch",
+          "preferred_surface",
+          "preferred_material"
+        ],
+        "wire_support": [
+          "nets",
+          "max_unsupported_bare_span_holes",
+          "allow_anchor_to_same_net_pad",
+          "allow_nonconductive_support",
+          "minimum_bottom_standoff_mm"
+        ]
+      }
+    },
+    "mounting": {
+      "required": [
+        "count",
+        "hole_diameter_mm_min",
+        "hole_diameter_mm_max",
+        "hardware_keepout_radius_mm",
+        "routing_keepout_radius_mm",
+        "min_centre_to_board_edge_mm",
+        "include_both_sides"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "C01",
+      "type": "connectivity",
+      "params": {
+        "netlist": "基板/netlist_expected.csv",
+        "parts": "基板/parts.csv",
+        "scope_id": "main_minus_scaffold",
+        "require_exact": true,
+        "nc_policy": "no_host_board_connection"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "connectivity",
+      "priority": 1,
+      "rationale": "A short/open, using carrier VM instead of VIN, or a bypassed isolation diode defeats the approved circuit.",
+      "source": [
+        "BRIEF",
+        "NET"
+      ],
+      "basis": "approved_requirement"
+    },
+    {
+      "id": "C02",
+      "type": "routing",
+      "params": {
+        "check": "no_bare_crossings",
+        "nets": "all",
+        "same_net_junctions_must_be_declared": true,
+        "through_hole_pad_connects_both_sides": true,
+        "include_component_leads": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 1,
+      "rationale": "Every physical contact is an electrical junction; crossing layers at a plated pad can still short.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "C03",
+      "type": "routing",
+      "params": {
+        "check": "bare_clearance",
+        "nets": "all",
+        "min_surface_clearance_mm": 0.5,
+        "include_pads_leads_solder": true,
+        "exclude_same_net": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 1,
+      "rationale": "A 0.5 mm physical margin allows for bent wire and solder spread at low voltage; it is a workmanship target.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "M01",
+      "type": "min_part_distance",
+      "params": {
+        "a": "all_populated",
+        "b": "all_populated",
+        "min_holes": 0.4,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Allow at least 1.016 mm between unrelated bodies/sockets; no stacking or hidden fouling.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "M02",
+      "type": "mounting",
+      "params": {
+        "count": 4,
+        "hole_diameter_mm_min": 3.2,
+        "hole_diameter_mm_max": 3.5,
+        "hardware_keepout_radius_mm": 4.5,
+        "routing_keepout_radius_mm": 5.08,
+        "min_centre_to_board_edge_mm": 5.08,
+        "include_both_sides": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Four M3 mounts need screw/washer/tool room and a copper-free margin; radii include holes, pads and bare wire.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M03",
+      "type": "accessible",
+      "params": {
+        "targets": [
+          "U201"
+        ],
+        "feature": "usb_mouth",
+        "clearance_holes": 8,
+        "approach": "outward",
+        "include_wires": true,
+        "corridor_width_mm": 12
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Reserve 20.32 mm outward cable/plug approach with at least 12 mm corridor width; actual plug may require more.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M04",
+      "type": "accessible",
+      "params": {
+        "targets": [
+          "U201"
+        ],
+        "feature": "bootsel_button",
+        "clearance_holes": 2,
+        "approach": "top",
+        "include_wires": true,
+        "vertical_clearance_mm": 20
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "BOOTSEL must be pressable with modules inserted; a 10.16 mm diameter free top approach is proposed.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M05",
+      "type": "accessible",
+      "params": {
+        "targets": [
+          "@socketed"
+        ],
+        "feature": "module_grip",
+        "clearance_holes": 2,
+        "approach": "two_sides",
+        "include_wires": true,
+        "vertical_clearance_mm": 25
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Socketed modules must lift out without bending nearby wires; reserve two opposite grip sides, with power removed.",
+      "source": [
+        "BRIEF",
+        "POLOLU",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M06",
+      "type": "accessible",
+      "params": {
+        "targets": [
+          "J101",
+          "J202",
+          "J203",
+          "J104",
+          "J213",
+          "J313",
+          "J323",
+          "J333",
+          "J343"
+        ],
+        "feature": "mating_and_latch",
+        "clearance_holes": 2,
+        "approach": "outward",
+        "include_wires": true,
+        "vertical_clearance_mm": 20
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Plugs, latch fingers and panel harnesses need a clear exit; include the actual T5 connector mating envelope.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M07",
+      "type": "on_edge",
+      "params": {
+        "parts": [
+          "J101"
+        ],
+        "edges": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "max_holes": 1,
+        "feature": "mating_face"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Edge access keeps cable loads and connector manipulation outside the component field.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M08",
+      "type": "on_edge",
+      "params": {
+        "parts": [
+          "J202",
+          "J203",
+          "J313",
+          "J323",
+          "J333",
+          "J343",
+          "J104",
+          "J213"
+        ],
+        "edges": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "max_holes": 2,
+        "feature": "mating_face"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Edge access keeps cable loads and connector manipulation outside the component field.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M09",
+      "type": "on_edge",
+      "params": {
+        "parts": [
+          "U201"
+        ],
+        "edges": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "max_holes": 2,
+        "feature": "usb_mouth"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Keep the USB mouth within 5.08 mm of an edge while satisfying the full cable corridor.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M10",
+      "type": "orientation",
+      "params": {
+        "parts": [
+          "U201"
+        ],
+        "mode": "feature_faces_edge",
+        "feature": "usb_axis",
+        "allowed_degrees": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "allowed_edges": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "USB must face the edge to which its unobstructed corridor exits.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M11",
+      "type": "orientation",
+      "params": {
+        "parts": [
+          "U310",
+          "U320",
+          "U330",
+          "U340"
+        ],
+        "mode": "same_rotation",
+        "feature": "carrier_top_view",
+        "allowed_degrees": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "allowed_edges": []
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Repeat identical socket/pin order on all four channels to reduce assembly mistakes; no mirrored carriers.",
+      "source": [
+        "BRIEF",
+        "NET",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M12",
+      "type": "accessible",
+      "params": {
+        "targets": [
+          "@probe_required"
+        ],
+        "feature": "probe_tip",
+        "clearance_holes": 1,
+        "approach": "top",
+        "include_wires": true,
+        "vertical_clearance_mm": 20
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "A probe must reach each labelled point without removing modules or contacting adjacent voltage nodes.",
+      "source": [
+        "SPEC",
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "M13",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "TP471.1",
+            "b": "U310.8"
+          },
+          {
+            "a": "TP472.1",
+            "b": "U320.8"
+          },
+          {
+            "a": "TP473.1",
+            "b": "U330.8"
+          },
+          {
+            "a": "TP474.1",
+            "b": "U340.8"
+          }
+        ],
+        "max_holes": 3,
+        "metric": "manhattan_pin"
+      },
+      "severity": "soft",
+      "weight": 3,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Keep each CS probe local; the omitted ADC scaffold does not justify long floating analogue stubs.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "H01",
+      "type": "min_part_distance",
+      "params": {
+        "a": "@drivers",
+        "b": "@drivers",
+        "min_holes": 3,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "At least 7.62 mm body-edge gap supports convection and module handling; verify temperature in the enclosure.",
+      "source": [
+        "SPEC",
+        "POLOLU",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "H02",
+      "type": "min_part_distance",
+      "params": {
+        "a": "@drivers",
+        "b": "@drivers",
+        "min_holes": 4,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "soft",
+      "weight": 5,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Prefer 10.16 mm gaps where board area permits.",
+      "source": [
+        "POLOLU",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "H03",
+      "type": "min_part_distance",
+      "params": {
+        "a": "D103",
+        "b": [
+          "F102",
+          "C106",
+          "C108",
+          "C109",
+          "C311",
+          "C321",
+          "C331",
+          "C341"
+        ],
+        "min_holes": 4,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Separate the roughly 1–1.4 W series diode from PPTC and electrolytic bodies by at least 10.16 mm.",
+      "source": [
+        "SPEC",
+        "DIODE",
+        "BOURNS",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "H04",
+      "type": "min_part_distance",
+      "params": {
+        "a": "U107",
+        "b": "F102",
+        "min_holes": 3,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Do not warm the temperature-sensitive PPTC with the switching regulator.",
+      "source": [
+        "BOURNS",
+        "MINMAX",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "H05",
+      "type": "min_part_distance",
+      "params": {
+        "a": "@drivers",
+        "b": "F102",
+        "min_holes": 4,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Keep the PPTC outside the motor-driver heat zone.",
+      "source": [
+        "BOURNS",
+        "POLOLU",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "H06",
+      "type": "min_part_distance",
+      "params": {
+        "a": "@drivers",
+        "b": "@electrolytics",
+        "min_holes": 1,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Leave at least 2.54 mm air gap; put local capacitors beside the VIN corner, not above a hot carrier.",
+      "source": [
+        "SPEC",
+        "POLOLU",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "H07",
+      "type": "min_part_distance",
+      "params": {
+        "a": "U107",
+        "b": [
+          "C106",
+          "C108",
+          "C109"
+        ],
+        "min_holes": 1,
+        "metric": "body_edge_euclidean",
+        "exclude_same": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Maintain a 2.54 mm body gap while keeping regulator capacitor leads short.",
+      "source": [
+        "MINMAX",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P01",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "D105.1",
+            "b": "J104.2"
+          },
+          {
+            "a": "D105.2",
+            "b": "$GND_ENTRY"
+          },
+          {
+            "a": "C106.1",
+            "b": "J104.2"
+          },
+          {
+            "a": "J101.2",
+            "b": "$GND_ENTRY"
+          }
+        ],
+        "max_holes": 6,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Keep the switched protection/bulk cluster physically at the supply entry; TVS remains on VM, after the panel switch.",
+      "source": [
+        "SPEC",
+        "NET",
+        "TVS",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P02",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "D105.1",
+            "b": "$VM_ENTRY"
+          },
+          {
+            "a": "D105.2",
+            "b": "$GND_ENTRY"
+          }
+        ],
+        "max_holes": 3,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Each TVS attachment is at most 7.62 mm of external conductor; long leads weaken the clamp through inductance.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "TVS",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P03",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "J104.2",
+            "b": "$VM_ENTRY"
+          },
+          {
+            "a": "J101.2",
+            "b": "$GND_ENTRY"
+          }
+        ],
+        "max_holes": 6,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Limit entry positive/return attachment to 15.24 mm each; no long spur from a distant trunk to the entry capacitor.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P04",
+      "type": "group",
+      "params": {
+        "parts": [
+          "J101",
+          "F102",
+          "D103",
+          "J104",
+          "D105",
+          "C106"
+        ],
+        "max_span_holes": 24,
+        "metric": "pin_bbox_max_dimension"
+      },
+      "severity": "soft",
+      "weight": 3,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Keep the entry circuitry in one 60.96 mm block without violating diode/PTC heat clearance.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P05",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "C312.1",
+            "b": "U310.14"
+          },
+          {
+            "a": "C312.2",
+            "b": "U310.13"
+          },
+          {
+            "a": "C322.1",
+            "b": "U320.14"
+          },
+          {
+            "a": "C322.2",
+            "b": "U320.13"
+          },
+          {
+            "a": "C332.1",
+            "b": "U330.14"
+          },
+          {
+            "a": "C332.2",
+            "b": "U330.13"
+          },
+          {
+            "a": "C342.1",
+            "b": "U340.14"
+          },
+          {
+            "a": "C342.2",
+            "b": "U340.13"
+          }
+        ],
+        "max_holes": 2,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "100 nF terminals within 5.08 mm Manhattan distance of carrier VIN and adjacent power GND.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "POLOLU",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P06",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "C312.1",
+            "b": "U310.14"
+          },
+          {
+            "a": "C312.2",
+            "b": "U310.13"
+          },
+          {
+            "a": "C322.1",
+            "b": "U320.14"
+          },
+          {
+            "a": "C322.2",
+            "b": "U320.13"
+          },
+          {
+            "a": "C332.1",
+            "b": "U330.14"
+          },
+          {
+            "a": "C332.2",
+            "b": "U330.13"
+          },
+          {
+            "a": "C342.1",
+            "b": "U340.14"
+          },
+          {
+            "a": "C342.2",
+            "b": "U340.13"
+          }
+        ],
+        "max_holes": 2,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Limit each external 100 nF lead/wire path to 5.08 mm; the carrier already handles IC charge-pump bypassing.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P07",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "C312.1",
+            "b": "U310.14"
+          },
+          {
+            "a": "C312.2",
+            "b": "U310.13"
+          },
+          {
+            "a": "C322.1",
+            "b": "U320.14"
+          },
+          {
+            "a": "C322.2",
+            "b": "U320.13"
+          },
+          {
+            "a": "C332.1",
+            "b": "U330.14"
+          },
+          {
+            "a": "C332.2",
+            "b": "U330.13"
+          },
+          {
+            "a": "C342.1",
+            "b": "U340.14"
+          },
+          {
+            "a": "C342.2",
+            "b": "U340.13"
+          }
+        ],
+        "max_holes": 1,
+        "metric": "manhattan_pin"
+      },
+      "severity": "soft",
+      "weight": 8,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Prefer directly adjacent holes (2.54 mm each external connection).",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P08",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "C311.1",
+            "b": "U310.14"
+          },
+          {
+            "a": "C311.2",
+            "b": "U310.13"
+          },
+          {
+            "a": "C321.1",
+            "b": "U320.14"
+          },
+          {
+            "a": "C321.2",
+            "b": "U320.13"
+          },
+          {
+            "a": "C331.1",
+            "b": "U330.14"
+          },
+          {
+            "a": "C331.2",
+            "b": "U330.13"
+          },
+          {
+            "a": "C341.1",
+            "b": "U340.14"
+          },
+          {
+            "a": "C341.2",
+            "b": "U340.13"
+          }
+        ],
+        "max_holes": 6,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Keep both local 470 uF connections within 15.24 mm of VIN/GND; body clearance is evaluated separately.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P09",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "C311.1",
+            "b": "U310.14"
+          },
+          {
+            "a": "C311.2",
+            "b": "U310.13"
+          },
+          {
+            "a": "C321.1",
+            "b": "U320.14"
+          },
+          {
+            "a": "C321.2",
+            "b": "U320.13"
+          },
+          {
+            "a": "C331.1",
+            "b": "U330.14"
+          },
+          {
+            "a": "C331.2",
+            "b": "U330.13"
+          },
+          {
+            "a": "C341.1",
+            "b": "U340.14"
+          },
+          {
+            "a": "C341.2",
+            "b": "U340.13"
+          }
+        ],
+        "max_holes": 6,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Each bulk-capacitor connection is at most 15.24 mm and goes directly to its channel supply node.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P10",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "C311.1",
+            "b": "U310.14"
+          },
+          {
+            "a": "C311.2",
+            "b": "U310.13"
+          },
+          {
+            "a": "C321.1",
+            "b": "U320.14"
+          },
+          {
+            "a": "C321.2",
+            "b": "U320.13"
+          },
+          {
+            "a": "C331.1",
+            "b": "U330.14"
+          },
+          {
+            "a": "C331.2",
+            "b": "U330.13"
+          },
+          {
+            "a": "C341.1",
+            "b": "U340.14"
+          },
+          {
+            "a": "C341.2",
+            "b": "U340.13"
+          }
+        ],
+        "max_holes": 3,
+        "include_offboard": false
+      },
+      "severity": "soft",
+      "weight": 6,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Prefer 7.62 mm bulk connections when the can and grip clearances allow.",
+      "source": [
+        "TI_DRV",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P11",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "U310.12",
+            "b": "J313.1"
+          },
+          {
+            "a": "U310.11",
+            "b": "J313.2"
+          },
+          {
+            "a": "U320.12",
+            "b": "J323.1"
+          },
+          {
+            "a": "U320.11",
+            "b": "J323.2"
+          },
+          {
+            "a": "U330.12",
+            "b": "J333.1"
+          },
+          {
+            "a": "U330.11",
+            "b": "J333.2"
+          },
+          {
+            "a": "U340.12",
+            "b": "J343.1"
+          },
+          {
+            "a": "U340.11",
+            "b": "J343.2"
+          }
+        ],
+        "max_holes": 4,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Each coil connector terminal is within 10.16 mm of its corresponding OUT pin.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P12",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "U310.12",
+            "b": "J313.1"
+          },
+          {
+            "a": "U310.11",
+            "b": "J313.2"
+          },
+          {
+            "a": "U320.12",
+            "b": "J323.1"
+          },
+          {
+            "a": "U320.11",
+            "b": "J323.2"
+          },
+          {
+            "a": "U330.12",
+            "b": "J333.1"
+          },
+          {
+            "a": "U330.11",
+            "b": "J333.2"
+          },
+          {
+            "a": "U340.12",
+            "b": "J343.1"
+          },
+          {
+            "a": "U340.11",
+            "b": "J343.2"
+          }
+        ],
+        "max_holes": 4,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Keep board-side OUT leads at most 10.16 mm each; output wiring stays at the perimeter.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P13",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "C108.1",
+            "b": "U107.1"
+          },
+          {
+            "a": "C108.2",
+            "b": "U107.2"
+          },
+          {
+            "a": "C109.1",
+            "b": "U107.3"
+          },
+          {
+            "a": "C109.2",
+            "b": "U107.2"
+          }
+        ],
+        "max_holes": 4,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Put the specified 100 uF input/output capacitors within 10.16 mm pin distance of the converter.",
+      "source": [
+        "SPEC",
+        "MINMAX",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P14",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "C108.1",
+            "b": "U107.1"
+          },
+          {
+            "a": "C108.2",
+            "b": "U107.2"
+          },
+          {
+            "a": "C109.1",
+            "b": "U107.3"
+          },
+          {
+            "a": "C109.2",
+            "b": "U107.2"
+          }
+        ],
+        "max_holes": 4,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Each converter capacitor attachment is at most 10.16 mm; this numeric limit is a perfboard proposal.",
+      "source": [
+        "SPEC",
+        "MINMAX",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P15",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "C208.1",
+            "b": "U207.5"
+          },
+          {
+            "a": "C208.2",
+            "b": "U207.3"
+          }
+        ],
+        "max_holes": 2,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Receiver bypass should be at its supply pins, including any SOT-23 adapter routing.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "P16",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "C208.1",
+            "b": "U207.5"
+          },
+          {
+            "a": "C208.2",
+            "b": "U207.3"
+          }
+        ],
+        "max_holes": 3,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Allow at most 7.62 mm including the SMD conversion board; use an adapter-local capacitor if necessary.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "G01",
+      "type": "star",
+      "params": {
+        "net": "GND",
+        "root": "$GND_ENTRY",
+        "branches": [
+          {
+            "id": "POWER_RETURN",
+            "endpoints": [
+              "U310.13",
+              "U320.13",
+              "U330.13",
+              "U340.13",
+              "U310.2",
+              "U320.2",
+              "U330.2",
+              "U340.2",
+              "C311.2",
+              "C321.2",
+              "C331.2",
+              "C341.2",
+              "C312.2",
+              "C322.2",
+              "C332.2",
+              "C342.2"
+            ]
+          },
+          {
+            "id": "LOGIC_RETURN",
+            "endpoints": [
+              "$GND_LOGIC"
+            ]
+          },
+          {
+            "id": "TVS_RETURN",
+            "endpoints": [
+              "D105.2"
+            ]
+          },
+          {
+            "id": "INPUT_RETURN",
+            "endpoints": [
+              "J101.2"
+            ]
+          }
+        ],
+        "shared_segment_policy": "within_branch_only",
+        "max_shared_holes": 0
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Motor returns get their own heavy distribution branch; no driver return segment may lie in the converter/Pico/divider supply-return branch.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "G02",
+      "type": "star",
+      "params": {
+        "net": "GND",
+        "root": "$GND_LOGIC",
+        "branches": [
+          {
+            "id": "PICO_RETURN",
+            "endpoints": [
+              "U201.3",
+              "U201.8",
+              "U201.13",
+              "U201.18",
+              "U201.23",
+              "U201.28",
+              "U201.33",
+              "U201.38"
+            ]
+          },
+          {
+            "id": "VREF_RETURN",
+            "endpoints": [
+              "$VREF_GND",
+              "R210.2"
+            ]
+          },
+          {
+            "id": "RECEIVER_RETURN",
+            "endpoints": [
+              "U207.1",
+              "U207.3",
+              "C208.2",
+              "J202.2",
+              "J203.2"
+            ]
+          },
+          {
+            "id": "CONTROL_RETURN",
+            "endpoints": [
+              "R214.2"
+            ]
+          },
+          {
+            "id": "REGULATOR_CAP_RETURN",
+            "endpoints": [
+              "C108.2",
+              "C109.2"
+            ]
+          }
+        ],
+        "shared_segment_policy": "within_branch_only",
+        "max_shared_holes": 0
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Use a local low-current hub; connect AGND33 to this quiet Pico ground network, never use it as a motor-current return.",
+      "source": [
+        "SPEC",
+        "NET",
+        "PICO_PIN",
+        "PICO_DS",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "G03",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "U310.2",
+            "b": "U310.13"
+          },
+          {
+            "a": "U320.2",
+            "b": "U320.13"
+          },
+          {
+            "a": "U330.2",
+            "b": "U330.13"
+          },
+          {
+            "a": "U340.2",
+            "b": "U340.13"
+          }
+        ],
+        "max_holes": 7,
+        "include_offboard": false,
+        "net": "GND"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Both carrier GND socket pins join locally in <=17.78 mm; never isolate the carrier signal GND from its power GND.",
+      "source": [
+        "NET",
+        "TI_DRV",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "V01",
+      "type": "star",
+      "params": {
+        "net": "VREF",
+        "root": "$VREF_ROOT",
+        "branches": [
+          {
+            "id": "VREF_CH1",
+            "endpoints": [
+              "U310.7"
+            ]
+          },
+          {
+            "id": "VREF_CH2",
+            "endpoints": [
+              "U320.7"
+            ]
+          },
+          {
+            "id": "VREF_CH3",
+            "endpoints": [
+              "U330.7"
+            ]
+          },
+          {
+            "id": "VREF_CH4",
+            "endpoints": [
+              "U340.7"
+            ]
+          },
+          {
+            "id": "VREF_SOURCE",
+            "endpoints": [
+              "R209.2",
+              "R210.1",
+              "TP466.1"
+            ]
+          }
+        ],
+        "shared_segment_policy": "within_branch_only",
+        "max_shared_holes": 0
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Four individual branches start at the divider/filter junction; a daisy chain makes later channels depend on earlier wiring joints.",
+      "source": [
+        "SPEC",
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "approved_requirement"
+    },
+    {
+      "id": "V02",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "R209.2",
+            "b": "$VREF_ROOT"
+          },
+          {
+            "a": "R210.1",
+            "b": "$VREF_ROOT"
+          },
+          {
+            "a": "R210.2",
+            "b": "$VREF_GND"
+          }
+        ],
+        "max_holes": 2,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "The 220 nF filter and both divider junctions form one compact source; no ground detour through a channel.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "V03",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "R209.2",
+            "b": "$VREF_ROOT"
+          },
+          {
+            "a": "R210.1",
+            "b": "$VREF_ROOT"
+          },
+          {
+            "a": "R210.2",
+            "b": "$VREF_GND"
+          }
+        ],
+        "max_holes": 2,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Limit each divider/filter junction attachment to 5.08 mm.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "V04",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "$VREF_ROOT",
+            "b": "U310.7"
+          },
+          {
+            "a": "$VREF_ROOT",
+            "b": "U320.7"
+          },
+          {
+            "a": "$VREF_ROOT",
+            "b": "U330.7"
+          },
+          {
+            "a": "$VREF_ROOT",
+            "b": "U340.7"
+          }
+        ],
+        "max_holes": 40,
+        "include_offboard": false,
+        "net": "VREF"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "A 101.6 mm absolute branch ceiling fits a central divider and avoids long high-impedance loops; it is not an EMI guarantee.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "V05",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "$VREF_ROOT",
+            "b": "U310.7"
+          },
+          {
+            "a": "$VREF_ROOT",
+            "b": "U320.7"
+          },
+          {
+            "a": "$VREF_ROOT",
+            "b": "U330.7"
+          },
+          {
+            "a": "$VREF_ROOT",
+            "b": "U340.7"
+          }
+        ],
+        "max_holes": 25,
+        "include_offboard": false,
+        "net": "VREF"
+      },
+      "severity": "soft",
+      "weight": 7,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Prefer branches <=63.5 mm; put the divider centrally behind the driver row.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S01",
+      "type": "keep_apart",
+      "params": {
+        "a_nets": [
+          "VREF",
+          "SLEEP",
+          "FAULT",
+          "SN_BUS",
+          "SN_RX_IN",
+          "SN_PU",
+          "UART_RX",
+          "ARM",
+          "ARM_SW"
+        ],
+        "b_nets": [
+          "HDD1_OUT1",
+          "HDD1_OUT2",
+          "HDD2_OUT1",
+          "HDD2_OUT2",
+          "HDD3_OUT1",
+          "HDD3_OUT2",
+          "HDD4_OUT1",
+          "HDD4_OUT2"
+        ],
+        "b_parts": [
+          "J313",
+          "J323",
+          "J333",
+          "J343"
+        ],
+        "min_holes": 2,
+        "metric": "planar_edge",
+        "terminal_exceptions": [
+          {
+            "pin": "U310.9",
+            "radius_holes": 2
+          },
+          {
+            "pin": "U320.9",
+            "radius_holes": 2
+          },
+          {
+            "pin": "U330.9",
+            "radius_holes": 2
+          },
+          {
+            "pin": "U340.9",
+            "radius_holes": 2
+          }
+        ]
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Keep sensitive/stop/receiver wires at least 5.08 mm from switched outputs and coil connector bodies; only the FAULT pin escape is exempt.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "S02",
+      "type": "keep_apart",
+      "params": {
+        "a_nets": [
+          "VREF"
+        ],
+        "b_nets": [
+          "HDD1_OUT1",
+          "HDD1_OUT2",
+          "HDD2_OUT1",
+          "HDD2_OUT2",
+          "HDD3_OUT1",
+          "HDD3_OUT2",
+          "HDD4_OUT1",
+          "HDD4_OUT2"
+        ],
+        "b_parts": [
+          "J313",
+          "J323",
+          "J333",
+          "J343"
+        ],
+        "min_holes": 3,
+        "metric": "planar_edge",
+        "terminal_exceptions": []
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Give the common current-limit reference at least 7.62 mm output separation with no long parallel run.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "S03",
+      "type": "keep_apart",
+      "params": {
+        "a_nets": [
+          "VREF",
+          "SLEEP",
+          "FAULT",
+          "SN_BUS",
+          "SN_RX_IN",
+          "SN_PU",
+          "UART_RX",
+          "ARM",
+          "ARM_SW"
+        ],
+        "b_nets": [
+          "HDD1_OUT1",
+          "HDD1_OUT2",
+          "HDD2_OUT1",
+          "HDD2_OUT2",
+          "HDD3_OUT1",
+          "HDD3_OUT2",
+          "HDD4_OUT1",
+          "HDD4_OUT2"
+        ],
+        "b_parts": [
+          "J313",
+          "J323",
+          "J333",
+          "J343"
+        ],
+        "min_holes": 4,
+        "metric": "planar_edge",
+        "terminal_exceptions": [
+          {
+            "pin": "U310.9",
+            "radius_holes": 2
+          },
+          {
+            "pin": "U320.9",
+            "radius_holes": 2
+          },
+          {
+            "pin": "U330.9",
+            "radius_holes": 2
+          },
+          {
+            "pin": "U340.9",
+            "radius_holes": 2
+          }
+        ]
+      },
+      "severity": "soft",
+      "weight": 5,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Prefer 10.16 mm between control wiring and OUT zones.",
+      "source": [
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S04",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "U201.4",
+            "b": "U310.3"
+          },
+          {
+            "a": "U201.5",
+            "b": "U310.4"
+          },
+          {
+            "a": "U201.6",
+            "b": "U320.3"
+          },
+          {
+            "a": "U201.7",
+            "b": "U320.4"
+          },
+          {
+            "a": "U201.9",
+            "b": "U330.3"
+          },
+          {
+            "a": "U201.10",
+            "b": "U330.4"
+          },
+          {
+            "a": "U201.11",
+            "b": "U340.3"
+          },
+          {
+            "a": "U201.12",
+            "b": "U340.4"
+          }
+        ],
+        "max_holes": 60,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Cap each Pico GP2–GP9 PWM path at 152.4 mm on the chosen standard-size board; no external PWM harness.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S05",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "U201.4",
+            "b": "U310.3"
+          },
+          {
+            "a": "U201.5",
+            "b": "U310.4"
+          },
+          {
+            "a": "U201.6",
+            "b": "U320.3"
+          },
+          {
+            "a": "U201.7",
+            "b": "U320.4"
+          },
+          {
+            "a": "U201.9",
+            "b": "U330.3"
+          },
+          {
+            "a": "U201.10",
+            "b": "U330.4"
+          },
+          {
+            "a": "U201.11",
+            "b": "U340.3"
+          },
+          {
+            "a": "U201.12",
+            "b": "U340.4"
+          }
+        ],
+        "max_holes": 35,
+        "include_offboard": false
+      },
+      "severity": "soft",
+      "weight": 5,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Prefer PWM paths <=88.9 mm; match channel order to the physical Pico pin order.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S06",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "R214.1",
+            "b": "U201.21"
+          },
+          {
+            "a": "R214.1",
+            "b": "U310.6"
+          },
+          {
+            "a": "R214.1",
+            "b": "U320.6"
+          },
+          {
+            "a": "R214.1",
+            "b": "U330.6"
+          },
+          {
+            "a": "R214.1",
+            "b": "U340.6"
+          },
+          {
+            "a": "R215.2",
+            "b": "U201.20"
+          },
+          {
+            "a": "R215.2",
+            "b": "U310.9"
+          },
+          {
+            "a": "R215.2",
+            "b": "U320.9"
+          },
+          {
+            "a": "R215.2",
+            "b": "U330.9"
+          },
+          {
+            "a": "R215.2",
+            "b": "U340.9"
+          }
+        ],
+        "max_holes": 80,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Bound on-board SLEEP/FAULT paths to 203.2 mm. No equal-length requirement; avoid perimeter detours.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S07",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "R214.1",
+            "b": "J213.2"
+          },
+          {
+            "a": "R215.2",
+            "b": "U201.20"
+          }
+        ],
+        "max_holes": 6,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Put the external stop pull-down on the board at the bus origin; put FAULT pull-up near the Pico receiver.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S08",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "R214.1",
+            "b": "J213.2"
+          }
+        ],
+        "max_holes": 6,
+        "include_offboard": false,
+        "net": "SLEEP"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "The stop pull-down must remain on the driver side of an unplugged panel harness.",
+      "source": [
+        "SPEC",
+        "NET",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S09",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "J202.1",
+            "b": "J203.1"
+          }
+        ],
+        "max_holes": 6,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "Keep pass-through connectors together, before the receiver series resistor.",
+      "source": [
+        "SPEC",
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S10",
+      "type": "near",
+      "params": {
+        "pairs": [
+          {
+            "a": "J202.1",
+            "b": "R204.1"
+          },
+          {
+            "a": "R204.2",
+            "b": "U207.2"
+          }
+        ],
+        "max_holes": 4,
+        "metric": "manhattan_pin"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "The series resistor and powered-off-tolerant receiver belong at the UART entry, not at the far end of a long bus stub.",
+      "source": [
+        "SPEC",
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S11",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "J202.1",
+            "b": "R204.1"
+          },
+          {
+            "a": "R204.2",
+            "b": "U207.2"
+          }
+        ],
+        "max_holes": 6,
+        "include_offboard": false
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Each UART receiver input attachment <=15.24 mm, including conversion-board conductors.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S12",
+      "type": "max_branch_length",
+      "params": {
+        "pairs": [
+          {
+            "a": "U207.4",
+            "b": "U201.2"
+          }
+        ],
+        "max_holes": 40,
+        "include_offboard": false,
+        "net": "UART_RX"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Keep buffered UART RX on-board and <=101.6 mm; route through the quiet corridor.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "S13",
+      "type": "group",
+      "params": {
+        "parts": [
+          "R204",
+          "R205",
+          "D206",
+          "U207",
+          "C208"
+        ],
+        "max_span_holes": 12,
+        "metric": "pin_bbox_max_dimension"
+      },
+      "severity": "soft",
+      "weight": 4,
+      "stage": "placement",
+      "priority": 2,
+      "rationale": "A <=30.48 mm receiver cluster remains easy to inspect and prevents a long unprotected stub.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "W01",
+      "type": "trunk_gauge",
+      "params": {
+        "nets": [
+          "VIN_RAW",
+          "VIN_FUSED",
+          "VIN_PROT",
+          "VM"
+        ],
+        "branch_ids": [
+          "ENTRY_SERIES",
+          "POWER_SWITCH_HARNESS",
+          "VM_TRUNK"
+        ],
+        "design_current_A": 2.6,
+        "min_copper_mm2": 0.5,
+        "recommended": "Prefer solid tinned copper diameter 1.0 mm (0.785 mm2); minimum solid 0.8 mm (0.503 mm2) or insulated AWG20. Use stranded AWG20 for the panel harness.",
+        "max_drop_V": 0.13,
+        "drop_scope": "sum_of_common_positive_wires_and_switch_contacts_J101_to_channel_tap_excluding_PTC_and_D103"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Size every common supply conductor for 2.6 A continuously; the current is not restricted to a brief peak.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ALPHA",
+        "ALPHA_SIZE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "W02",
+      "type": "trunk_gauge",
+      "params": {
+        "nets": [
+          "GND"
+        ],
+        "branch_ids": [
+          "INPUT_RETURN",
+          "POWER_RETURN_TRUNK"
+        ],
+        "design_current_A": 2.6,
+        "min_copper_mm2": 0.5,
+        "recommended": "Prefer diameter 1.0 mm tinned copper; minimum 0.8 mm or insulated AWG20.",
+        "max_drop_V": 0.03,
+        "drop_scope": "common_motor_return_from_channel_tap_to_J101_sleeve"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "The ground trunk has the same current duty as VM, including pulsed recirculation at local branches.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ALPHA",
+        "ALPHA_SIZE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "W03",
+      "type": "trunk_gauge",
+      "params": {
+        "nets": [
+          "VM",
+          "GND",
+          "HDD1_OUT1",
+          "HDD1_OUT2",
+          "HDD2_OUT1",
+          "HDD2_OUT2",
+          "HDD3_OUT1",
+          "HDD3_OUT2",
+          "HDD4_OUT1",
+          "HDD4_OUT2"
+        ],
+        "branch_ids": [
+          "DRIVER_CH1",
+          "DRIVER_CH2",
+          "DRIVER_CH3",
+          "DRIVER_CH4"
+        ],
+        "design_current_A": 0.61,
+        "min_copper_mm2": 0.28,
+        "recommended": "0.6 mm solid tinned copper (0.283 mm2) minimum; prefer 0.64 mm / AWG22 (about 0.326 mm2). Coil cable AWG22 stranded, paired.",
+        "max_drop_V": 0.02,
+        "drop_scope": "each_one_way_channel_feed_return_or_board_OUT_branch; coil_harness_has_separate_budget"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Each channel conductor must carry 0.6 A coil current plus driver overhead without relying on solder bridges.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ALPHA",
+        "ALPHA_SIZE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "W04",
+      "type": "trunk_gauge",
+      "params": {
+        "nets": [
+          "VM",
+          "GND"
+        ],
+        "branch_ids": [
+          "LOGIC_RETURN",
+          "REGULATOR_VM"
+        ],
+        "design_current_A": 0.12,
+        "min_copper_mm2": 0.2,
+        "recommended": "0.51 mm / AWG24 copper or thicker; use a distinct pair to the entry.",
+        "max_drop_V": 0.03,
+        "drop_scope": "regulator_input_feed_plus_dedicated_return"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Pico supply current is small but needs a dedicated return path isolated from motor trunk voltage drops.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ALPHA",
+        "ALPHA_SIZE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "W05",
+      "type": "trunk_gauge",
+      "params": {
+        "nets": [
+          "+5V",
+          "VSYS",
+          "GND"
+        ],
+        "branch_ids": [
+          "PICO_5V",
+          "PICO_RETURN"
+        ],
+        "design_current_A": 0.2,
+        "min_copper_mm2": 0.2,
+        "recommended": "0.51 mm / AWG24 or thicker; keep D110 in series and pair with the quiet return.",
+        "max_drop_V": 0.05,
+        "drop_scope": "U107_output_to_Pico_VSYS_plus_local_return_excluding_D110_forward_drop"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Reserve 200 mA on the 5 V path; no optional pickup board or external 5 V load is included.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ALPHA",
+        "ALPHA_SIZE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "W06",
+      "type": "trunk_gauge",
+      "params": {
+        "nets": [
+          "+3V3",
+          "GND"
+        ],
+        "branch_ids": [
+          "LOGIC_3V3"
+        ],
+        "design_current_A": 0.01,
+        "min_copper_mm2": 0.12,
+        "recommended": "0.4 mm solid tinned copper (0.126 mm2) or AWG26 minimum; 0.5 mm wire is easier to inspect.",
+        "max_drop_V": 0.02,
+        "drop_scope": "Pico_3V3_OUT_to_remote_logic_load_plus_quiet_return"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "The external 3V3 loads are small; reserve 10 mA including switching current and pull-ups.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ALPHA",
+        "ALPHA_SIZE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "W07",
+      "type": "trunk_gauge",
+      "params": {
+        "nets": [
+          "HDD1_OUT1",
+          "HDD1_OUT2",
+          "HDD2_OUT1",
+          "HDD2_OUT2",
+          "HDD3_OUT1",
+          "HDD3_OUT2",
+          "HDD4_OUT1",
+          "HDD4_OUT2"
+        ],
+        "branch_ids": [
+          "COIL_HARNESS"
+        ],
+        "design_current_A": 0.6,
+        "min_copper_mm2": 0.28,
+        "recommended": "AWG22 stranded copper pair; twist lightly and provide strain relief at the HDD fixed flex section.",
+        "max_drop_V": 0.1,
+        "drop_scope": "entire_offboard_OUT1_coil_OUT2_harness_loop_excluding_coil_and_driver"
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "External coil leads can dominate loop area and resistance; budget 100 mV for the cable and its contacts.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ALPHA",
+        "ALPHA_SIZE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "B01",
+      "type": "routing",
+      "params": {
+        "check": "paired_power_paths",
+        "pairs": [
+          {
+            "a": "VM",
+            "b": "GND",
+            "branch": "POWER_RETURN_TRUNK"
+          },
+          {
+            "a": "VM",
+            "b": "GND",
+            "branch": "REGULATOR_VM"
+          }
+        ],
+        "max_centre_separation_holes": 2,
+        "preferred_surface": "bottom",
+        "terminal_escape_holes": 3
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Run feed and its return alongside each other, <=5.08 mm centre separation outside terminal escapes.",
+      "source": [
+        "SPEC",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "B02",
+      "type": "routing",
+      "params": {
+        "check": "paired_outputs",
+        "channel_pairs": [
+          {
+            "a": "HDD1_OUT1",
+            "b": "HDD1_OUT2"
+          },
+          {
+            "a": "HDD2_OUT1",
+            "b": "HDD2_OUT2"
+          },
+          {
+            "a": "HDD3_OUT1",
+            "b": "HDD3_OUT2"
+          },
+          {
+            "a": "HDD4_OUT1",
+            "b": "HDD4_OUT2"
+          }
+        ],
+        "max_centre_separation_holes": 2,
+        "terminal_escape_holes": 3,
+        "include_offboard": true
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "routing",
+      "priority": 2,
+      "rationale": "Keep each bidirectional output pair together; the coil circuit is OUT1/OUT2, not OUT/GND.",
+      "source": [
+        "NET",
+        "TI_LAYOUT",
+        "POLOLU_WIRE",
+        "ENG"
+      ],
+      "basis": "mixed"
+    },
+    {
+      "id": "B03",
+      "type": "routing",
+      "params": {
+        "check": "straight_power_trunks",
+        "nets": [
+          "VM",
+          "GND"
+        ],
+        "branch_ids": [
+          "VM_TRUNK",
+          "POWER_RETURN_TRUNK"
+        ],
+        "max_bends_per_trunk": 1,
+        "preferred_surface": "bottom",
+        "material": "continuous_tinned_copper"
+      },
+      "severity": "soft",
+      "weight": 6,
+      "stage": "routing",
+      "priority": 3,
+      "rationale": "Prefer one straight continuous underside run for each power trunk; avoid chains of tiny solder bridges.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B04",
+      "type": "routing",
+      "params": {
+        "check": "signal_bends",
+        "nets": [
+          "HDD1_IN1",
+          "HDD1_IN2",
+          "HDD2_IN1",
+          "HDD2_IN2",
+          "HDD3_IN1",
+          "HDD3_IN2",
+          "HDD4_IN1",
+          "HDD4_IN2",
+          "VREF",
+          "SLEEP",
+          "FAULT",
+          "SN_BUS",
+          "SN_RX_IN",
+          "SN_PU",
+          "UART_RX",
+          "ARM",
+          "ARM_SW"
+        ],
+        "max_bends_per_branch": 2,
+        "preferred_surface": "bottom",
+        "preferred_material": "bare_tinned_wire_on_grid"
+      },
+      "severity": "soft",
+      "weight": 2,
+      "stage": "routing",
+      "priority": 3,
+      "rationale": "Prefer simple grid-aligned bare signal runs; an insulated jumper is appropriate whenever a crossing is required.",
+      "source": [
+        "BRIEF",
+        "ADAFRUIT",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B05",
+      "type": "max_jumpers",
+      "params": {
+        "max_count": 24,
+        "count_policy": "insulated_point_to_point",
+        "exclude_offboard": true
+      },
+      "severity": "soft",
+      "weight": 4,
+      "stage": "routing",
+      "priority": 3,
+      "rationale": "Aim for <=24 insulated on-board wires, while allowing them whenever bare-wire safety or separation needs them.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B06",
+      "type": "max_jumpers",
+      "params": {
+        "max_count": 16,
+        "count_policy": "insulated_point_to_point",
+        "exclude_offboard": true
+      },
+      "severity": "soft",
+      "weight": 2,
+      "stage": "routing",
+      "priority": 3,
+      "rationale": "A stretch target of <=16 may help compare otherwise equally safe candidates; it must not drive unsafe bare crossings.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B07",
+      "type": "routing",
+      "params": {
+        "check": "wire_support",
+        "nets": "all",
+        "max_unsupported_bare_span_holes": 8,
+        "allow_anchor_to_same_net_pad": true,
+        "allow_nonconductive_support": true,
+        "minimum_bottom_standoff_mm": 10
+      },
+      "severity": "hard",
+      "weight": 0,
+      "stage": "assembly",
+      "priority": 2,
+      "rationale": "Support bare runs at least every 20.32 mm and keep the underside 10 mm above the mounting surface; inspect for flex shorts.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B08",
+      "type": "order",
+      "params": {
+        "sequence": [
+          "smartnet",
+          "U201",
+          "drivers",
+          "coil_connectors"
+        ],
+        "axis": "either",
+        "allow_reverse": true
+      },
+      "severity": "soft",
+      "weight": 2,
+      "stage": "placement",
+      "priority": 3,
+      "rationale": "Prefer visible input → control → drivers → edge outputs signal flow, allowing reverse/rotated floor plans.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B09",
+      "type": "group",
+      "params": {
+        "parts": [
+          "U310",
+          "C311",
+          "C312",
+          "J313",
+          "TP471"
+        ],
+        "max_span_holes": 16,
+        "metric": "pin_bbox_max_dimension"
+      },
+      "severity": "soft",
+      "weight": 3,
+      "stage": "placement",
+      "priority": 3,
+      "rationale": "Keep one channel in a <=40.64 mm tile for repeatable wiring and local probe access.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B10",
+      "type": "group",
+      "params": {
+        "parts": [
+          "U320",
+          "C321",
+          "C322",
+          "J323",
+          "TP472"
+        ],
+        "max_span_holes": 16,
+        "metric": "pin_bbox_max_dimension"
+      },
+      "severity": "soft",
+      "weight": 3,
+      "stage": "placement",
+      "priority": 3,
+      "rationale": "Keep one channel in a <=40.64 mm tile for repeatable wiring and local probe access.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B11",
+      "type": "group",
+      "params": {
+        "parts": [
+          "U330",
+          "C331",
+          "C332",
+          "J333",
+          "TP473"
+        ],
+        "max_span_holes": 16,
+        "metric": "pin_bbox_max_dimension"
+      },
+      "severity": "soft",
+      "weight": 3,
+      "stage": "placement",
+      "priority": 3,
+      "rationale": "Keep one channel in a <=40.64 mm tile for repeatable wiring and local probe access.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    },
+    {
+      "id": "B12",
+      "type": "group",
+      "params": {
+        "parts": [
+          "U340",
+          "C341",
+          "C342",
+          "J343",
+          "TP474"
+        ],
+        "max_span_holes": 16,
+        "metric": "pin_bbox_max_dimension"
+      },
+      "severity": "soft",
+      "weight": 3,
+      "stage": "placement",
+      "priority": 3,
+      "rationale": "Keep one channel in a <=40.64 mm tile for repeatable wiring and local probe access.",
+      "source": [
+        "BRIEF",
+        "ENG"
+      ],
+      "basis": "derived_target"
+    }
+  ],
+  "current_budget": [
+    {
+      "id": "ENTRY_RAW",
+      "route": "adapter centre/J101.1 → F102.1",
+      "nets": [
+        "VIN_RAW"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.7,
+        "unit": "A",
+        "basis": "estimated musical operation, not a guaranteed maximum"
+      },
+      "design_continuous_A": 2.6,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "turn-on charging, switching overshoot, or fault peak not bounded by 2.6 A budget; measure"
+      },
+      "conductor": "Minimum 0.8 mm solid tinned copper / 0.50 mm2 / AWG20; prefer 1.0 mm solid; stranded AWG20 off-board",
+      "allowed_drop_V": 0.01,
+      "drop_scope": "wire/contact only; do not include component drops",
+      "notes": "Initial 0.27 A limit: reserve 1.25 A total including overhead. Upgraded 0.52 A nominal: size for 2.6 A continuous.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "ENTRY_FUSED",
+      "route": "F102.2 → D103.2 (A)",
+      "nets": [
+        "VIN_FUSED"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.7,
+        "unit": "A",
+        "basis": "estimated musical operation, not a guaranteed maximum"
+      },
+      "design_continuous_A": 2.6,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "turn-on charging, switching overshoot, or fault peak not bounded by 2.6 A budget; measure"
+      },
+      "conductor": "Minimum 0.8 mm solid tinned copper / 0.50 mm2 / AWG20; prefer 1.0 mm solid; stranded AWG20 off-board",
+      "allowed_drop_V": 0.01,
+      "drop_scope": "wire/contact only; do not include component drops",
+      "notes": "Initial 0.27 A limit: reserve 1.25 A total including overhead. Upgraded 0.52 A nominal: size for 2.6 A continuous.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "ENTRY_PROTECTED",
+      "route": "D103.1 (K) → J104.1",
+      "nets": [
+        "VIN_PROT"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.7,
+        "unit": "A",
+        "basis": "estimated musical operation, not a guaranteed maximum"
+      },
+      "design_continuous_A": 2.6,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "turn-on charging, switching overshoot, or fault peak not bounded by 2.6 A budget; measure"
+      },
+      "conductor": "Minimum 0.8 mm solid tinned copper / 0.50 mm2 / AWG20; prefer 1.0 mm solid; stranded AWG20 off-board",
+      "allowed_drop_V": 0.01,
+      "drop_scope": "wire/contact only; do not include component drops",
+      "notes": "Initial 0.27 A limit: reserve 1.25 A total including overhead. Upgraded 0.52 A nominal: size for 2.6 A continuous.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "POWER_SWITCH_HARNESS",
+      "route": "J104.1 → panel power switch → J104.2",
+      "nets": [
+        "VIN_PROT",
+        "VM"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.7,
+        "unit": "A",
+        "basis": "estimated musical operation, not a guaranteed maximum"
+      },
+      "design_continuous_A": 2.6,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "turn-on charging, switching overshoot, or fault peak not bounded by 2.6 A budget; measure"
+      },
+      "conductor": "Minimum 0.8 mm solid tinned copper / 0.50 mm2 / AWG20; prefer 1.0 mm solid; stranded AWG20 off-board",
+      "allowed_drop_V": 0.05,
+      "drop_scope": "wire/contact only; do not include component drops",
+      "notes": "Initial 0.27 A limit: reserve 1.25 A total including overhead. Upgraded 0.52 A nominal: size for 2.6 A continuous.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "VM_TRUNK",
+      "route": "J104.2 / C106.1 → furthest VM channel tap",
+      "nets": [
+        "VM"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.7,
+        "unit": "A",
+        "basis": "estimated musical operation, not a guaranteed maximum"
+      },
+      "design_continuous_A": 2.6,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "turn-on charging, switching overshoot, or fault peak not bounded by 2.6 A budget; measure"
+      },
+      "conductor": "Minimum 0.8 mm solid tinned copper / 0.50 mm2 / AWG20; prefer 1.0 mm solid; stranded AWG20 off-board",
+      "allowed_drop_V": 0.03,
+      "drop_scope": "wire/contact only; do not include component drops",
+      "notes": "Initial 0.27 A limit: reserve 1.25 A total including overhead. Upgraded 0.52 A nominal: size for 2.6 A continuous.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "INPUT_RETURN",
+      "route": "GND_ENTRY / C106.2 → J101.2 sleeve",
+      "nets": [
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.7,
+        "unit": "A",
+        "basis": "estimated musical operation, not a guaranteed maximum"
+      },
+      "design_continuous_A": 2.6,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "turn-on charging, switching overshoot, or fault peak not bounded by 2.6 A budget; measure"
+      },
+      "conductor": "Minimum 0.8 mm solid tinned copper / 0.50 mm2 / AWG20; prefer 1.0 mm solid; stranded AWG20 off-board",
+      "allowed_drop_V": 0.01,
+      "drop_scope": "wire/contact only; do not include component drops",
+      "notes": "Initial 0.27 A limit: reserve 1.25 A total including overhead. Upgraded 0.52 A nominal: size for 2.6 A continuous.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "POWER_RETURN_TRUNK",
+      "route": "furthest power-return tap → GND_ENTRY",
+      "nets": [
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.7,
+        "unit": "A",
+        "basis": "estimated musical operation, not a guaranteed maximum"
+      },
+      "design_continuous_A": 2.6,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "turn-on charging, switching overshoot, or fault peak not bounded by 2.6 A budget; measure"
+      },
+      "conductor": "Minimum 0.8 mm solid tinned copper / 0.50 mm2 / AWG20; prefer 1.0 mm solid; stranded AWG20 off-board",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "wire/contact only; do not include component drops",
+      "notes": "Initial 0.27 A limit: reserve 1.25 A total including overhead. Upgraded 0.52 A nominal: size for 2.6 A continuous.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH1_VM",
+      "route": "VM trunk tap → U310.14 VIN",
+      "nets": [
+        "VM"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "rough input-current estimate; not coil RMS"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive coil/supply pulse; capacitor charge/fault overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way feed",
+      "notes": "Input average is not coil RMS: PWM recirculation and regenerative current change it. Design = 0.6 A coil envelope + up to 7 mA driver overhead, rounded.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH1_GND",
+      "route": "U310.13 and local U310.2/bulk/bypass negative → own power-trunk tap",
+      "nets": [
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "DC estimate; pulsed return is larger"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive return pulse; fault/overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way return",
+      "notes": "Both module grounds join locally. Do not route this through Pico ground, receiver ground or divider ground.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH1_OUT",
+      "route": "U310.12/.11 OUT1/OUT2 → J313.1/.2 → HDD coil",
+      "nets": [
+        "HDD1_OUT1",
+        "HDD1_OUT2"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.2,
+        "unit": "A_RMS",
+        "basis": "trial musical range in spec 5.7; start at 0.05 A RMS"
+      },
+      "design_continuous_A": 0.6,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate future current-limit envelope, not absolute clipping; initial nominal 0.27 A"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each on-board OUT conductor; cable loop separately <=0.10 V",
+      "notes": "0.2 A RMS sine needs 0.283 A peak, above the initial 0.27 A nominal setting. No assumption all HDDs tolerate 0.2 A RMS.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH2_VM",
+      "route": "VM trunk tap → U320.14 VIN",
+      "nets": [
+        "VM"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "rough input-current estimate; not coil RMS"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive coil/supply pulse; capacitor charge/fault overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way feed",
+      "notes": "Input average is not coil RMS: PWM recirculation and regenerative current change it. Design = 0.6 A coil envelope + up to 7 mA driver overhead, rounded.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH2_GND",
+      "route": "U320.13 and local U320.2/bulk/bypass negative → own power-trunk tap",
+      "nets": [
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "DC estimate; pulsed return is larger"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive return pulse; fault/overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way return",
+      "notes": "Both module grounds join locally. Do not route this through Pico ground, receiver ground or divider ground.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH2_OUT",
+      "route": "U320.12/.11 OUT1/OUT2 → J323.1/.2 → HDD coil",
+      "nets": [
+        "HDD2_OUT1",
+        "HDD2_OUT2"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.2,
+        "unit": "A_RMS",
+        "basis": "trial musical range in spec 5.7; start at 0.05 A RMS"
+      },
+      "design_continuous_A": 0.6,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate future current-limit envelope, not absolute clipping; initial nominal 0.27 A"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each on-board OUT conductor; cable loop separately <=0.10 V",
+      "notes": "0.2 A RMS sine needs 0.283 A peak, above the initial 0.27 A nominal setting. No assumption all HDDs tolerate 0.2 A RMS.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH3_VM",
+      "route": "VM trunk tap → U330.14 VIN",
+      "nets": [
+        "VM"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "rough input-current estimate; not coil RMS"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive coil/supply pulse; capacitor charge/fault overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way feed",
+      "notes": "Input average is not coil RMS: PWM recirculation and regenerative current change it. Design = 0.6 A coil envelope + up to 7 mA driver overhead, rounded.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH3_GND",
+      "route": "U330.13 and local U330.2/bulk/bypass negative → own power-trunk tap",
+      "nets": [
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "DC estimate; pulsed return is larger"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive return pulse; fault/overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way return",
+      "notes": "Both module grounds join locally. Do not route this through Pico ground, receiver ground or divider ground.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH3_OUT",
+      "route": "U330.12/.11 OUT1/OUT2 → J333.1/.2 → HDD coil",
+      "nets": [
+        "HDD3_OUT1",
+        "HDD3_OUT2"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.2,
+        "unit": "A_RMS",
+        "basis": "trial musical range in spec 5.7; start at 0.05 A RMS"
+      },
+      "design_continuous_A": 0.6,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate future current-limit envelope, not absolute clipping; initial nominal 0.27 A"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each on-board OUT conductor; cable loop separately <=0.10 V",
+      "notes": "0.2 A RMS sine needs 0.283 A peak, above the initial 0.27 A nominal setting. No assumption all HDDs tolerate 0.2 A RMS.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH4_VM",
+      "route": "VM trunk tap → U340.14 VIN",
+      "nets": [
+        "VM"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "rough input-current estimate; not coil RMS"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive coil/supply pulse; capacitor charge/fault overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way feed",
+      "notes": "Input average is not coil RMS: PWM recirculation and regenerative current change it. Design = 0.6 A coil envelope + up to 7 mA driver overhead, rounded.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH4_GND",
+      "route": "U340.13 and local U340.2/bulk/bypass negative → own power-trunk tap",
+      "nets": [
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.005,
+        "max": 0.15,
+        "unit": "A",
+        "basis": "DC estimate; pulsed return is larger"
+      },
+      "design_continuous_A": 0.61,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate repetitive return pulse; fault/overshoot additional"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each one-way return",
+      "notes": "Both module grounds join locally. Do not route this through Pico ground, receiver ground or divider ground.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "DRIVER_CH4_OUT",
+      "route": "U340.12/.11 OUT1/OUT2 → J343.1/.2 → HDD coil",
+      "nets": [
+        "HDD4_OUT1",
+        "HDD4_OUT2"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.2,
+        "unit": "A_RMS",
+        "basis": "trial musical range in spec 5.7; start at 0.05 A RMS"
+      },
+      "design_continuous_A": 0.6,
+      "peak_A": {
+        "value": 0.6,
+        "unit": "A",
+        "meaning": "approximate future current-limit envelope, not absolute clipping; initial nominal 0.27 A"
+      },
+      "conductor": "Minimum 0.6 mm solid / 0.283 mm2; prefer AWG22 / 0.326 mm2; stranded for cables",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "each on-board OUT conductor; cable loop separately <=0.10 V",
+      "notes": "0.2 A RMS sine needs 0.283 A peak, above the initial 0.27 A nominal setting. No assumption all HDDs tolerate 0.2 A RMS.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "REGULATOR_VM",
+      "route": "VM_ENTRY → U107.1; U107.2 → GND_ENTRY dedicated return",
+      "nets": [
+        "VM",
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.025,
+        "max": 0.06,
+        "unit": "A",
+        "basis": "estimated Pico use"
+      },
+      "design_continuous_A": 0.12,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "converter startup/input capacitor inrush requires measurement"
+      },
+      "conductor": "0.51 mm solid / AWG24 / about 0.20 mm2",
+      "allowed_drop_V": 0.03,
+      "drop_scope": "feed plus dedicated return",
+      "notes": "Reserve 5 V × 0.20 A / (10.5 V × 0.85 efficiency) + ~1 mA ≈0.113 A, rounded to 0.12 A; 85% is a conservative design assumption.",
+      "source": [
+        "MINMAX",
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "PICO_5V",
+      "route": "U107.3 +5V → D110 A2; D110 K1 → U201.39 VSYS; local quiet return",
+      "nets": [
+        "+5V",
+        "VSYS",
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.05,
+        "max": 0.1,
+        "unit": "A",
+        "basis": "allocation, not a measured Pico consumption"
+      },
+      "design_continuous_A": 0.2,
+      "peak_A": {
+        "value": 0.2,
+        "unit": "A",
+        "meaning": "design transient allowance excluding cold-start capacitance"
+      },
+      "conductor": "0.51 mm solid / AWG24 / about 0.20 mm2",
+      "allowed_drop_V": 0.05,
+      "drop_scope": "feed plus quiet return, excluding D110 VF",
+      "notes": "No external pickup board included. Converter is 1 A rated but this branch is not permission to draw 1 A through these wires.",
+      "source": [
+        "PICO_DS",
+        "MINMAX",
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "LOGIC_3V3",
+      "route": "U201.36 → receiver VCC, 4 PMODE pins, VREF divider and pull-ups; quiet returns",
+      "nets": [
+        "+3V3",
+        "GND"
+      ],
+      "steady_A": {
+        "min": 0.0003,
+        "max": 0.0025,
+        "unit": "A",
+        "basis": "estimated external logic only"
+      },
+      "design_continuous_A": 0.01,
+      "peak_A": {
+        "value": 0.01,
+        "unit": "A",
+        "meaning": "reserved external load including switching pulses"
+      },
+      "conductor": "0.4 mm solid / 0.126 mm2 / AWG26 minimum; prefer 0.5 mm",
+      "allowed_drop_V": 0.02,
+      "drop_scope": "3V3 external distribution plus its quiet return",
+      "notes": "Does not include RP2040 internal 3V3 consumption; supplies come from Pico 3V3_OUT, never ADC_VREF.",
+      "source": [
+        "PICO_DS",
+        "TI_DRV",
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "VREF_RETURN",
+      "route": "R210.2/C211.2 → GND_LOGIC",
+      "nets": [
+        "GND",
+        "VREF"
+      ],
+      "steady_A": {
+        "min": 5.8e-05,
+        "max": 6.4e-05,
+        "unit": "A",
+        "basis": "47k/10k or 47k/4.7k divider; excludes unknown leakage/noise currents"
+      },
+      "design_continuous_A": 0.001,
+      "peak_A": {
+        "value": null,
+        "unit": "A",
+        "meaning": "filter charging/noise transient not characterised"
+      },
+      "conductor": "0.4–0.5 mm solid; mechanically secure",
+      "allowed_drop_V": 0.001,
+      "drop_scope": "DC divider-return wire only; driver-to-source ground difference separately measured",
+      "notes": "At 0.30 V reference, 10 mV unwanted offset is about 3.3% or 9 mA of trip threshold. Treat return integrity as more important than ampacity.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    }
+  ],
+  "manual_checks": [
+    {
+      "id": "A00",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "Use the user-requested single-sided independent-pad board with bare wiring on the bottom. Do not reserve an area for omitted temperature/current/voltage scaffold. Use the real board pad connectivity and inspect jumpers at crossings.",
+      "rationale": "The 2026-10-22 user answers added to BRIEF specify the construction method and no scaffold reservation.",
+      "source": [
+        "BRIEF"
+      ]
+    },
+    {
+      "id": "A01",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "Retain two sockets per Pico/carrier, components upward. Remove Pololu R2 and R4, retain R3; verify each module separately before insertion. Host-board carrier VM1 and IMODE10 remain NC.",
+      "rationale": "An unmodified carrier can lift the common reference and defeat the intended current limit.",
+      "source": [
+        "SPEC",
+        "NET",
+        "POLOLU"
+      ]
+    },
+    {
+      "id": "A02",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "Actual J101, J104 contacts, panel power switch and harness must be rated >=3 A continuous at the intended ambient, with measured startup suitability. No solderless breadboard or unrated Dupont jumper in the common power path.",
+      "rationale": "Wire size cannot compensate for an underspecified connector or contact.",
+      "source": [
+        "BRIEF",
+        "SPEC",
+        "ENG"
+      ]
+    },
+    {
+      "id": "A03",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "Use 35 V bulk/input electrolytics with polarity marked; do not add extra capacitors or change the approved nets. Total connected U107 output capacitance must remain <=470 uF, including downstream capacitance effective during startup.",
+      "rationale": "Respect capacitor surge margin and converter startup capacitance limit.",
+      "source": [
+        "SPEC",
+        "MINMAX",
+        "TVS"
+      ]
+    },
+    {
+      "id": "A04",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "Respect T5 adapter/pin mappings and actual pad connectivity. Verify lead fit, solder area and strain relief; never force a 1.2–1.3 mm diode lead into a nominal 1 mm hole. Preserve NC holes on installed sockets.",
+      "rationale": "Physical substitutions must not silently change electrical connectivity.",
+      "source": [
+        "BRIEF",
+        "NET",
+        "DIODE",
+        "ENG"
+      ]
+    },
+    {
+      "id": "A05",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "Label HDD1–4, OUT1/OUT2, VIN/GND, switch header net names, USB access, probe nets and module insertion orientation. Secure external cables independently of component leads; provide a clear gap above capacitor vents.",
+      "rationale": "Hand-built transportable hardware needs inspectable orientation and mechanical support.",
+      "source": [
+        "SPEC",
+        "BRIEF",
+        "ENG"
+      ]
+    },
+    {
+      "id": "A06",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "Keep GP17, GP18, GP26–GP28 unconnected on the host board after scaffold removal. Keep U201.35 ADC_VREF and U201.40 VBUS NC; U201.33 AGND joins the local quiet GND network.",
+      "rationale": "Leave the specified expansion pins free and preserve the approved power-ORing arrangement.",
+      "source": [
+        "BRIEF",
+        "NET",
+        "PICO_DS"
+      ]
+    },
+    {
+      "id": "A07",
+      "severity": "hard",
+      "stage": "assembly",
+      "check": "No bare live conductors, tall parts or extra wires above Pico/carriers; exclude only their required socket contacts. No component stacked over the diode or the converter. Insulate any intentional wire crossover fully and provide strain relief.",
+      "rationale": "Heat escape, module removal and short inspection require accessible, unstacked construction.",
+      "source": [
+        "BRIEF",
+        "POLOLU",
+        "ENG"
+      ]
+    },
+    {
+      "id": "T01",
+      "severity": "hard",
+      "stage": "bench",
+      "check": "Perform unpowered continuity/short checks, then regulator-only, Pico-only and one-carrier-at-a-time bring-up. Check +5V first; +3V3 is measurable only after Pico is inserted or USB-powered.",
+      "rationale": "Avoid the literal v0.7 8.2 wording that asks to check 3V3 with Pico absent; 3V3 is generated on Pico.",
+      "source": [
+        "SPEC",
+        "NET",
+        "PICO_DS"
+      ]
+    },
+    {
+      "id": "T02",
+      "severity": "hard",
+      "stage": "bench",
+      "check": "At initial 4.7k divider setting, verify VREF approximately 0.30 V, unchanged by SLEEP, and approximately 0.27 A current limit in both directions on each carrier. Scope driver-local GND relative to VREF_GND and reference ripple. Proposed targets: |ground offset| <=10 mV and VREF ripple <=10 mV peak-to-peak; if exceeded, improve routing or obtain explicit review.",
+      "rationale": "Low reference voltage makes millivolt-scale noise material. Geometric rules alone do not validate immunity.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "ENG"
+      ]
+    },
+    {
+      "id": "T03",
+      "severity": "hard",
+      "stage": "bench",
+      "check": "Scope VM at the entry and furthest carrier and 3V3 during cold/hot repeated switching, four-channel playback and USB/adapter order tests. Measure charging current; verify no adapter hiccup or unwanted start and Pico VSYS always within 1.8–5.5 V.",
+      "rationale": "The 2.35 mF bulk total has no bounded 2.6 A startup peak; TVS standoff and wiring inductance need a real supply test.",
+      "source": [
+        "SPEC",
+        "TI_DRV",
+        "TVS",
+        "PICO_DS"
+      ]
+    },
+    {
+      "id": "T04",
+      "severity": "hard",
+      "stage": "bench",
+      "check": "Log worst continuous current and enclosure air temperature at F102; at 40 C, 2.6 A exceeds MF-R300 2.49 A hold specification. Validate or derate operation; spacing is not a guarantee. Measure D103, PPTC, converter, carrier and coil temperatures until stable, at cold/hot startup and after transport.",
+      "rationale": "The future 2.6 A operating allocation conflicts with the PPTC hold rating at 40 C; heat cannot be accepted from placement alone.",
+      "source": [
+        "SPEC",
+        "BOURNS",
+        "DIODE",
+        "POLOLU",
+        "ENG"
+      ]
+    },
+    {
+      "id": "T05",
+      "severity": "hard",
+      "stage": "bench",
+      "check": "With the real panel harness, confirm stop opening, re-closing without restart, watchdog, bad/lost UART and FAULT stop outputs in <=0.5 s. Observe IN/CS with a scope; retain GP16 as SLEEP sense.",
+      "rationale": "The physical SLEEP bus and receiver must support the specified fail-safe tests, including noise near OUT wiring.",
+      "source": [
+        "SPEC",
+        "NET"
+      ]
+    },
+    {
+      "id": "T06",
+      "severity": "hard",
+      "stage": "bench",
+      "check": "At the worst approved load, measure common positive wire/contact drop <=0.13 V, common ground <=0.03 V and each selected driver feed/return <=0.02 V, so total J101-to-carrier supply loop wiring/contact loss <=0.20 V excluding F102/D103. Verify additional 5V and 3V3 branch budgets and cable-loop drop <=0.10 V.",
+      "rationale": "Check actual joints and contacts, which ideal copper calculations omit.",
+      "source": [
+        "SPEC",
+        "ENG"
+      ]
+    }
+  ],
+  "floor_plans": [
+    {
+      "id": "F1",
+      "name": "Recommended: four channels along one long edge",
+      "orientation": "landscape; long edge is north; USB exits south",
+      "zones": [
+        {
+          "block": "entry",
+          "zone": "NW / west edge"
+        },
+        {
+          "block": "regulator",
+          "zone": "west-middle / southwest, away from F102 and D103"
+        },
+        {
+          "block": "drivers",
+          "zone": "north band; identical rotation with OUT/VIN side facing north"
+        },
+        {
+          "block": "coil_connectors",
+          "zone": "north edge, immediately outside each OUT pair"
+        },
+        {
+          "block": "vref_parts",
+          "zone": "central quiet band just south of driver logic edges"
+        },
+        {
+          "block": "stop_fault",
+          "zone": "central/south, near Pico GP14–GP16; J213 at south edge"
+        },
+        {
+          "block": "U201",
+          "zone": "lower centre; USB south, PWM side points toward driver routing corridor"
+        },
+        {
+          "block": "smartnet",
+          "zone": "south edge beside Pico USB/UART end, separated from entry and coil exits"
+        },
+        {
+          "block": "probes",
+          "zone": "power probes beside entry/converter; quiet probes beside Pico/divider; CS local to each channel"
+        },
+        {
+          "block": "J104",
+          "zone": "west edge at entry"
+        }
+      ],
+      "reason": "One repeatable channel row, one paired VM/GND trunk behind VIN corners, short output escape, and a quiet interior. VREF stars radiate from the centre. Choose left-to-right channel order after mapping actual Pico pin coordinates; fixed GP assignments must not change.",
+      "risk": "Local bulk cans and M3 corners may widen channel pitch. A row plus edge-USB routing may miss soft PWM length targets. No board fit is claimed before T5/T6 placement.",
+      "seed_only": true
+    },
+    {
+      "id": "F2",
+      "name": "Alternative: 2 x 2 perimeter tiles, two north and two south",
+      "orientation": "landscape; all four carriers retain the same rotation with VIN/OUT column on east; connectors escape north/south",
+      "zones": [
+        {
+          "block": "entry",
+          "zone": "west-middle edge"
+        },
+        {
+          "block": "drivers",
+          "zone": "two near north, two near south; central quiet corridor remains open"
+        },
+        {
+          "block": "coil_connectors",
+          "zone": "north edge for top pair, south edge for bottom pair; each just outside its OUT corner"
+        },
+        {
+          "block": "vref_parts",
+          "zone": "centre between four logic-side corners, outside output escape corridors"
+        },
+        {
+          "block": "U201",
+          "zone": "central east; USB east"
+        },
+        {
+          "block": "smartnet",
+          "zone": "east edge beside Pico USB"
+        },
+        {
+          "block": "regulator",
+          "zone": "west interior, away from D103/F102"
+        },
+        {
+          "block": "stop_fault",
+          "zone": "central quiet corridor; J213 east"
+        },
+        {
+          "block": "J104",
+          "zone": "west edge"
+        },
+        {
+          "block": "probes",
+          "zone": "local to their respective blocks"
+        }
+      ],
+      "reason": "Short central control fanout and balanced VREF branches; two paired power spokes from entry serve north/south rows. Identical carrier rotation is retained, even though connector exit directions differ.",
+      "risk": "Check the adopted connector envelopes carefully: both OUT-to-terminal branches still must be <=10.16 mm. A generic interior 2x2 with all coil connectors on one distant edge is ineligible. Corners, cans and USB can make the central corridor too small.",
+      "seed_only": true
+    },
+    {
+      "id": "F3",
+      "name": "Alternative: four vertical channels at the east edge",
+      "orientation": "portrait or landscape; original carrier top-view rotation with VIN/OUT on east",
+      "zones": [
+        {
+          "block": "entry",
+          "zone": "NE/east end of the power trunk, with F102 outside the carrier heat row"
+        },
+        {
+          "block": "drivers",
+          "zone": "single N–S row along east edge"
+        },
+        {
+          "block": "coil_connectors",
+          "zone": "east edge beside each OUT pair"
+        },
+        {
+          "block": "vref_parts",
+          "zone": "middle of the board west of carrier logic pins"
+        },
+        {
+          "block": "U201",
+          "zone": "west side, USB north or south; PWM pins face the central quiet corridor where possible"
+        },
+        {
+          "block": "smartnet",
+          "zone": "same quiet edge as Pico USB"
+        },
+        {
+          "block": "regulator",
+          "zone": "NW, separated from the diode/PTC"
+        },
+        {
+          "block": "stop_fault",
+          "zone": "near Pico GP14–GP16; J213 on quiet edge"
+        },
+        {
+          "block": "J104",
+          "zone": "entry edge"
+        },
+        {
+          "block": "probes",
+          "zone": "local to their respective blocks"
+        }
+      ],
+      "reason": "Unrotated carrier labelling makes hand wiring easy; a straight N–S supply pair and local OUT exits remain possible.",
+      "risk": "Four 17.8 mm bodies plus three 7.62 mm gaps already occupy about 94.06 mm before corner mounts and caps. Prefer a board whose long side is vertical; do not squeeze a 115 mm side if clearances fail.",
+      "seed_only": true
+    }
+  ],
+  "assumptions": [
+    "Proposed limits are project constraints subject to Claude review, not approved changes to the specification.",
+    "The updated BRIEF records the user preference: single-sided 2.54 mm isolated-pad board, mainly bottom-side tinned copper along the grid; insulated wires where crossings require them. Board outline, hole count, component envelopes and adapters come from T5. No standard board is declared to fit yet.",
+    "Do not impose the obsolete 100 x 100 mm PCB quote limit. Start with the prior approximately 155 x 115 mm class, then optimise occupied area only after hard constraints pass.",
+    "Only populated main-board parts and the practical probe set are required. The user explicitly requested no scaffold parts and no reserved scaffold area. TP464/TP465 may be retained as additional GND points; all other omissions are listed explicitly.",
+    "Use the 4.7k lower divider resistor initially. Wire sizing reserves the later 10k / approximately 0.6 A-per-coil envelope, subject to temperature tests.",
+    "Normal coil RMS 0.05–0.2 A is a trial range, not an approved sustained rating for any HDD; adapter current is neither coil RMS nor the sum of channel RMS.",
+    "Peak charging and fault currents are unknown. Wire size is selected for low voltage drop and robust assembly, not certification to an installation wiring ampacity code.",
+    "No extra capacitors on OUT, no IN-series resistors, no alternate buffer or connector electrical change, and no extra ground isolation is authorised by these rules.",
+    "Signals may need insulated jumpers to satisfy the mandatory spacing and exact connectivity; jumper counts are soft targets."
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "topic": "PPTC derating versus future continuous current",
+      "context": "Spec 6.6 allocates about 2.6 A maximum after the 10k upgrade, while MF-R300 holds only 2.49 A at 40 C. Moving it away from heat does not guarantee ambient below 40 C.",
+      "options": [
+        "retain MF-R300 and explicitly require load/ambient derating and hot-enclosure validation before approving 10k operation",
+        "authorise a protection redesign/current-rating change"
+      ],
+      "recommendation": "Retain the approved circuit and 4.7k start. Require measured current/ambient derating before any upgrade; do not substitute a larger PTC as a layout decision."
+    }
+  ],
+  "board_policy": {
+    "allowed_type": "single_sided_independent",
+    "bare_wire_side": "bottom",
+    "preferred_routing": "grid-aligned tinned copper; insulated point-to-point only for crossings/necessary separation",
+    "scaffold_area_reserved": false,
+    "outline_size_limit_mm": null,
+    "source": [
+      "BRIEF"
+    ]
+  },
+  "branch_catalog": {
+    "ENTRY_SERIES": {
+      "pairs": [
+        {
+          "a": "J101.1",
+          "b": "F102.1"
+        },
+        {
+          "a": "F102.2",
+          "b": "D103.2"
+        },
+        {
+          "a": "D103.1",
+          "b": "J104.1"
+        }
+      ],
+      "include_offboard": false
+    },
+    "POWER_SWITCH_HARNESS": {
+      "pairs": [
+        {
+          "a": "J104.1",
+          "b": "J104.2"
+        }
+      ],
+      "include_offboard": true,
+      "external_series_element": "panel power switch; never a host-board short between the two nets"
+    },
+    "VM_TRUNK": {
+      "root": "$VM_ENTRY",
+      "targets": [
+        "U310.14",
+        "U320.14",
+        "U330.14",
+        "U340.14"
+      ],
+      "segment_class": "common segments before individual channel feed taps",
+      "include_offboard": false
+    },
+    "POWER_RETURN_TRUNK": {
+      "root": "$GND_ENTRY",
+      "targets": [
+        "U310.13",
+        "U320.13",
+        "U330.13",
+        "U340.13"
+      ],
+      "segment_class": "common power-return segments before individual channel taps",
+      "include_offboard": false
+    },
+    "INPUT_RETURN": {
+      "pairs": [
+        {
+          "a": "$GND_ENTRY",
+          "b": "J101.2"
+        }
+      ],
+      "include_offboard": false
+    },
+    "REGULATOR_VM": {
+      "pairs": [
+        {
+          "a": "$VM_ENTRY",
+          "b": "U107.1"
+        }
+      ],
+      "include_offboard": false
+    },
+    "LOGIC_RETURN": {
+      "pairs": [
+        {
+          "a": "$GND_ENTRY",
+          "b": "$GND_LOGIC"
+        }
+      ],
+      "include_offboard": false
+    },
+    "PICO_5V": {
+      "pairs": [
+        {
+          "a": "U107.3",
+          "b": "D110.2"
+        },
+        {
+          "a": "D110.1",
+          "b": "U201.39"
+        }
+      ],
+      "include_offboard": false,
+      "excluded_component_drop": "D110"
+    },
+    "PICO_RETURN": {
+      "root": "$GND_LOGIC",
+      "targets": [
+        "U201.3",
+        "U201.8",
+        "U201.13",
+        "U201.18",
+        "U201.23",
+        "U201.28",
+        "U201.33",
+        "U201.38"
+      ],
+      "include_offboard": false
+    },
+    "LOGIC_3V3": {
+      "root": "U201.36",
+      "targets": [
+        "U207.5",
+        "R209.1",
+        "R215.1",
+        "D206.2",
+        "U310.5",
+        "U320.5",
+        "U330.5",
+        "U340.5"
+      ],
+      "include_offboard": false,
+      "ground_return_class": "quiet logic network only"
+    },
+    "COIL_HARNESS": {
+      "connector_pairs": [
+        {
+          "a": "J313.1",
+          "b": "J313.2"
+        },
+        {
+          "a": "J323.1",
+          "b": "J323.2"
+        },
+        {
+          "a": "J333.1",
+          "b": "J333.2"
+        },
+        {
+          "a": "J343.1",
+          "b": "J343.2"
+        }
+      ],
+      "include_offboard": true,
+      "external_series_element": "HDD VCM excluded from resistance/drop budget"
+    },
+    "DRIVER_CH1": {
+      "feed_target": "U310.14",
+      "return_targets": [
+        "U310.13",
+        "U310.2"
+      ],
+      "local_capacitors": [
+        "C312",
+        "C311"
+      ],
+      "output_pairs": [
+        {
+          "a": "U310.12",
+          "b": "J313.1"
+        },
+        {
+          "a": "U310.11",
+          "b": "J313.2"
+        }
+      ],
+      "segment_class": "individual channel segments after power-trunk taps, including local capacitor branches",
+      "include_offboard": false
+    },
+    "DRIVER_CH2": {
+      "feed_target": "U320.14",
+      "return_targets": [
+        "U320.13",
+        "U320.2"
+      ],
+      "local_capacitors": [
+        "C322",
+        "C321"
+      ],
+      "output_pairs": [
+        {
+          "a": "U320.12",
+          "b": "J323.1"
+        },
+        {
+          "a": "U320.11",
+          "b": "J323.2"
+        }
+      ],
+      "segment_class": "individual channel segments after power-trunk taps, including local capacitor branches",
+      "include_offboard": false
+    },
+    "DRIVER_CH3": {
+      "feed_target": "U330.14",
+      "return_targets": [
+        "U330.13",
+        "U330.2"
+      ],
+      "local_capacitors": [
+        "C332",
+        "C331"
+      ],
+      "output_pairs": [
+        {
+          "a": "U330.12",
+          "b": "J333.1"
+        },
+        {
+          "a": "U330.11",
+          "b": "J333.2"
+        }
+      ],
+      "segment_class": "individual channel segments after power-trunk taps, including local capacitor branches",
+      "include_offboard": false
+    },
+    "DRIVER_CH4": {
+      "feed_target": "U340.14",
+      "return_targets": [
+        "U340.13",
+        "U340.2"
+      ],
+      "local_capacitors": [
+        "C342",
+        "C341"
+      ],
+      "output_pairs": [
+        {
+          "a": "U340.12",
+          "b": "J343.1"
+        },
+        {
+          "a": "U340.11",
+          "b": "J343.2"
+        }
+      ],
+      "segment_class": "individual channel segments after power-trunk taps, including local capacitor branches",
+      "include_offboard": false
+    }
+  }
+}

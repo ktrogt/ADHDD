@@ -1,0 +1,38 @@
+{
+  "required_files_present": true,
+  "fresh_verifier_matches_report": true,
+  "comparison_tuple": [
+    true,
+    0,
+    0,
+    31,
+    220.580952,
+    78,
+    3158.323
+  ],
+  "ranking_pass": true,
+  "hard_failed_rule_ids": [],
+  "CSV_rows": {
+    "wirelist.csv": 122,
+    "continuity.csv": 1290,
+    "netlist_actual.csv": 186
+  },
+  "files_SHA256": {
+    "placement.json": "63b4af12d417e35b193689dc9b31550addb2e1259bfe2a06b6208682fc5c95f7",
+    "wiring.json": "3cc9d3ddcc47dea5e987e3a3914ac61246598ba7e5ab1d3bd7ccdcbbd53c2442",
+    "summary.md": "5a54c36e5dea154510e3f06e139e1c20237d3e6998dc262170a84ed70a781511",
+    "out/top.svg": "812ab4249b9c5f69a7ab2d13fd06f16dad90185e32261dcd15e3c552b9e8b068",
+    "out/bottom.svg": "bad9a5c466118e18c4c512ef954162f638b000cc326c4ba204ce7f51332956ac",
+    "out/overlay.svg": "627ae0e19d21f65f0e4d5e307b7960d165f083a39934a34da39f30d559e1c5ca",
+    "out/report.json": "d1401451b76f5419c6ca443925816a8471db80c186e7b42e23f56cff40a02562",
+    "out/metrics.json": "4819e44c8d1285d7d3050300039c1a7ef164b9355c58e58f3976936eb87a28df",
+    "out/wirelist.csv": "032d41591011eb1db16218936665866870e6b996cce2ada0dc7ab547658989e4",
+    "out/continuity.csv": "c97c7b8453d0a1a91c2f07151b5c23ecc9dbffa77b6da36f713b4d6223652955",
+    "out/netlist_actual.csv": "b4af23056730465bb063b034d591f0f7845dbce15228d97a61bd3eda96c3f0fa"
+  },
+  "approved_input_copies_match_shared": true,
+  "round1_archive_hashes_unchanged": true,
+  "all_actual_errors_are_UNCHECKED": true,
+  "SVG_visual_QA_record_matches": true,
+  "no_wire_graph_cycles": true
+}

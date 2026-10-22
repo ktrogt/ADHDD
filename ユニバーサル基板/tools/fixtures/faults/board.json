@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "columns": 8,
+  "rows": 8,
+  "pitch_mm": 2.54,
+  "type": "single_sided_independent",
+  "edge_margin_holes": 0,
+  "body_clearance_mm": 0.2,
+  "keepouts": []
+}

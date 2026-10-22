@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "parts": {
+    "U310": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "M34",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Pololu4035(md41a) + FHU-1x7SG x2"
+    },
+    "C311": {
+      "footprint": "CP470_D10_2H",
+      "hole": "V32",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "35ZLH470MEFC10X16"
+    },
+    "C312": {
+      "footprint": "C100NF_1H",
+      "hole": "Q32",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "R15X7R104J2L705Y"
+    },
+    "J313": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "U37",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "B3B-XH-A(LF)(SN)+XHP-3+precrimp131312"
+    },
+    "TP471": {
+      "footprint": "PROBE_PIN",
+      "hole": "Y29",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "U320": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "AF34",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Pololu4035(md41a) + FHU-1x7SG x2"
+    },
+    "C321": {
+      "footprint": "CP470_D10_2H",
+      "hole": "AJ29",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "35ZLH470MEFC10X16"
+    },
+    "C322": {
+      "footprint": "C100NF_1H",
+      "hole": "AM34",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "R15X7R104J2L705Y"
+    },
+    "J323": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "AN37",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "B3B-XH-A(LF)(SN)+XHP-3+precrimp131312"
+    },
+    "TP472": {
+      "footprint": "PROBE_PIN",
+      "hole": "AQ40",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "U330": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "AS17",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Pololu4035(md41a) + FHU-1x7SG x2"
+    },
+    "C331": {
+      "footprint": "CP470_D10_2H",
+      "hole": "BB15",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "35ZLH470MEFC10X16"
+    },
+    "C332": {
+      "footprint": "C100NF_1H",
+      "hole": "AW15",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "R15X7R104J2L705Y"
+    },
+    "J333": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "BA20",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "B3B-XH-A(LF)(SN)+XHP-3+precrimp131312"
+    },
+    "TP473": {
+      "footprint": "PROBE_PIN",
+      "hole": "AZ25",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "U340": {
+      "footprint": "POLOLU4035_SOCKET_5H",
+      "hole": "AS6",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Pololu4035(md41a) + FHU-1x7SG x2"
+    },
+    "C341": {
+      "footprint": "CP470_D10_2H",
+      "hole": "AW1",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "35ZLH470MEFC10X16"
+    },
+    "C342": {
+      "footprint": "C100NF_1H",
+      "hole": "AZ5",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "R15X7R104J2L705Y"
+    },
+    "J343": {
+      "footprint": "COIL_XH3_OUTER",
+      "hole": "BA8",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "B3B-XH-A(LF)(SN)+XHP-3+precrimp131312"
+    },
+    "TP474": {
+      "footprint": "PROBE_PIN",
+      "hole": "AZ12",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "U201": {
+      "footprint": "PICO_SOCKET_7H",
+      "hole": "A29",
+      "rotation": 270,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "SC0915 + FHU-1x20SG x2"
+    },
+    "J101": {
+      "footprint": "J101_DCJACK_DIP4",
+      "hole": "F13",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "AE-DC-POWER-JACK-DIP (105148), one1x4 PHA fine header"
+    },
+    "F102": {
+      "footprint": "F_MFR300_2H",
+      "hole": "N2",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MF-R300"
+    },
+    "D103": {
+      "footprint": "MBR3045FCT_ITO220_ONE_LEG",
+      "hole": "E2",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "PANJIT MBR3045FCT, one leg used, A2 unconnected"
+    },
+    "J104": {
+      "footprint": "HDR_SWITCH_J104",
+      "hole": "B8",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "PH-1x40SG cut1x2"
+    },
+    "D105": {
+      "footprint": "D_DO41_4H_D105",
+      "hole": "C6",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "P4KE15A"
+    },
+    "C106": {
+      "footprint": "CP470_D10_2H",
+      "hole": "D10",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "35ZLH470MEFC10X16"
+    },
+    "U107": {
+      "footprint": "M78AR05_SIP3",
+      "hole": "S17",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "M78AR05-1"
+    },
+    "C108": {
+      "footprint": "CP100_D63_1H",
+      "hole": "N16",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "35ZLH100MEFC6.3X11"
+    },
+    "C109": {
+      "footprint": "CP100_D63_1H",
+      "hole": "Z16",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "35ZLH100MEFC6.3X11"
+    },
+    "D110": {
+      "footprint": "D_DO41_4H_D110",
+      "hole": "AD20",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "1N5819"
+    },
+    "C211": {
+      "footprint": "C220NF_2H",
+      "hole": "X23",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "RDER71H224K1K1H03B"
+    },
+    "R209": {
+      "footprint": "R_MFS25_3H",
+      "hole": "U22",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MFS25 miniature metal-film resistor; exact value per parts.csv"
+    },
+    "R210": {
+      "footprint": "R_MFS25_3H",
+      "hole": "W21",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MFS25 miniature metal-film resistor; exact value per parts.csv"
+    },
+    "U207": {
+      "footprint": "AHC125_DIP6_DIRECT",
+      "hole": "Z35",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "74AHC1G125W5 +AE-SOT457-DIP6 +2xPHA-1x3SG"
+    },
+    "C208": {
+      "footprint": "C100NF_1H",
+      "hole": "AA33",
+      "rotation": 180,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "R15X7R104J2L705Y"
+    },
+    "J202": {
+      "footprint": "UART_XH2",
+      "hole": "Y40",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "B2B-XH-A(LF)(SN)"
+    },
+    "J203": {
+      "footprint": "UART_XH2",
+      "hole": "AC40",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "B2B-XH-A(LF)(SN)"
+    },
+    "R204": {
+      "footprint": "R_MFS25_3H",
+      "hole": "X38",
+      "rotation": 270,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MFS25 miniature metal-film resistor; exact value per parts.csv"
+    },
+    "R205": {
+      "footprint": "R_MFS25_3H",
+      "hole": "AA32",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MFS25 miniature metal-film resistor; exact value per parts.csv"
+    },
+    "D206": {
+      "footprint": "BAT43_DO35_3H",
+      "hole": "AD30",
+      "rotation": 180,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "BAT43"
+    },
+    "R215": {
+      "footprint": "R_MFS25_3H",
+      "hole": "V24",
+      "rotation": 90,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MFS25 miniature metal-film resistor; exact value per parts.csv"
+    },
+    "R214": {
+      "footprint": "R_MFS25_3H",
+      "hole": "D20",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MFS25 miniature metal-film resistor; exact value per parts.csv"
+    },
+    "J213": {
+      "footprint": "HDR_SWITCH_J213",
+      "hole": "A20",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "PH-1x40SG cut1x2"
+    },
+    "R212": {
+      "footprint": "R_MFS25_3H",
+      "hole": "W27",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "MFS25 miniature metal-film resistor; exact value per parts.csv"
+    },
+    "TP460": {
+      "footprint": "PROBE_PIN",
+      "hole": "I11",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP461": {
+      "footprint": "PROBE_PIN",
+      "hole": "Y13",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP462": {
+      "footprint": "PROBE_PIN",
+      "hole": "B36",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP463": {
+      "footprint": "PROBE_PIN",
+      "hole": "I13",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP464": {
+      "footprint": "PROBE_PIN",
+      "hole": "U12",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP465": {
+      "footprint": "PROBE_PIN",
+      "hole": "AB23",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP466": {
+      "footprint": "PROBE_PIN",
+      "hole": "Y19",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP467": {
+      "footprint": "PROBE_PIN",
+      "hole": "I19",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    },
+    "TP468": {
+      "footprint": "PROBE_PIN",
+      "hole": "AB19",
+      "rotation": 0,
+      "locked": true,
+      "substitution_approved": true,
+      "value": "Bare plated pad"
+    }
+  },
+  "nodes": {
+    "GND_ENTRY": "F10",
+    "VM_ENTRY": "D10",
+    "GND_LOGIC": "T17",
+    "VREF_ROOT": "X23",
+    "VREF_GND": "Z23"
+  }
+}

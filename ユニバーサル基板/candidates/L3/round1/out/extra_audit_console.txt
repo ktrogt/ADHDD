@@ -1,0 +1,307 @@
+{
+  "official_hard_rules": {
+    "UNCHECKED": 25,
+    "PASS": 25,
+    "FAIL": 11
+  },
+  "official_soft_rules": {
+    "PASS": 7,
+    "FAIL": 8,
+    "UNCHECKED": 3
+  },
+  "t7_known_weighted_soft_penalty": 157.5999415199862,
+  "t7_unchecked_soft_bookkeeping_penalty": 13,
+  "tool_score": 6056485.792,
+  "score_note": "T6 scalar uses default severity weights, not T7 per-rule weights. Both are reported; UNCHECKED is not PASS.",
+  "wire_count": {
+    "bare": 80,
+    "jumper": 35
+  },
+  "wire_length_by_gauge_mm": {
+    "1.0mm": 462.28,
+    "AWG20": 30.586,
+    "AWG22": 325.261,
+    "AWG24": 608.427,
+    "AWG26": 1978.836
+  },
+  "bare_bends": 67,
+  "jumper_bends": 4,
+  "longest_IN": {
+    "net": "HDD4_IN1",
+    "length_mm": 98.92965783828427
+  },
+  "IN_paths": [
+    {
+      "net": "HDD1_IN1",
+      "length_mm": 73.66
+    },
+    {
+      "net": "HDD1_IN2",
+      "length_mm": 73.83496461704306
+    },
+    {
+      "net": "HDD2_IN1",
+      "length_mm": 77.1257103695
+    },
+    {
+      "net": "HDD2_IN2",
+      "length_mm": 75.7754841620956
+    },
+    {
+      "net": "HDD3_IN1",
+      "length_mm": 85.38330047497578
+    },
+    {
+      "net": "HDD3_IN2",
+      "length_mm": 82.93012480395771
+    },
+    {
+      "net": "HDD4_IN1",
+      "length_mm": 98.92965783828427
+    },
+    {
+      "net": "HDD4_IN2",
+      "length_mm": 95.61337354157105
+    }
+  ],
+  "vref_branches": [
+    {
+      "channel": 1,
+      "length_mm": 73.66000000000001
+    },
+    {
+      "channel": 2,
+      "length_mm": 45.71999999999999
+    },
+    {
+      "channel": 3,
+      "length_mm": 48.25999999999999
+    },
+    {
+      "channel": 4,
+      "length_mm": 54.358373779943044
+    }
+  ],
+  "power_paths": [
+    {
+      "channel": 1,
+      "vm_from_C106_mm": 132.18565023013258,
+      "gnd13_from_C106_mm": 116.8400000000001,
+      "gnd2_from_C106_mm": 119.38000000000012
+    },
+    {
+      "channel": 2,
+      "vm_from_C106_mm": 104.24565023013253,
+      "gnd13_from_C106_mm": 88.90000000000003,
+      "gnd2_from_C106_mm": 91.44000000000005
+    },
+    {
+      "channel": 3,
+      "vm_from_C106_mm": 76.30565023013246,
+      "gnd13_from_C106_mm": 60.95999999999999,
+      "gnd2_from_C106_mm": 63.499999999999986
+    },
+    {
+      "channel": 4,
+      "vm_from_C106_mm": 48.36565023013243,
+      "gnd13_from_C106_mm": 68.57999999999998,
+      "gnd2_from_C106_mm": 71.12
+    }
+  ],
+  "bbox_top_grid_mm": [
+    0.0,
+    -1.57,
+    137.38,
+    100.63000000000001
+  ],
+  "bbox_actual_board_mm": [
+    8.92,
+    5.8999999999999995,
+    146.29999999999998,
+    108.10000000000001
+  ],
+  "bbox_dimensions_mm": [
+    137.38,
+    102.2
+  ],
+  "physical_board_margin_mm": {
+    "left": 8.92,
+    "top": 5.8999999999999995,
+    "right": 8.700000000000017,
+    "bottom": 5.8999999999999915
+  },
+  "physical_component_pins_including_reserved": 193,
+  "solder_sites_conservative_all_bare_pads": 764,
+  "terminal_attachments_component_pins_plus_wire_ends": 423,
+  "copper_wire_surface_clearance_mm": 1.54,
+  "closest_bare_pair": [
+    "G_INPUT",
+    "W0003"
+  ],
+  "copper_only_20C_drop_V": {
+    "positive_at_2p6A_max": 0.01966899206245761,
+    "return_at_2p6A_max": 0.00780262687664727,
+    "scope": "entire one-way route treated at full current; no contact, component or harness drops"
+  },
+  "signal_output_separation_estimates": {
+    "S01": {
+      "sampled_minimum_surface_mm": 5.572,
+      "conservative_sample_bound_mm": 5.447,
+      "wire": "FAULT_CH4",
+      "assumptions": "quiet jumper OD <=1.6mm; output pad OD <=1.8mm; exact 5.08mm FAULT exception circle; assembly tolerances excluded",
+      "status": "supplementary estimate, not a replacement for UNCHECKED"
+    },
+    "S02": {
+      "sampled_minimum_surface_mm": 13.111,
+      "conservative_sample_bound_mm": 12.986,
+      "wire": "VREF_CH4",
+      "assumptions": "quiet jumper OD <=1.6mm; output pad OD <=1.8mm; exact 5.08mm FAULT exception circle; assembly tolerances excluded",
+      "status": "supplementary estimate, not a replacement for UNCHECKED"
+    }
+  },
+  "actual_feature_insets": [
+    {
+      "ref": "J101",
+      "feature": "mating_face",
+      "actual_point_mm": [
+        76.23,
+        8.739999999999998
+      ],
+      "closest_actual_board_edge_mm": 8.739999999999998
+    },
+    {
+      "ref": "U201",
+      "feature": "usb_mouth",
+      "actual_point_mm": [
+        35.59,
+        105.36
+      ],
+      "closest_actual_board_edge_mm": 8.64
+    },
+    {
+      "ref": "J313",
+      "feature": "mating_face",
+      "actual_point_mm": [
+        138.46,
+        98.91
+      ],
+      "closest_actual_board_edge_mm": 15.090000000000003
+    },
+    {
+      "ref": "J323",
+      "feature": "mating_face",
+      "actual_point_mm": [
+        138.46,
+        70.97
+      ],
+      "closest_actual_board_edge_mm": 16.539999999999992
+    },
+    {
+      "ref": "J333",
+      "feature": "mating_face",
+      "actual_point_mm": [
+        138.46,
+        43.03
+      ],
+      "closest_actual_board_edge_mm": 16.539999999999992
+    },
+    {
+      "ref": "J343",
+      "feature": "mating_face",
+      "actual_point_mm": [
+        138.46,
+        15.09
+      ],
+      "closest_actual_board_edge_mm": 15.09
+    },
+    {
+      "ref": "J202",
+      "feature": "mating_face",
+      "actual_point_mm": [
+        58.45,
+        103.99
+      ],
+      "closest_actual_board_edge_mm": 10.010000000000005
+    },
+    {
+      "ref": "J203",
+      "feature": "mating_face",
+      "actual_point_mm": [
+        68.61,
+        103.99
+      ],
+      "closest_actual_board_edge_mm": 10.010000000000005
+    }
+  ],
+  "probe_tip_planar_body_clearances": [
+    {
+      "ref": "TP460",
+      "nearest_other_body": "C106",
+      "tip_axis_to_body_mm": 4.859999999999985
+    },
+    {
+      "ref": "TP461",
+      "nearest_other_body": "U107",
+      "tip_axis_to_body_mm": 4.649999999999999
+    },
+    {
+      "ref": "TP462",
+      "nearest_other_body": "TP464",
+      "tip_axis_to_body_mm": 4.035071250919861
+    },
+    {
+      "ref": "TP463",
+      "nearest_other_body": "U201",
+      "tip_axis_to_body_mm": 3.7099999999999937
+    },
+    {
+      "ref": "TP464",
+      "nearest_other_body": "U201",
+      "tip_axis_to_body_mm": 3.469999999999999
+    },
+    {
+      "ref": "TP465",
+      "nearest_other_body": "C211",
+      "tip_axis_to_body_mm": 5.456017320353729
+    },
+    {
+      "ref": "TP466",
+      "nearest_other_body": "R209",
+      "tip_axis_to_body_mm": 4.030000000000001
+    },
+    {
+      "ref": "TP467",
+      "nearest_other_body": "U201",
+      "tip_axis_to_body_mm": 8.55
+    },
+    {
+      "ref": "TP468",
+      "nearest_other_body": "R215",
+      "tip_axis_to_body_mm": 4.417804884781583
+    },
+    {
+      "ref": "TP474",
+      "nearest_other_body": "U340",
+      "tip_axis_to_body_mm": 3.5100000000000016
+    },
+    {
+      "ref": "TP473",
+      "nearest_other_body": "U330",
+      "tip_axis_to_body_mm": 3.509999999999998
+    },
+    {
+      "ref": "TP472",
+      "nearest_other_body": "U320",
+      "tip_axis_to_body_mm": 3.510000000000005
+    },
+    {
+      "ref": "TP471",
+      "nearest_other_body": "U310",
+      "tip_axis_to_body_mm": 3.510000000000005
+    }
+  ],
+  "mount_min_body_centre_distance_mm": 9.327706041680344,
+  "mount_min_wire_centre_distance_mm": 11.747446531055164,
+  "manual_access_notes": "Real-outline feature insets exceed literal M07/M08/M09 numerical limits. Driver east coil-body gap is 1.089mm, below 5.08mm W/E grip strip; N/S grip is proposed, not approved. Mount centres are 5.0mm from real edge vs M02 5.08mm.",
+  "approved_inputs_hashes_unchanged": true
+}

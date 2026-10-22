@@ -1,0 +1,8 @@
+net,ref,pin_number,pin_name
+A,P1,1,P
+A,P2,1,P
+B,P3,1,P
+B,P4,1,P
+C,P5,1,P
+C,P6,1,P
+NC,N1,1,P

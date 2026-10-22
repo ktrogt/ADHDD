@@ -1,0 +1,2 @@
+{"hard_rules": {"UNCHECKED": 23, "PASS": 38}, "soft_t7_penalty": 234.1788470191226, "pieces": {"bare": 70, "jumper": 39}, "bends": {"bare": 71, "jumper": 38}, "longest_IN_mm": 129.54, "vref_branches_mm": {"U310.VREF": 88.9, "U320.VREF": 66.04, "U330.VREF": 55.88, "U340.VREF": 63.5}}
+{'S01': ('PASS_IN_LOCAL_MODEL', 6.307, 0), 'S02': ('PASS_IN_LOCAL_MODEL', 12.19755, 0)}

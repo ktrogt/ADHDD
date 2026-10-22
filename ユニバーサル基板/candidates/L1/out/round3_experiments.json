@@ -1,0 +1,119 @@
+{
+  "search_auto_r3.json": {
+    "recorded_trials": 150,
+    "hard_zero_trials": 95,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      31,
+      221.842325,
+      87,
+      3180.451
+    ]
+  },
+  "search_busstar_r3.json": {
+    "recorded_trials": 235,
+    "hard_zero_trials": 110,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      31,
+      219.723809,
+      115,
+      3432.138
+    ]
+  },
+  "search_bus_r3.json": {
+    "recorded_trials": 100,
+    "hard_zero_trials": 66,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      31,
+      222.228338,
+      103,
+      3300.102
+    ]
+  },
+  "search_faultstar_r3.json": {
+    "recorded_trials": 100,
+    "hard_zero_trials": 62,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      31,
+      222.580952,
+      86,
+      3124.655
+    ]
+  },
+  "search_north2_r3.json": {
+    "recorded_trials": 395,
+    "hard_zero_trials": 192,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      34,
+      232.106057,
+      97,
+      3214.661
+    ]
+  },
+  "search_north_r3.json": {
+    "recorded_trials": 150,
+    "hard_zero_trials": 134,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      36,
+      235.68939,
+      90,
+      3201.098
+    ]
+  },
+  "search_pairs_r3.json": {
+    "recorded_trials": 161,
+    "hard_zero_trials": 161,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      31,
+      218.580952,
+      63,
+      3153.243
+    ]
+  },
+  "search_south_r3.json": {
+    "recorded_trials": 150,
+    "hard_zero_trials": 150,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      36,
+      240.753631,
+      89,
+      3491.186
+    ]
+  },
+  "search_vref_r3.json": {
+    "recorded_trials": 100,
+    "hard_zero_trials": 100,
+    "best_hard_zero_tuple": [
+      true,
+      0,
+      0,
+      32,
+      230.813991,
+      86,
+      3174.048
+    ]
+  }
+}

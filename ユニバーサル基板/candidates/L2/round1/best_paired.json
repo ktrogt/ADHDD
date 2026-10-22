@@ -1,0 +1,25 @@
+{
+  "variant": "F2_paired",
+  "permutation": [
+    3,
+    0,
+    1,
+    2
+  ],
+  "mode": "paired-inputs:2,7,0,3,4,5,6,1",
+  "hardfail": [
+    "P02",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "V02",
+    "V03"
+  ],
+  "jumpers": 41,
+  "bare_bends": 74,
+  "mm": 3619.5,
+  "score": 4956929.085
+}

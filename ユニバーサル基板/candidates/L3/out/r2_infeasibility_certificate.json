@@ -1,0 +1,102 @@
+{
+  "scope": "exact common-x single column, all four carrier rotations; isolated 4-part channel tiles only; all other parts and routes removed",
+  "rules_used": [
+    "M01",
+    "M08",
+    "M11",
+    "H01",
+    "H06",
+    "P05",
+    "P08",
+    "P11",
+    "board outline / pin / corner keepout rules"
+  ],
+  "local_relative_patterns": 234,
+  "certificate": [
+    {
+      "rotation": 0,
+      "max_feasible_origin_row_span_any_common_column": 29,
+      "minimum_four_carrier_origin_span": 33,
+      "arithmetic_infeasible": true,
+      "columns_attaining_maximum": [
+        [
+          43,
+          29,
+          4,
+          33
+        ],
+        [
+          44,
+          29,
+          4,
+          33
+        ],
+        [
+          45,
+          29,
+          4,
+          33
+        ]
+      ]
+    },
+    {
+      "rotation": 90,
+      "max_feasible_origin_row_span_any_common_column": 27,
+      "minimum_four_carrier_origin_span": 30,
+      "arithmetic_infeasible": true,
+      "columns_attaining_maximum": [
+        [
+          6,
+          27,
+          3,
+          30
+        ]
+      ]
+    },
+    {
+      "rotation": 180,
+      "max_feasible_origin_row_span_any_common_column": 29,
+      "minimum_four_carrier_origin_span": 33,
+      "arithmetic_infeasible": true,
+      "columns_attaining_maximum": [
+        [
+          9,
+          29,
+          6,
+          35
+        ],
+        [
+          10,
+          29,
+          6,
+          35
+        ],
+        [
+          11,
+          29,
+          6,
+          35
+        ]
+      ]
+    },
+    {
+      "rotation": 270,
+      "max_feasible_origin_row_span_any_common_column": 27,
+      "minimum_four_carrier_origin_span": 30,
+      "arithmetic_infeasible": true,
+      "columns_attaining_maximum": [
+        [
+          48,
+          27,
+          9,
+          36
+        ]
+      ]
+    }
+  ],
+  "inputs_sha256": {
+    "board.json": "c8d83f66fa45e1a10000c131b400bbe3dc8814beb790d4c47f13d083fce08f9e",
+    "footprints_ub.json": "969415831aaf51aa7de942f2f7a05bf398403a7c65c9a9924864831b4ce4a313",
+    "design_rules_v0.2.json": "a31fd0b5d4cf65853c671614a48f5968877f85db81f68dc64b82df9a445ecde8"
+  }
+}

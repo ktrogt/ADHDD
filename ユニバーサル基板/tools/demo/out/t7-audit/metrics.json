@@ -1,0 +1,456 @@
+{
+  "wire_length_mm": {
+    "bare": 1402.08,
+    "bridge": 2.54,
+    "jumper": 3360.42
+  },
+  "total_wire_mm": 4765.04,
+  "jumpers": 57,
+  "bridges": 1,
+  "conductors": 120,
+  "jumper_over_exposed_crossings": 316,
+  "bbox_mm": [
+    6.01,
+    2.12,
+    147.32,
+    104.6
+  ],
+  "used_bbox_area_mm2": 14481.449,
+  "used_area_fraction": 0.83134,
+  "power_path_lengths": [
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U310.VIN",
+      "length_mm": 175.26
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U320.VIN",
+      "length_mm": 142.24
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U330.VIN",
+      "length_mm": 124.46
+    },
+    {
+      "net": "VM",
+      "source": "J104.VM",
+      "target": "U340.VIN",
+      "length_mm": 157.48
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@2",
+      "length_mm": 243.84
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U310.GND@13",
+      "length_mm": 256.54
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@2",
+      "length_mm": 271.78
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U320.GND@13",
+      "length_mm": 284.48
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@2",
+      "length_mm": 299.72
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U330.GND@13",
+      "length_mm": 312.42
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@2",
+      "length_mm": 327.66
+    },
+    {
+      "net": "GND",
+      "source": "J101.SLEEVE",
+      "target": "U340.GND@13",
+      "length_mm": 340.36
+    }
+  ],
+  "longest_signal_nets": [
+    {
+      "net": "FAULT",
+      "length_mm": 314.96
+    },
+    {
+      "net": "SLEEP",
+      "length_mm": 297.18
+    },
+    {
+      "net": "VREF",
+      "length_mm": 254.0
+    },
+    {
+      "net": "ARM",
+      "length_mm": 170.18
+    },
+    {
+      "net": "HDD4_IN1",
+      "length_mm": 162.56
+    },
+    {
+      "net": "HDD4_IN2",
+      "length_mm": 162.56
+    },
+    {
+      "net": "HDD4_CS",
+      "length_mm": 152.4
+    },
+    {
+      "net": "HDD3_IN1",
+      "length_mm": 139.7
+    },
+    {
+      "net": "HDD3_IN2",
+      "length_mm": 139.7
+    },
+    {
+      "net": "HDD3_CS",
+      "length_mm": 127.0
+    }
+  ],
+  "violations_by_severity": {
+    "error": 128,
+    "warning": 92
+  },
+  "rule_violations_by_severity": {
+    "error": 128,
+    "warning": 40
+  },
+  "score": 12898682.854,
+  "score_weights": {
+    "wire_mm": 1,
+    "jumpers": 20,
+    "bridges": 1,
+    "crossings": 2,
+    "area_mm2": 0.01,
+    "error": 100000,
+    "warning": 1000,
+    "info": 0
+  },
+  "t7_soft_penalty": 766.202381,
+  "t7_soft_penalty_by_rule": {
+    "B05": 5.5,
+    "B06": 5.125,
+    "B09": 3.375,
+    "B10": 3.375,
+    "B11": 3.375,
+    "B12": 3.375,
+    "M13": 168.0,
+    "P04": 2.125,
+    "P07": 128.0,
+    "P10": 420.0,
+    "S05": 18.285714,
+    "S13": 5.666667
+  },
+  "unchecked_soft_rule_ids": [
+    "B03",
+    "B04",
+    "S03",
+    "V05"
+  ],
+  "soft_penalty_complete": false,
+  "hard_fail_count": 20,
+  "hard_failed_rule_ids": [
+    "H04",
+    "M01",
+    "P01",
+    "P05",
+    "P06",
+    "P09",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "S04",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "unchecked_hard_rules": [
+    {
+      "id": "B01",
+      "reasons": [
+        "T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "B02",
+      "reasons": [
+        "T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "B07",
+      "reasons": [
+        "T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "C01",
+      "reasons": [
+        "core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence"
+      ]
+    },
+    {
+      "id": "C02",
+      "reasons": [
+        "T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "C03",
+      "reasons": [
+        "T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "G01",
+      "reasons": [
+        "placement.nodes.GND_ENTRY must declare the physical junction hole; anchor C106.2 is at (17, 3)"
+      ]
+    },
+    {
+      "id": "G02",
+      "reasons": [
+        "placement.nodes.GND_LOGIC must declare the physical junction hole; anchor U107.2 is at (41, 6)"
+      ]
+    },
+    {
+      "id": "M02",
+      "reasons": [
+        "T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M03",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M04",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M05",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M06",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M07",
+      "reasons": [
+        "J101: footprint feature 'mating_face' has no declared point"
+      ]
+    },
+    {
+      "id": "M08",
+      "reasons": [
+        "J104: footprint feature 'mating_face' has no declared point",
+        "J202: footprint feature 'mating_face' has no declared point",
+        "J203: footprint feature 'mating_face' has no declared point",
+        "J213: footprint feature 'mating_face' has no declared point",
+        "J313: footprint feature 'mating_face' has no declared point",
+        "J323: footprint feature 'mating_face' has no declared point",
+        "J333: footprint feature 'mating_face' has no declared point",
+        "J343: footprint feature 'mating_face' has no declared point"
+      ]
+    },
+    {
+      "id": "M09",
+      "reasons": [
+        "U201: footprint feature 'usb_mouth' has no declared point"
+      ]
+    },
+    {
+      "id": "M10",
+      "reasons": [
+        "T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "M12",
+      "reasons": [
+        "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "P02",
+      "reasons": [
+        "placement.nodes.VM_ENTRY must declare the physical junction hole; anchor C106.1 is at (15, 3)"
+      ]
+    },
+    {
+      "id": "P03",
+      "reasons": [
+        "placement.nodes.VM_ENTRY must declare the physical junction hole; anchor C106.1 is at (15, 3)"
+      ]
+    },
+    {
+      "id": "S01",
+      "reasons": [
+        "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "S02",
+      "reasons": [
+        "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "V01",
+      "reasons": [
+        "placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)"
+      ]
+    },
+    {
+      "id": "V02",
+      "reasons": [
+        "placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)"
+      ]
+    },
+    {
+      "id": "V03",
+      "reasons": [
+        "placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)"
+      ]
+    },
+    {
+      "id": "V04",
+      "reasons": [
+        "placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)"
+      ]
+    },
+    {
+      "id": "W01",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W02",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W03",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W04",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W05",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W06",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    },
+    {
+      "id": "W07",
+      "reasons": [
+        "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths"
+      ]
+    }
+  ],
+  "unchecked_hard_count": 33,
+  "partially_unchecked_hard_rules": [
+    {
+      "id": "P01",
+      "reasons": [
+        "placement.nodes.GND_ENTRY must declare the physical junction hole; anchor C106.2 is at (17, 3)"
+      ]
+    }
+  ],
+  "partially_unchecked_hard_count": 1,
+  "core_drc_errors": 0,
+  "bends": 91,
+  "comparison_tuple": [
+    true,
+    0,
+    20,
+    57,
+    766.202381,
+    91,
+    4765.04
+  ],
+  "comparison_tuple_fields": [
+    "lvs_ok",
+    "core_drc_errors",
+    "hard_fail_count",
+    "jumpers",
+    "t7_soft_penalty",
+    "bends",
+    "total_wire_mm"
+  ],
+  "comparison_directions": [
+    "max",
+    "min",
+    "min",
+    "min",
+    "min",
+    "min",
+    "min"
+  ],
+  "lexicographic_sort_key": [
+    0,
+    0,
+    20,
+    57,
+    766.202381,
+    91,
+    4765.04
+  ],
+  "ranking_pass": false
+}

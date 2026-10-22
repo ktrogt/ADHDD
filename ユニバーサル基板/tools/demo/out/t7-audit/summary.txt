@@ -1,0 +1,221 @@
+FAIL; LVS PASS; 184/184 pins, 37 nets, 27 NC; 128 errors, 92 warnings; 4765.0 mm wire, 57 jumpers; score 12898682.9
+ERROR RULE:B01: T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:B02: T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:B07: T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:C01: core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence
+ERROR RULE:C02: T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:C03: T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:G01: placement.nodes.GND_ENTRY must declare the physical junction hole; anchor C106.2 is at (17, 3)
+ERROR RULE:G02: placement.nodes.GND_LOGIC must declare the physical junction hole; anchor U107.2 is at (41, 6)
+ERROR RULE:H04: U107 / F102: body gap 0.923 holes < 3
+ERROR RULE:M01: C108 / C109: body gap 0.323 holes < 0.4
+ERROR RULE:M01: C108 / R204: body gap 0.248 holes < 0.4
+ERROR RULE:M01: C108 / R205: body gap 0.248 holes < 0.4
+ERROR RULE:M01: C109 / J202: body gap 0.205 holes < 0.4
+ERROR RULE:M01: C109 / R205: body gap 0.248 holes < 0.4
+ERROR RULE:M01: C109 / R209: body gap 0.248 holes < 0.4
+ERROR RULE:M01: C208 / J202: body gap 0.307 holes < 0.4
+ERROR RULE:M01: C211 / D103: body gap 0.244 holes < 0.4
+ERROR RULE:M01: C211 / J202: body gap 0.286 holes < 0.4
+ERROR RULE:M01: D105 / J203: body gap 0.327 holes < 0.4
+ERROR RULE:M01: D110 / J203: body gap 0.327 holes < 0.4
+ERROR RULE:M01: D110 / TP460: body gap 0.213 holes < 0.4
+ERROR RULE:M01: D110 / TP461: body gap 0.213 holes < 0.4
+ERROR RULE:M01: D206 / F102: body gap 0.390 holes < 0.4
+ERROR RULE:M01: D206 / TP462: body gap 0.331 holes < 0.4
+ERROR RULE:M01: D206 / TP463: body gap 0.331 holes < 0.4
+ERROR RULE:M01: J104 / TP466: body gap 0.252 holes < 0.4
+ERROR RULE:M01: J104 / TP467: body gap 0.252 holes < 0.4
+ERROR RULE:M01: R204 / TP468: body gap 0.331 holes < 0.4
+ERROR RULE:M01: R204 / TP471: body gap 0.331 holes < 0.4
+ERROR RULE:M01: R205 / TP472: body gap 0.331 holes < 0.4
+ERROR RULE:M01: R205 / TP473: body gap 0.331 holes < 0.4
+ERROR RULE:M01: R209 / TP474: body gap 0.331 holes < 0.4
+ERROR RULE:M01: R212 / TP466: body gap 0.331 holes < 0.4
+ERROR RULE:M01: R212 / TP467: body gap 0.331 holes < 0.4
+ERROR RULE:M01: R215 / U207: body gap 0.213 holes < 0.4
+ERROR RULE:M01: TP460 / U107: body gap 0.258 holes < 0.4
+ERROR RULE:M01: TP461 / U107: body gap 0.258 holes < 0.4
+ERROR RULE:M01: TP462 / U107: body gap 0.258 holes < 0.4
+ERROR RULE:M01: TP463 / U107: body gap 0.258 holes < 0.4
+ERROR RULE:M01: U107 / U207: body gap 0.236 holes < 0.4
+ERROR RULE:M02: T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M03: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M04: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M05: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M06: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M07: J101: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J104: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J202: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J203: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J213: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J313: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J323: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J333: footprint feature 'mating_face' has no declared point
+ERROR RULE:M08: J343: footprint feature 'mating_face' has no declared point
+ERROR RULE:M09: U201: footprint feature 'usb_mouth' has no declared point
+ERROR RULE:M10: T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:M12: T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:P01: D105.1 / J104.2: 22 holes > 6
+ERROR RULE:P01: placement.nodes.GND_ENTRY must declare the physical junction hole; anchor C106.2 is at (17, 3)
+ERROR RULE:P02: placement.nodes.VM_ENTRY must declare the physical junction hole; anchor C106.1 is at (15, 3)
+ERROR RULE:P03: placement.nodes.VM_ENTRY must declare the physical junction hole; anchor C106.1 is at (15, 3)
+ERROR RULE:P05: C312.2 / U310.13: 4 holes > 2
+ERROR RULE:P05: C322.2 / U320.13: 4 holes > 2
+ERROR RULE:P05: C332.2 / U330.13: 4 holes > 2
+ERROR RULE:P05: C342.2 / U340.13: 4 holes > 2
+ERROR RULE:P06: C312.2 -> U310.13: 4.000 holes (max 2)
+ERROR RULE:P06: C322.2 -> U320.13: 4.000 holes (max 2)
+ERROR RULE:P06: C332.2 -> U330.13: 4.000 holes (max 2)
+ERROR RULE:P06: C342.2 -> U340.13: 4.000 holes (max 2)
+ERROR RULE:P09: C311.2 -> U310.13: 13.000 holes (max 6)
+ERROR RULE:P09: C321.2 -> U320.13: 35.000 holes (max 6)
+ERROR RULE:P09: C331.2 -> U330.13: 151.000 holes (max 6)
+ERROR RULE:P09: C341.2 -> U340.13: 11.000 holes (max 6)
+ERROR RULE:P11: U310.11 / J313.2: 8 holes > 4
+ERROR RULE:P11: U310.12 / J313.1: 11 holes > 4
+ERROR RULE:P11: U320.11 / J323.2: 8 holes > 4
+ERROR RULE:P11: U320.12 / J323.1: 11 holes > 4
+ERROR RULE:P11: U330.11 / J333.2: 8 holes > 4
+ERROR RULE:P11: U330.12 / J333.1: 11 holes > 4
+ERROR RULE:P11: U340.11 / J343.2: 8 holes > 4
+ERROR RULE:P11: U340.12 / J343.1: 11 holes > 4
+ERROR RULE:P12: U310.11 -> J313.2: 8.000 holes (max 4)
+ERROR RULE:P12: U310.12 -> J313.1: 11.000 holes (max 4)
+ERROR RULE:P12: U320.11 -> J323.2: 8.000 holes (max 4)
+ERROR RULE:P12: U320.12 -> J323.1: 11.000 holes (max 4)
+ERROR RULE:P12: U330.11 -> J333.2: 8.000 holes (max 4)
+ERROR RULE:P12: U330.12 -> J333.1: 11.000 holes (max 4)
+ERROR RULE:P12: U340.11 -> J343.2: 8.000 holes (max 4)
+ERROR RULE:P12: U340.12 -> J343.1: 11.000 holes (max 4)
+ERROR RULE:P13: C108.1 / U107.1: 23 holes > 4
+ERROR RULE:P13: C108.2 / U107.2: 23 holes > 4
+ERROR RULE:P13: C109.1 / U107.3: 22 holes > 4
+ERROR RULE:P13: C109.2 / U107.2: 20 holes > 4
+ERROR RULE:P14: C108.1 -> U107.1: 25.000 holes (max 4)
+ERROR RULE:P14: C108.2 -> U107.2: 81.000 holes (max 4)
+ERROR RULE:P14: C109.1 -> U107.3: 22.000 holes (max 4)
+ERROR RULE:P14: C109.2 -> U107.2: 84.000 holes (max 4)
+ERROR RULE:P15: C208.1 / U207.5: 23 holes > 2
+ERROR RULE:P15: C208.2 / U207.3: 21 holes > 2
+ERROR RULE:P16: C208.1 -> U207.5: 141.000 holes (max 3)
+ERROR RULE:P16: C208.2 -> U207.3: 87.000 holes (max 3)
+ERROR RULE:S01: T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:S02: T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:S04: U201.11 -> U340.3: 64.000 holes (max 60)
+ERROR RULE:S04: U201.12 -> U340.4: 64.000 holes (max 60)
+ERROR RULE:S06: R215.2 -> U201.20: 91.000 holes (max 80)
+ERROR RULE:S06: R215.2 -> U330.9: 83.000 holes (max 80)
+ERROR RULE:S06: R215.2 -> U340.9: 94.000 holes (max 80)
+ERROR RULE:S07: R214.1 / J213.2: 16 holes > 6
+ERROR RULE:S07: R215.2 / U201.20: 63 holes > 6
+ERROR RULE:S08: R214.1 -> J213.2: 18.000 holes (max 6)
+ERROR RULE:S09: J202.1 / J203.1: 10 holes > 6
+ERROR RULE:S10: J202.1 / R204.1: 8 holes > 4
+ERROR RULE:S10: R204.2 / U207.2: 24 holes > 4
+ERROR RULE:S11: J202.1 -> R204.1: 8.000 holes (max 6)
+ERROR RULE:S11: R204.2 -> U207.2: 24.000 holes (max 6)
+ERROR RULE:S12: U207.4 -> U201.2: 47.000 holes (max 40)
+ERROR RULE:V01: placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)
+ERROR RULE:V02: placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)
+ERROR RULE:V03: placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)
+ERROR RULE:V04: placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)
+ERROR RULE:W01: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W02: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W03: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W04: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W05: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W06: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+ERROR RULE:W07: T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+WARNING PROVISIONAL_FOOTPRINT: C106
+WARNING PROVISIONAL_FOOTPRINT: C108
+WARNING PROVISIONAL_FOOTPRINT: C109
+WARNING PROVISIONAL_FOOTPRINT: C208
+WARNING PROVISIONAL_FOOTPRINT: C211
+WARNING PROVISIONAL_FOOTPRINT: C311
+WARNING PROVISIONAL_FOOTPRINT: C312
+WARNING PROVISIONAL_FOOTPRINT: C321
+WARNING PROVISIONAL_FOOTPRINT: C322
+WARNING PROVISIONAL_FOOTPRINT: C331
+WARNING PROVISIONAL_FOOTPRINT: C332
+WARNING PROVISIONAL_FOOTPRINT: C341
+WARNING PROVISIONAL_FOOTPRINT: C342
+WARNING PROVISIONAL_FOOTPRINT: D103
+WARNING PROVISIONAL_FOOTPRINT: D105
+WARNING PROVISIONAL_FOOTPRINT: D110
+WARNING PROVISIONAL_FOOTPRINT: D206
+WARNING PROVISIONAL_FOOTPRINT: F102
+WARNING PROVISIONAL_FOOTPRINT: J101
+WARNING PROVISIONAL_FOOTPRINT: J104
+WARNING PROVISIONAL_FOOTPRINT: J202
+WARNING PROVISIONAL_FOOTPRINT: J203
+WARNING PROVISIONAL_FOOTPRINT: J213
+WARNING PROVISIONAL_FOOTPRINT: J313
+WARNING PROVISIONAL_FOOTPRINT: J323
+WARNING PROVISIONAL_FOOTPRINT: J333
+WARNING PROVISIONAL_FOOTPRINT: J343
+WARNING PROVISIONAL_FOOTPRINT: R204
+WARNING PROVISIONAL_FOOTPRINT: R205
+WARNING PROVISIONAL_FOOTPRINT: R209
+WARNING PROVISIONAL_FOOTPRINT: R210
+WARNING PROVISIONAL_FOOTPRINT: R212
+WARNING PROVISIONAL_FOOTPRINT: R214
+WARNING PROVISIONAL_FOOTPRINT: R215
+WARNING PROVISIONAL_FOOTPRINT: TP460
+WARNING PROVISIONAL_FOOTPRINT: TP461
+WARNING PROVISIONAL_FOOTPRINT: TP462
+WARNING PROVISIONAL_FOOTPRINT: TP463
+WARNING PROVISIONAL_FOOTPRINT: TP466
+WARNING PROVISIONAL_FOOTPRINT: TP467
+WARNING PROVISIONAL_FOOTPRINT: TP468
+WARNING PROVISIONAL_FOOTPRINT: TP471
+WARNING PROVISIONAL_FOOTPRINT: TP472
+WARNING PROVISIONAL_FOOTPRINT: TP473
+WARNING PROVISIONAL_FOOTPRINT: TP474
+WARNING PROVISIONAL_FOOTPRINT: U107
+WARNING PROVISIONAL_FOOTPRINT: U201
+WARNING PROVISIONAL_FOOTPRINT: U207
+WARNING PROVISIONAL_FOOTPRINT: U310
+WARNING PROVISIONAL_FOOTPRINT: U320
+WARNING PROVISIONAL_FOOTPRINT: U330
+WARNING PROVISIONAL_FOOTPRINT: U340
+WARNING RULE:B03: T7 routing/straight_power_trunks: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+WARNING RULE:B04: per-conductor bends checked; complete branch IDs and preferred-material policy are not represented
+WARNING RULE:B05: 57 jumpers > 24
+WARNING RULE:B06: 57 jumpers > 16
+WARNING RULE:B09: pin bbox span 34 holes > 16
+WARNING RULE:B10: pin bbox span 34 holes > 16
+WARNING RULE:B11: pin bbox span 34 holes > 16
+WARNING RULE:B12: pin bbox span 34 holes > 16
+WARNING RULE:M13: TP471.1 / U310.8: 30 holes > 3
+WARNING RULE:M13: TP472.1 / U320.8: 40 holes > 3
+WARNING RULE:M13: TP473.1 / U330.8: 50 holes > 3
+WARNING RULE:M13: TP474.1 / U340.8: 60 holes > 3
+WARNING RULE:P04: pin bbox span 41 holes > 24
+WARNING RULE:P07: C312.1 / U310.14: 2 holes > 1
+WARNING RULE:P07: C312.2 / U310.13: 4 holes > 1
+WARNING RULE:P07: C322.1 / U320.14: 2 holes > 1
+WARNING RULE:P07: C322.2 / U320.13: 4 holes > 1
+WARNING RULE:P07: C332.1 / U330.14: 2 holes > 1
+WARNING RULE:P07: C332.2 / U330.13: 4 holes > 1
+WARNING RULE:P07: C342.1 / U340.14: 2 holes > 1
+WARNING RULE:P07: C342.2 / U340.13: 4 holes > 1
+WARNING RULE:P10: C311.1 -> U310.14: 6.000 holes (max 3)
+WARNING RULE:P10: C311.2 -> U310.13: 13.000 holes (max 3)
+WARNING RULE:P10: C321.1 -> U320.14: 6.000 holes (max 3)
+WARNING RULE:P10: C321.2 -> U320.13: 35.000 holes (max 3)
+WARNING RULE:P10: C331.1 -> U330.14: 6.000 holes (max 3)
+WARNING RULE:P10: C331.2 -> U330.13: 151.000 holes (max 3)
+WARNING RULE:P10: C341.1 -> U340.14: 6.000 holes (max 3)
+WARNING RULE:P10: C341.2 -> U340.13: 11.000 holes (max 3)
+WARNING RULE:S03: T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths
+WARNING RULE:S05: U201.10 -> U330.4: 55.000 holes (max 35)
+WARNING RULE:S05: U201.11 -> U340.3: 64.000 holes (max 35)
+WARNING RULE:S05: U201.12 -> U340.4: 64.000 holes (max 35)
+WARNING RULE:S05: U201.4 -> U310.3: 38.000 holes (max 35)
+WARNING RULE:S05: U201.5 -> U310.4: 38.000 holes (max 35)
+WARNING RULE:S05: U201.6 -> U320.3: 47.000 holes (max 35)
+WARNING RULE:S05: U201.7 -> U320.4: 47.000 holes (max 35)
+WARNING RULE:S05: U201.9 -> U330.3: 55.000 holes (max 35)
+WARNING RULE:S13: pin bbox span 29 holes > 12
+WARNING RULE:V05: placement.nodes.VREF_ROOT must declare the physical junction hole; anchor C211.1 is at (28, 3)

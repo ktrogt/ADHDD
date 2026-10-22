@@ -1,0 +1,212 @@
+[
+  {
+    "round": 0,
+    "trial": 0,
+    "blocker": "L5S101",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      67,
+      2692.222
+    ]
+  },
+  {
+    "round": 1,
+    "trial": 0,
+    "blocker": "L5S099",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      67,
+      2689.682
+    ]
+  },
+  {
+    "round": 2,
+    "trial": 11,
+    "blocker": "L5S053",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      67,
+      2687.142
+    ]
+  },
+  {
+    "round": 3,
+    "trial": 2,
+    "blocker": "L5S039",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      67,
+      2684.602
+    ]
+  },
+  {
+    "round": 4,
+    "trial": 0,
+    "blocker": "L5S096",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      67,
+      2682.062
+    ]
+  },
+  {
+    "round": 5,
+    "trial": 0,
+    "blocker": "L5S018",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      67,
+      2679.522
+    ]
+  },
+  {
+    "round": 6,
+    "trial": 1,
+    "blocker": "L5S029",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2669.362
+    ]
+  },
+  {
+    "round": 7,
+    "trial": 1,
+    "blocker": "L5S034",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2666.822
+    ]
+  },
+  {
+    "round": 8,
+    "trial": 0,
+    "blocker": "L5S040",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2664.282
+    ]
+  },
+  {
+    "round": 9,
+    "trial": 1,
+    "blocker": "L5S082",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2661.742
+    ]
+  },
+  {
+    "round": 10,
+    "trial": 2,
+    "blocker": "L5S069",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2659.202
+    ]
+  },
+  {
+    "round": 11,
+    "trial": 1,
+    "blocker": "L5S079",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2656.662
+    ]
+  },
+  {
+    "round": 12,
+    "trial": 5,
+    "blocker": "L5S060",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2654.122
+    ]
+  },
+  {
+    "round": 13,
+    "trial": 3,
+    "blocker": "L5S084",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2651.582
+    ]
+  },
+  {
+    "round": 14,
+    "trial": 2,
+    "blocker": "L5S083",
+    "comparison": [
+      true,
+      0,
+      0,
+      33,
+      226.127807,
+      66,
+      2649.042
+    ]
+  }
+]

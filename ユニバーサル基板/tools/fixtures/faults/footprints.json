@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "footprints": {
+    "PIN": {
+      "pins": [
+        {
+          "number": "1",
+          "name": "P",
+          "dx": 0,
+          "dy": 0
+        }
+      ],
+      "body_mm": {
+        "x": -0.5,
+        "y": -0.5,
+        "width": 1,
+        "height": 1
+      },
+      "height_mm": 2,
+      "hot": false
+    }
+  }
+}

@@ -1,0 +1,1404 @@
+{
+  "records": [
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:2,7,0,1,6,5,4,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 49,
+      "bare_bends": 82,
+      "mm": 4201.16,
+      "score": 4958778.745
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-base:2,7,1,6,5,3,4,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 87,
+      "mm": 3672.84,
+      "score": 4959014.425
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:0,4,5,2,7,3,1,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958930.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:4,7,0,1,5,3,6,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 49,
+      "bare_bends": 84,
+      "mm": 4175.76,
+      "score": 4959767.345
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:3,6,1,5,2,4,0,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 80,
+      "mm": 3609.34,
+      "score": 4957968.925
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:5,7,4,6,2,0,3,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 84,
+      "mm": 3642.36,
+      "score": 4958973.945
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:1,0,4,3,6,7,5,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 49,
+      "bare_bends": 84,
+      "mm": 4175.76,
+      "score": 4959767.345
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:4,3,2,7,0,5,6,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958930.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:5,3,2,4,6,1,7,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 84,
+      "mm": 3642.36,
+      "score": 4958973.945
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:4,6,5,1,0,2,7,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 49,
+      "bare_bends": 84,
+      "mm": 4175.76,
+      "score": 4959767.345
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:7,0,3,4,5,2,6,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 80,
+      "mm": 3609.34,
+      "score": 4957968.925
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:0,3,6,2,4,5,1,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 80,
+      "mm": 3609.34,
+      "score": 4957968.925
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:4,0,2,5,7,6,1,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 49,
+      "bare_bends": 84,
+      "mm": 4175.76,
+      "score": 4959767.345
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:6,4,5,1,2,7,3,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958930.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:1,6,4,0,3,2,5,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958930.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:3,7,0,4,1,2,5,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 51,
+      "bare_bends": 88,
+      "mm": 4191.0,
+      "score": 4959822.585
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:3,5,6,2,4,0,7,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 80,
+      "mm": 3609.34,
+      "score": 4957968.925
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:2,7,0,3,4,5,6,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 74,
+      "mm": 3619.5,
+      "score": 4956929.085
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:3,0,1,6,7,5,4,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 51,
+      "bare_bends": 88,
+      "mm": 4191.0,
+      "score": 4959822.585
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:4,0,3,6,1,5,2,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958930.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:1,5,7,3,0,4,6,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 84,
+      "mm": 3642.36,
+      "score": 4958973.945
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-controls:2,4,0,6,3,7,1,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 49,
+      "bare_bends": 82,
+      "mm": 4201.16,
+      "score": 4958778.745
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:7,2,5,4,0,1,3,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 74,
+      "mm": 3619.5,
+      "score": 4956929.085
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:4,6,3,1,5,7,0,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958930.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "mode": "paired-controls:1,2,5,7,6,0,4,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 47,
+      "bare_bends": 93,
+      "mm": 4183.38,
+      "score": 4958762.965
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "mode": "paired-inputs:5,2,4,0,7,3,6,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 84,
+      "mm": 3642.36,
+      "score": 4958987.945
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "mode": "paired-inputs:4,5,3,1,7,2,0,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 80,
+      "mm": 3609.34,
+      "score": 4957974.925
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mode": "paired-controls:7,1,5,6,2,0,4,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 48,
+      "bare_bends": 95,
+      "mm": 4231.64,
+      "score": 4960863.225
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mode": "paired-inputs:7,0,4,2,3,6,1,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4955910.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mode": "paired-inputs:6,7,4,5,2,3,0,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4955916.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mode": "paired-controls:6,1,5,3,0,7,2,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 49,
+      "bare_bends": 86,
+      "mm": 4183.38,
+      "score": 4957782.965
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "mode": "paired-inputs:6,5,7,2,0,3,1,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4955916.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "mode": "paired-inputs:4,1,0,3,5,2,7,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4956916.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "mode": "paired-controls:1,7,5,2,0,3,6,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 51,
+      "bare_bends": 88,
+      "mm": 4191.0,
+      "score": 4959828.585
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "mode": "paired-inputs:6,5,1,7,4,2,3,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 88,
+      "mm": 3647.44,
+      "score": 4959989.025
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "mode": "paired-inputs:6,3,0,2,5,4,7,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958938.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "mode": "paired-controls:7,1,6,2,4,5,0,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 50,
+      "bare_bends": 87,
+      "mm": 4185.92,
+      "score": 4958823.505
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "mode": "paired-inputs:4,7,2,6,0,1,3,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4955910.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "mode": "paired-inputs:5,4,2,7,6,0,1,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 79,
+      "mm": 3604.26,
+      "score": 4956957.845
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "mode": "paired-controls:5,6,1,3,0,7,2,4",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 48,
+      "bare_bends": 95,
+      "mm": 4231.64,
+      "score": 4960859.225
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "mode": "paired-inputs:5,1,3,7,4,0,2,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 88,
+      "mm": 3647.44,
+      "score": 4957983.025
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "mode": "paired-inputs:5,1,7,3,0,4,2,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 88,
+      "mm": 3647.44,
+      "score": 4957983.025
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mode": "paired-controls:1,4,2,6,5,7,0,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 51,
+      "bare_bends": 88,
+      "mm": 4191.0,
+      "score": 4959834.585
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "mode": "paired-inputs:4,3,5,1,7,0,6,2",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 78,
+      "mm": 3599.18,
+      "score": 4958930.765
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "mode": "paired-inputs:3,1,0,2,5,7,4,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 80,
+      "mm": 3609.34,
+      "score": 4957966.925
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "mode": "paired-controls:2,0,1,7,6,4,5,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 47,
+      "bare_bends": 89,
+      "mm": 4178.3,
+      "score": 4957749.885
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "mode": "paired-inputs:4,7,2,1,6,0,3,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 84,
+      "mm": 3642.36,
+      "score": 4958987.945
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mode": "paired-inputs:1,3,5,7,6,4,2,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 43,
+      "bare_bends": 80,
+      "mm": 3609.34,
+      "score": 4957980.925
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "mode": "paired-controls:7,1,3,6,0,2,4,5",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 51,
+      "bare_bends": 88,
+      "mm": 4191.0,
+      "score": 4959820.585
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "mode": "paired-inputs:7,3,5,2,4,1,0,6",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 84,
+      "mm": 3642.36,
+      "score": 4958983.945
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "mode": "paired-inputs:6,3,2,5,7,4,0,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 79,
+      "mm": 3604.26,
+      "score": 4956967.845
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "mode": "paired-controls:6,2,0,7,1,4,5,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 47,
+      "bare_bends": 89,
+      "mm": 4178.3,
+      "score": 4957757.885
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "mode": "paired-inputs:6,5,7,0,2,1,4,3",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 84,
+      "mm": 3642.36,
+      "score": 4958973.945
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "mode": "paired-inputs:2,3,0,5,7,4,6,1",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 42,
+      "bare_bends": 79,
+      "mm": 3604.26,
+      "score": 4956957.845
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "mode": "paired-controls:5,7,1,2,3,6,4,0",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 48,
+      "bare_bends": 95,
+      "mm": 4231.64,
+      "score": 4960859.225
+    },
+    {
+      "variant": "F2_paired",
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "mode": "paired-inputs:3,0,2,1,4,6,5,7",
+      "hardfail": [
+        "P02",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "V02",
+        "V03"
+      ],
+      "jumpers": 41,
+      "bare_bends": 74,
+      "mm": 3619.5,
+      "score": 4955937.085
+    }
+  ]
+}

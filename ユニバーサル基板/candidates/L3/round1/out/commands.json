@@ -1,0 +1,22 @@
+[
+  {
+    "command": "verify",
+    "exit_code": 1,
+    "first_line": "FAIL; LVS PASS; 186/186 pins, 42 nets, 22 NC; 60 errors, 52 warnings; 3405.4 mm wire, 35 jumpers; score 6056485.8"
+  },
+  {
+    "command": "render",
+    "exit_code": 0,
+    "first_line": "SVG: \u30e6\u30cb\u30d0\u30fc\u30b5\u30eb\u57fa\u677f\\candidates\\L3\\out\\top.svg"
+  },
+  {
+    "command": "wirelist",
+    "exit_code": 0,
+    "first_line": "WIRE LIST: 115 steps"
+  },
+  {
+    "command": "continuity",
+    "exit_code": 0,
+    "first_line": "CONTINUITY: 1102 tests (bare board, power off)"
+  }
+]

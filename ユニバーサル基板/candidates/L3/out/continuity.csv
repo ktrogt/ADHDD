@@ -1,0 +1,1024 @@
+step,expected,from_hole,to_hole,from_net,to_net,reason,condition
+1,BEEP,H35,R24,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+2,BEEP,H35,S21,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+3,BEEP,H35,V32,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+4,BEEP,H35,X34,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+5,BEEP,H35,Z24,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+6,BEEP,H35,AF33,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+7,BEEP,H35,AS5,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+8,BEEP,H35,AS16,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+9,BEEP,H35,AS27,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+10,BEEP,H35,AS38,+3V3,+3V3,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+11,BEEP,F34,N13,+5V,+5V,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+12,BEEP,F34,P8,+5V,+5V,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+13,BEEP,F34,S12,+5V,+5V,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+14,BEEP,F18,O21,ARM,ARM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+15,BEEP,B20,C18,ARM_SW,ARM_SW,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+16,BEEP,O20,P21,FAULT,FAULT,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+17,BEEP,O20,S19,FAULT,FAULT,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+18,BEEP,O20,AX6,FAULT,FAULT,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+19,BEEP,O20,AX17,FAULT,FAULT,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+20,BEEP,O20,AX28,FAULT,FAULT,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+21,BEEP,O20,AX39,FAULT,FAULT,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+22,BEEP,E23,G13,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+23,BEEP,E23,H22,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+24,BEEP,E23,H27,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+25,BEEP,E23,H32,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+26,BEEP,E23,H37,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+27,BEEP,E23,M13,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+28,BEEP,E23,M18,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+29,BEEP,E23,O22,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+30,BEEP,E23,O27,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+31,BEEP,E23,O32,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+32,BEEP,E23,O37,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+33,BEEP,E23,Q26,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+34,BEEP,E23,S13,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+35,BEEP,E23,U32,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+36,BEEP,E23,U34,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+37,BEEP,E23,U36,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+38,BEEP,E23,U39,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+39,BEEP,E23,Y39,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+40,BEEP,E23,AD3,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+41,BEEP,E23,AE2,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+42,BEEP,E23,AF6,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+43,BEEP,E23,AG22,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+44,BEEP,E23,AG24,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+45,BEEP,E23,AI25,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+46,BEEP,E23,AO3,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+47,BEEP,E23,AS2,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+48,BEEP,E23,AS13,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+49,BEEP,E23,AS24,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+50,BEEP,E23,AS35,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+51,BEEP,E23,AX2,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+52,BEEP,E23,AX13,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+53,BEEP,E23,AX24,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+54,BEEP,E23,AX35,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+55,BEEP,E23,AZ2,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+56,BEEP,E23,AZ13,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+57,BEEP,E23,AZ24,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+58,BEEP,E23,AZ35,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+59,BEEP,E23,BC9,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+60,BEEP,E23,BC20,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+61,BEEP,E23,BC31,GND,GND,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+62,BEEP,AX40,AZ40,HDD1_CS,HDD1_CS,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+63,BEEP,O36,AS36,HDD1_IN1,HDD1_IN1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+64,BEEP,O35,AS37,HDD1_IN2,HDD1_IN2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+65,BEEP,AX36,BB37,HDD1_OUT1,HDD1_OUT1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+66,BEEP,AX37,AZ37,HDD1_OUT2,HDD1_OUT2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+67,BEEP,AX29,AX31,HDD2_CS,HDD2_CS,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+68,BEEP,O34,AS25,HDD2_IN1,HDD2_IN1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+69,BEEP,O33,AS26,HDD2_IN2,HDD2_IN2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+70,BEEP,AX25,BB26,HDD2_OUT1,HDD2_OUT1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+71,BEEP,AX26,AZ26,HDD2_OUT2,HDD2_OUT2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+72,BEEP,AX18,AX20,HDD3_CS,HDD3_CS,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+73,BEEP,O31,AS14,HDD3_IN1,HDD3_IN1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+74,BEEP,O30,AS15,HDD3_IN2,HDD3_IN2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+75,BEEP,AX14,BB15,HDD3_OUT1,HDD3_OUT1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+76,BEEP,AX15,AZ15,HDD3_OUT2,HDD3_OUT2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+77,BEEP,AX7,AX9,HDD4_CS,HDD4_CS,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+78,BEEP,O29,AS3,HDD4_IN1,HDD4_IN1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+79,BEEP,O28,AS4,HDD4_IN2,HDD4_IN2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+80,BEEP,AX3,BB4,HDD4_OUT1,HDD4_OUT1,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+81,BEEP,AX4,AZ4,HDD4_OUT2,HDD4_OUT2,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+82,BEEP,C20,D26,SLEEP,SLEEP,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+83,BEEP,C20,E20,SLEEP,SLEEP,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+84,BEEP,C20,H20,SLEEP,SLEEP,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+85,BEEP,C20,AS6,SLEEP,SLEEP,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+86,BEEP,C20,AS17,SLEEP,SLEEP,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+87,BEEP,C20,AS28,SLEEP,SLEEP,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+88,BEEP,C20,AS39,SLEEP,SLEEP,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+89,BEEP,S37,T39,SN_BUS,SN_BUS,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+90,BEEP,S37,X39,SN_BUS,SN_BUS,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+91,BEEP,AC31,AC33,SN_PU,SN_PU,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+92,BEEP,S34,U35,SN_RX_IN,SN_RX_IN,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+93,BEEP,S34,Z31,SN_RX_IN,SN_RX_IN,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+94,BEEP,O38,X36,UART_RX,UART_RX,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+95,BEEP,R2,Z15,VIN_FUSED,VIN_FUSED,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+96,BEEP,AA15,AJ1,VIN_PROT,VIN_PROT,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+97,BEEP,P2,AD6,VIN_RAW,VIN_RAW,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+98,BEEP,F13,L13,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+99,BEEP,F13,AH6,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+100,BEEP,F13,AI2,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+101,BEEP,F13,AJ2,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+102,BEEP,F13,AK7,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+103,BEEP,F13,AO1,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+104,BEEP,F13,AX1,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+105,BEEP,F13,AX12,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+106,BEEP,F13,AX23,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+107,BEEP,F13,AX34,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+108,BEEP,F13,AZ1,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+109,BEEP,F13,AZ12,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+110,BEEP,F13,AZ23,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+111,BEEP,F13,AZ34,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+112,BEEP,F13,BA9,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+113,BEEP,F13,BA20,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+114,BEEP,F13,BA31,VM,VM,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+115,BEEP,AB26,AC24,VREF,VREF,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+116,BEEP,AB26,AD22,VREF,VREF,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+117,BEEP,AB26,AE24,VREF,VREF,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+118,BEEP,AB26,AS7,VREF,VREF,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+119,BEEP,AB26,AS18,VREF,VREF,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+120,BEEP,AB26,AS29,VREF,VREF,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+121,BEEP,AB26,AS40,VREF,VREF,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+122,BEEP,F38,H38,VSYS,VSYS,all expected terminals connected (spanning set),POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+123,NO_BEEP,E23,F13,GND,VM,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+124,NO_BEEP,E23,P2,GND,VIN_RAW,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+125,NO_BEEP,E23,R2,GND,VIN_FUSED,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+126,NO_BEEP,E23,AA15,GND,VIN_PROT,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+127,NO_BEEP,E23,F34,GND,+5V,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+128,NO_BEEP,E23,H35,GND,+3V3,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+129,NO_BEEP,E23,F38,GND,VSYS,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+130,NO_BEEP,F13,P2,VM,VIN_RAW,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+131,NO_BEEP,F13,R2,VM,VIN_FUSED,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+132,NO_BEEP,F13,AA15,VM,VIN_PROT,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+133,NO_BEEP,F13,F34,VM,+5V,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+134,NO_BEEP,F13,H35,VM,+3V3,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+135,NO_BEEP,F13,F38,VM,VSYS,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+136,NO_BEEP,P2,R2,VIN_RAW,VIN_FUSED,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+137,NO_BEEP,P2,AA15,VIN_RAW,VIN_PROT,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+138,NO_BEEP,P2,F34,VIN_RAW,+5V,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+139,NO_BEEP,P2,H35,VIN_RAW,+3V3,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+140,NO_BEEP,P2,F38,VIN_RAW,VSYS,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+141,NO_BEEP,R2,AA15,VIN_FUSED,VIN_PROT,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+142,NO_BEEP,R2,F34,VIN_FUSED,+5V,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+143,NO_BEEP,R2,H35,VIN_FUSED,+3V3,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+144,NO_BEEP,R2,F38,VIN_FUSED,VSYS,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+145,NO_BEEP,AA15,F34,VIN_PROT,+5V,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+146,NO_BEEP,AA15,H35,VIN_PROT,+3V3,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+147,NO_BEEP,AA15,F38,VIN_PROT,VSYS,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+148,NO_BEEP,F34,H35,+5V,+3V3,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+149,NO_BEEP,F34,F38,+5V,VSYS,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+150,NO_BEEP,H35,F38,+3V3,VSYS,power isolation,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+151,NO_BEEP,A17,B18,+5V,ARM_SW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+152,NO_BEEP,A18,B18,+5V,ARM_SW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+153,NO_BEEP,A18,B19,+5V,ARM_SW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+154,NO_BEEP,A19,B19,+5V,ARM_SW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+155,NO_BEEP,A19,B20,+5V,ARM_SW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+156,NO_BEEP,A20,B20,+5V,ARM_SW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+157,NO_BEEP,B18,A19,ARM_SW,+5V,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+158,NO_BEEP,B19,C20,ARM_SW,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+159,NO_BEEP,B19,A20,ARM_SW,+5V,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+160,NO_BEEP,B20,C20,ARM_SW,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+161,NO_BEEP,B20,A21,ARM_SW,+5V,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+162,NO_BEEP,D22,E23,SLEEP,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+163,NO_BEEP,D23,E23,SLEEP,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+164,NO_BEEP,E23,D24,GND,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+165,NO_BEEP,F13,G13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+166,NO_BEEP,F19,F20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+167,NO_BEEP,F19,G20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+168,NO_BEEP,F19,E20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+169,NO_BEEP,G19,G20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+170,NO_BEEP,G19,H20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+171,NO_BEEP,G19,F20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+172,NO_BEEP,G20,H21,SLEEP,MUX_S0,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+173,NO_BEEP,G38,H39,VSYS,NC:U201.VBUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+174,NO_BEEP,H19,H20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+175,NO_BEEP,H19,G20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+176,NO_BEEP,H20,H21,SLEEP,MUX_S0,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+177,NO_BEEP,H21,H22,MUX_S0,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+178,NO_BEEP,H21,I22,MUX_S0,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+179,NO_BEEP,H22,H23,GND,MUX_S1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+180,NO_BEEP,H23,H24,MUX_S1,NC:U201.GP19,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+181,NO_BEEP,H24,H25,NC:U201.GP19,NC:U201.GP20,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+182,NO_BEEP,H25,H26,NC:U201.GP20,NC:U201.GP21,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+183,NO_BEEP,H26,H27,NC:U201.GP21,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+184,NO_BEEP,H26,I27,NC:U201.GP21,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+185,NO_BEEP,H27,H28,GND,NC:U201.GP22,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+186,NO_BEEP,H28,H29,NC:U201.GP22,NC:U201.RUN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+187,NO_BEEP,H29,H30,NC:U201.RUN,VM_SENSE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+188,NO_BEEP,H30,H31,VM_SENSE,I_SENSE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+189,NO_BEEP,H31,H32,I_SENSE,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+190,NO_BEEP,H31,I32,I_SENSE,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+191,NO_BEEP,H32,H33,GND,T_SENSE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+192,NO_BEEP,H33,H34,T_SENSE,NC:U201.ADC_VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+193,NO_BEEP,H34,H35,NC:U201.ADC_VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+194,NO_BEEP,H35,H36,+3V3,NC:U201.3V3_EN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+195,NO_BEEP,H36,H37,NC:U201.3V3_EN,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+196,NO_BEEP,H36,I37,NC:U201.3V3_EN,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+197,NO_BEEP,H37,H38,GND,VSYS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+198,NO_BEEP,H37,G38,GND,VSYS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+199,NO_BEEP,H38,H39,VSYS,NC:U201.VBUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+200,NO_BEEP,I19,H20,ARM,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+201,NO_BEEP,I22,H23,GND,MUX_S1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+202,NO_BEEP,I27,H28,GND,NC:U201.GP22,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+203,NO_BEEP,I32,H33,GND,T_SENSE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+204,NO_BEEP,I37,H38,GND,VSYS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+205,NO_BEEP,L13,M13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+206,NO_BEEP,L13,M14,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+207,NO_BEEP,M13,N13,GND,+5V,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+208,NO_BEEP,M18,M19,GND,ARM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+209,NO_BEEP,M18,N19,GND,ARM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+210,NO_BEEP,M18,L19,GND,ARM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+211,NO_BEEP,N12,M13,+5V,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+212,NO_BEEP,N13,M14,+5V,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+213,NO_BEEP,N19,O20,ARM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+214,NO_BEEP,N20,O20,ARM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+215,NO_BEEP,N21,N22,ARM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+216,NO_BEEP,N21,O22,ARM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+217,NO_BEEP,N21,M22,ARM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+218,NO_BEEP,N22,O23,GND,NC:U201.GP13,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+219,NO_BEEP,N27,O28,GND,HDD4_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+220,NO_BEEP,N32,O33,GND,HDD2_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+221,NO_BEEP,N37,O38,GND,UART_RX,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+222,NO_BEEP,O20,O21,FAULT,ARM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+223,NO_BEEP,O20,N21,FAULT,ARM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+224,NO_BEEP,O21,P21,ARM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+225,NO_BEEP,O21,O22,ARM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+226,NO_BEEP,O21,N22,ARM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+227,NO_BEEP,O22,O23,GND,NC:U201.GP13,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+228,NO_BEEP,O23,O24,NC:U201.GP13,NC:U201.GP12,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+229,NO_BEEP,O24,O25,NC:U201.GP12,NC:U201.GP11,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+230,NO_BEEP,O25,O26,NC:U201.GP11,NC:U201.GP10,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+231,NO_BEEP,O26,O27,NC:U201.GP10,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+232,NO_BEEP,O26,P27,NC:U201.GP10,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+233,NO_BEEP,O26,N27,NC:U201.GP10,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+234,NO_BEEP,O27,O28,GND,HDD4_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+235,NO_BEEP,O28,O29,HDD4_IN2,HDD4_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+236,NO_BEEP,O29,O30,HDD4_IN1,HDD3_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+237,NO_BEEP,O30,O31,HDD3_IN2,HDD3_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+238,NO_BEEP,O31,O32,HDD3_IN1,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+239,NO_BEEP,O31,N32,HDD3_IN1,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+240,NO_BEEP,O32,O33,GND,HDD2_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+241,NO_BEEP,O33,O34,HDD2_IN2,HDD2_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+242,NO_BEEP,O34,O35,HDD2_IN1,HDD1_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+243,NO_BEEP,O35,O36,HDD1_IN2,HDD1_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+244,NO_BEEP,O36,O37,HDD1_IN1,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+245,NO_BEEP,O36,N37,HDD1_IN1,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+246,NO_BEEP,O37,O38,GND,UART_RX,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+247,NO_BEEP,O37,P38,GND,UART_RX,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+248,NO_BEEP,O38,O39,UART_RX,NC:U201.GP0,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+249,NO_BEEP,P20,O21,FAULT,ARM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+250,NO_BEEP,P21,O22,FAULT,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+251,NO_BEEP,P27,O28,GND,HDD4_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+252,NO_BEEP,P38,O39,UART_RX,NC:U201.GP0,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+253,NO_BEEP,R12,S13,+5V,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+254,NO_BEEP,S12,S13,+5V,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+255,NO_BEEP,S37,S38,SN_BUS,UART_RX,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+256,NO_BEEP,S37,R38,SN_BUS,UART_RX,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+257,NO_BEEP,S38,T38,UART_RX,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+258,NO_BEEP,S38,T39,UART_RX,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+259,NO_BEEP,T35,U36,SN_RX_IN,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+260,NO_BEEP,T37,U37,SN_BUS,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+261,NO_BEEP,T37,U38,SN_BUS,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+262,NO_BEEP,T37,S38,SN_BUS,UART_RX,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+263,NO_BEEP,T38,U38,SN_BUS,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+264,NO_BEEP,T38,U39,SN_BUS,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+265,NO_BEEP,T39,U39,SN_BUS,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+266,NO_BEEP,U32,V32,GND,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+267,NO_BEEP,U32,V33,GND,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+268,NO_BEEP,U33,V33,GND,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+269,NO_BEEP,U33,V34,GND,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+270,NO_BEEP,U34,V34,GND,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+271,NO_BEEP,U34,U35,GND,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+272,NO_BEEP,U34,V35,GND,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+273,NO_BEEP,U34,T35,GND,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+274,NO_BEEP,U35,U36,SN_RX_IN,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+275,NO_BEEP,U36,T37,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+276,NO_BEEP,U37,T38,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+277,NO_BEEP,U38,T39,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+278,NO_BEEP,U39,U40,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+279,NO_BEEP,U39,V40,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+280,NO_BEEP,U39,T40,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+281,NO_BEEP,V31,U32,+3V3,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+282,NO_BEEP,V32,V33,+3V3,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+283,NO_BEEP,V32,W33,+3V3,SN_RX_IN,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+284,NO_BEEP,V32,U33,+3V3,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+285,NO_BEEP,V33,U34,SN_RX_IN,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+286,NO_BEEP,V35,U36,SN_RX_IN,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+287,NO_BEEP,W33,X34,SN_RX_IN,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+288,NO_BEEP,X33,X34,SN_RX_IN,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+289,NO_BEEP,X34,X35,+3V3,NC_EXTRA:U207.extra:5,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+290,NO_BEEP,X35,X36,NC_EXTRA:U207.extra:5,UART_RX,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+291,NO_BEEP,X36,X37,UART_RX,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+292,NO_BEEP,X36,Y37,UART_RX,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+293,NO_BEEP,X36,W37,UART_RX,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+294,NO_BEEP,X39,Y39,SN_BUS,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+295,NO_BEEP,Y33,X34,SN_RX_IN,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+296,NO_BEEP,Y38,X39,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+297,NO_BEEP,Y39,X40,GND,SN_BUS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+298,NO_BEEP,Z2,AA2,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+299,NO_BEEP,Z2,AA3,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+300,NO_BEEP,Z3,AA3,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+301,NO_BEEP,Z3,AA4,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+302,NO_BEEP,Z4,AA4,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+303,NO_BEEP,Z4,AA5,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+304,NO_BEEP,Z5,AA5,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+305,NO_BEEP,Z5,AA6,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+306,NO_BEEP,Z6,AA6,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+307,NO_BEEP,Z6,AA7,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+308,NO_BEEP,Z7,AA7,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+309,NO_BEEP,Z7,AA8,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+310,NO_BEEP,Z8,AA8,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+311,NO_BEEP,Z8,AA9,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+312,NO_BEEP,Z9,AA9,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+313,NO_BEEP,Z9,AA10,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+314,NO_BEEP,Z10,AA10,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+315,NO_BEEP,Z10,AA11,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+316,NO_BEEP,Z11,AA11,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+317,NO_BEEP,Z11,AA12,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+318,NO_BEEP,Z12,AA12,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+319,NO_BEEP,Z12,AA13,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+320,NO_BEEP,Z13,AA13,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+321,NO_BEEP,Z13,AA14,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+322,NO_BEEP,Z14,AA14,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+323,NO_BEEP,Z14,AA15,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+324,NO_BEEP,Z15,AA15,VIN_FUSED,VIN_PROT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+325,NO_BEEP,Z15,Z16,VIN_FUSED,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+326,NO_BEEP,Z15,AA16,VIN_FUSED,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+327,NO_BEEP,Z15,Y16,VIN_FUSED,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+328,NO_BEEP,AA1,Z2,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+329,NO_BEEP,AA2,Z3,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+330,NO_BEEP,AA3,Z4,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+331,NO_BEEP,AA4,Z5,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+332,NO_BEEP,AA5,Z6,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+333,NO_BEEP,AA6,Z7,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+334,NO_BEEP,AA7,Z8,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+335,NO_BEEP,AA8,Z9,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+336,NO_BEEP,AA9,Z10,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+337,NO_BEEP,AA10,Z11,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+338,NO_BEEP,AA11,Z12,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+339,NO_BEEP,AA12,Z13,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+340,NO_BEEP,AA13,Z14,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+341,NO_BEEP,AA14,AB15,VIN_PROT,NC_EXTRA:D103.extra:3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+342,NO_BEEP,AA14,Z15,VIN_PROT,VIN_FUSED,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+343,NO_BEEP,AA15,AB15,VIN_PROT,NC_EXTRA:D103.extra:3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+344,NO_BEEP,AA15,AA16,VIN_PROT,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+345,NO_BEEP,AA15,AB16,VIN_PROT,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+346,NO_BEEP,AA15,Z16,VIN_PROT,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+347,NO_BEEP,AB15,AB16,NC_EXTRA:D103.extra:3,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+348,NO_BEEP,AB15,AC16,NC_EXTRA:D103.extra:3,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+349,NO_BEEP,AB15,AA16,NC_EXTRA:D103.extra:3,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+350,NO_BEEP,AD1,AE2,VIN_PROT,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+351,NO_BEEP,AD3,AD4,GND,NC_EXTRA:J101.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+352,NO_BEEP,AD4,AE4,NC_EXTRA:J101.extra:2,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+353,NO_BEEP,AD4,AD5,NC_EXTRA:J101.extra:2,NC:J101.SWITCH,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+354,NO_BEEP,AD4,AE5,NC_EXTRA:J101.extra:2,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+355,NO_BEEP,AD5,AE5,NC:J101.SWITCH,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+356,NO_BEEP,AD5,AD6,NC:J101.SWITCH,VIN_RAW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+357,NO_BEEP,AD5,AE6,NC:J101.SWITCH,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+358,NO_BEEP,AD6,AE6,VIN_RAW,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+359,NO_BEEP,AE1,AE2,VIN_PROT,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+360,NO_BEEP,AE1,AF2,VIN_PROT,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+361,NO_BEEP,AE3,AD4,GND,NC_EXTRA:J101.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+362,NO_BEEP,AE4,AD5,GND,NC:J101.SWITCH,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+363,NO_BEEP,AE5,AD6,GND,VIN_RAW,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+364,NO_BEEP,AE32,AF33,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+365,NO_BEEP,AE33,AF33,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+366,NO_BEEP,AF1,AF2,VIN_PROT,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+367,NO_BEEP,AF1,AE2,VIN_PROT,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+368,NO_BEEP,AF24,AG24,VREF,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+369,NO_BEEP,AF24,AG25,VREF,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+370,NO_BEEP,AF25,AG25,VREF,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+371,NO_BEEP,AF33,AE34,+3V3,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+372,NO_BEEP,AG1,AH2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+373,NO_BEEP,AG1,AF2,VIN_PROT,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+374,NO_BEEP,AG23,AF24,GND,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+375,NO_BEEP,AG24,AF25,GND,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+376,NO_BEEP,AG25,AF26,GND,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+377,NO_BEEP,AH1,AH2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+378,NO_BEEP,AH1,AI2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+379,NO_BEEP,AH6,AG7,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+380,NO_BEEP,AI1,AI2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+381,NO_BEEP,AI1,AJ2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+382,NO_BEEP,AI1,AH2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+383,NO_BEEP,AJ1,AJ2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+384,NO_BEEP,AJ1,AI2,VIN_PROT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+385,NO_BEEP,AO1,AP2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+386,NO_BEEP,AQ18,AR19,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+387,NO_BEEP,AR2,AS3,GND,HDD4_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+388,NO_BEEP,AR16,AS17,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+389,NO_BEEP,AR18,AR19,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+390,NO_BEEP,AR18,AS19,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+391,NO_BEEP,AR22,AS23,+3V3,NC:U320.VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+392,NO_BEEP,AR23,AS23,+3V3,NC:U320.VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+393,NO_BEEP,AR23,AS24,+3V3,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+394,NO_BEEP,AR24,AS24,+3V3,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+395,NO_BEEP,AR24,AS25,+3V3,HDD2_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+396,NO_BEEP,AR25,AS25,+3V3,HDD2_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+397,NO_BEEP,AR25,AS26,+3V3,HDD2_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+398,NO_BEEP,AR26,AS26,+3V3,HDD2_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+399,NO_BEEP,AR27,AS28,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+400,NO_BEEP,AR33,AS34,+3V3,NC:U310.VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+401,NO_BEEP,AR34,AS34,+3V3,NC:U310.VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+402,NO_BEEP,AR34,AS35,+3V3,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+403,NO_BEEP,AR35,AS35,+3V3,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+404,NO_BEEP,AR35,AS36,+3V3,HDD1_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+405,NO_BEEP,AR36,AS36,+3V3,HDD1_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+406,NO_BEEP,AR36,AS37,+3V3,HDD1_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+407,NO_BEEP,AR37,AS37,+3V3,HDD1_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+408,NO_BEEP,AR38,AS39,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+409,NO_BEEP,AS1,AS2,NC:U340.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+410,NO_BEEP,AS1,AT2,NC:U340.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+411,NO_BEEP,AS1,AR2,NC:U340.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+412,NO_BEEP,AS2,AS3,GND,HDD4_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+413,NO_BEEP,AS3,AS4,HDD4_IN1,HDD4_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+414,NO_BEEP,AS4,AS5,HDD4_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+415,NO_BEEP,AS5,AS6,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+416,NO_BEEP,AS6,AS7,SLEEP,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+417,NO_BEEP,AS12,AS13,NC:U330.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+418,NO_BEEP,AS12,AT13,NC:U330.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+419,NO_BEEP,AS13,AS14,GND,HDD3_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+420,NO_BEEP,AS14,AS15,HDD3_IN1,HDD3_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+421,NO_BEEP,AS15,AS16,HDD3_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+422,NO_BEEP,AS15,AT16,HDD3_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+423,NO_BEEP,AS15,AR16,HDD3_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+424,NO_BEEP,AS16,AS17,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+425,NO_BEEP,AS17,AT17,SLEEP,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+426,NO_BEEP,AS17,AS18,SLEEP,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+427,NO_BEEP,AS17,AT18,SLEEP,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+428,NO_BEEP,AS17,AR18,SLEEP,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+429,NO_BEEP,AS18,AT18,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+430,NO_BEEP,AS18,AS19,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+431,NO_BEEP,AS18,AT19,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+432,NO_BEEP,AS18,AR19,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+433,NO_BEEP,AS23,AS24,NC:U320.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+434,NO_BEEP,AS23,AT24,NC:U320.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+435,NO_BEEP,AS23,AR24,NC:U320.VM,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+436,NO_BEEP,AS24,AS25,GND,HDD2_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+437,NO_BEEP,AS24,AR25,GND,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+438,NO_BEEP,AS25,AS26,HDD2_IN1,HDD2_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+439,NO_BEEP,AS25,AR26,HDD2_IN1,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+440,NO_BEEP,AS26,AS27,HDD2_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+441,NO_BEEP,AS26,AT27,HDD2_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+442,NO_BEEP,AS26,AR27,HDD2_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+443,NO_BEEP,AS27,AS28,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+444,NO_BEEP,AS28,AT28,SLEEP,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+445,NO_BEEP,AS28,AS29,SLEEP,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+446,NO_BEEP,AS28,AT29,SLEEP,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+447,NO_BEEP,AS28,AR29,SLEEP,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+448,NO_BEEP,AS29,AT29,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+449,NO_BEEP,AS29,AT30,VREF,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+450,NO_BEEP,AS33,AS34,+3V3,NC:U310.VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+451,NO_BEEP,AS34,AS35,NC:U310.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+452,NO_BEEP,AS34,AT35,NC:U310.VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+453,NO_BEEP,AS34,AR35,NC:U310.VM,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+454,NO_BEEP,AS35,AS36,GND,HDD1_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+455,NO_BEEP,AS35,AR36,GND,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+456,NO_BEEP,AS36,AS37,HDD1_IN1,HDD1_IN2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+457,NO_BEEP,AS36,AR37,HDD1_IN1,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+458,NO_BEEP,AS37,AS38,HDD1_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+459,NO_BEEP,AS37,AR38,HDD1_IN2,+3V3,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+460,NO_BEEP,AS38,AS39,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+461,NO_BEEP,AS39,AS40,SLEEP,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+462,NO_BEEP,AS39,AR40,SLEEP,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+463,NO_BEEP,AT2,AS3,GND,HDD4_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+464,NO_BEEP,AT13,AS14,GND,HDD3_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+465,NO_BEEP,AT16,AS17,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+466,NO_BEEP,AT17,AS18,+3V3,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+467,NO_BEEP,AT24,AS25,GND,HDD2_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+468,NO_BEEP,AT27,AS28,+3V3,SLEEP,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+469,NO_BEEP,AT28,AS29,+3V3,VREF,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+470,NO_BEEP,AT33,AS34,+3V3,NC:U310.VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+471,NO_BEEP,AT35,AS36,GND,HDD1_IN1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+472,NO_BEEP,AV2,AW2,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+473,NO_BEEP,AV2,AW3,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+474,NO_BEEP,AV3,AW3,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+475,NO_BEEP,AV3,AW4,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+476,NO_BEEP,AV4,AW4,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+477,NO_BEEP,AV4,AW5,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+478,NO_BEEP,AV5,AW5,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+479,NO_BEEP,AV5,AW6,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+480,NO_BEEP,AV6,AW6,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+481,NO_BEEP,AV6,AW7,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+482,NO_BEEP,AV7,AW7,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+483,NO_BEEP,AV7,AW8,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+484,NO_BEEP,AV8,AW8,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+485,NO_BEEP,AV8,AW9,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+486,NO_BEEP,AV9,AW9,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+487,NO_BEEP,AV9,AW10,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+488,NO_BEEP,AV10,AW10,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+489,NO_BEEP,AV10,AW11,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+490,NO_BEEP,AV11,AW11,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+491,NO_BEEP,AV11,AW12,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+492,NO_BEEP,AV12,AW12,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+493,NO_BEEP,AV12,AW13,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+494,NO_BEEP,AV13,AW13,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+495,NO_BEEP,AV13,AW14,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+496,NO_BEEP,AV14,AW14,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+497,NO_BEEP,AV14,AW15,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+498,NO_BEEP,AV15,AW15,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+499,NO_BEEP,AV15,AW16,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+500,NO_BEEP,AV16,AW16,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+501,NO_BEEP,AV16,AW17,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+502,NO_BEEP,AV17,AW17,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+503,NO_BEEP,AV17,AW18,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+504,NO_BEEP,AV18,AW18,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+505,NO_BEEP,AV18,AW19,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+506,NO_BEEP,AV19,AW19,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+507,NO_BEEP,AV19,AW20,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+508,NO_BEEP,AV20,AW20,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+509,NO_BEEP,AV20,AW21,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+510,NO_BEEP,AV21,AW21,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+511,NO_BEEP,AV21,AW22,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+512,NO_BEEP,AV22,AW22,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+513,NO_BEEP,AV22,AW23,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+514,NO_BEEP,AV23,AW23,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+515,NO_BEEP,AV23,AW24,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+516,NO_BEEP,AV24,AW24,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+517,NO_BEEP,AV24,AW25,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+518,NO_BEEP,AV25,AW25,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+519,NO_BEEP,AV25,AW26,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+520,NO_BEEP,AV26,AW26,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+521,NO_BEEP,AV26,AW27,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+522,NO_BEEP,AV27,AW27,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+523,NO_BEEP,AV27,AW28,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+524,NO_BEEP,AV28,AW28,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+525,NO_BEEP,AV28,AW29,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+526,NO_BEEP,AV29,AW29,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+527,NO_BEEP,AV29,AW30,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+528,NO_BEEP,AV30,AW30,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+529,NO_BEEP,AV30,AW31,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+530,NO_BEEP,AV31,AW31,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+531,NO_BEEP,AV31,AW32,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+532,NO_BEEP,AV32,AW32,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+533,NO_BEEP,AV32,AW33,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+534,NO_BEEP,AV33,AW33,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+535,NO_BEEP,AV33,AW34,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+536,NO_BEEP,AV34,AW34,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+537,NO_BEEP,AW1,AX2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+538,NO_BEEP,AW1,AV2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+539,NO_BEEP,AW2,AX2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+540,NO_BEEP,AW2,AX3,VM,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+541,NO_BEEP,AW2,AV3,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+542,NO_BEEP,AW3,AX3,VM,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+543,NO_BEEP,AW3,AX4,VM,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+544,NO_BEEP,AW3,AV4,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+545,NO_BEEP,AW4,AX4,VM,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+546,NO_BEEP,AW4,AX5,VM,NC:U340.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+547,NO_BEEP,AW4,AV5,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+548,NO_BEEP,AW5,AX5,VM,NC:U340.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+549,NO_BEEP,AW5,AX6,VM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+550,NO_BEEP,AW5,AV6,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+551,NO_BEEP,AW6,AX6,VM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+552,NO_BEEP,AW6,AX7,VM,HDD4_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+553,NO_BEEP,AW6,AV7,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+554,NO_BEEP,AW7,AX7,VM,HDD4_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+555,NO_BEEP,AW7,AX8,VM,HDD4_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+556,NO_BEEP,AW7,AV8,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+557,NO_BEEP,AW8,AX8,VM,HDD4_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+558,NO_BEEP,AW8,AX9,VM,HDD4_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+559,NO_BEEP,AW8,AV9,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+560,NO_BEEP,AW9,AX9,VM,HDD4_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+561,NO_BEEP,AW9,AV10,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+562,NO_BEEP,AW10,AV11,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+563,NO_BEEP,AW11,AV12,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+564,NO_BEEP,AW12,AX13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+565,NO_BEEP,AW12,AV13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+566,NO_BEEP,AW13,AX13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+567,NO_BEEP,AW13,AX14,VM,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+568,NO_BEEP,AW13,AV14,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+569,NO_BEEP,AW14,AX14,VM,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+570,NO_BEEP,AW14,AX15,VM,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+571,NO_BEEP,AW14,AV15,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+572,NO_BEEP,AW15,AX15,VM,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+573,NO_BEEP,AW15,AX16,VM,NC:U330.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+574,NO_BEEP,AW15,AV16,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+575,NO_BEEP,AW16,AX16,VM,NC:U330.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+576,NO_BEEP,AW16,AX17,VM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+577,NO_BEEP,AW16,AV17,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+578,NO_BEEP,AW17,AX17,VM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+579,NO_BEEP,AW17,AX18,VM,HDD3_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+580,NO_BEEP,AW17,AV18,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+581,NO_BEEP,AW18,AX18,VM,HDD3_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+582,NO_BEEP,AW18,AX19,VM,HDD3_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+583,NO_BEEP,AW18,AV19,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+584,NO_BEEP,AW19,AX19,VM,HDD3_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+585,NO_BEEP,AW19,AX20,VM,HDD3_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+586,NO_BEEP,AW19,AV20,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+587,NO_BEEP,AW20,AX20,VM,HDD3_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+588,NO_BEEP,AW20,AV21,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+589,NO_BEEP,AW21,AV22,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+590,NO_BEEP,AW22,AV23,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+591,NO_BEEP,AW23,AX24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+592,NO_BEEP,AW23,AV24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+593,NO_BEEP,AW24,AX24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+594,NO_BEEP,AW24,AX25,VM,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+595,NO_BEEP,AW24,AV25,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+596,NO_BEEP,AW25,AX25,VM,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+597,NO_BEEP,AW25,AX26,VM,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+598,NO_BEEP,AW25,AV26,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+599,NO_BEEP,AW26,AX26,VM,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+600,NO_BEEP,AW26,AX27,VM,NC:U320.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+601,NO_BEEP,AW26,AV27,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+602,NO_BEEP,AW27,AX27,VM,NC:U320.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+603,NO_BEEP,AW27,AX28,VM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+604,NO_BEEP,AW27,AV28,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+605,NO_BEEP,AW28,AX28,VM,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+606,NO_BEEP,AW28,AX29,VM,HDD2_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+607,NO_BEEP,AW28,AV29,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+608,NO_BEEP,AW29,AX29,VM,HDD2_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+609,NO_BEEP,AW29,AX30,VM,HDD2_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+610,NO_BEEP,AW29,AV30,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+611,NO_BEEP,AW30,AX30,VM,HDD2_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+612,NO_BEEP,AW30,AX31,VM,HDD2_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+613,NO_BEEP,AW30,AV31,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+614,NO_BEEP,AW31,AX31,VM,HDD2_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+615,NO_BEEP,AW31,AV32,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+616,NO_BEEP,AW32,AV33,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+617,NO_BEEP,AW33,AV34,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+618,NO_BEEP,AW34,AX35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+619,NO_BEEP,AW34,AV35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+620,NO_BEEP,AX1,AX2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+621,NO_BEEP,AX1,AY2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+622,NO_BEEP,AX2,AX3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+623,NO_BEEP,AX2,AY3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+624,NO_BEEP,AX2,AW3,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+625,NO_BEEP,AX3,AX4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+626,NO_BEEP,AX3,AY4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+627,NO_BEEP,AX3,AW4,HDD4_OUT1,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+628,NO_BEEP,AX4,AX5,HDD4_OUT2,NC:U340.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+629,NO_BEEP,AX4,AW5,HDD4_OUT2,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+630,NO_BEEP,AX5,AX6,NC:U340.IMODE,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+631,NO_BEEP,AX5,AW6,NC:U340.IMODE,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+632,NO_BEEP,AX6,AX7,FAULT,HDD4_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+633,NO_BEEP,AX6,AW7,FAULT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+634,NO_BEEP,AX7,AW8,HDD4_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+635,NO_BEEP,AX8,AW9,HDD4_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+636,NO_BEEP,AX9,AX10,HDD4_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+637,NO_BEEP,AX9,AY10,HDD4_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+638,NO_BEEP,AX9,AW10,HDD4_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+639,NO_BEEP,AX12,AX13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+640,NO_BEEP,AX12,AY13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+641,NO_BEEP,AX13,AX14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+642,NO_BEEP,AX13,AY14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+643,NO_BEEP,AX13,AW14,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+644,NO_BEEP,AX14,AX15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+645,NO_BEEP,AX14,AY15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+646,NO_BEEP,AX14,AW15,HDD3_OUT1,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+647,NO_BEEP,AX15,AX16,HDD3_OUT2,NC:U330.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+648,NO_BEEP,AX15,AW16,HDD3_OUT2,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+649,NO_BEEP,AX16,AX17,NC:U330.IMODE,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+650,NO_BEEP,AX16,AW17,NC:U330.IMODE,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+651,NO_BEEP,AX17,AX18,FAULT,HDD3_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+652,NO_BEEP,AX17,AW18,FAULT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+653,NO_BEEP,AX18,AW19,HDD3_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+654,NO_BEEP,AX19,AW20,HDD3_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+655,NO_BEEP,AX20,AX21,HDD3_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+656,NO_BEEP,AX20,AY21,HDD3_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+657,NO_BEEP,AX20,AW21,HDD3_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+658,NO_BEEP,AX23,AX24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+659,NO_BEEP,AX23,AY24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+660,NO_BEEP,AX24,AX25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+661,NO_BEEP,AX24,AY25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+662,NO_BEEP,AX24,AW25,GND,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+663,NO_BEEP,AX25,AX26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+664,NO_BEEP,AX25,AY26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+665,NO_BEEP,AX25,AW26,HDD2_OUT1,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+666,NO_BEEP,AX26,AX27,HDD2_OUT2,NC:U320.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+667,NO_BEEP,AX26,AW27,HDD2_OUT2,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+668,NO_BEEP,AX27,AX28,NC:U320.IMODE,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+669,NO_BEEP,AX27,AW28,NC:U320.IMODE,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+670,NO_BEEP,AX28,AX29,FAULT,HDD2_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+671,NO_BEEP,AX28,AW29,FAULT,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+672,NO_BEEP,AX29,AW30,HDD2_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+673,NO_BEEP,AX30,AW31,HDD2_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+674,NO_BEEP,AX31,AX32,HDD2_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+675,NO_BEEP,AX31,AY32,HDD2_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+676,NO_BEEP,AX31,AW32,HDD2_CS,VM,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+677,NO_BEEP,AX34,AX35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+678,NO_BEEP,AX34,AY35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+679,NO_BEEP,AX35,AX36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+680,NO_BEEP,AX35,AY36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+681,NO_BEEP,AX36,AX37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+682,NO_BEEP,AX36,AY37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+683,NO_BEEP,AX37,AX38,HDD1_OUT2,NC:U310.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+684,NO_BEEP,AX38,AX39,NC:U310.IMODE,FAULT,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+685,NO_BEEP,AX39,AX40,FAULT,HDD1_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+686,NO_BEEP,AX39,AY40,FAULT,HDD1_CS,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+687,NO_BEEP,AY1,AY2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+688,NO_BEEP,AY1,AZ2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+689,NO_BEEP,AY1,AX2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+690,NO_BEEP,AY2,AY3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+691,NO_BEEP,AY2,AZ3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+692,NO_BEEP,AY2,AX3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+693,NO_BEEP,AY3,AY4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+694,NO_BEEP,AY3,AZ4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+695,NO_BEEP,AY3,AX4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+696,NO_BEEP,AY4,AX5,HDD4_OUT2,NC:U340.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+697,NO_BEEP,AY12,AY13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+698,NO_BEEP,AY12,AZ13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+699,NO_BEEP,AY12,AX13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+700,NO_BEEP,AY13,AY14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+701,NO_BEEP,AY13,AZ14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+702,NO_BEEP,AY13,AX14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+703,NO_BEEP,AY14,AY15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+704,NO_BEEP,AY14,AZ15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+705,NO_BEEP,AY14,AX15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+706,NO_BEEP,AY15,AX16,HDD3_OUT2,NC:U330.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+707,NO_BEEP,AY23,AY24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+708,NO_BEEP,AY23,AZ24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+709,NO_BEEP,AY23,AX24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+710,NO_BEEP,AY24,AY25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+711,NO_BEEP,AY24,AZ25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+712,NO_BEEP,AY24,AX25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+713,NO_BEEP,AY25,AY26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+714,NO_BEEP,AY25,AZ26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+715,NO_BEEP,AY25,AX26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+716,NO_BEEP,AY26,AX27,HDD2_OUT2,NC:U320.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+717,NO_BEEP,AY34,AY35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+718,NO_BEEP,AY34,AZ35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+719,NO_BEEP,AY34,AX35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+720,NO_BEEP,AY35,AY36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+721,NO_BEEP,AY35,AZ36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+722,NO_BEEP,AY35,AX36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+723,NO_BEEP,AY36,AY37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+724,NO_BEEP,AY36,AZ37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+725,NO_BEEP,AY36,AX37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+726,NO_BEEP,AY37,AX38,HDD1_OUT2,NC:U310.IMODE,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+727,NO_BEEP,AZ1,AZ2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+728,NO_BEEP,AZ1,AY2,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+729,NO_BEEP,AZ2,AZ3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+730,NO_BEEP,AZ2,BA3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+731,NO_BEEP,AZ2,AY3,GND,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+732,NO_BEEP,AZ3,AZ4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+733,NO_BEEP,AZ3,BA4,HDD4_OUT1,NC_EXTRA:J343.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+734,NO_BEEP,AZ3,AY4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+735,NO_BEEP,AZ4,BA4,HDD4_OUT2,NC_EXTRA:J343.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+736,NO_BEEP,AZ12,AZ13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+737,NO_BEEP,AZ12,BA13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+738,NO_BEEP,AZ12,AY13,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+739,NO_BEEP,AZ13,AZ14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+740,NO_BEEP,AZ13,BA14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+741,NO_BEEP,AZ13,AY14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+742,NO_BEEP,AZ14,AZ15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+743,NO_BEEP,AZ14,BA15,HDD3_OUT1,NC_EXTRA:J333.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+744,NO_BEEP,AZ14,AY15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+745,NO_BEEP,AZ15,BA15,HDD3_OUT2,NC_EXTRA:J333.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+746,NO_BEEP,AZ23,AZ24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+747,NO_BEEP,AZ23,BA24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+748,NO_BEEP,AZ23,AY24,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+749,NO_BEEP,AZ24,AZ25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+750,NO_BEEP,AZ24,BA25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+751,NO_BEEP,AZ24,AY25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+752,NO_BEEP,AZ25,AZ26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+753,NO_BEEP,AZ25,BA26,HDD2_OUT1,NC_EXTRA:J323.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+754,NO_BEEP,AZ25,AY26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+755,NO_BEEP,AZ26,BA26,HDD2_OUT2,NC_EXTRA:J323.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+756,NO_BEEP,AZ34,AZ35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+757,NO_BEEP,AZ34,BA35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+758,NO_BEEP,AZ34,AY35,VM,GND,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+759,NO_BEEP,AZ35,AZ36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+760,NO_BEEP,AZ35,BA36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+761,NO_BEEP,AZ35,AY36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+762,NO_BEEP,AZ36,AZ37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+763,NO_BEEP,AZ36,BA37,HDD1_OUT1,NC_EXTRA:J313.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+764,NO_BEEP,AZ36,AY37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+765,NO_BEEP,AZ37,BA37,HDD1_OUT2,NC_EXTRA:J313.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+766,NO_BEEP,BA3,BA4,HDD4_OUT1,NC_EXTRA:J343.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+767,NO_BEEP,BA3,AZ4,HDD4_OUT1,HDD4_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+768,NO_BEEP,BA4,BB4,NC_EXTRA:J343.extra:2,HDD4_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+769,NO_BEEP,BA13,BA14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+770,NO_BEEP,BA13,BB14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+771,NO_BEEP,BA13,AZ14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+772,NO_BEEP,BA14,BA15,HDD3_OUT1,NC_EXTRA:J333.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+773,NO_BEEP,BA14,AZ15,HDD3_OUT1,HDD3_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+774,NO_BEEP,BA15,BB15,NC_EXTRA:J333.extra:2,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+775,NO_BEEP,BA24,BA25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+776,NO_BEEP,BA24,BB25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+777,NO_BEEP,BA24,AZ25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+778,NO_BEEP,BA25,BA26,HDD2_OUT1,NC_EXTRA:J323.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+779,NO_BEEP,BA25,AZ26,HDD2_OUT1,HDD2_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+780,NO_BEEP,BA26,BB26,NC_EXTRA:J323.extra:2,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+781,NO_BEEP,BA35,BA36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+782,NO_BEEP,BA35,BB36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+783,NO_BEEP,BA35,AZ36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+784,NO_BEEP,BA36,BA37,HDD1_OUT1,NC_EXTRA:J313.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+785,NO_BEEP,BA36,AZ37,HDD1_OUT1,HDD1_OUT2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+786,NO_BEEP,BA37,BB37,NC_EXTRA:J313.extra:2,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+787,NO_BEEP,BB3,BA4,HDD4_OUT1,NC_EXTRA:J343.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+788,NO_BEEP,BB13,BB14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+789,NO_BEEP,BB13,BA14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+790,NO_BEEP,BB14,BA15,HDD3_OUT1,NC_EXTRA:J333.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+791,NO_BEEP,BB24,BB25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+792,NO_BEEP,BB24,BA25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+793,NO_BEEP,BB25,BA26,HDD2_OUT1,NC_EXTRA:J323.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+794,NO_BEEP,BB35,BB36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+795,NO_BEEP,BB35,BA36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+796,NO_BEEP,BB36,BA37,HDD1_OUT1,NC_EXTRA:J313.extra:2,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+797,NO_BEEP,BC13,BB14,GND,HDD3_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+798,NO_BEEP,BC24,BB25,GND,HDD2_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+799,NO_BEEP,BC35,BB36,GND,HDD1_OUT1,adjacent different-net lands,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+800,NO_BEEP,AD3,AH6,GND,VM,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+801,NO_BEEP,AD3,AD6,GND,VIN_RAW,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+802,NO_BEEP,AE2,AH6,GND,VM,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+803,NO_BEEP,AF6,AH6,GND,VM,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+804,NO_BEEP,AF6,AE24,GND,VREF,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+805,NO_BEEP,AF6,AX6,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+806,NO_BEEP,AF6,AS5,GND,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+807,NO_BEEP,AF6,AS4,GND,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+808,NO_BEEP,AF6,AS3,GND,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+809,NO_BEEP,AF6,AS6,GND,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+810,NO_BEEP,AV2,AJ2,GND,VM,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+811,NO_BEEP,AV2,AO1,GND,VM,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+812,NO_BEEP,AV2,AX6,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+813,NO_BEEP,AV2,AX17,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+814,NO_BEEP,AV2,AX28,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+815,NO_BEEP,AF6,F13,GND,VM,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+816,NO_BEEP,AF6,S12,GND,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+817,NO_BEEP,AF6,N13,GND,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+818,NO_BEEP,AF6,N11,GND,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+819,NO_BEEP,AF6,AJ1,GND,VIN_PROT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+820,NO_BEEP,AF6,AD6,GND,VIN_RAW,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+821,NO_BEEP,AF6,Z15,GND,VIN_FUSED,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+822,NO_BEEP,AJ2,AO3,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+823,NO_BEEP,AJ2,AX2,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+824,NO_BEEP,AW1,AX13,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+825,NO_BEEP,AW1,AX24,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+826,NO_BEEP,AW1,AX35,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+827,NO_BEEP,AW1,AX6,VM,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+828,NO_BEEP,AW1,AX17,VM,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+829,NO_BEEP,AW1,AX28,VM,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+830,NO_BEEP,AO1,AO3,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+831,NO_BEEP,AO1,AX2,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+832,NO_BEEP,AO1,AZ2,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+833,NO_BEEP,AO3,AS3,GND,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+834,NO_BEEP,BA9,AX13,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+835,NO_BEEP,AS13,AS5,GND,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+836,NO_BEEP,AS13,AS6,GND,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+837,NO_BEEP,BA20,AX24,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+838,NO_BEEP,AS24,AS28,GND,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+839,NO_BEEP,BA31,AX35,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+840,NO_BEEP,AS35,AS39,GND,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+841,NO_BEEP,AH6,G13,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+842,NO_BEEP,AH6,S13,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+843,NO_BEEP,AH6,S12,VM,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+844,NO_BEEP,AH6,N13,VM,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+845,NO_BEEP,AH6,N11,VM,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+846,NO_BEEP,AH6,M13,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+847,NO_BEEP,AH6,AJ1,VM,VIN_PROT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+848,NO_BEEP,AH6,Z15,VM,VIN_FUSED,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+849,NO_BEEP,F13,S13,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+850,NO_BEEP,F13,M13,VM,GND,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+851,NO_BEEP,G13,N13,GND,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+852,NO_BEEP,S13,N13,GND,+5V,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+853,NO_BEEP,M13,O21,GND,ARM,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+854,NO_BEEP,M13,AS17,GND,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+855,NO_BEEP,K22,V32,GND,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+856,NO_BEEP,H27,AS4,GND,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+857,NO_BEEP,H32,AS26,GND,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+858,NO_BEEP,H32,AS14,GND,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+859,NO_BEEP,H37,AS36,GND,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+860,NO_BEEP,O27,AS4,GND,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+861,NO_BEEP,O27,AS3,GND,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+862,NO_BEEP,M13,C20,GND,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+863,NO_BEEP,M13,D20,GND,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+864,NO_BEEP,M13,AE24,GND,VREF,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+865,NO_BEEP,M13,AD22,GND,VREF,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+866,NO_BEEP,M13,AS18,GND,VREF,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+867,NO_BEEP,M13,AS29,GND,VREF,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+868,NO_BEEP,M13,AS40,GND,VREF,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+869,NO_BEEP,M13,AX6,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+870,NO_BEEP,M13,AX17,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+871,NO_BEEP,M13,AX28,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+872,NO_BEEP,M13,AF33,GND,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+873,NO_BEEP,M13,AS4,GND,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+874,NO_BEEP,M13,AS3,GND,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+875,NO_BEEP,M13,AS14,GND,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+876,NO_BEEP,M13,AS15,GND,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+877,NO_BEEP,AG22,AE24,GND,VREF,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+878,NO_BEEP,AG22,AX28,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+879,NO_BEEP,AG22,AS15,GND,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+880,NO_BEEP,AE24,AX28,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+881,NO_BEEP,AE24,AS14,VREF,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+882,NO_BEEP,AE24,AS15,VREF,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+883,NO_BEEP,AD22,AX28,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+884,NO_BEEP,AD22,AS14,VREF,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+885,NO_BEEP,AD22,AS15,VREF,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+886,NO_BEEP,AE24,AX6,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+887,NO_BEEP,AE24,AX17,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+888,NO_BEEP,AE24,AF33,VREF,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+889,NO_BEEP,AE24,AS5,VREF,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+890,NO_BEEP,AE24,AS17,VREF,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+891,NO_BEEP,AE24,AS6,VREF,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+892,NO_BEEP,AS18,AX17,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+893,NO_BEEP,AS18,AX28,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+894,NO_BEEP,AS18,AS6,VREF,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+895,NO_BEEP,AS18,AS28,VREF,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+896,NO_BEEP,AS18,AS14,VREF,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+897,NO_BEEP,AS18,AS15,VREF,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+898,NO_BEEP,AS29,AX28,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+899,NO_BEEP,AS29,AS25,VREF,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+900,NO_BEEP,AS29,AS26,VREF,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+901,NO_BEEP,AS29,AS39,VREF,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+902,NO_BEEP,AS40,AX28,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+903,NO_BEEP,AS40,AX39,VREF,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+904,NO_BEEP,AS40,AS25,VREF,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+905,NO_BEEP,AS40,AS37,VREF,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+906,NO_BEEP,AS40,AS26,VREF,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+907,NO_BEEP,AS40,AS36,VREF,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+908,NO_BEEP,M13,Z31,GND,SN_RX_IN,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+909,NO_BEEP,M13,S34,GND,SN_RX_IN,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+910,NO_BEEP,M13,P21,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+911,NO_BEEP,M13,S19,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+912,NO_BEEP,M13,AX39,GND,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+913,NO_BEEP,M13,V32,GND,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+914,NO_BEEP,M13,AS25,GND,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+915,NO_BEEP,M13,AS37,GND,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+916,NO_BEEP,M13,AS26,GND,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+917,NO_BEEP,M13,AS36,GND,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+918,NO_BEEP,U32,AS25,GND,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+919,NO_BEEP,U32,AS26,GND,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+920,NO_BEEP,U34,Z31,GND,SN_RX_IN,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+921,NO_BEEP,U34,S34,GND,SN_RX_IN,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+922,NO_BEEP,U34,AS37,GND,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+923,NO_BEEP,U34,AS36,GND,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+924,NO_BEEP,U36,X36,GND,UART_RX,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+925,NO_BEEP,U36,AS37,GND,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+926,NO_BEEP,U36,AS36,GND,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+927,NO_BEEP,U37,X36,GND,UART_RX,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+928,NO_BEEP,U37,AS36,GND,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+929,NO_BEEP,V32,Z31,+3V3,SN_RX_IN,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+930,NO_BEEP,V32,AS25,+3V3,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+931,NO_BEEP,V32,AS26,+3V3,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+932,NO_BEEP,T39,X36,SN_BUS,UART_RX,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+933,NO_BEEP,T39,AS36,SN_BUS,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+934,NO_BEEP,Z31,AS25,SN_RX_IN,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+935,NO_BEEP,Z31,AS37,SN_RX_IN,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+936,NO_BEEP,Z31,AS26,SN_RX_IN,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+937,NO_BEEP,Z31,AS36,SN_RX_IN,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+938,NO_BEEP,S34,AS37,SN_RX_IN,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+939,NO_BEEP,S34,AS36,SN_RX_IN,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+940,NO_BEEP,X36,AS37,UART_RX,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+941,NO_BEEP,X36,AS36,UART_RX,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+942,NO_BEEP,O21,AX6,ARM,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+943,NO_BEEP,O21,AX17,ARM,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+944,NO_BEEP,O21,AX28,ARM,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+945,NO_BEEP,O21,AX39,ARM,FAULT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+946,NO_BEEP,O21,AS17,ARM,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+947,NO_BEEP,P21,AS17,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+948,NO_BEEP,S19,AS17,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+949,NO_BEEP,AX6,AJ1,FAULT,VIN_PROT,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+950,NO_BEEP,AX6,AF33,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+951,NO_BEEP,AX6,AS5,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+952,NO_BEEP,AX6,Z15,FAULT,VIN_FUSED,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+953,NO_BEEP,AX6,AS4,FAULT,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+954,NO_BEEP,AX6,AS3,FAULT,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+955,NO_BEEP,AX6,AS17,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+956,NO_BEEP,AX6,AS6,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+957,NO_BEEP,AX17,AF33,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+958,NO_BEEP,AX17,S21,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+959,NO_BEEP,AX17,AS4,FAULT,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+960,NO_BEEP,AX17,AS3,FAULT,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+961,NO_BEEP,AX17,AS17,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+962,NO_BEEP,AX17,AS6,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+963,NO_BEEP,AX17,AS28,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+964,NO_BEEP,AX17,AS14,FAULT,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+965,NO_BEEP,AX17,AS15,FAULT,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+966,NO_BEEP,AX28,AF33,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+967,NO_BEEP,AX28,S21,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+968,NO_BEEP,AX28,Z24,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+969,NO_BEEP,AX28,AS4,FAULT,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+970,NO_BEEP,AX28,AS25,FAULT,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+971,NO_BEEP,AX28,AS26,FAULT,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+972,NO_BEEP,AX28,AS3,FAULT,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+973,NO_BEEP,AX28,AS28,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+974,NO_BEEP,AX28,AS39,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+975,NO_BEEP,AX28,AS14,FAULT,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+976,NO_BEEP,AX28,AS15,FAULT,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+977,NO_BEEP,AX39,AF33,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+978,NO_BEEP,AX39,R24,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+979,NO_BEEP,AX39,Z24,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+980,NO_BEEP,AX39,AS38,FAULT,+3V3,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+981,NO_BEEP,AX39,AS4,FAULT,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+982,NO_BEEP,AX39,AS25,FAULT,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+983,NO_BEEP,AX39,AS37,FAULT,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+984,NO_BEEP,AX39,AS26,FAULT,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+985,NO_BEEP,AX39,AS3,FAULT,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+986,NO_BEEP,AX39,AS39,FAULT,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+987,NO_BEEP,AX39,AS14,FAULT,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+988,NO_BEEP,AX39,AS15,FAULT,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+989,NO_BEEP,AX39,AS36,FAULT,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+990,NO_BEEP,AJ1,AD6,VIN_PROT,VIN_RAW,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+991,NO_BEEP,AF33,AS4,+3V3,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+992,NO_BEEP,AF33,AS25,+3V3,HDD2_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+993,NO_BEEP,AF33,AS26,+3V3,HDD2_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+994,NO_BEEP,AF33,AS3,+3V3,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+995,NO_BEEP,AF33,AS17,+3V3,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+996,NO_BEEP,AF33,AS6,+3V3,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+997,NO_BEEP,AF33,AS28,+3V3,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+998,NO_BEEP,AF33,AS39,+3V3,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+999,NO_BEEP,AF33,AS14,+3V3,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1000,NO_BEEP,AF33,AS15,+3V3,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1001,NO_BEEP,R24,AS4,+3V3,HDD4_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1002,NO_BEEP,R24,AS3,+3V3,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1003,NO_BEEP,Z24,AS3,+3V3,HDD4_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1004,NO_BEEP,Z24,AS14,+3V3,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1005,NO_BEEP,Z24,AS15,+3V3,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1006,NO_BEEP,AS38,AS36,+3V3,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1007,NO_BEEP,AS5,AS17,+3V3,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1008,NO_BEEP,AS5,AS28,+3V3,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1009,NO_BEEP,AS5,AS14,+3V3,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1010,NO_BEEP,AS5,AS15,+3V3,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1011,NO_BEEP,AD6,Z15,VIN_RAW,VIN_FUSED,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1012,NO_BEEP,AS4,AS17,HDD4_IN2,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1013,NO_BEEP,AS25,AS37,HDD2_IN1,HDD1_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1014,NO_BEEP,AS25,AS28,HDD2_IN1,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1015,NO_BEEP,AS37,AS39,HDD1_IN2,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1016,NO_BEEP,AS26,AS28,HDD2_IN2,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1017,NO_BEEP,AS3,AS17,HDD4_IN1,SLEEP,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1018,NO_BEEP,AS3,AS15,HDD4_IN1,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1019,NO_BEEP,AS17,AS14,SLEEP,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1020,NO_BEEP,AS17,AS15,SLEEP,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1021,NO_BEEP,AS6,AS14,SLEEP,HDD3_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1022,NO_BEEP,AS6,AS15,SLEEP,HDD3_IN2,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded
+1023,NO_BEEP,AS39,AS36,SLEEP,HDD1_IN1,near/crossing insulated conductors,POWER OFF; bare wired board before components / modules; discharge capacitors; component paths are excluded

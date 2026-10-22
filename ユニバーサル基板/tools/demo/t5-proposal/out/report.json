@@ -1,0 +1,4690 @@
+{
+  "schema_version": 1,
+  "passed": false,
+  "lvs_pass": false,
+  "expected_pins": 184,
+  "physical_pins": 184,
+  "expected_nets": 37,
+  "nc_pins": 27,
+  "issues": [
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "C109 / J202",
+      "parts": [
+        "C109",
+        "J202"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "C208 / J202",
+      "parts": [
+        "C208",
+        "J202"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "C211 / J202",
+      "parts": [
+        "C211",
+        "J202"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D105 / J203",
+      "parts": [
+        "D105",
+        "J203"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D110 / J203",
+      "parts": [
+        "D110",
+        "J203"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D110 / TP460",
+      "parts": [
+        "D110",
+        "TP460"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D110 / TP461",
+      "parts": [
+        "D110",
+        "TP461"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D110 / U107",
+      "parts": [
+        "D110",
+        "U107"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D206 / TP462",
+      "parts": [
+        "D206",
+        "TP462"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D206 / TP463",
+      "parts": [
+        "D206",
+        "TP463"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "D206 / U107",
+      "parts": [
+        "D206",
+        "U107"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "F102 / TP463",
+      "parts": [
+        "F102",
+        "TP463"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "F102 / U107",
+      "parts": [
+        "F102",
+        "U107"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "J101 / R215",
+      "parts": [
+        "J101",
+        "R215"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "J104 / TP466",
+      "parts": [
+        "J104",
+        "TP466"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "J104 / TP467",
+      "parts": [
+        "J104",
+        "TP467"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "J203 / U107",
+      "parts": [
+        "J203",
+        "U107"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "R204 / TP468",
+      "parts": [
+        "R204",
+        "TP468"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "R204 / TP471",
+      "parts": [
+        "R204",
+        "TP471"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "R205 / TP472",
+      "parts": [
+        "R205",
+        "TP472"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "R205 / TP473",
+      "parts": [
+        "R205",
+        "TP473"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "R209 / TP474",
+      "parts": [
+        "R209",
+        "TP474"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "R212 / TP466",
+      "parts": [
+        "R212",
+        "TP466"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "R212 / TP467",
+      "parts": [
+        "R212",
+        "TP467"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP460 / TP461",
+      "parts": [
+        "TP460",
+        "TP461"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP461 / TP462",
+      "parts": [
+        "TP461",
+        "TP462"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP462 / TP463",
+      "parts": [
+        "TP462",
+        "TP463"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP466 / TP467",
+      "parts": [
+        "TP466",
+        "TP467"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP468 / TP471",
+      "parts": [
+        "TP468",
+        "TP471"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP471 / TP472",
+      "parts": [
+        "TP471",
+        "TP472"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP472 / TP473",
+      "parts": [
+        "TP472",
+        "TP473"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "TP473 / TP474",
+      "parts": [
+        "TP473",
+        "TP474"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "U107 / TP460",
+      "parts": [
+        "U107",
+        "TP460"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "U107 / TP461",
+      "parts": [
+        "U107",
+        "TP461"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "U107 / TP462",
+      "parts": [
+        "U107",
+        "TP462"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "U107 / TP463",
+      "parts": [
+        "U107",
+        "TP463"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "U107 / U207",
+      "parts": [
+        "U107",
+        "U207"
+      ]
+    },
+    {
+      "code": "BODY_OVERLAP",
+      "severity": "error",
+      "detail": "U207 / R215",
+      "parts": [
+        "U207",
+        "R215"
+      ]
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected +3V3 (11 pins) split into U201.3V3_OUT; U340.PMODE; U310.PMODE; R209.P1; C208.P1; U320.PMODE; U330.PMODE; TP462.TP; D206.A; U207.VCC; R215.P1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected +5V (4 pins) split into C109.POS; TP461.TP; D110.A; U107.VOUT"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected ARM (2 pins) split into U201.GP14; R212.P1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected ARM_SW (2 pins) split into J213.ARM_SW; R212.P2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected FAULT (7 pins) split into U201.GP15; R215.P2; U340.FAULT; TP468.TP; U310.FAULT; U320.FAULT; U330.FAULT"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected GND (39 pins) split into U201.GND@3; U201.GND@8; J101.SLEEVE; C341.NEG; U340.GND@13; C342.P2; C106.NEG; R214.P2; C108.NEG; U201.GND@13; C311.NEG; U310.GND@13; U201.GND@18; C109.NEG; C312.P2; C208.P2; J202.GND; U320.GND@2; U201.GND@38; C211.P2; C321.NEG; U201.AGND; U320.GND@13; R210.P2; C322.P2; U201.GND@28; J203.GND; D105.A; U330.GND@2; U201.GND@23; U107.GND; TP463.TP; C331.NEG; U330.GND@13; U207./OE; U207.GND; U310.GND@2; C332.P2; U340.GND@2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD1_CS (2 pins) split into TP471.TP; U310.CS"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD1_IN1 (2 pins) split into U201.GP2; U310.IN1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD1_IN2 (2 pins) split into U201.GP3; U310.IN2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD1_OUT1 (2 pins) split into J313.OUT1; U310.OUT1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD1_OUT2 (2 pins) split into U310.OUT2; J313.OUT2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD2_CS (2 pins) split into TP472.TP; U320.CS"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD2_IN1 (2 pins) split into U201.GP4; U320.IN1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD2_IN2 (2 pins) split into U201.GP5; U320.IN2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD2_OUT1 (2 pins) split into J323.OUT1; U320.OUT1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD2_OUT2 (2 pins) split into U320.OUT2; J323.OUT2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD3_CS (2 pins) split into TP473.TP; U330.CS"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD3_IN1 (2 pins) split into U201.GP6; U330.IN1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD3_IN2 (2 pins) split into U201.GP7; U330.IN2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD3_OUT1 (2 pins) split into J333.OUT1; U330.OUT1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD3_OUT2 (2 pins) split into U330.OUT2; J333.OUT2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD4_CS (2 pins) split into TP474.TP; U340.CS"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD4_IN1 (2 pins) split into U201.GP8; U340.IN1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD4_IN2 (2 pins) split into U201.GP9; U340.IN2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD4_OUT1 (2 pins) split into J343.OUT1; U340.OUT1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected HDD4_OUT2 (2 pins) split into U340.OUT2; J343.OUT2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected SLEEP (8 pins) split into U201.GP16; U340.SLEEP; TP467.TP; U310.SLEEP; U320.SLEEP; J213.SLEEP; U330.SLEEP; R214.P1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected SN_BUS (3 pins) split into R204.P1; J202.SIGNAL; J203.SIGNAL"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected SN_PU (2 pins) split into R205.P2; D206.K"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected SN_RX_IN (3 pins) split into R205.P1; R204.P2; U207.A"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected UART_RX (2 pins) split into U201.GP1; U207.Y"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected VIN_FUSED (2 pins) split into D103.A; F102.P2"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected VIN_PROT (2 pins) split into D103.K; J104.VIN_PROT"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected VIN_RAW (2 pins) split into F102.P1; J101.CENTER"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected VM (18 pins) split into C106.POS; C341.POS; U340.VIN; J104.VM; C342.P1; C311.POS; C108.POS; U310.VIN; C312.P1; C321.POS; U320.VIN; D105.K; C322.P1; TP460.TP; U107.VIN; C331.POS; U330.VIN; C332.P1"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected VREF (8 pins) split into U310.VREF; U340.VREF; TP466.TP; R209.P2; U320.VREF; C211.P1; R210.P1; U330.VREF"
+    },
+    {
+      "code": "LVS:SPLIT",
+      "severity": "error",
+      "detail": "expected VSYS (2 pins) split into U201.VSYS; D110.K"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C106.NEG expected GND, actual __OPEN_14"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C108.NEG expected GND, actual __OPEN_19"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C108.POS expected VM, actual __OPEN_18"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C109.NEG expected GND, actual __OPEN_30"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C208.P1 expected +3V3, actual __OPEN_33"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C208.P2 expected GND, actual __OPEN_35"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C211.P1 expected VREF, actual __OPEN_43"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C211.P2 expected GND, actual __OPEN_44"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C311.NEG expected GND, actual __OPEN_21"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C311.POS expected VM, actual __OPEN_17"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C312.P1 expected VM, actual __OPEN_29"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C312.P2 expected GND, actual __OPEN_31"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C321.NEG expected GND, actual __OPEN_48"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C321.POS expected VM, actual __OPEN_46"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C322.P1 expected VM, actual __OPEN_57"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C322.P2 expected GND, actual __OPEN_58"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C331.NEG expected GND, actual __OPEN_80"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C331.POS expected VM, actual __OPEN_76"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C332.P1 expected VM, actual __OPEN_90"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C332.P2 expected GND, actual __OPEN_92"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C341.NEG expected GND, actual __OPEN_107"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C341.POS expected VM, actual __OPEN_105"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C342.P1 expected VM, actual __OPEN_118"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "C342.P2 expected GND, actual __OPEN_120"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "D105.A expected GND, actual __OPEN_62"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "D105.K expected VM, actual __OPEN_55"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "D110.A expected +5V, actual __OPEN_73"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "D110.K expected VSYS, actual __OPEN_60"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "D206.A expected +3V3, actual __OPEN_79"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "D206.K expected SN_PU, actual __OPEN_70"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "F102.P2 expected VIN_FUSED, actual __OPEN_91"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J101.CENTER expected VIN_RAW, actual __OPEN_96"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J101.SLEEVE expected GND, actual __OPEN_103"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J104.VIN_PROT expected VIN_PROT, actual __OPEN_114"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J104.VM expected VM, actual __OPEN_116"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J202.GND expected GND, actual __OPEN_36"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J202.SIGNAL expected SN_BUS, actual __OPEN_34"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J203.GND expected GND, actual __OPEN_61"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J203.SIGNAL expected SN_BUS, actual __OPEN_59"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J213.SLEEP expected SLEEP, actual __OPEN_45"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J313.OUT2 expected HDD1_OUT2, actual __OPEN_27"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J323.OUT2 expected HDD2_OUT2, actual __OPEN_54"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J333.OUT2 expected HDD3_OUT2, actual __OPEN_86"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "J343.OUT2 expected HDD4_OUT2, actual __OPEN_113"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R204.P2 expected SN_RX_IN, actual __OPEN_20"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R209.P1 expected +3V3, actual __OPEN_28"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R209.P2 expected VREF, actual __OPEN_32"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R210.P1 expected VREF, actual __OPEN_47"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R210.P2 expected GND, actual __OPEN_56"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R212.P1 expected ARM, actual __OPEN_106"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R212.P2 expected ARM_SW, actual __OPEN_119"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R214.P1 expected SLEEP, actual __OPEN_8"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R214.P2 expected GND, actual __OPEN_15"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R215.P1 expected +3V3, actual __OPEN_94"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "R215.P2 expected FAULT, actual __OPEN_104"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "TP460.TP expected VM, actual __OPEN_69"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "TP461.TP expected +5V, actual __OPEN_71"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "TP462.TP expected +3V3, actual __OPEN_74"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "TP463.TP expected GND, actual __OPEN_77"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "TP466.TP expected VREF, actual __OPEN_115"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "TP467.TP expected SLEEP, actual __OPEN_117"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "TP468.TP expected FAULT, actual __OPEN_16"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U107.GND expected GND, actual __OPEN_75"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U107.VIN expected VM, actual __OPEN_72"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U107.VOUT expected +5V, actual __OPEN_78"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U201.AGND expected GND, actual __OPEN_5"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U201.GND@13 expected GND, actual __OPEN_2"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U201.GND@18 expected GND, actual __OPEN_3"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U201.GND@23 expected GND, actual __OPEN_7"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U201.GND@28 expected GND, actual __OPEN_6"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U201.GND@38 expected GND, actual __OPEN_4"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U201.GND@8 expected GND, actual __OPEN_1"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U207./OE expected GND, actual __OPEN_87"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U207.A expected SN_RX_IN, actual __OPEN_88"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U207.GND expected GND, actual __OPEN_89"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U207.VCC expected +3V3, actual __OPEN_93"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U207.Y expected UART_RX, actual __OPEN_95"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.CS expected HDD1_CS, actual __OPEN_26"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.FAULT expected FAULT, actual __OPEN_25"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.GND@13 expected GND, actual __OPEN_23"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.GND@2 expected GND, actual __OPEN_9"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.IN1 expected HDD1_IN1, actual __OPEN_10"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.IN2 expected HDD1_IN2, actual __OPEN_11"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.OUT1 expected HDD1_OUT1, actual __OPEN_24"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.PMODE expected +3V3, actual __OPEN_12"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.SLEEP expected SLEEP, actual __OPEN_13"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U310.VIN expected VM, actual __OPEN_22"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.CS expected HDD2_CS, actual __OPEN_53"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.FAULT expected FAULT, actual __OPEN_52"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.GND@13 expected GND, actual __OPEN_50"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.GND@2 expected GND, actual __OPEN_37"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.IN1 expected HDD2_IN1, actual __OPEN_38"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.IN2 expected HDD2_IN2, actual __OPEN_39"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.OUT1 expected HDD2_OUT1, actual __OPEN_51"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.PMODE expected +3V3, actual __OPEN_40"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.SLEEP expected SLEEP, actual __OPEN_41"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.VIN expected VM, actual __OPEN_49"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U320.VREF expected VREF, actual __OPEN_42"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.CS expected HDD3_CS, actual __OPEN_85"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.FAULT expected FAULT, actual __OPEN_84"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.GND@13 expected GND, actual __OPEN_82"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.GND@2 expected GND, actual __OPEN_63"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.IN1 expected HDD3_IN1, actual __OPEN_64"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.IN2 expected HDD3_IN2, actual __OPEN_65"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.OUT1 expected HDD3_OUT1, actual __OPEN_83"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.PMODE expected +3V3, actual __OPEN_66"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.SLEEP expected SLEEP, actual __OPEN_67"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.VIN expected VM, actual __OPEN_81"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U330.VREF expected VREF, actual __OPEN_68"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.CS expected HDD4_CS, actual __OPEN_112"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.FAULT expected FAULT, actual __OPEN_111"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.GND@13 expected GND, actual __OPEN_109"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.GND@2 expected GND, actual __OPEN_97"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.IN1 expected HDD4_IN1, actual __OPEN_98"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.IN2 expected HDD4_IN2, actual __OPEN_99"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.OUT1 expected HDD4_OUT1, actual __OPEN_110"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.PMODE expected +3V3, actual __OPEN_100"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.SLEEP expected SLEEP, actual __OPEN_101"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.VIN expected VM, actual __OPEN_108"
+    },
+    {
+      "code": "LVS:WRONG_NET",
+      "severity": "error",
+      "detail": "U340.VREF expected VREF, actual __OPEN_102"
+    },
+    {
+      "code": "PROPOSED_SUBSTITUTION",
+      "severity": "error",
+      "detail": "J101: T5 proposal requires supervisor approval",
+      "part": "J101"
+    },
+    {
+      "code": "PROPOSED_SUBSTITUTION",
+      "severity": "error",
+      "detail": "J313: T5 proposal requires supervisor approval",
+      "part": "J313"
+    },
+    {
+      "code": "PROPOSED_SUBSTITUTION",
+      "severity": "error",
+      "detail": "J323: T5 proposal requires supervisor approval",
+      "part": "J323"
+    },
+    {
+      "code": "PROPOSED_SUBSTITUTION",
+      "severity": "error",
+      "detail": "J333: T5 proposal requires supervisor approval",
+      "part": "J333"
+    },
+    {
+      "code": "PROPOSED_SUBSTITUTION",
+      "severity": "error",
+      "detail": "J343: T5 proposal requires supervisor approval",
+      "part": "J343"
+    },
+    {
+      "code": "RESERVED_PAD_COLLISION",
+      "severity": "error",
+      "detail": "U207.extra:reserved_host collides with pin at AV7"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C106",
+      "part": "C106"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C108",
+      "part": "C108"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C109",
+      "part": "C109"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C208",
+      "part": "C208"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C211",
+      "part": "C211"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C311",
+      "part": "C311"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C312",
+      "part": "C312"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C321",
+      "part": "C321"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C322",
+      "part": "C322"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C331",
+      "part": "C331"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C332",
+      "part": "C332"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C341",
+      "part": "C341"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "C342",
+      "part": "C342"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D103",
+      "part": "D103"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D105",
+      "part": "D105"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D110",
+      "part": "D110"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "D206",
+      "part": "D206"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "F102",
+      "part": "F102"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J101",
+      "part": "J101"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J104",
+      "part": "J104"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J202",
+      "part": "J202"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J203",
+      "part": "J203"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J213",
+      "part": "J213"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J313",
+      "part": "J313"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J323",
+      "part": "J323"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J333",
+      "part": "J333"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "J343",
+      "part": "J343"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R204",
+      "part": "R204"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R205",
+      "part": "R205"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R209",
+      "part": "R209"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R210",
+      "part": "R210"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R212",
+      "part": "R212"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R214",
+      "part": "R214"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "R215",
+      "part": "R215"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP460",
+      "part": "TP460"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP461",
+      "part": "TP461"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP462",
+      "part": "TP462"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP463",
+      "part": "TP463"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP466",
+      "part": "TP466"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP467",
+      "part": "TP467"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP468",
+      "part": "TP468"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP471",
+      "part": "TP471"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP472",
+      "part": "TP472"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP473",
+      "part": "TP473"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "TP474",
+      "part": "TP474"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U107",
+      "part": "U107"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U201",
+      "part": "U201"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U207",
+      "part": "U207"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U310",
+      "part": "U310"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U320",
+      "part": "U320"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U330",
+      "part": "U330"
+    },
+    {
+      "code": "PROVISIONAL_FOOTPRINT",
+      "severity": "warning",
+      "detail": "U340",
+      "part": "U340"
+    }
+  ],
+  "rule_checks": [
+    {
+      "id": "power-wire",
+      "type": "wire_gauge",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "demo-cap-proximity",
+      "type": "near_pin",
+      "status": "PASS",
+      "findings": 0
+    }
+  ],
+  "unchecked_rules": 0,
+  "actual_netlist": [
+    {
+      "net": "__OPEN_14",
+      "ref": "C106",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "VM",
+      "ref": "C106",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "__OPEN_19",
+      "ref": "C108",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "__OPEN_18",
+      "ref": "C108",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "__OPEN_30",
+      "ref": "C109",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "+5V",
+      "ref": "C109",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "__OPEN_33",
+      "ref": "C208",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_35",
+      "ref": "C208",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_43",
+      "ref": "C211",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_44",
+      "ref": "C211",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_21",
+      "ref": "C311",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "__OPEN_17",
+      "ref": "C311",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "__OPEN_29",
+      "ref": "C312",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_31",
+      "ref": "C312",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_48",
+      "ref": "C321",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "__OPEN_46",
+      "ref": "C321",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "__OPEN_57",
+      "ref": "C322",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_58",
+      "ref": "C322",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_80",
+      "ref": "C331",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "__OPEN_76",
+      "ref": "C331",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "__OPEN_90",
+      "ref": "C332",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_92",
+      "ref": "C332",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_107",
+      "ref": "C341",
+      "pin_number": "2",
+      "pin_name": "NEG"
+    },
+    {
+      "net": "__OPEN_105",
+      "ref": "C341",
+      "pin_number": "1",
+      "pin_name": "POS"
+    },
+    {
+      "net": "__OPEN_118",
+      "ref": "C342",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_120",
+      "ref": "C342",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "VIN_FUSED",
+      "ref": "D103",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "VIN_PROT",
+      "ref": "D103",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "__OPEN_62",
+      "ref": "D105",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "__OPEN_55",
+      "ref": "D105",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "__OPEN_73",
+      "ref": "D110",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "__OPEN_60",
+      "ref": "D110",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "__OPEN_79",
+      "ref": "D206",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "__OPEN_70",
+      "ref": "D206",
+      "pin_number": "1",
+      "pin_name": "K"
+    },
+    {
+      "net": "VIN_RAW",
+      "ref": "F102",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_91",
+      "ref": "F102",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_96",
+      "ref": "J101",
+      "pin_number": "1",
+      "pin_name": "CENTER"
+    },
+    {
+      "net": "__OPEN_103",
+      "ref": "J101",
+      "pin_number": "2",
+      "pin_name": "SLEEVE"
+    },
+    {
+      "net": "NC",
+      "ref": "J101",
+      "pin_number": "3",
+      "pin_name": "SWITCH"
+    },
+    {
+      "net": "__OPEN_114",
+      "ref": "J104",
+      "pin_number": "1",
+      "pin_name": "VIN_PROT"
+    },
+    {
+      "net": "__OPEN_116",
+      "ref": "J104",
+      "pin_number": "2",
+      "pin_name": "VM"
+    },
+    {
+      "net": "__OPEN_36",
+      "ref": "J202",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "__OPEN_34",
+      "ref": "J202",
+      "pin_number": "1",
+      "pin_name": "SIGNAL"
+    },
+    {
+      "net": "__OPEN_61",
+      "ref": "J203",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "__OPEN_59",
+      "ref": "J203",
+      "pin_number": "1",
+      "pin_name": "SIGNAL"
+    },
+    {
+      "net": "ARM_SW",
+      "ref": "J213",
+      "pin_number": "1",
+      "pin_name": "ARM_SW"
+    },
+    {
+      "net": "__OPEN_45",
+      "ref": "J213",
+      "pin_number": "2",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "HDD1_OUT1",
+      "ref": "J313",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "__OPEN_27",
+      "ref": "J313",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD2_OUT1",
+      "ref": "J323",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "__OPEN_54",
+      "ref": "J323",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD3_OUT1",
+      "ref": "J333",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "__OPEN_86",
+      "ref": "J333",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "HDD4_OUT1",
+      "ref": "J343",
+      "pin_number": "1",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "__OPEN_113",
+      "ref": "J343",
+      "pin_number": "2",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "SN_BUS",
+      "ref": "R204",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_20",
+      "ref": "R204",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "SN_RX_IN",
+      "ref": "R205",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "SN_PU",
+      "ref": "R205",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_28",
+      "ref": "R209",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_32",
+      "ref": "R209",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_47",
+      "ref": "R210",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_56",
+      "ref": "R210",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_106",
+      "ref": "R212",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_119",
+      "ref": "R212",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_8",
+      "ref": "R214",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_15",
+      "ref": "R214",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_94",
+      "ref": "R215",
+      "pin_number": "1",
+      "pin_name": "P1"
+    },
+    {
+      "net": "__OPEN_104",
+      "ref": "R215",
+      "pin_number": "2",
+      "pin_name": "P2"
+    },
+    {
+      "net": "__OPEN_69",
+      "ref": "TP460",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "__OPEN_71",
+      "ref": "TP461",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "__OPEN_74",
+      "ref": "TP462",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "__OPEN_77",
+      "ref": "TP463",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "__OPEN_115",
+      "ref": "TP466",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "__OPEN_117",
+      "ref": "TP467",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "__OPEN_16",
+      "ref": "TP468",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD1_CS",
+      "ref": "TP471",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD2_CS",
+      "ref": "TP472",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD3_CS",
+      "ref": "TP473",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "HDD4_CS",
+      "ref": "TP474",
+      "pin_number": "1",
+      "pin_name": "TP"
+    },
+    {
+      "net": "__OPEN_75",
+      "ref": "U107",
+      "pin_number": "2",
+      "pin_name": "GND"
+    },
+    {
+      "net": "__OPEN_72",
+      "ref": "U107",
+      "pin_number": "1",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "__OPEN_78",
+      "ref": "U107",
+      "pin_number": "3",
+      "pin_name": "VOUT"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "37",
+      "pin_name": "3V3_EN"
+    },
+    {
+      "net": "+3V3",
+      "ref": "U201",
+      "pin_number": "36",
+      "pin_name": "3V3_OUT"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "35",
+      "pin_name": "ADC_VREF"
+    },
+    {
+      "net": "__OPEN_5",
+      "ref": "U201",
+      "pin_number": "33",
+      "pin_name": "AGND"
+    },
+    {
+      "net": "__OPEN_2",
+      "ref": "U201",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "__OPEN_3",
+      "ref": "U201",
+      "pin_number": "18",
+      "pin_name": "GND@18"
+    },
+    {
+      "net": "__OPEN_7",
+      "ref": "U201",
+      "pin_number": "23",
+      "pin_name": "GND@23"
+    },
+    {
+      "net": "__OPEN_6",
+      "ref": "U201",
+      "pin_number": "28",
+      "pin_name": "GND@28"
+    },
+    {
+      "net": "GND",
+      "ref": "U201",
+      "pin_number": "3",
+      "pin_name": "GND@3"
+    },
+    {
+      "net": "__OPEN_4",
+      "ref": "U201",
+      "pin_number": "38",
+      "pin_name": "GND@38"
+    },
+    {
+      "net": "__OPEN_1",
+      "ref": "U201",
+      "pin_number": "8",
+      "pin_name": "GND@8"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "1",
+      "pin_name": "GP0"
+    },
+    {
+      "net": "UART_RX",
+      "ref": "U201",
+      "pin_number": "2",
+      "pin_name": "GP1"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "14",
+      "pin_name": "GP10"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "15",
+      "pin_name": "GP11"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "16",
+      "pin_name": "GP12"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "17",
+      "pin_name": "GP13"
+    },
+    {
+      "net": "ARM",
+      "ref": "U201",
+      "pin_number": "19",
+      "pin_name": "GP14"
+    },
+    {
+      "net": "FAULT",
+      "ref": "U201",
+      "pin_number": "20",
+      "pin_name": "GP15"
+    },
+    {
+      "net": "SLEEP",
+      "ref": "U201",
+      "pin_number": "21",
+      "pin_name": "GP16"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "22",
+      "pin_name": "GP17"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "24",
+      "pin_name": "GP18"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "25",
+      "pin_name": "GP19"
+    },
+    {
+      "net": "HDD1_IN1",
+      "ref": "U201",
+      "pin_number": "4",
+      "pin_name": "GP2"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "26",
+      "pin_name": "GP20"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "27",
+      "pin_name": "GP21"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "29",
+      "pin_name": "GP22"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "31",
+      "pin_name": "GP26"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "32",
+      "pin_name": "GP27"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "34",
+      "pin_name": "GP28"
+    },
+    {
+      "net": "HDD1_IN2",
+      "ref": "U201",
+      "pin_number": "5",
+      "pin_name": "GP3"
+    },
+    {
+      "net": "HDD2_IN1",
+      "ref": "U201",
+      "pin_number": "6",
+      "pin_name": "GP4"
+    },
+    {
+      "net": "HDD2_IN2",
+      "ref": "U201",
+      "pin_number": "7",
+      "pin_name": "GP5"
+    },
+    {
+      "net": "HDD3_IN1",
+      "ref": "U201",
+      "pin_number": "9",
+      "pin_name": "GP6"
+    },
+    {
+      "net": "HDD3_IN2",
+      "ref": "U201",
+      "pin_number": "10",
+      "pin_name": "GP7"
+    },
+    {
+      "net": "HDD4_IN1",
+      "ref": "U201",
+      "pin_number": "11",
+      "pin_name": "GP8"
+    },
+    {
+      "net": "HDD4_IN2",
+      "ref": "U201",
+      "pin_number": "12",
+      "pin_name": "GP9"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "30",
+      "pin_name": "RUN"
+    },
+    {
+      "net": "NC",
+      "ref": "U201",
+      "pin_number": "40",
+      "pin_name": "VBUS"
+    },
+    {
+      "net": "VSYS",
+      "ref": "U201",
+      "pin_number": "39",
+      "pin_name": "VSYS"
+    },
+    {
+      "net": "__OPEN_87",
+      "ref": "U207",
+      "pin_number": "1",
+      "pin_name": "/OE"
+    },
+    {
+      "net": "__OPEN_88",
+      "ref": "U207",
+      "pin_number": "2",
+      "pin_name": "A"
+    },
+    {
+      "net": "__OPEN_89",
+      "ref": "U207",
+      "pin_number": "3",
+      "pin_name": "GND"
+    },
+    {
+      "net": "__OPEN_93",
+      "ref": "U207",
+      "pin_number": "5",
+      "pin_name": "VCC"
+    },
+    {
+      "net": "__OPEN_95",
+      "ref": "U207",
+      "pin_number": "4",
+      "pin_name": "Y"
+    },
+    {
+      "net": "__OPEN_26",
+      "ref": "U310",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "__OPEN_25",
+      "ref": "U310",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "__OPEN_23",
+      "ref": "U310",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "__OPEN_9",
+      "ref": "U310",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U310",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "__OPEN_10",
+      "ref": "U310",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "__OPEN_11",
+      "ref": "U310",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "__OPEN_24",
+      "ref": "U310",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD1_OUT2",
+      "ref": "U310",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "__OPEN_12",
+      "ref": "U310",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "__OPEN_13",
+      "ref": "U310",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "__OPEN_22",
+      "ref": "U310",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U310",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "VREF",
+      "ref": "U310",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "__OPEN_53",
+      "ref": "U320",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "__OPEN_52",
+      "ref": "U320",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "__OPEN_50",
+      "ref": "U320",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "__OPEN_37",
+      "ref": "U320",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U320",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "__OPEN_38",
+      "ref": "U320",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "__OPEN_39",
+      "ref": "U320",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "__OPEN_51",
+      "ref": "U320",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD2_OUT2",
+      "ref": "U320",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "__OPEN_40",
+      "ref": "U320",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "__OPEN_41",
+      "ref": "U320",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "__OPEN_49",
+      "ref": "U320",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U320",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "__OPEN_42",
+      "ref": "U320",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "__OPEN_85",
+      "ref": "U330",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "__OPEN_84",
+      "ref": "U330",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "__OPEN_82",
+      "ref": "U330",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "__OPEN_63",
+      "ref": "U330",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U330",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "__OPEN_64",
+      "ref": "U330",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "__OPEN_65",
+      "ref": "U330",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "__OPEN_83",
+      "ref": "U330",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD3_OUT2",
+      "ref": "U330",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "__OPEN_66",
+      "ref": "U330",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "__OPEN_67",
+      "ref": "U330",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "__OPEN_81",
+      "ref": "U330",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U330",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "__OPEN_68",
+      "ref": "U330",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    },
+    {
+      "net": "__OPEN_112",
+      "ref": "U340",
+      "pin_number": "8",
+      "pin_name": "CS"
+    },
+    {
+      "net": "__OPEN_111",
+      "ref": "U340",
+      "pin_number": "9",
+      "pin_name": "FAULT"
+    },
+    {
+      "net": "__OPEN_109",
+      "ref": "U340",
+      "pin_number": "13",
+      "pin_name": "GND@13"
+    },
+    {
+      "net": "__OPEN_97",
+      "ref": "U340",
+      "pin_number": "2",
+      "pin_name": "GND@2"
+    },
+    {
+      "net": "NC",
+      "ref": "U340",
+      "pin_number": "10",
+      "pin_name": "IMODE"
+    },
+    {
+      "net": "__OPEN_98",
+      "ref": "U340",
+      "pin_number": "3",
+      "pin_name": "IN1"
+    },
+    {
+      "net": "__OPEN_99",
+      "ref": "U340",
+      "pin_number": "4",
+      "pin_name": "IN2"
+    },
+    {
+      "net": "__OPEN_110",
+      "ref": "U340",
+      "pin_number": "12",
+      "pin_name": "OUT1"
+    },
+    {
+      "net": "HDD4_OUT2",
+      "ref": "U340",
+      "pin_number": "11",
+      "pin_name": "OUT2"
+    },
+    {
+      "net": "__OPEN_100",
+      "ref": "U340",
+      "pin_number": "5",
+      "pin_name": "PMODE"
+    },
+    {
+      "net": "__OPEN_101",
+      "ref": "U340",
+      "pin_number": "6",
+      "pin_name": "SLEEP"
+    },
+    {
+      "net": "__OPEN_108",
+      "ref": "U340",
+      "pin_number": "14",
+      "pin_name": "VIN"
+    },
+    {
+      "net": "NC",
+      "ref": "U340",
+      "pin_number": "1",
+      "pin_name": "VM"
+    },
+    {
+      "net": "__OPEN_102",
+      "ref": "U340",
+      "pin_number": "7",
+      "pin_name": "VREF"
+    }
+  ],
+  "components": [
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP0"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "UART_RX",
+      "pins": [
+        "U201.GP1"
+      ],
+      "expected_nets": [
+        "UART_RX"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "GND",
+      "pins": [
+        "U201.GND@3"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD1_IN1",
+      "pins": [
+        "U201.GP2"
+      ],
+      "expected_nets": [
+        "HDD1_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD1_IN2",
+      "pins": [
+        "U201.GP3"
+      ],
+      "expected_nets": [
+        "HDD1_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD2_IN1",
+      "pins": [
+        "U201.GP4"
+      ],
+      "expected_nets": [
+        "HDD2_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD2_IN2",
+      "pins": [
+        "U201.GP5"
+      ],
+      "expected_nets": [
+        "HDD2_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_1",
+      "pins": [
+        "U201.GND@8"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_IN1",
+      "pins": [
+        "U201.GP6"
+      ],
+      "expected_nets": [
+        "HDD3_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_IN2",
+      "pins": [
+        "U201.GP7"
+      ],
+      "expected_nets": [
+        "HDD3_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD4_IN1",
+      "pins": [
+        "U201.GP8"
+      ],
+      "expected_nets": [
+        "HDD4_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD4_IN2",
+      "pins": [
+        "U201.GP9"
+      ],
+      "expected_nets": [
+        "HDD4_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_2",
+      "pins": [
+        "U201.GND@13"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP10"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP11"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP12"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP13"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_3",
+      "pins": [
+        "U201.GND@18"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "ARM",
+      "pins": [
+        "U201.GP14"
+      ],
+      "expected_nets": [
+        "ARM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "FAULT",
+      "pins": [
+        "U201.GP15"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.VBUS"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VSYS",
+      "pins": [
+        "U201.VSYS"
+      ],
+      "expected_nets": [
+        "VSYS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_4",
+      "pins": [
+        "U201.GND@38"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.3V3_EN"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "+3V3",
+      "pins": [
+        "U201.3V3_OUT"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.ADC_VREF"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP28"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_5",
+      "pins": [
+        "U201.AGND"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP27"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP26"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.RUN"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP22"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_6",
+      "pins": [
+        "U201.GND@28"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP21"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP20"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP19"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP18"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_7",
+      "pins": [
+        "U201.GND@23"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U201.GP17"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "SLEEP",
+      "pins": [
+        "U201.GP16"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VM",
+      "pins": [
+        "C106.POS"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_8",
+      "pins": [
+        "R214.P1"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U310.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_9",
+      "pins": [
+        "U310.GND@2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_10",
+      "pins": [
+        "U310.IN1"
+      ],
+      "expected_nets": [
+        "HDD1_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_11",
+      "pins": [
+        "U310.IN2"
+      ],
+      "expected_nets": [
+        "HDD1_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_12",
+      "pins": [
+        "U310.PMODE"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_13",
+      "pins": [
+        "U310.SLEEP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VREF",
+      "pins": [
+        "U310.VREF"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_14",
+      "pins": [
+        "C106.NEG"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "SN_BUS",
+      "pins": [
+        "R204.P1"
+      ],
+      "expected_nets": [
+        "SN_BUS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_15",
+      "pins": [
+        "R214.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_16",
+      "pins": [
+        "TP468.TP"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_17",
+      "pins": [
+        "C311.POS"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD1_OUT1",
+      "pins": [
+        "J313.OUT1"
+      ],
+      "expected_nets": [
+        "HDD1_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_18",
+      "pins": [
+        "C108.POS"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "SN_RX_IN",
+      "pins": [
+        "R205.P1"
+      ],
+      "expected_nets": [
+        "SN_RX_IN"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD1_CS",
+      "pins": [
+        "TP471.TP"
+      ],
+      "expected_nets": [
+        "HDD1_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_19",
+      "pins": [
+        "C108.NEG"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_20",
+      "pins": [
+        "R204.P2"
+      ],
+      "expected_nets": [
+        "SN_RX_IN"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD2_CS",
+      "pins": [
+        "TP472.TP"
+      ],
+      "expected_nets": [
+        "HDD2_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_21",
+      "pins": [
+        "C311.NEG"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_22",
+      "pins": [
+        "U310.VIN"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_23",
+      "pins": [
+        "U310.GND@13"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_24",
+      "pins": [
+        "U310.OUT1"
+      ],
+      "expected_nets": [
+        "HDD1_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD1_OUT2",
+      "pins": [
+        "U310.OUT2"
+      ],
+      "expected_nets": [
+        "HDD1_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U310.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_25",
+      "pins": [
+        "U310.FAULT"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_26",
+      "pins": [
+        "U310.CS"
+      ],
+      "expected_nets": [
+        "HDD1_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_27",
+      "pins": [
+        "J313.OUT2"
+      ],
+      "expected_nets": [
+        "HDD1_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_28",
+      "pins": [
+        "R209.P1"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_CS",
+      "pins": [
+        "TP473.TP"
+      ],
+      "expected_nets": [
+        "HDD3_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "+5V",
+      "pins": [
+        "C109.POS"
+      ],
+      "expected_nets": [
+        "+5V"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "SN_PU",
+      "pins": [
+        "R205.P2"
+      ],
+      "expected_nets": [
+        "SN_PU"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD4_CS",
+      "pins": [
+        "TP474.TP"
+      ],
+      "expected_nets": [
+        "HDD4_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_29",
+      "pins": [
+        "C312.P1"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_30",
+      "pins": [
+        "C109.NEG"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_31",
+      "pins": [
+        "C312.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_32",
+      "pins": [
+        "R209.P2"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_33",
+      "pins": [
+        "C208.P1"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_34",
+      "pins": [
+        "J202.SIGNAL"
+      ],
+      "expected_nets": [
+        "SN_BUS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_35",
+      "pins": [
+        "C208.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_36",
+      "pins": [
+        "J202.GND"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U320.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_37",
+      "pins": [
+        "U320.GND@2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_38",
+      "pins": [
+        "U320.IN1"
+      ],
+      "expected_nets": [
+        "HDD2_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_39",
+      "pins": [
+        "U320.IN2"
+      ],
+      "expected_nets": [
+        "HDD2_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_40",
+      "pins": [
+        "U320.PMODE"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_41",
+      "pins": [
+        "U320.SLEEP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_42",
+      "pins": [
+        "U320.VREF"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_43",
+      "pins": [
+        "C211.P1"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VIN_PROT",
+      "pins": [
+        "D103.K"
+      ],
+      "expected_nets": [
+        "VIN_PROT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "ARM_SW",
+      "pins": [
+        "J213.ARM_SW"
+      ],
+      "expected_nets": [
+        "ARM_SW"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_44",
+      "pins": [
+        "C211.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_45",
+      "pins": [
+        "J213.SLEEP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_46",
+      "pins": [
+        "C321.POS"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD2_OUT1",
+      "pins": [
+        "J323.OUT1"
+      ],
+      "expected_nets": [
+        "HDD2_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_47",
+      "pins": [
+        "R210.P1"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_48",
+      "pins": [
+        "C321.NEG"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_49",
+      "pins": [
+        "U320.VIN"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_50",
+      "pins": [
+        "U320.GND@13"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_51",
+      "pins": [
+        "U320.OUT1"
+      ],
+      "expected_nets": [
+        "HDD2_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD2_OUT2",
+      "pins": [
+        "U320.OUT2"
+      ],
+      "expected_nets": [
+        "HDD2_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U320.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_52",
+      "pins": [
+        "U320.FAULT"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_53",
+      "pins": [
+        "U320.CS"
+      ],
+      "expected_nets": [
+        "HDD2_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_54",
+      "pins": [
+        "J323.OUT2"
+      ],
+      "expected_nets": [
+        "HDD2_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_55",
+      "pins": [
+        "D105.K"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_56",
+      "pins": [
+        "R210.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_57",
+      "pins": [
+        "C322.P1"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_58",
+      "pins": [
+        "C322.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VIN_FUSED",
+      "pins": [
+        "D103.A"
+      ],
+      "expected_nets": [
+        "VIN_FUSED"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_59",
+      "pins": [
+        "J203.SIGNAL"
+      ],
+      "expected_nets": [
+        "SN_BUS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_60",
+      "pins": [
+        "D110.K"
+      ],
+      "expected_nets": [
+        "VSYS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_61",
+      "pins": [
+        "J203.GND"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_62",
+      "pins": [
+        "D105.A"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U330.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_63",
+      "pins": [
+        "U330.GND@2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_64",
+      "pins": [
+        "U330.IN1"
+      ],
+      "expected_nets": [
+        "HDD3_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_65",
+      "pins": [
+        "U330.IN2"
+      ],
+      "expected_nets": [
+        "HDD3_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_66",
+      "pins": [
+        "U330.PMODE"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_67",
+      "pins": [
+        "U330.SLEEP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_68",
+      "pins": [
+        "U330.VREF"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_69",
+      "pins": [
+        "TP460.TP"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_70",
+      "pins": [
+        "D206.K"
+      ],
+      "expected_nets": [
+        "SN_PU"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_71",
+      "pins": [
+        "TP461.TP"
+      ],
+      "expected_nets": [
+        "+5V"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_72",
+      "pins": [
+        "U107.VIN"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_73",
+      "pins": [
+        "D110.A"
+      ],
+      "expected_nets": [
+        "+5V"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_74",
+      "pins": [
+        "TP462.TP"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_75",
+      "pins": [
+        "U107.GND"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_76",
+      "pins": [
+        "C331.POS"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_OUT1",
+      "pins": [
+        "J333.OUT1"
+      ],
+      "expected_nets": [
+        "HDD3_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_77",
+      "pins": [
+        "TP463.TP"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_78",
+      "pins": [
+        "U107.VOUT"
+      ],
+      "expected_nets": [
+        "+5V"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_79",
+      "pins": [
+        "D206.A"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_80",
+      "pins": [
+        "C331.NEG"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_81",
+      "pins": [
+        "U330.VIN"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_82",
+      "pins": [
+        "U330.GND@13"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_83",
+      "pins": [
+        "U330.OUT1"
+      ],
+      "expected_nets": [
+        "HDD3_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD3_OUT2",
+      "pins": [
+        "U330.OUT2"
+      ],
+      "expected_nets": [
+        "HDD3_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U330.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_84",
+      "pins": [
+        "U330.FAULT"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_85",
+      "pins": [
+        "U330.CS"
+      ],
+      "expected_nets": [
+        "HDD3_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_86",
+      "pins": [
+        "J333.OUT2"
+      ],
+      "expected_nets": [
+        "HDD3_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "VIN_RAW",
+      "pins": [
+        "F102.P1"
+      ],
+      "expected_nets": [
+        "VIN_RAW"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_87",
+      "pins": [
+        "U207./OE"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_88",
+      "pins": [
+        "U207.A"
+      ],
+      "expected_nets": [
+        "SN_RX_IN"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_89",
+      "pins": [
+        "U207.GND"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_90",
+      "pins": [
+        "C332.P1"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_91",
+      "pins": [
+        "F102.P2"
+      ],
+      "expected_nets": [
+        "VIN_FUSED"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_92",
+      "pins": [
+        "C332.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_93",
+      "pins": [
+        "U207.VCC"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_94",
+      "pins": [
+        "R215.P1"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_95",
+      "pins": [
+        "U207.Y"
+      ],
+      "expected_nets": [
+        "UART_RX"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_96",
+      "pins": [
+        "J101.CENTER"
+      ],
+      "expected_nets": [
+        "VIN_RAW"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U340.VM"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_97",
+      "pins": [
+        "U340.GND@2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_98",
+      "pins": [
+        "U340.IN1"
+      ],
+      "expected_nets": [
+        "HDD4_IN1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_99",
+      "pins": [
+        "U340.IN2"
+      ],
+      "expected_nets": [
+        "HDD4_IN2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_100",
+      "pins": [
+        "U340.PMODE"
+      ],
+      "expected_nets": [
+        "+3V3"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_101",
+      "pins": [
+        "U340.SLEEP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_102",
+      "pins": [
+        "U340.VREF"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_103",
+      "pins": [
+        "J101.SLEEVE"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_104",
+      "pins": [
+        "R215.P2"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "J101.SWITCH"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_105",
+      "pins": [
+        "C341.POS"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD4_OUT1",
+      "pins": [
+        "J343.OUT1"
+      ],
+      "expected_nets": [
+        "HDD4_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_106",
+      "pins": [
+        "R212.P1"
+      ],
+      "expected_nets": [
+        "ARM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_107",
+      "pins": [
+        "C341.NEG"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_108",
+      "pins": [
+        "U340.VIN"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_109",
+      "pins": [
+        "U340.GND@13"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_110",
+      "pins": [
+        "U340.OUT1"
+      ],
+      "expected_nets": [
+        "HDD4_OUT1"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "HDD4_OUT2",
+      "pins": [
+        "U340.OUT2"
+      ],
+      "expected_nets": [
+        "HDD4_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "NC",
+      "pins": [
+        "U340.IMODE"
+      ],
+      "expected_nets": [],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_111",
+      "pins": [
+        "U340.FAULT"
+      ],
+      "expected_nets": [
+        "FAULT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_112",
+      "pins": [
+        "U340.CS"
+      ],
+      "expected_nets": [
+        "HDD4_CS"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_113",
+      "pins": [
+        "J343.OUT2"
+      ],
+      "expected_nets": [
+        "HDD4_OUT2"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_114",
+      "pins": [
+        "J104.VIN_PROT"
+      ],
+      "expected_nets": [
+        "VIN_PROT"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_115",
+      "pins": [
+        "TP466.TP"
+      ],
+      "expected_nets": [
+        "VREF"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_116",
+      "pins": [
+        "J104.VM"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_117",
+      "pins": [
+        "TP467.TP"
+      ],
+      "expected_nets": [
+        "SLEEP"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_118",
+      "pins": [
+        "C342.P1"
+      ],
+      "expected_nets": [
+        "VM"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_119",
+      "pins": [
+        "R212.P2"
+      ],
+      "expected_nets": [
+        "ARM_SW"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    },
+    {
+      "actual_net": "__OPEN_120",
+      "pins": [
+        "C342.P2"
+      ],
+      "expected_nets": [
+        "GND"
+      ],
+      "conductor_nets": [],
+      "conductors": []
+    }
+  ],
+  "metrics": {
+    "wire_length_mm": {
+      "bare": 0.0,
+      "bridge": 0.0,
+      "jumper": 0.0
+    },
+    "total_wire_mm": 0.0,
+    "jumpers": 0,
+    "bridges": 0,
+    "conductors": 0,
+    "jumper_over_exposed_crossings": 0,
+    "bbox_mm": [
+      6.01,
+      1.42,
+      145.41,
+      105.0
+    ],
+    "used_bbox_area_mm2": 14439.052,
+    "used_area_fraction": 0.82891,
+    "power_path_lengths": [
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U310.VIN",
+        "length_mm": null
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U320.VIN",
+        "length_mm": null
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U330.VIN",
+        "length_mm": null
+      },
+      {
+        "net": "VM",
+        "source": "J104.VM",
+        "target": "U340.VIN",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@2",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U310.GND@13",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@2",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U320.GND@13",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@2",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U330.GND@13",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@2",
+        "length_mm": null
+      },
+      {
+        "net": "GND",
+        "source": "J101.SLEEVE",
+        "target": "U340.GND@13",
+        "length_mm": null
+      }
+    ],
+    "longest_signal_nets": [],
+    "violations_by_severity": {
+      "error": 201,
+      "warning": 52
+    },
+    "rule_violations_by_severity": {},
+    "score": 20152144.391,
+    "score_weights": {
+      "wire_mm": 1,
+      "jumpers": 20,
+      "bridges": 1,
+      "crossings": 2,
+      "area_mm2": 0.01,
+      "error": 100000,
+      "warning": 1000,
+      "info": 0
+    }
+  },
+  "proof_scope": "Independent lands; every exposed path hole is solder-contacted; insulated jumper interiors never connect; component internal circuitry excluded. Provisional dimensions require physical validation."
+}

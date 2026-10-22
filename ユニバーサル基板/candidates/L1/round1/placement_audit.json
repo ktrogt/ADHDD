@@ -1,0 +1,640 @@
+[
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "U310",
+    "part": "U310"
+  },
+  {
+    "code": "BODY_OFFBOARD",
+    "severity": "error",
+    "detail": "C311",
+    "part": "C311"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP471",
+    "part": "TP471"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "U320",
+    "part": "U320"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP472",
+    "part": "TP472"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "U330",
+    "part": "U330"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP473",
+    "part": "TP473"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "U340",
+    "part": "U340"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP474",
+    "part": "TP474"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "D103",
+    "part": "D103"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "J104",
+    "part": "J104"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "U201",
+    "part": "U201"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "D206",
+    "part": "D206"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "J213",
+    "part": "J213"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP460",
+    "part": "TP460"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP461",
+    "part": "TP461"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP462",
+    "part": "TP462"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP463",
+    "part": "TP463"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP464",
+    "part": "TP464"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP465",
+    "part": "TP465"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP466",
+    "part": "TP466"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP467",
+    "part": "TP467"
+  },
+  {
+    "code": "PROVISIONAL_FOOTPRINT",
+    "severity": "warning",
+    "detail": "TP468",
+    "part": "TP468"
+  },
+  {
+    "code": "RULE:C01",
+    "severity": "error",
+    "detail": "core LVS checks project/netlist.csv; approval/provenance of the main_minus_scaffold scope requires supervisor evidence",
+    "status": "UNCHECKED",
+    "rule_type": "connectivity",
+    "priority": 1,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:C02",
+    "severity": "error",
+    "detail": "T7 routing/no_bare_crossings: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "routing",
+    "priority": 1,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:C03",
+    "severity": "error",
+    "detail": "T7 routing/bare_clearance: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "routing",
+    "priority": 1,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M02",
+    "severity": "error",
+    "detail": "T7 mounting/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "mounting",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M03",
+    "severity": "error",
+    "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "accessible",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M04",
+    "severity": "error",
+    "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "accessible",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M05",
+    "severity": "error",
+    "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "accessible",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M06",
+    "severity": "error",
+    "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "accessible",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M07",
+    "severity": "error",
+    "detail": "T7 on_edge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "on_edge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M08",
+    "severity": "error",
+    "detail": "T7 on_edge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "on_edge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M09",
+    "severity": "error",
+    "detail": "T7 on_edge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "on_edge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M10",
+    "severity": "error",
+    "detail": "T7 orientation/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "orientation",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:M12",
+    "severity": "error",
+    "detail": "T7 accessible/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "accessible",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C312.1 / U310.14: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C312.2 / U310.13: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C322.1 / U320.14: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C322.2 / U320.13: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C332.1 / U330.14: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C332.2 / U330.13: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C342.1 / U340.14: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P05",
+    "severity": "error",
+    "detail": "C342.2 / U340.13: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C312.1 / U310.14: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C312.2 / U310.13: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C322.1 / U320.14: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C322.2 / U320.13: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C332.1 / U330.14: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C332.2 / U330.13: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C342.1 / U340.14: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P07",
+    "severity": "warning",
+    "detail": "C342.2 / U340.13: 3 holes > 1",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 8,
+    "t7_penalty": 16.0
+  },
+  {
+    "code": "RULE:P13",
+    "severity": "error",
+    "detail": "C108.1 / U107.1: 6 holes > 4",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P13",
+    "severity": "error",
+    "detail": "C108.2 / U107.2: 6 holes > 4",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P13",
+    "severity": "error",
+    "detail": "C109.1 / U107.3: 6 holes > 4",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P13",
+    "severity": "error",
+    "detail": "C109.2 / U107.2: 6 holes > 4",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P15",
+    "severity": "error",
+    "detail": "C208.1 / U207.5: 4 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:P15",
+    "severity": "error",
+    "detail": "C208.2 / U207.3: 4 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:V02",
+    "severity": "error",
+    "detail": "R210.1 / $VREF_ROOT: 3 holes > 2",
+    "status": "FAIL",
+    "rule_type": "near",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0.0
+  },
+  {
+    "code": "RULE:S01",
+    "severity": "error",
+    "detail": "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "keep_apart",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:S02",
+    "severity": "error",
+    "detail": "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "keep_apart",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:S03",
+    "severity": "warning",
+    "detail": "T7 keep_apart/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "keep_apart",
+    "priority": 2,
+    "t7_weight": 5,
+    "t7_penalty": 5
+  },
+  {
+    "code": "RULE:W01",
+    "severity": "error",
+    "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "trunk_gauge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:W02",
+    "severity": "error",
+    "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "trunk_gauge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:W03",
+    "severity": "error",
+    "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "trunk_gauge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:W04",
+    "severity": "error",
+    "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "trunk_gauge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:W05",
+    "severity": "error",
+    "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "trunk_gauge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:W06",
+    "severity": "error",
+    "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "trunk_gauge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:W07",
+    "severity": "error",
+    "detail": "T7 trunk_gauge/: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "trunk_gauge",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:B01",
+    "severity": "error",
+    "detail": "T7 routing/paired_power_paths: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "routing",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:B02",
+    "severity": "error",
+    "detail": "T7 routing/paired_outputs: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "routing",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  },
+  {
+    "code": "RULE:B03",
+    "severity": "warning",
+    "detail": "T7 routing/straight_power_trunks: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "routing",
+    "priority": 3,
+    "t7_weight": 6,
+    "t7_penalty": 6
+  },
+  {
+    "code": "RULE:B07",
+    "severity": "error",
+    "detail": "T7 routing/wire_support: requires feature, branch, surface-clearance, off-board or assembly evidence beyond v1 hole paths",
+    "status": "UNCHECKED",
+    "rule_type": "routing",
+    "priority": 2,
+    "t7_weight": 0,
+    "t7_penalty": 0
+  }
+]

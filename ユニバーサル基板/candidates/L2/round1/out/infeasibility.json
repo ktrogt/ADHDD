@@ -1,0 +1,157 @@
+{
+  "model": "Exact frozen JSON rectangles; no component overlap/stacking; integer grid; all 90-degree rotations",
+  "search_origin_range": [
+    -15,
+    15
+  ],
+  "completeness": "Every searched part has pin1 at its origin; the pin1 Manhattan constraints place every possible solution strictly inside the enumerated range. Global 90-degree rotations preserve all involved metrics.",
+  "certificates": [
+    {
+      "rules": [
+        "M01",
+        "P05",
+        "P11"
+      ],
+      "status": "UNSAT",
+      "cap_placements": [
+        [
+          7,
+          0,
+          90
+        ]
+      ],
+      "connector_placements": [
+        [
+          8,
+          1,
+          90
+        ],
+        [
+          8,
+          2,
+          90
+        ],
+        [
+          9,
+          2,
+          180
+        ]
+      ],
+      "valid_combinations": 0,
+      "combinations_if_P11_5": 3,
+      "minimal_max_output_distance_holes": 5,
+      "explanation": "All four global tile rotations are equivalent under lattice rotation. P12 cannot be shorter than P11 Manhattan distance."
+    },
+    {
+      "rules": [
+        "M01",
+        "P02"
+      ],
+      "status": "UNSAT",
+      "orientations": [
+        {
+          "cap_rotation": 0,
+          "counts": {
+            "3": 0,
+            "4": 0,
+            "5": 4
+          }
+        },
+        {
+          "cap_rotation": 90,
+          "counts": {
+            "3": 0,
+            "4": 0,
+            "5": 4
+          }
+        },
+        {
+          "cap_rotation": 180,
+          "counts": {
+            "3": 0,
+            "4": 0,
+            "5": 4
+          }
+        },
+        {
+          "cap_rotation": 270,
+          "counts": {
+            "3": 0,
+            "4": 0,
+            "5": 4
+          }
+        }
+      ],
+      "minimal_max_pin_distance_holes": 5,
+      "explanation": "A routed branch cannot be shorter than the Manhattan distance of its endpoints."
+    },
+    {
+      "rules": [
+        "H07",
+        "P13",
+        "P14"
+      ],
+      "status": "UNSAT",
+      "counts": {
+        "C108": {
+          "4": 0,
+          "5": 0,
+          "6": 5
+        },
+        "C109": {
+          "4": 0,
+          "5": 0,
+          "6": 5
+        }
+      },
+      "minimal_max_pin_distance_holes": 6,
+      "explanation": "U107 approved rectangle is a conservative union, 18.42 x 16.1mm; its metadata separately states actual body 11.5 x 7.55mm and unverified offset. Refining that approved footprint requires supervisor action."
+    },
+    {
+      "rules": [
+        "M01",
+        "P15",
+        "P16"
+      ],
+      "status": "UNSAT",
+      "counts": {
+        "2": 0,
+        "3": 0,
+        "4": 2
+      },
+      "minimal_max_pin_distance_holes": 4
+    },
+    {
+      "rules": [
+        "M01",
+        "V02",
+        "V03"
+      ],
+      "status": "UNSAT",
+      "counts": {
+        "2": 0,
+        "3": 6
+      },
+      "minimal_max_pin_distance_holes": 3,
+      "explanation": "Counts at relaxed distance include positions that may need additional pin-collision filtering. UNSAT at bound 2 is already proved even without that extra restriction; final L2 uses a collision-free distance-3 witness."
+    },
+    {
+      "rules": [
+        "M08"
+      ],
+      "status": "UNSAT_WITH_PHYSICAL_BOARD_FEATURES",
+      "min_possible_feature_edge_mm": 7.47,
+      "required_max_mm": 5.08,
+      "explanation": "Approved vertical XH mating-face centres lie inside the convex hull of their used pins. All pins lie on the 55x40 grid, whose closest physical edge offset is 7.47mm. Thus the <=5.08mm physical-edge condition cannot hold even before body/keepout restrictions."
+    },
+    {
+      "rules": [
+        "M02"
+      ],
+      "status": "UNSAT_WITH_PHYSICAL_BOARD_GEOMETRY",
+      "actual_mount_edge_mm": 5.0,
+      "required_min_mm": 5.08,
+      "explanation": "All four approved M3 centres are nominally 5mm from the true board edges. The policy minimum is 5.08mm."
+    }
+  ]
+}

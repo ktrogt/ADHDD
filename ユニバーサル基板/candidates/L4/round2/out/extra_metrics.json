@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "wire_length_by_diameter_and_kind_mm": {
+    "1.0mm": {
+      "bare": 424.18
+    },
+    "0.64mm": {
+      "bare": 574.04,
+      "jumper": 342.262
+    },
+    "0.5mm": {
+      "bare": 838.2,
+      "jumper": 875.476
+    }
+  },
+  "bare_wire_pieces": 83,
+  "bare_straight_segments": 166,
+  "bare_bends": 83,
+  "estimated_distinct_solder_pads": 372,
+  "component_solder_pads": 193,
+  "conservative_every_contact_solder_pads": 823,
+  "solder_estimate_method": "component pins, NC physical pins, conductor ends, wire junctions, bends and support every six grid steps",
+  "minimum_bare_wire_surface_gap_mm": 1.54,
+  "minimum_bare_gap_excludes_pads_leads_and_solder": true,
+  "quiet_checks": {
+    "S01": {
+      "sample_interval_mm": 0.127,
+      "sampled_min_surface_mm": 6.705,
+      "conservative_bound_mm": 6.578,
+      "required_mm": 5.08,
+      "planar_wire_and_body_pass": true,
+      "worst": {
+        "wire": "L4W048",
+        "net": "FAULT",
+        "grid_xy": [
+          10.0,
+          6.05
+        ]
+      },
+      "excludes": "actual solder, exposed formed leads, z-height, insulation OD and assembly tolerances"
+    },
+    "S02": {
+      "sample_interval_mm": 0.127,
+      "sampled_min_surface_mm": 14.084,
+      "conservative_bound_mm": 13.957,
+      "required_mm": 7.62,
+      "planar_wire_and_body_pass": true,
+      "worst": {
+        "wire": "L4W083",
+        "net": "VREF",
+        "grid_xy": [
+          38.215384615384615,
+          9.326923076923077
+        ]
+      },
+      "excludes": "actual solder, exposed formed leads, z-height, insulation OD and assembly tolerances"
+    }
+  },
+  "svg_label_audit": {
+    "top": {
+      "labels": 54,
+      "unique_refs": 54,
+      "overlap_pairs": [],
+      "svg_parse": true
+    },
+    "bottom": {
+      "labels": 54,
+      "unique_refs": 54,
+      "overlap_pairs": [],
+      "svg_parse": true
+    },
+    "overlay": {
+      "labels": 54,
+      "unique_refs": 54,
+      "overlap_pairs": [],
+      "svg_parse": true
+    }
+  },
+  "branch_lengths": {
+    "V04": [
+      {
+        "a": "$VREF_ROOT",
+        "b": "U310.7",
+        "length_mm": 78.74
+      },
+      {
+        "a": "$VREF_ROOT",
+        "b": "U320.7",
+        "length_mm": 33.02
+      },
+      {
+        "a": "$VREF_ROOT",
+        "b": "U330.7",
+        "length_mm": 13.678
+      },
+      {
+        "a": "$VREF_ROOT",
+        "b": "U340.7",
+        "length_mm": 63.5
+      }
+    ],
+    "S04": [
+      {
+        "a": "U201.4",
+        "b": "U310.3",
+        "length_mm": 53.34
+      },
+      {
+        "a": "U201.5",
+        "b": "U310.4",
+        "length_mm": 25.527
+      },
+      {
+        "a": "U201.6",
+        "b": "U320.3",
+        "length_mm": 41.659
+      },
+      {
+        "a": "U201.7",
+        "b": "U320.4",
+        "length_mm": 37.76
+      },
+      {
+        "a": "U201.9",
+        "b": "U330.3",
+        "length_mm": 66.04
+      },
+      {
+        "a": "U201.10",
+        "b": "U330.4",
+        "length_mm": 61.382
+      },
+      {
+        "a": "U201.11",
+        "b": "U340.3",
+        "length_mm": 94.902
+      },
+      {
+        "a": "U201.12",
+        "b": "U340.4",
+        "length_mm": 121.92
+      }
+    ],
+    "P02": [
+      {
+        "a": "D105.1",
+        "b": "$VM_ENTRY",
+        "length_mm": 12.7
+      },
+      {
+        "a": "D105.2",
+        "b": "$GND_ENTRY",
+        "length_mm": 12.7
+      }
+    ],
+    "P03": [
+      {
+        "a": "J104.2",
+        "b": "$VM_ENTRY",
+        "length_mm": 10.16
+      },
+      {
+        "a": "J101.2",
+        "b": "$GND_ENTRY",
+        "length_mm": 15.24
+      }
+    ],
+    "P06": [
+      {
+        "a": "C312.1",
+        "b": "U310.14",
+        "length_mm": 7.62
+      },
+      {
+        "a": "C312.2",
+        "b": "U310.13",
+        "length_mm": 7.62
+      },
+      {
+        "a": "C322.1",
+        "b": "U320.14",
+        "length_mm": 7.62
+      },
+      {
+        "a": "C322.2",
+        "b": "U320.13",
+        "length_mm": 7.62
+      },
+      {
+        "a": "C332.1",
+        "b": "U330.14",
+        "length_mm": 7.62
+      },
+      {
+        "a": "C332.2",
+        "b": "U330.13",
+        "length_mm": 7.62
+      },
+      {
+        "a": "C342.1",
+        "b": "U340.14",
+        "length_mm": 7.62
+      },
+      {
+        "a": "C342.2",
+        "b": "U340.13",
+        "length_mm": 7.62
+      }
+    ],
+    "P09": [
+      {
+        "a": "C311.1",
+        "b": "U310.14",
+        "length_mm": 12.7
+      },
+      {
+        "a": "C311.2",
+        "b": "U310.13",
+        "length_mm": 15.24
+      },
+      {
+        "a": "C321.1",
+        "b": "U320.14",
+        "length_mm": 12.7
+      },
+      {
+        "a": "C321.2",
+        "b": "U320.13",
+        "length_mm": 15.24
+      },
+      {
+        "a": "C331.1",
+        "b": "U330.14",
+        "length_mm": 12.7
+      },
+      {
+        "a": "C331.2",
+        "b": "U330.13",
+        "length_mm": 15.24
+      },
+      {
+        "a": "C341.1",
+        "b": "U340.14",
+        "length_mm": 12.7
+      },
+      {
+        "a": "C341.2",
+        "b": "U340.13",
+        "length_mm": 15.24
+      }
+    ],
+    "P12": [
+      {
+        "a": "U310.12",
+        "b": "J313.1",
+        "length_mm": 7.62
+      },
+      {
+        "a": "U310.11",
+        "b": "J313.2",
+        "length_mm": 10.16
+      },
+      {
+        "a": "U320.12",
+        "b": "J323.1",
+        "length_mm": 7.62
+      },
+      {
+        "a": "U320.11",
+        "b": "J323.2",
+        "length_mm": 10.16
+      },
+      {
+        "a": "U330.12",
+        "b": "J333.1",
+        "length_mm": 7.62
+      },
+      {
+        "a": "U330.11",
+        "b": "J333.2",
+        "length_mm": 10.16
+      },
+      {
+        "a": "U340.12",
+        "b": "J343.1",
+        "length_mm": 7.62
+      },
+      {
+        "a": "U340.11",
+        "b": "J343.2",
+        "length_mm": 10.16
+      }
+    ],
+    "P14": [
+      {
+        "a": "C108.1",
+        "b": "U107.1",
+        "length_mm": 15.24
+      },
+      {
+        "a": "C108.2",
+        "b": "U107.2",
+        "length_mm": 15.24
+      },
+      {
+        "a": "C109.1",
+        "b": "U107.3",
+        "length_mm": 15.24
+      },
+      {
+        "a": "C109.2",
+        "b": "U107.2",
+        "length_mm": 15.24
+      }
+    ],
+    "P16": [
+      {
+        "a": "C208.1",
+        "b": "U207.5",
+        "length_mm": 10.16
+      },
+      {
+        "a": "C208.2",
+        "b": "U207.3",
+        "length_mm": 10.16
+      }
+    ]
+  },
+  "bbox_physical_mm": [
+    6.16,
+    6.61,
+    146.94,
+    107.78
+  ],
+  "physical_board_area_fraction": 0.80604,
+  "tool_rule_status_unchanged": true
+}

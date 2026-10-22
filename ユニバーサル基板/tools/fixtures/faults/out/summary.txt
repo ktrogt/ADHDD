@@ -1,0 +1,11 @@
+FAIL; LVS FAIL; 7/7 pins, 3 nets, 1 NC; 10 errors, 0 warnings; 27.9 mm wire, 0 jumpers; score 1000031.0
+ERROR BARE_CROSSING: A1 / B1 touch at D3
+ERROR HOLE_NET_CONFLICT: D3: A, B
+ERROR LVS:MERGED: actual __ISLAND_1 combines expected groups A, B: P1.P, P2.P, P3.P, P4.P
+ERROR LVS:SPLIT: expected C (2 pins) split into P5.P; P6.P
+ERROR LVS:WRONG_NET: P1.P expected A, actual __ISLAND_1
+ERROR LVS:WRONG_NET: P2.P expected A, actual __ISLAND_1
+ERROR LVS:WRONG_NET: P3.P expected B, actual __ISLAND_1
+ERROR LVS:WRONG_NET: P4.P expected B, actual __ISLAND_1
+ERROR LVS:WRONG_NET: P6.P expected C, actual __OPEN_2
+ERROR SHORT: physical island joins A, B

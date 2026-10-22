@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "name": "60x45 provisional independent-land board",
+  "columns": 60,
+  "rows": 45,
+  "pitch_mm": 2.54,
+  "type": "single_sided_independent",
+  "edge_margin_holes": 1,
+  "body_clearance_mm": 0.5,
+  "keepouts": [
+    {
+      "id": "mount-TL",
+      "from": "A1",
+      "to": "B2"
+    },
+    {
+      "id": "mount-BR",
+      "from": "BG44",
+      "to": "BH45"
+    }
+  ],
+  "provisional": true
+}

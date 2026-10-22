@@ -1,0 +1,9 @@
+{
+  "pieces_before": 130,
+  "pieces_after": 122,
+  "pieces_saved": 8,
+  "wire_mm_before": 3206.583,
+  "wire_mm_after": 3158.323,
+  "LVS_before_and_after": "PASS",
+  "hard_status_unchanged": true
+}
